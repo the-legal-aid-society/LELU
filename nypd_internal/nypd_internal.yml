@@ -1,0 +1,43 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: no
+  NA string: NA
+  sorting:
+  - Officer Name
+  - Type
+  - Document
+  - 'Case #'
+  - Charge description
+  hash: 0182e43525e172ee8469609162d4f21ec1fb378f
+  data_hash: 1f2417e2863c3214c7aae2ca3b3744f62b10c826
+Officer Name:
+  class: character
+Type:
+  class: factor
+  labels:
+  - Central Personnel Index
+  - IAB Investigation
+  - Internal Investigation
+  - Trial Decision
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  ordered: no
+'Shield #':
+  class: character
+'Tax #':
+  class: character
+Precinct/Command:
+  class: character
+Document:
+  class: character
+'Case #':
+  class: character
+Charge description:
+  class: character
+Disposition:
+  class: character
+Penalty:
+  class: character
