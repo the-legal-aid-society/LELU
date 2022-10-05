@@ -1,0 +1,37 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: no
+  NA string: NA
+  hash: 22a5778502a211ceb7890711d95a359e677aa99a
+  data_hash: b18aae6bd3261cb56ce49cc3829d4995a78deb0a
+Officer Last Name:
+  class: character
+'Shield #':
+  class: numeric
+Year:
+  class: character
+'Case #':
+  class: character
+Category:
+  class: character
+Case Description:
+  class: character
+Npa Execution Date:
+  class: Date
+  format: '%Y-%m-%d'
+Date Closed:
+  class: Date
+  format: '%Y-%m-%d'
+Disposition:
+  class: factor
+  labels:
+  - Expungement - Negotiated Plea Agreement
+  - Negotiated Plea Agreement
+  - Negotiated Plea Agreement At Oath
+  index:
+  - 1
+  - 2
+  - 3
+  ordered: no
+Penalty Imposed:
+  class: character

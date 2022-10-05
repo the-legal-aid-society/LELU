@@ -1,0 +1,73 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: no
+  NA string: NA
+  hash: e60878234a0799e8c749755cc773819d33fdf6e8
+  data_hash: b22473a17c9b6359fc1b3f4d06a602edb3b30610
+Fiscal year:
+  class: numeric
+Agency:
+  class: factor
+  labels:
+  - DEPARTMENT OF CORRECTION
+  - POLICE DEPARTMENT
+  index:
+  - 1
+  - 2
+  ordered: no
+Last name:
+  class: character
+First name:
+  class: character
+Middle init:
+  class: character
+Start date:
+  class: Date
+  format: '%Y-%m-%d'
+Borough:
+  class: factor
+  labels:
+  - BRONX
+  - BROOKLYN
+  - MANHATTAN
+  - QUEENS
+  - RICHMOND
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  ordered: no
+Title:
+  class: character
+Leave status:
+  class: factor
+  labels:
+  - ACTIVE
+  - CEASED
+  - ON LEAVE
+  - ON SEPARATION LEAVE
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  ordered: no
+Base salary:
+  class: numeric
+Pay basis:
+  class: factor
+  labels: per Annum
+  index: 1
+  ordered: no
+Reg hours:
+  class: numeric
+Regular gross paid:
+  class: numeric
+Overtime hours:
+  class: numeric
+Total overtime paid:
+  class: numeric
+Total other pay:
+  class: numeric

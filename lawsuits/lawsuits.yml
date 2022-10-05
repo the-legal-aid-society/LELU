@@ -1,0 +1,106 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: no
+  NA string: NA
+  hash: df8fc584217e4d138fa5a1a2e7185881ffc23918
+  data_hash: 489a3e81534055c9842f4f5f5a05a586d284fca7
+Officer Defendant:
+  class: character
+'Tax #':
+  class: character
+Disposition:
+  class: factor
+  labels:
+  - Administrative Closing
+  - Order/Judgment (Verdict)
+  - Settlement
+  - Zero Disposition
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  ordered: no
+Payout:
+  class: numeric
+Lit Start:
+  class: Date
+  format: '%Y-%m-%d'
+Disp Date:
+  class: Date
+  format: '%Y-%m-%d'
+Court:
+  class: factor
+  labels:
+  - Civil Court - Bronx
+  - Civil Court - Kings
+  - Civil Court - New York
+  - Civil Court - Queens
+  - Civil Court - Richmond
+  - Eastern District NY
+  - Small Claims Court - Bronx
+  - Small Claims Court - Kings
+  - Small Claims Court - New York
+  - Small Claims Court - Queens
+  - Supreme Court
+  - Supreme Court - Albany
+  - Supreme Court - Bronx
+  - Supreme Court - Clinton
+  - Supreme Court - Franklin
+  - Supreme Court - Kings
+  - Supreme Court - Nassau
+  - Supreme Court - New York
+  - Supreme Court - Orange
+  - Supreme Court - Queens
+  - Supreme Court - Richmond
+  - Supreme Court - Westchester
+  - U.S. Bankruptcy Court - Eastern District NY
+  - U.S. District Court
+  - U.S. District Court - District CT
+  - U.S. District Court - District NJ
+  - U.S. District Court - Eastern District CA
+  - U.S. District Court - Eastern District MI
+  - U.S. District Court - Eastern District NC
+  - U.S. District Court - Eastern District NY
+  - U.S. District Court - Northern District NY
+  - U.S. District Court - Southern District IN
+  - U.S. District Court - Southern District NY
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  ordered: no
+'Docket/Index #':
+  class: character
+Matter Name:
+  class: character

@@ -1,0 +1,44 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: no
+  NA string: NA
+  hash: 65fb667782fc68c617a1900f4b3aeb953cfa95ba
+  data_hash: b802a79c8bba07a4d09a2f7adca3c4267d4ed003
+Officer Name:
+  class: character
+Document:
+  class: character
+Type:
+  class: factor
+  labels:
+  - Brady/Giglio Disclosure
+  - DA Adverse Credibility List
+  - Judicial determination of incredibility
+  index:
+  - 1
+  - 2
+  - 3
+  ordered: no
+'Shield #':
+  class: character
+'Tax #':
+  class: character
+Precinct/Command:
+  class: character
+Borough:
+  class: character
+Rank:
+  class: factor
+  labels:
+  - CAPTAIN
+  - DETECTIVE
+  - LIEUTENANT
+  - POLICE OFFICER
+  - SERGEANT
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  ordered: no
