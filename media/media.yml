@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: 7949a5d7162c8756cd073d9e493a5086cc8b83a2
-  data_hash: 12a47f6979bbbc25902b873e779222f211e034ac
+  hash: bf553b452da7e768255daf063d968ba8781b2ad9
+  data_hash: 031c5a2a2d3b6230baf0d56b6882f24963690f46
 Officer Name:
   class: character
 Document:
@@ -78,6 +78,7 @@ Precinct/Command:
   - '52'
   - 570-FLEET SERVICES DIVISION
   - 580-WARRANT SECTION
+  - '6'
   - '60'
   - '62'
   - '63'
@@ -302,6 +303,7 @@ Precinct/Command:
   - 47
   - 222
   - 223
+  - 224
   - 48
   - 49
   - 50
