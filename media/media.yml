@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: bf553b452da7e768255daf063d968ba8781b2ad9
-  data_hash: bd6480cd469699514e346c677f186d5503e957fc
+  hash: 9ed402cd1aabc1a0203935157b8ee5a11f9ae1d4
+  data_hash: 999cfe98544f91943de3a64a683679715cec684a
 Officer Name:
   class: character
 Document:
@@ -41,6 +41,7 @@ Precinct/Command:
   - '17'
   - 171-PATROL BORO QUEENS SOUTH
   - '18'
+  - '185'
   - 185-PBQS-SPECIALIZED UNITS
   - 185-PBQS SPECIALIZED UNITS
   - '19'
@@ -198,6 +199,7 @@ Precinct/Command:
   - Patrol Borough Bronx
   - Patrol Borough Queens South
   - PBBX; 48
+  - PBQS
   - personnel
   - Police Service Area 1
   - Police Service Area 2
@@ -233,6 +235,7 @@ Precinct/Command:
   - SVU
   - traffic
   - Traffic Enforcement
+  - Transit
   - Transit Bureau
   - Transit Bureau anti-terror unit
   - Transit District 12
@@ -266,6 +269,7 @@ Precinct/Command:
   - 19
   - 213
   - 20
+  - 225
   - 214
   - 215
   - 216
@@ -423,6 +427,7 @@ Precinct/Command:
   - 164
   - 165
   - 166
+  - 226
   - 167
   - 168
   - 169
@@ -458,6 +463,7 @@ Precinct/Command:
   - 199
   - 200
   - 201
+  - 227
   - 202
   - 203
   - 204
