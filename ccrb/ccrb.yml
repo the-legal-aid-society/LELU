@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 8dcc2c6374a5eb8f439fc2429d7ec3bd75c23bb0
-  data_hash: 244fc5326b4288f7f31f59400f07f0b495c44aa4
+  hash: 374e9af68b393f51d3d846181b267e576cd63168
+  data_hash: 605011c034b7ae1c303f6049c660a3d33e981f3b
 CCRB officer ID:
   class: character
 Officer last name:
@@ -303,7 +303,6 @@ Current command:
   - COMP CRIMES
   - COMPSTAT ANL
   - CONTRACT ADM
-  - CP YSU
   - CPK DET
   - CPK PCT
   - CR PREV
@@ -417,7 +416,8 @@ Current command:
   - DC TRIALS
   - DC TRL
   - DC TRNG
-  - DCCPART
+  - DCCP
+  - DCCP YSU
   - DCDAO
   - DCEI
   - DCER
@@ -488,7 +488,9 @@ Current command:
   - FTU 15
   - FTU 16
   - FTU 17
+  - FTU 18
   - FTU 19
+  - FTU 2
   - FTU 20
   - FTU 22
   - FTU 23
@@ -568,9 +570,8 @@ Current command:
   - IAB GRP 10
   - IAB GRP 26
   - IAB GRP 31
-  - IAB GRP 32
-  - IAB GRP 33
   - IAB GRP 41
+  - IAB GRP 42
   - IAB GRP 53
   - IAB GRP 54
   - IAB GRP 56
@@ -708,6 +709,7 @@ Current command:
   - OEEO
   - OFF COD
   - OFF CSO
+  - OFF DB
   - OFF DCMB
   - OFF I/T
   - OFF SIB
@@ -925,7 +927,6 @@ Current command:
   - SOD T/U
   - SP FRDS
   - SP INV
-  - SPIS
   - SPL TRN
   - SPORTS UNIT
   - SRG
@@ -1356,7 +1357,6 @@ Current command:
   - 288
   - 289
   - 1056
-  - 290
   - 291
   - 292
   - 293
@@ -1470,7 +1470,8 @@ Current command:
   - 401
   - 402
   - 403
-  - 404
+  - 103
+  - 412
   - 405
   - 406
   - 407
@@ -1541,7 +1542,9 @@ Current command:
   - 473
   - 474
   - 475
+  - 557
   - 476
+  - 703
   - 477
   - 478
   - 479
@@ -1621,9 +1624,8 @@ Current command:
   - 552
   - 553
   - 554
-  - 555
-  - 556
   - 558
+  - 788
   - 559
   - 560
   - 561
@@ -1761,6 +1763,7 @@ Current command:
   - 693
   - 694
   - 695
+  - 1058
   - 696
   - 697
   - 698
@@ -1978,7 +1981,6 @@ Current command:
   - 912
   - 913
   - 914
-  - 915
   - 916
   - 917
   - 918
@@ -2174,6 +2176,7 @@ Allegation:
   - Body Cavity Searches
   - Chokehold
   - Demeanor/tone
+  - Disability
   - Electronic device information deletion
   - Enforcement Action
   - Entry of Premises
@@ -2211,7 +2214,6 @@ Allegation:
   - Other blunt instrument as a club
   - Pepper spray
   - Photography/Videography
-  - Physical disability
   - Physical force
   - Police shield
   - Premises entered and/or searched
@@ -2271,6 +2273,7 @@ Allegation:
   - 3
   - 4
   - 5
+  - 97
   - 6
   - 7
   - 8
@@ -2308,7 +2311,6 @@ Allegation:
   - 40
   - 41
   - 42
-  - 43
   - 44
   - 45
   - 46
