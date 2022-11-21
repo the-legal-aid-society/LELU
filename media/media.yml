@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: 9ed402cd1aabc1a0203935157b8ee5a11f9ae1d4
-  data_hash: 0984b70e023e398667b487cb7831b19f4f78d305
+  hash: f96750debbf65459fc6cdadb34e428790138c205
+  data_hash: 6d9a89626056aa0a90699a27e93b6737376429e3
 Officer Name:
   class: character
 Document:
@@ -27,6 +27,7 @@ Precinct/Command:
   - '104'
   - '105'
   - 105-105
+  - '107'
   - '108'
   - '109'
   - '110'
@@ -255,6 +256,7 @@ Precinct/Command:
   - 7
   - 8
   - 211
+  - 228
   - 9
   - 10
   - 11

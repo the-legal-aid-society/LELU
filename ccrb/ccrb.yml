@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 374e9af68b393f51d3d846181b267e576cd63168
-  data_hash: 0f4e1cb780e076436782e6c750b921bc7b8ac42d
+  hash: 9b7cf569b291ab9e1275ad5f6aeece0cf6e227b0
+  data_hash: 8c7ae78e27b6e3dc0ec6f90caddf8a1964c3d8e7
 CCRB officer ID:
   class: character
 Officer last name:
@@ -2425,7 +2425,6 @@ NYPD disposition:
   - 'APU Closed: Charges not served'
   - 'APU Closed: Deceased'
   - 'APU Closed: Dismissed by APU'
-  - 'APU Closed: Not an APU case'
   - 'APU Closed: Other'
   - 'APU Closed: Previously adjudicated, with discipline'
   - 'APU Closed: Previously adjudicated, without discipline'
@@ -2473,7 +2472,6 @@ NYPD disposition:
   - 2
   - 3
   - 4
-  - 5
   - 6
   - 7
   - 8
@@ -2532,7 +2530,6 @@ NYPD Penalty:
   - 'Command Discipline - A (Vacation: 1 day)'
   - 'Command Discipline - A (Vacation: 2 days)'
   - 'Command Discipline - A (Vacation: 3 days)'
-  - 'Command Discipline - A (Vacation: 3 days) / Formalized Training'
   - 'Command Discipline - A (Vacation: 5 days)'
   - Command Discipline - A / Command Level Instructions
   - Command Discipline - A / Formalized Training
@@ -2689,7 +2686,6 @@ NYPD Penalty:
   - 10
   - 11
   - 12
-  - 13
   - 14
   - 15
   - 16
