@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 9b7cf569b291ab9e1275ad5f6aeece0cf6e227b0
-  data_hash: 8c7ae78e27b6e3dc0ec6f90caddf8a1964c3d8e7
+  hash: e327e6d806c3503f60ba106b2152dfe1fdceae64
+  data_hash: 148afeb98a4eba90e198b0d1e5bbe6c7a0deeb04
 CCRB officer ID:
   class: character
 Officer last name:
@@ -2428,6 +2428,7 @@ NYPD disposition:
   - 'APU Closed: Other'
   - 'APU Closed: Previously adjudicated, with discipline'
   - 'APU Closed: Previously adjudicated, without discipline'
+  - 'APU Closed: Resigned'
   - 'APU Closed: Retained, with discipline'
   - 'APU Closed: Retained, without discipline'
   - 'APU Closed: Retired'
@@ -2475,6 +2476,7 @@ NYPD disposition:
   - 6
   - 7
   - 8
+  - 5
   - 9
   - 10
   - 11
