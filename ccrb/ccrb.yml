@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: e327e6d806c3503f60ba106b2152dfe1fdceae64
-  data_hash: 563b1b5980d0405bf17f828a5196e0ee2eeb8ec3
+  hash: b182cb0c497a8849512f5d2297671fde6aa793a8
+  data_hash: 82b759c48622db9f8f662738ba2589655f6988ab
 CCRB officer ID:
   class: character
 Officer last name:
@@ -160,7 +160,6 @@ Current command:
   - 120 DET
   - 120 PCT
   - 120 VIPER
-  - 120 VIPER15
   - 121 DET
   - 121 PCT
   - 122 DET
@@ -283,6 +282,7 @@ Current command:
   - CID ADMIN
   - CID CRIME STOP
   - CID TACTICAL TRN
+  - CIO
   - CIV HIRING
   - CJB
   - CJB CMS
@@ -322,8 +322,10 @@ Current command:
   - CT EPES
   - CT LMSI
   - CT UNIT
-  - CTB INV UNIT
+  - CTD INV UNIT
   - CTERRDV
+  - CTR DIV
+  - CTR OSS
   - CW T TF
   - CW TRAFF TF
   - D-E T/F
@@ -357,7 +359,6 @@ Current command:
   - DB GLD
   - DB GVSD
   - DB HATE
-  - DB INV SUPP
   - DB INV UNIT
   - DB LPS
   - DB MAN
@@ -568,7 +569,6 @@ Current command:
   - IAB ADMIN
   - IAB CMD CTR
   - IAB GRP 10
-  - IAB GRP 26
   - IAB GRP 31
   - IAB GRP 41
   - IAB GRP 42
@@ -595,8 +595,9 @@ Current command:
   - INT RIS
   - INT SDU
   - INT UOU
+  - INT/CTB
   - INTEL BUR
-  - INTEL INV
+  - INTEL INV UNIT
   - INV REVIEW
   - INV SUP
   - IT PRGM MGMT
@@ -707,7 +708,6 @@ Current command:
   - OCDE-SF
   - OCME LIAISON
   - OEEO
-  - OFF COD
   - OFF CSO
   - OFF DB
   - OFF DCMB
@@ -847,6 +847,7 @@ Current command:
   - PSA 7
   - PSA 8
   - PSA 9
+  - PSA 9 JRIP
   - PSA1 VIPER13
   - PSA2 VIPER2
   - PSA4 VIPER6
@@ -1214,7 +1215,6 @@ Current command:
   - 146
   - 147
   - 148
-  - 149
   - 150
   - 151
   - 152
@@ -1337,6 +1337,7 @@ Current command:
   - 268
   - 269
   - 270
+  - 290
   - 271
   - 272
   - 273
@@ -1376,8 +1377,10 @@ Current command:
   - 307
   - 308
   - 309
-  - 310
+  - 404
   - 311
+  - 555
+  - 556
   - 312
   - 313
   - 314
@@ -1411,7 +1414,6 @@ Current command:
   - 342
   - 343
   - 344
-  - 345
   - 346
   - 347
   - 348
@@ -1622,7 +1624,6 @@ Current command:
   - 550
   - 551
   - 552
-  - 553
   - 554
   - 558
   - 788
@@ -1649,8 +1650,9 @@ Current command:
   - 579
   - 580
   - 581
+  - 915
   - 582
-  - 583
+  - 1059
   - 584
   - 585
   - 586
@@ -1761,7 +1763,6 @@ Current command:
   - 691
   - 692
   - 693
-  - 694
   - 695
   - 1058
   - 696
@@ -1901,6 +1902,7 @@ Current command:
   - 832
   - 833
   - 834
+  - 1060
   - 835
   - 836
   - 837
@@ -2521,6 +2523,7 @@ NYPD Penalty:
   class: factor
   labels:
   - APU - Decision Pending
+  - Closed Administratively
   - Closed Administratively (Command Discipline - A)
   - Closed Administratively (Command Discipline - B)
   - Closed Administratively (Instructions)
@@ -2677,6 +2680,7 @@ NYPD Penalty:
   - Warned and admonished
   index:
   - 1
+  - 13
   - 2
   - 3
   - 4
