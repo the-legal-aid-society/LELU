@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: b182cb0c497a8849512f5d2297671fde6aa793a8
-  data_hash: e0b0d118a1e074ffe854375aefc5cfb0498272b4
+  hash: 4a97b2d8253c5d6dcdb9e122d5bdb8fa2e0355dc
+  data_hash: a253ff0b27180a7fd2c4af779655c305b20e442f
 CCRB officer ID:
   class: character
 Officer last name:
@@ -2528,6 +2528,8 @@ NYPD Penalty:
   - Closed Administratively (Command Discipline - B)
   - Closed Administratively (Instructions)
   - Closed Administratively (No penalty reported)
+  - 'Closed Administratively (Suspension: 4 days) / Closed Administratively (Vacation:Vacation:
+    4 days)'
   - Command Discipline - A
   - 'Command Discipline - A (Vacation: 0.13 days)'
   - 'Command Discipline - A (Vacation: 0.25 days)'
@@ -2685,6 +2687,7 @@ NYPD Penalty:
   - 3
   - 4
   - 5
+  - 157
   - 6
   - 7
   - 8
