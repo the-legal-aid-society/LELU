@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 4a97b2d8253c5d6dcdb9e122d5bdb8fa2e0355dc
-  data_hash: ffadef8c3201081de23b8ce97c581442aacc56c0
+  hash: 4882d20c55fef4c661cf4ce161f1b6e7d78d1cea
+  data_hash: f8dbece1b422f99587a6a0573a61f67f8be71e09
 CCRB officer ID:
   class: character
 Officer last name:
@@ -275,7 +275,6 @@ Current command:
   - CEIS BES TF
   - CEN REC
   - CENROBB
-  - CENTRAL REC
   - CEREMONIAL
   - CHAPLAINS
   - CI&RDIV
@@ -321,11 +320,11 @@ Current command:
   - CT DIV
   - CT EPES
   - CT LMSI
+  - CT OSS
   - CT UNIT
   - CTD INV UNIT
   - CTERRDV
   - CTR DIV
-  - CTR OSS
   - CW T TF
   - CW TRAFF TF
   - D-E T/F
@@ -589,6 +588,7 @@ Current command:
   - INT DIV
   - INT EPU
   - INT FIO PRG
+  - INT MSS
   - INT OAS
   - INT PSS
   - INT RIC
@@ -667,7 +667,6 @@ Current command:
   - MTN PCT
   - MTS DET
   - MTS PCT
-  - MUNI SECUR
   - NAR DIV
   - NARC SI
   - NARCBBN
@@ -922,6 +921,7 @@ Current command:
   - SIB
   - SIB CMO
   - SIB ORE
+  - SIB OSI
   - SIHU
   - SOD HOU
   - SOD SRG
@@ -1330,7 +1330,6 @@ Current command:
   - 261
   - 262
   - 263
-  - 264
   - 265
   - 266
   - 267
@@ -1376,11 +1375,11 @@ Current command:
   - 306
   - 307
   - 308
+  - 149
   - 309
   - 404
   - 311
   - 555
-  - 556
   - 312
   - 313
   - 314
@@ -1644,6 +1643,7 @@ Current command:
   - 573
   - 574
   - 575
+  - 310
   - 576
   - 577
   - 578
@@ -1722,7 +1722,6 @@ Current command:
   - 650
   - 651
   - 652
-  - 653
   - 654
   - 655
   - 656
@@ -1977,6 +1976,7 @@ Current command:
   - 906
   - 907
   - 908
+  - 345
   - 909
   - 910
   - 911
