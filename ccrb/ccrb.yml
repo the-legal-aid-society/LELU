@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 4882d20c55fef4c661cf4ce161f1b6e7d78d1cea
-  data_hash: f8dbece1b422f99587a6a0573a61f67f8be71e09
+  hash: e395d5b41a7331062a4d09f1aa4f6ab11516b565
+  data_hash: d4f298642db87a396b141ac1354907f87e5f8337
 CCRB officer ID:
   class: character
 Officer last name:
@@ -2557,6 +2557,7 @@ NYPD Penalty:
   - Command Discipline - B / Instructions
   - Command Discipline A
   - Command Discipline A / Formalized Training
+  - Command Discipline A 1 days
   - Command Discipline A 5 days
   - Command Discipline B
   - Command Discipline B 10 days
@@ -2715,6 +2716,7 @@ NYPD Penalty:
   - 31
   - 32
   - 33
+  - 158
   - 34
   - 35
   - 36

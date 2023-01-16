@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: 06acce2ae7912d969420570d257e0945e8d14035
-  data_hash: ca87340d3b24097d9a1eaf8abf5189c52eb97671
+  hash: d12cd70abbe2ba26f8150b945c88c102c47bcbf2
+  data_hash: c837f66b28e541c3b81993d46de7e27a1454dd04
 Officer Name:
   class: character
 Document:
@@ -124,6 +124,7 @@ Precinct/Command:
   - Brooklyn transit robbery
   - Central Investigations Division
   - Central Park
+  - Central Robbery Division
   - Citywide Traffic Task Force
   - collision investigation squad
   - community affairs
@@ -248,6 +249,7 @@ Precinct/Command:
   - Warrant Section
   - Warrants Squad
   - Yankee Stadium
+  - Youth Strategies Division
   index:
   - 1
   - 2
@@ -355,6 +357,7 @@ Precinct/Command:
   - 87
   - 88
   - 89
+  - 231
   - 90
   - 91
   - 92
@@ -479,4 +482,5 @@ Precinct/Command:
   - 208
   - 209
   - 210
+  - 232
   ordered: no
