@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: e60878234a0799e8c749755cc773819d33fdf6e8
-  data_hash: b22473a17c9b6359fc1b3f4d06a602edb3b30610
+  hash: d3857c9b5aa67b9537ebdba053321c4d83f1e7ec
+  data_hash: 89538bdb9069c284cbc5cd8ba28fa7a9c077078e
 Fiscal year:
   class: numeric
 Agency:
@@ -48,11 +48,13 @@ Leave status:
   - CEASED
   - ON LEAVE
   - ON SEPARATION LEAVE
+  - SEASONAL
   index:
   - 1
   - 2
   - 3
   - 4
+  - 5
   ordered: no
 Base salary:
   class: numeric
