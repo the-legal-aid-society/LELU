@@ -1,0 +1,40 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: no
+  NA string: NA
+  hash: 8f2b2a8edddfb39b10d3bb9dbd11f7b9d3cb55f2
+  data_hash: 1861ac798dc3e40fadc941178a29a2b1c72ea7bc
+Fiscal year:
+  class: numeric
+Agency:
+  class: character
+Last name:
+  class: character
+First name:
+  class: character
+Start date:
+  class: POSIXct
+  format: '%Y-%m-%dT%H:%M:%SZ'
+  timezone: UTC
+Borough:
+  class: character
+Title:
+  class: character
+Leave status:
+  class: character
+Base salary:
+  class: numeric
+Pay basis:
+  class: character
+Reg hours:
+  class: numeric
+Regular gross paid:
+  class: numeric
+Overtime hours:
+  class: numeric
+Total overtime paid:
+  class: numeric
+Total other pay:
+  class: numeric
+Middle init:
+  class: character
