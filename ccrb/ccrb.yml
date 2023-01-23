@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: e395d5b41a7331062a4d09f1aa4f6ab11516b565
-  data_hash: 8b2721cee50b991478a231009f3fdad85d8d207a
+  hash: eea77caaea70522c317d8633b91f2ebbfafc76a4
+  data_hash: e8d9528f316ecfb3a58f6bc12ff6ab9fe9e7c804
 CCRB officer ID:
   class: character
 Officer last name:
@@ -2203,6 +2203,7 @@ Allegation:
   - Hit against inanimate object
   - Impeding an investigation
   - Improper dissemination of medical info
+  - Improper use of body-worn camera
   - Inaccurate official statement
   - Inaccurate Statements
   - Interference with recording
@@ -2300,6 +2301,7 @@ Allegation:
   - 27
   - 28
   - 29
+  - 43
   - 30
   - 31
   - 32
@@ -2531,6 +2533,7 @@ NYPD Penalty:
   - 'Closed Administratively (Suspension: 4 days) / Closed Administratively (Vacation:Vacation:
     4 days)'
   - Command Discipline - A
+  - Command Discipline - A (Command Discipline - A)
   - 'Command Discipline - A (Vacation: 0.13 days)'
   - 'Command Discipline - A (Vacation: 0.25 days)'
   - 'Command Discipline - A (Vacation: 0.50 days)'
@@ -2544,6 +2547,7 @@ NYPD Penalty:
   - 'Command Discipline - A / Vacation: 3 days'
   - Command Discipline - A 7 days
   - Command Discipline - B
+  - Command Discipline - B (Command Discipline - B)
   - 'Command Discipline - B (Vacation: 1 day)'
   - 'Command Discipline - B (Vacation: 10 days)'
   - 'Command Discipline - B (Vacation: 2 days)'
@@ -2603,10 +2607,12 @@ NYPD Penalty:
   - Forfeit vacation 8 days
   - Forfeit vacation 9 days
   - Formalized Training
+  - Formalized Training (Formalized Training)
   - Formalized Training / Command Level Instructions
   - Formalized Training / Instructions
   - Formalized Training / Reprimand
   - Instructions
+  - Instructions (Instructions)
   - Instructions / Command Discipline - A
   - Instructions / Formalized Training
   - Instructions / Instructions
@@ -2690,6 +2696,7 @@ NYPD Penalty:
   - 5
   - 157
   - 6
+  - 159
   - 7
   - 8
   - 9
@@ -2703,6 +2710,7 @@ NYPD Penalty:
   - 18
   - 19
   - 20
+  - 160
   - 21
   - 22
   - 23
@@ -2762,10 +2770,12 @@ NYPD Penalty:
   - 76
   - 77
   - 78
+  - 161
   - 79
   - 80
   - 81
   - 82
+  - 162
   - 83
   - 84
   - 85
