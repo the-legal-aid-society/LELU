@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 37b73be47f1c3291039709f94bac66186714ec77
-  data_hash: 50d19616b288a2e631d9221a2d48892980d1fff8
+  hash: b85bb296cb2779afef1e67eec2d804fd5691100e
+  data_hash: d3c94564f2f172df15f08702b51410edb6fd9687
 Officer Defendant:
   class: character
 'Tax #':
@@ -110,5 +110,3 @@ Court:
   class: character
 Matter Name:
   class: character
-? "Docket/\rIndex#"
-: class: character
