@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 829a6bec849994fe7bc166035f086aa20cc15de8
-  data_hash: 8aa3b240b2d4d73463340226df775ab094adc372
+  hash: ca7291902f4dc63c35f1cdc9e8ed6085c82b5466
+  data_hash: cb4088fc6518cb569480dbaf0ec49829363415d7
 CCRB officer ID:
   class: character
 Officer last name:
@@ -187,6 +187,7 @@ Current command:
   - AUTO CD
   - AUTO CR
   - AUTO PND
+  - AUTO PNDS
   - AUX P.S
   - AUX POL SEC
   - AV UNIT
@@ -268,6 +269,7 @@ Current command:
   - CCCS
   - CCCS DLU
   - CCRB LU
+  - CD BODY CAM
   - CD EPES
   - CD IRS
   - CD OFF
@@ -300,6 +302,7 @@ Current command:
   - COMMDIV
   - COMMSEC
   - COMP CRIMES
+  - COMP DIV
   - COMPSTAT ANL
   - CONTRACT ADM
   - CPK DET
@@ -425,6 +428,7 @@ Current command:
   - DCINTCT
   - DCLR
   - DCMB
+  - DCMB AMD
   - DCMB INV
   - DCSC
   - DCSI
@@ -444,6 +448,9 @@ Current command:
   - EMP REL
   - EPE RECOVERY TF
   - EQUIPMENT
+  - ERMD
+  - ERMD PAS
+  - ERMD TRAINING
   - ESS 01
   - ESS 02
   - ESS 03
@@ -479,30 +486,8 @@ Current command:
   - FORCEID
   - FRAUD COL IN
   - FTS
-  - FTU 1
-  - FTU 10
-  - FTU 11
-  - FTU 12
-  - FTU 13
-  - FTU 14
-  - FTU 15
-  - FTU 16
-  - FTU 17
-  - FTU 18
-  - FTU 19
-  - FTU 2
-  - FTU 20
-  - FTU 22
-  - FTU 23
-  - FTU 24
   - FTU 25
-  - FTU 3
-  - FTU 4
-  - FTU 5
   - FTU 6
-  - FTU 7
-  - FTU 8
-  - FTU 9
   - FUG ENF
   - GANG BN
   - GANG BS
@@ -514,7 +499,6 @@ Current command:
   - GANG QS
   - GANG SI
   - GLD ZN 1
-  - GRANTS UNIT
   - GUN OFFDR MONT
   - GVSD GUN REC
   - GVSD JFTF
@@ -566,9 +550,13 @@ Current command:
   - I.A.B.
   - IAB
   - IAB ADMIN
-  - IAB CMD CTR
+  - IAB CRIM INV
+  - IAB GRP 1
   - IAB GRP 10
+  - IAB GRP 26
   - IAB GRP 31
+  - IAB GRP 33
+  - IAB GRP 34
   - IAB GRP 41
   - IAB GRP 42
   - IAB GRP 53
@@ -581,6 +569,7 @@ Current command:
   - IAB Z3
   - ID SECT
   - ID THEFT SQD
+  - ID UNIT
   - IG COORD UNIT
   - INSUPDV
   - INT BUR
@@ -707,6 +696,7 @@ Current command:
   - OCDE-SF
   - OCME LIAISON
   - OEEO
+  - OFF COD
   - OFF CSO
   - OFF DB
   - OFF DCMB
@@ -720,7 +710,6 @@ Current command:
   - OFFICE PB
   - OFFICE PSB
   - OFFICE RMB
-  - OFFICE TRNG
   - OFFICE TRP
   - OFSCSRG
   - OMAP
@@ -835,6 +824,7 @@ Current command:
   - POL PEN
   - POL PENSION
   - PRINTS
+  - PROF SB
   - PROP CLK
   - PROPCLK
   - PSA 1
@@ -868,6 +858,7 @@ Current command:
   - Q/N-ND
   - Q/S-ND
   - QA DCSI
+  - QAD
   - QAD DIU
   - QB SSZN
   - QM SEC
@@ -888,11 +879,9 @@ Current command:
   - R M D
   - REC TNG
   - RM BUR
-  - RMB
   - RMB BODY CAM
   - RMB CD
   - RMB QAD
-  - RMB TRAINING
   - RMD PAS
   - RTC FACIAL ID
   - RTC JUV CRM
@@ -922,6 +911,7 @@ Current command:
   - SIB CMO
   - SIB ORE
   - SIB OSI
+  - SIB PMO
   - SIHU
   - SOD HOU
   - SOD SRG
@@ -948,8 +938,12 @@ Current command:
   - SSD INV
   - STAFFSV
   - STD
+  - STDS & ASMT SEC
   - STR FOR
   - STR FORCE
+  - SUPP SVC DIV
+  - SUPP SVC INV
+  - SVD DATA ANL
   - SVD DNA COLD
   - SVD IRTU
   - SVD LIAISON
@@ -1242,6 +1236,7 @@ Current command:
   - 174
   - 175
   - 176
+  - 264
   - 177
   - 178
   - 179
@@ -1323,6 +1318,7 @@ Current command:
   - 254
   - 255
   - 256
+  - 553
   - 257
   - 258
   - 259
@@ -1355,6 +1351,7 @@ Current command:
   - 286
   - 287
   - 288
+  - 556
   - 289
   - 1056
   - 291
@@ -1480,6 +1477,7 @@ Current command:
   - 409
   - 410
   - 411
+  - 583
   - 413
   - 414
   - 415
@@ -1499,6 +1497,9 @@ Current command:
   - 429
   - 430
   - 431
+  - 653
+  - 694
+  - 1061
   - 432
   - 433
   - 434
@@ -1534,30 +1535,8 @@ Current command:
   - 464
   - 465
   - 466
-  - 467
-  - 468
-  - 469
-  - 470
-  - 471
-  - 472
-  - 473
-  - 474
-  - 475
-  - 557
-  - 476
-  - 703
-  - 477
-  - 478
-  - 479
-  - 480
   - 481
-  - 482
-  - 483
-  - 484
   - 485
-  - 486
-  - 487
-  - 488
   - 489
   - 490
   - 491
@@ -1569,7 +1548,6 @@ Current command:
   - 497
   - 498
   - 499
-  - 500
   - 501
   - 502
   - 503
@@ -1621,9 +1599,13 @@ Current command:
   - 548
   - 549
   - 550
-  - 551
+  - 1062
+  - 1063
   - 552
+  - 1064
   - 554
+  - 1065
+  - 1066
   - 558
   - 788
   - 559
@@ -1636,6 +1618,7 @@ Current command:
   - 566
   - 567
   - 568
+  - 1067
   - 569
   - 570
   - 571
@@ -1762,6 +1745,7 @@ Current command:
   - 691
   - 692
   - 693
+  - 1068
   - 695
   - 1058
   - 696
@@ -1775,7 +1759,6 @@ Current command:
   - 705
   - 706
   - 707
-  - 708
   - 709
   - 710
   - 711
@@ -1890,6 +1873,7 @@ Current command:
   - 821
   - 822
   - 823
+  - 1069
   - 824
   - 825
   - 826
@@ -1923,6 +1907,7 @@ Current command:
   - 853
   - 854
   - 855
+  - 1070
   - 856
   - 857
   - 858
@@ -1943,11 +1928,9 @@ Current command:
   - 873
   - 874
   - 875
-  - 876
   - 877
   - 878
   - 879
-  - 880
   - 881
   - 882
   - 883
@@ -1977,6 +1960,7 @@ Current command:
   - 907
   - 908
   - 345
+  - 1071
   - 909
   - 910
   - 911
@@ -2003,8 +1987,12 @@ Current command:
   - 933
   - 934
   - 935
+  - 1072
   - 936
   - 937
+  - 1073
+  - 1074
+  - 1075
   - 938
   - 939
   - 940

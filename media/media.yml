@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: d12cd70abbe2ba26f8150b945c88c102c47bcbf2
-  data_hash: 296a24690c02927dd1aadb45dd294004d518be66
+  hash: 8e4e50e1128eccbf0dc8320fdb46e8eaffcf3056
+  data_hash: 8a7bd433e299b489b4f2e56e7ef6c16e883694e3
 Officer Name:
   class: character
 Document:
@@ -107,7 +107,9 @@ Precinct/Command:
   - '94'
   - '945699'
   - '959277'
+  - ADMINISTRATIVE SUPPORT DIV
   - Anti-Crime
+  - ANTI TERRORISM UNIT
   - anticrime
   - Anticrime
   - antiterror
@@ -116,6 +118,7 @@ Precinct/Command:
   - Bronx Narcotics
   - Brooklyn DA Civil Rights and Police Integrity Bureau
   - Brooklyn narcotics
+  - Brooklyn North Gang unit
   - Brooklyn North Narcotics
   - Brooklyn South gang squad unit
   - Brooklyn South Narcotics
@@ -171,6 +174,7 @@ Precinct/Command:
   - Manhattan North
   - Manhattan North narcotics
   - Manhattan North Narcotics
+  - MANHATTAN RESPONSE TEAM
   - Manhattan South Gang Squad
   - Manhattan South Narcotics
   - Manhattan special victims unit
@@ -210,6 +214,7 @@ Precinct/Command:
   - Police Service Area 4
   - Port Authority
   - PORT AUTHORITY POLICE DEPARTMENT
+  - PROPERTY CLERK DIVISION
   - PSA 1
   - PSA 4
   - PSA 8
@@ -233,6 +238,7 @@ Precinct/Command:
   - Staten Island Investigations Unit
   - Staten Island narcotics unit
   - Strategic Response Group
+  - STRATEGIC RESPONSE GROUP 3 BROOKLYN
   - Strategic Response Group 5, Staten Island
   - Street Crimes Unit
   - Support Services Bureau
@@ -242,6 +248,7 @@ Precinct/Command:
   - Transit
   - Transit Bureau
   - Transit Bureau anti-terror unit
+  - TRANSIT BUREAU DISTRICT 2
   - Transit District 12
   - Transit District 3
   - vice
@@ -340,7 +347,9 @@ Precinct/Command:
   - 70
   - 71
   - 72
+  - 233
   - 73
+  - 234
   - 74
   - 75
   - 76
@@ -349,6 +358,7 @@ Precinct/Command:
   - 79
   - 80
   - 81
+  - 235
   - 82
   - 83
   - 84
@@ -404,6 +414,7 @@ Precinct/Command:
   - 132
   - 133
   - 134
+  - 236
   - 135
   - 136
   - 137
@@ -443,6 +454,7 @@ Precinct/Command:
   - 170
   - 171
   - 172
+  - 237
   - 173
   - 174
   - 175
@@ -466,6 +478,7 @@ Precinct/Command:
   - 193
   - 194
   - 195
+  - 238
   - 196
   - 197
   - 198
@@ -475,6 +488,7 @@ Precinct/Command:
   - 227
   - 202
   - 203
+  - 239
   - 204
   - 205
   - 206
