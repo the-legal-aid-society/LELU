@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: ca7291902f4dc63c35f1cdc9e8ed6085c82b5466
-  data_hash: cb4088fc6518cb569480dbaf0ec49829363415d7
+  hash: 09ee8c0d667c7eeea8917f317ea5595ae688b0c8
+  data_hash: 9160fe19b54172bdafaef1c8525421d36e7a5e3a
 CCRB officer ID:
   class: character
 Officer last name:
@@ -2379,9 +2379,11 @@ CCRB disposition:
   - Substantiated (Formalized Training)
   - Substantiated (Instructions)
   - Substantiated (No Recommendations)
+  - Unable to Determine
   - Unfounded
   - Unsubstantiated
   - Victim Unidentified
+  - Within NYPD Guidelines
   - Witness Unavailable
   - Witness Uncooperative
   index:
@@ -2404,9 +2406,11 @@ CCRB disposition:
   - 17
   - 18
   - 19
+  - 25
   - 20
   - 21
   - 22
+  - 26
   - 23
   - 24
   ordered: no
@@ -2513,7 +2517,6 @@ NYPD Penalty:
   class: factor
   labels:
   - APU - Decision Pending
-  - Closed Administratively
   - Closed Administratively (Command Discipline - A)
   - Closed Administratively (Command Discipline - B)
   - Closed Administratively (Instructions)
@@ -2521,7 +2524,6 @@ NYPD Penalty:
   - 'Closed Administratively (Suspension: 4 days) / Closed Administratively (Vacation:Vacation:
     4 days)'
   - Command Discipline - A
-  - Command Discipline - A (Command Discipline - A)
   - 'Command Discipline - A (Vacation: 0.13 days)'
   - 'Command Discipline - A (Vacation: 0.25 days)'
   - 'Command Discipline - A (Vacation: 0.50 days)'
@@ -2535,7 +2537,6 @@ NYPD Penalty:
   - 'Command Discipline - A / Vacation: 3 days'
   - Command Discipline - A 7 days
   - Command Discipline - B
-  - Command Discipline - B (Command Discipline - B)
   - 'Command Discipline - B (Vacation: 1 day)'
   - 'Command Discipline - B (Vacation: 10 days)'
   - 'Command Discipline - B (Vacation: 2 days)'
@@ -2596,12 +2597,10 @@ NYPD Penalty:
   - Forfeit vacation 8 days
   - Forfeit vacation 9 days
   - Formalized Training
-  - Formalized Training (Formalized Training)
   - Formalized Training / Command Level Instructions
   - Formalized Training / Instructions
   - Formalized Training / Reprimand
   - Instructions
-  - Instructions (Instructions)
   - Instructions / Command Discipline - A
   - Instructions / Formalized Training
   - Instructions / Instructions
@@ -2678,14 +2677,12 @@ NYPD Penalty:
   - Warned and admonished
   index:
   - 1
-  - 13
   - 2
   - 3
   - 4
   - 5
   - 157
   - 6
-  - 159
   - 7
   - 8
   - 9
@@ -2699,7 +2696,6 @@ NYPD Penalty:
   - 18
   - 19
   - 20
-  - 160
   - 21
   - 22
   - 23
@@ -2760,12 +2756,10 @@ NYPD Penalty:
   - 76
   - 77
   - 78
-  - 161
   - 79
   - 80
   - 81
   - 82
-  - 162
   - 83
   - 84
   - 85
