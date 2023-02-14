@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: 8e4e50e1128eccbf0dc8320fdb46e8eaffcf3056
-  data_hash: 8a7bd433e299b489b4f2e56e7ef6c16e883694e3
+  hash: ed2e94c084525f934a15a05a760c2ca834d5cc5c
+  data_hash: 1724bb8199d464be5e22e0bfb7ee91209655dd4b
 Officer Name:
   class: character
 Document:
@@ -121,6 +121,7 @@ Precinct/Command:
   - Brooklyn North Gang unit
   - Brooklyn North Narcotics
   - Brooklyn South gang squad unit
+  - Brooklyn South Intersection Control Command
   - Brooklyn South Narcotics
   - Brooklyn South Narcotics Division
   - Brooklyn South Vice
@@ -183,6 +184,7 @@ Precinct/Command:
   - Midtown South
   - MIDTOWN SOUTH
   - Missing persons
+  - NARC BORO BROOKLYN NORTH
   - NARCBBN
   - NARCBMS
   - Narcotic Borough Manhattan South
@@ -361,6 +363,7 @@ Precinct/Command:
   - 235
   - 82
   - 83
+  - 240
   - 84
   - 85
   - 86
@@ -423,6 +426,7 @@ Precinct/Command:
   - 140
   - 141
   - 142
+  - 241
   - 143
   - 144
   - 145
