@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: ed2e94c084525f934a15a05a760c2ca834d5cc5c
-  data_hash: 2a8c9dd546f482774f4682c4ca97d232064c86c1
+  hash: 6dbc2541378ec609173b315d89ad00712972e235
+  data_hash: 0bd16b1a61f5044632b1a1a4e91925b0fa6a8942
 Officer Name:
   class: character
 Document:
@@ -151,6 +151,7 @@ Precinct/Command:
   - Gun Violence Suppression Division
   - Hate Crimes Task Force
   - Highway Patrol unit
+  - highway unit
   - HIGHWAY UNIT NO 2
   - housing
   - housing bureau
@@ -393,6 +394,7 @@ Precinct/Command:
   - 108
   - 109
   - 110
+  - 242
   - 111
   - 112
   - 113
