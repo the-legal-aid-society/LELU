@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 1272c5b628074b980d7e45d1dcb52848af69aa06
-  data_hash: 9cf6200421012421a477c71f494b65005eb3056a
+  hash: bd62af89ec2c826b0c532d0f116353b97d611538
+  data_hash: d8d7003385bc9ef0358b825f0f09962abc7cd57f
 CCRB officer ID:
   class: character
 Officer last name:
@@ -201,6 +201,7 @@ Current command:
   - BID TEAM
   - BK CHILD
   - BK COURT
+  - BK SAU
   - BK SVS
   - BK TRAN ROB SQD
   - BKLN CT
@@ -231,6 +232,7 @@ Current command:
   - BX CT
   - BX GRAND LARC
   - BX OP NIGHT
+  - BX SAU
   - BX SU ALU
   - BX SU ECT
   - BX SVS
@@ -271,6 +273,7 @@ Current command:
   - CCRB LU
   - CD BODY CAM
   - CD EPES
+  - CD FORCE AU
   - CD IRS
   - CD OFF
   - CD OP/U
@@ -449,6 +452,7 @@ Current command:
   - EPE RECOVERY TF
   - EQUIPMENT
   - ERMD
+  - ERMD EIU
   - ERMD PAS
   - ERMD TRAINING
   - ESS 01
@@ -554,12 +558,11 @@ Current command:
   - IAB GRP 1
   - IAB GRP 10
   - IAB GRP 26
-  - IAB GRP 31
+  - IAB GRP 32
   - IAB GRP 33
   - IAB GRP 34
   - IAB GRP 41
   - IAB GRP 42
-  - IAB GRP 53
   - IAB GRP 54
   - IAB GRP 56
   - IAB GRP 9
@@ -594,6 +597,7 @@ Current command:
   - ITB ADM DIV
   - ITB INV
   - ITSD
+  - JAMAICA AVE BID
   - JB/R/TF
   - JFK TF
   - JOINT ORG CRM TF
@@ -627,6 +631,7 @@ Current command:
   - M/S-ND
   - MAJOR INV SQD
   - MAN CT
+  - MAN SAU
   - MB SSZN
   - MC/SQD
   - MCS CHILD EXP
@@ -720,7 +725,6 @@ Current command:
   - OPS DIV
   - OPS EM PREP
   - OPS EPE
-  - OPS TSU
   - OPS UN
   - OPS UNIT
   - ORG THEFT SQD
@@ -870,6 +874,7 @@ Current command:
   - QN VICE
   - QNROBSQ
   - QNS CT
+  - QNS SAU
   - QS CRIME ANL
   - QS GRAND LARC
   - QS HOMICIDE
@@ -904,6 +909,7 @@ Current command:
   - SI GRAND LARC
   - SI HOMICIDE
   - SI OP NIGHT
+  - SI SAU
   - SI SCSU
   - SI SU ECT
   - SI SVS
@@ -1026,6 +1032,7 @@ Current command:
   - TRAFF MGMT
   - TRAFF SAFETY
   - Transit
+  - TRANSIT SAU
   - TRANSIT SVS
   - TRB OPS
   - TRB TED
@@ -1250,6 +1257,7 @@ Current command:
   - 187
   - 188
   - 189
+  - 467
   - 190
   - 191
   - 192
@@ -1280,6 +1288,7 @@ Current command:
   - 217
   - 218
   - 219
+  - 468
   - 220
   - 221
   - 222
@@ -1320,6 +1329,7 @@ Current command:
   - 256
   - 553
   - 257
+  - 469
   - 258
   - 259
   - 260
@@ -1498,6 +1508,7 @@ Current command:
   - 430
   - 431
   - 653
+  - 470
   - 694
   - 1061
   - 432
@@ -1603,12 +1614,11 @@ Current command:
   - 1063
   - 552
   - 1064
-  - 554
+  - 471
   - 1065
   - 1066
   - 558
   - 788
-  - 559
   - 560
   - 561
   - 562
@@ -1643,6 +1653,7 @@ Current command:
   - 588
   - 589
   - 590
+  - 472
   - 591
   - 592
   - 593
@@ -1676,6 +1687,7 @@ Current command:
   - 621
   - 622
   - 623
+  - 473
   - 624
   - 625
   - 626
@@ -1769,7 +1781,6 @@ Current command:
   - 716
   - 717
   - 718
-  - 719
   - 720
   - 721
   - 722
@@ -1919,6 +1930,7 @@ Current command:
   - 864
   - 865
   - 866
+  - 474
   - 867
   - 868
   - 869
@@ -1953,6 +1965,7 @@ Current command:
   - 900
   - 901
   - 902
+  - 475
   - 903
   - 904
   - 905
@@ -2075,6 +2088,7 @@ Current command:
   - 1017
   - 1018
   - 1019
+  - 476
   - 1020
   - 1021
   - 1022
@@ -2441,6 +2455,7 @@ NYPD disposition:
   - APU Instructions
   - APU Nolo contendere
   - APU Not guilty
+  - APU Other
   - APU Previously adjudicated, with discipline
   - APU Retained, with discipline
   - Charge Dismissed - DCT
@@ -2491,6 +2506,7 @@ NYPD disposition:
   - 19
   - 20
   - 21
+  - 50
   - 22
   - 23
   - 24
