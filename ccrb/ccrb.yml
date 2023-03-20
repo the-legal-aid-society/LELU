@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: bd62af89ec2c826b0c532d0f116353b97d611538
-  data_hash: d8d7003385bc9ef0358b825f0f09962abc7cd57f
+  hash: 44063a7fa5883cb3b5adf6a4cf87d3d7d22d66f4
+  data_hash: 2b020271c2401c5796681470240a6a193428923f
 CCRB officer ID:
   class: character
 Officer last name:
@@ -2203,6 +2203,7 @@ Allegation:
   - Gun pointed/gun drawn
   - Handcuffs too tight
   - Hit against inanimate object
+  - Housing Status
   - Impeding an investigation
   - Improper dissemination of medical info
   - Improper use of body-worn camera
@@ -2247,11 +2248,15 @@ Allegation:
   - Sex Miscon (Sexual Harassment, Gesture)
   - Sex Miscon (Sexual Harassment, Verbal)
   - Sex Miscon (Sexual/Romantic Proposition)
+  - Sex Miscon (Sexually Motiv Photo/Video)
   - Sex Miscon (Sexually Motiv Strip-Search)
   - Sex Miscon (Sexually Motivated Frisk)
+  - Sex Miscon (Sexually Motivated Question)
   - Sex Miscon (Sexually Motivated Search)
   - Sexual Miscon (Forcible Touching)
   - Sexual Miscon (Inappropriate Touching)
+  - Sexual Miscon (On-duty Sexual Activity)
+  - Sexual Miscon (Penetrative Sex. Contact)
   - Sexual Miscon (Rape)
   - Sexual Miscon (Sexual Assault)
   - Sexual Misconduct (Sexual Humiliation)
@@ -2301,6 +2306,7 @@ Allegation:
   - 25
   - 26
   - 27
+  - 98
   - 28
   - 29
   - 43
@@ -2345,11 +2351,15 @@ Allegation:
   - 69
   - 70
   - 71
+  - 99
   - 72
   - 73
+  - 100
   - 74
   - 75
   - 76
+  - 101
+  - 102
   - 77
   - 78
   - 79
@@ -2550,6 +2560,7 @@ NYPD Penalty:
   - 'Command Discipline - A (Vacation: 1 day)'
   - 'Command Discipline - A (Vacation: 2 days)'
   - 'Command Discipline - A (Vacation: 3 days)'
+  - 'Command Discipline - A (Vacation: 3 days) / Formalized Training'
   - 'Command Discipline - A (Vacation: 5 days)'
   - Command Discipline - A / Command Level Instructions
   - Command Discipline - A / Formalized Training
@@ -2709,6 +2720,7 @@ NYPD Penalty:
   - 10
   - 11
   - 12
+  - 13
   - 14
   - 15
   - 16
