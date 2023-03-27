@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 44063a7fa5883cb3b5adf6a4cf87d3d7d22d66f4
-  data_hash: 2b020271c2401c5796681470240a6a193428923f
+  hash: a7659ecf8fd92f36e7fbf93632033f5722c6e0a5
+  data_hash: 521f6b57e5409aaf642fc02a6ebc2df118885667
 CCRB officer ID:
   class: character
 Officer last name:
@@ -2560,7 +2560,6 @@ NYPD Penalty:
   - 'Command Discipline - A (Vacation: 1 day)'
   - 'Command Discipline - A (Vacation: 2 days)'
   - 'Command Discipline - A (Vacation: 3 days)'
-  - 'Command Discipline - A (Vacation: 3 days) / Formalized Training'
   - 'Command Discipline - A (Vacation: 5 days)'
   - Command Discipline - A / Command Level Instructions
   - Command Discipline - A / Formalized Training
@@ -2720,7 +2719,6 @@ NYPD Penalty:
   - 10
   - 11
   - 12
-  - 13
   - 14
   - 15
   - 16
