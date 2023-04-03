@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: a7659ecf8fd92f36e7fbf93632033f5722c6e0a5
-  data_hash: 521f6b57e5409aaf642fc02a6ebc2df118885667
+  hash: 59bc31ca8e5cf46a7dd13052898e3890eed0339f
+  data_hash: ff408fdf1ad8ce03ebefbc6c4f2d705d2b12c939
 CCRB officer ID:
   class: character
 Officer last name:
@@ -2465,7 +2465,6 @@ NYPD disposition:
   - APU Instructions
   - APU Nolo contendere
   - APU Not guilty
-  - APU Other
   - APU Previously adjudicated, with discipline
   - APU Retained, with discipline
   - Charge Dismissed - DCT
@@ -2516,7 +2515,6 @@ NYPD disposition:
   - 19
   - 20
   - 21
-  - 50
   - 22
   - 23
   - 24
