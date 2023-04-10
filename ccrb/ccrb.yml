@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 59bc31ca8e5cf46a7dd13052898e3890eed0339f
-  data_hash: b0181d58c48fbc44be83e1374b07a782c82d0b8d
+  hash: a88e7e76761bd29f48033d7395bb2bc29a64b7e3
+  data_hash: 85363ff8cb521cd9551dbf3af530fc5673a60e0c
 CCRB officer ID:
   class: character
 Officer last name:
@@ -208,6 +208,7 @@ Current command:
   - BKROBSQ
   - BLDG MAINT
   - BM SEC
+  - BN CAS
   - BN CRIME ANL
   - BN GRAND LARC
   - BN OP NIGHT
@@ -217,6 +218,7 @@ Current command:
   - BNNARCD
   - BOMB SQ
   - Brookly
+  - BS CAS
   - BS CRIME ANL
   - BS GRAND LARC
   - BS OP NIGHT
@@ -226,6 +228,7 @@ Current command:
   - BUS UT
   - BUSINESS INTGRTY
   - BX APP TEAM
+  - BX CAS
   - BX CHILD
   - BX COURT
   - BX CRIME ANL
@@ -532,7 +535,6 @@ Current command:
   - HBXQ RT
   - HBXQIRT
   - HLTH & WELL
-  - HLTH INS
   - HOMLESS
   - HOST NEG
   - HOU
@@ -640,11 +642,11 @@ Current command:
   - MELD
   - MGMT ANL
   - Midtown
+  - MN CAS
   - MN CRIME ANL
   - MN GRAND LARC
   - MN IRT
   - MN OP NIGHT
-  - MN SU ALU
   - MN SU ECT
   - MN VICE
   - MNROBSQ
@@ -652,6 +654,8 @@ Current command:
   - MONEY LAUND
   - MOUNTED
   - MP SQD
+  - MS BID
+  - MS CAS
   - MS CRIME ANL
   - MS GRAND LARC
   - MS OP NIGHT
@@ -866,6 +870,7 @@ Current command:
   - QAD DIU
   - QB SSZN
   - QM SEC
+  - QN CAS
   - QN CRIME ANL
   - QN GRAND LARC
   - QN SU ALU
@@ -875,6 +880,7 @@ Current command:
   - QNROBSQ
   - QNS CT
   - QNS SAU
+  - QS CAS
   - QS CRIME ANL
   - QS GRAND LARC
   - QS HOMICIDE
@@ -902,7 +908,7 @@ Current command:
   - SATHOPS
   - SATNOPS
   - SCUBA UNIT
-  - SHIELD & ID
+  - SI CAS
   - SI COURT
   - SI CRIME ANL
   - SI EMER
@@ -1264,6 +1270,7 @@ Current command:
   - 193
   - 194
   - 195
+  - 477
   - 196
   - 197
   - 198
@@ -1273,6 +1280,7 @@ Current command:
   - 202
   - 203
   - 204
+  - 478
   - 205
   - 206
   - 207
@@ -1282,6 +1290,7 @@ Current command:
   - 211
   - 212
   - 213
+  - 479
   - 214
   - 215
   - 216
@@ -1588,7 +1597,6 @@ Current command:
   - 527
   - 528
   - 529
-  - 1057
   - 530
   - 531
   - 532
@@ -1696,11 +1704,11 @@ Current command:
   - 629
   - 630
   - 631
+  - 480
   - 632
   - 633
   - 634
   - 635
-  - 636
   - 637
   - 638
   - 639
@@ -1708,6 +1716,8 @@ Current command:
   - 641
   - 642
   - 643
+  - 482
+  - 483
   - 644
   - 645
   - 646
@@ -1922,6 +1932,7 @@ Current command:
   - 856
   - 857
   - 858
+  - 484
   - 859
   - 860
   - 861
@@ -1931,6 +1942,7 @@ Current command:
   - 865
   - 866
   - 474
+  - 486
   - 867
   - 868
   - 869
@@ -1958,7 +1970,7 @@ Current command:
   - 893
   - 894
   - 895
-  - 896
+  - 487
   - 897
   - 898
   - 899
@@ -2161,12 +2173,14 @@ Complaint category:
   class: factor
   labels:
   - Abuse of Authority
+  - Biased Policing
   - Discourtesy
   - Force
   - Offensive Language
   - Untruthful Statement
   index:
   - 1
+  - 6
   - 2
   - 3
   - 4
