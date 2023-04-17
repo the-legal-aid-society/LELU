@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: a88e7e76761bd29f48033d7395bb2bc29a64b7e3
-  data_hash: 85363ff8cb521cd9551dbf3af530fc5673a60e0c
+  hash: 06deafdef790a5f5de97a53702ef932ae69eb954
+  data_hash: b397e2e6df042e11bf2b4385e250b752b1414ded
 CCRB officer ID:
   class: character
 Officer last name:
@@ -167,6 +167,7 @@ Current command:
   - 123 DET
   - 123 DET SQD
   - 123 PCT
+  - 125 ST BID
   - 125 ST TF
   - 1ST D C
   - 28 PCT HUB
@@ -1229,6 +1230,7 @@ Current command:
   - 154
   - 155
   - 156
+  - 488
   - 157
   - 158
   - 159
@@ -2193,6 +2195,7 @@ Allegation:
   - Animal
   - Body Cavity Searches
   - Chokehold
+  - Color
   - Demeanor/tone
   - Disability
   - Electronic device information deletion
@@ -2296,6 +2299,7 @@ Allegation:
   - 2
   - 3
   - 4
+  - 103
   - 5
   - 97
   - 6

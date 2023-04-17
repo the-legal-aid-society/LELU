@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: 6dbc2541378ec609173b315d89ad00712972e235
-  data_hash: a2b7150322e7ed334d5574e49fbb3ae91efdde19
+  hash: 4eb1da964cef8a2521e433f920fad5a1149155d6
+  data_hash: adad83001317a0b081039812ca4d1afdeccc0b02
 Officer Name:
   class: character
 Document:
@@ -218,6 +218,7 @@ Precinct/Command:
   - Port Authority
   - PORT AUTHORITY POLICE DEPARTMENT
   - PROPERTY CLERK DIVISION
+  - Property Division
   - PSA 1
   - PSA 4
   - PSA 8
@@ -461,6 +462,7 @@ Precinct/Command:
   - 171
   - 172
   - 237
+  - 243
   - 173
   - 174
   - 175
