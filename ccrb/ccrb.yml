@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 06deafdef790a5f5de97a53702ef932ae69eb954
-  data_hash: b397e2e6df042e11bf2b4385e250b752b1414ded
+  hash: 0a44f2ba7e2ee593156c6e45a33daa1a25677250
+  data_hash: 4aec94f31a554e94b5cbfaa497c8799012e00e6c
 CCRB officer ID:
   class: character
 Officer last name:
@@ -2231,6 +2231,7 @@ Allegation:
   - Misleading official statement
   - Nightstick as club (incl asp & baton)
   - Nonlethal restraining device
+  - Obstructed Rank Designation
   - Obstructed Shield Number
   - Other
   - Other - Abuse
@@ -2335,6 +2336,7 @@ Allegation:
   - 34
   - 35
   - 36
+  - 104
   - 37
   - 38
   - 39
@@ -2564,6 +2566,7 @@ NYPD Penalty:
   labels:
   - APU - Decision Pending
   - Closed Administratively (Command Discipline - A)
+  - 'Closed Administratively (Command Discipline - A) / Vacation: 2 days'
   - Closed Administratively (Command Discipline - B)
   - Closed Administratively (Instructions)
   - Closed Administratively (No penalty reported)
@@ -2724,6 +2727,7 @@ NYPD Penalty:
   index:
   - 1
   - 2
+  - 13
   - 3
   - 4
   - 5
