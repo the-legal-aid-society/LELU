@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 0a44f2ba7e2ee593156c6e45a33daa1a25677250
-  data_hash: 4aec94f31a554e94b5cbfaa497c8799012e00e6c
+  hash: 0493b49cd1848355588a8a2c1f8c5bd8e913a595
+  data_hash: 3c08a11e409d2f11ed1fcc62bf3082c1332c07d6
 CCRB officer ID:
   class: character
 Officer last name:
@@ -2175,14 +2175,14 @@ Complaint category:
   class: factor
   labels:
   - Abuse of Authority
-  - Biased Policing
+  - Bias-Based Policing
   - Discourtesy
   - Force
   - Offensive Language
   - Untruthful Statement
   index:
   - 1
-  - 6
+  - 7
   - 2
   - 3
   - 4
@@ -2611,6 +2611,7 @@ NYPD Penalty:
   - Dismissal Probation 30 days
   - Dismissal Probation 365 days
   - Dismissal Probation 365 days / Forfeit vacation 30 days
+  - Dismissal Probation 365 days / Forfeit vacation 40 days
   - Dismissal Probation 365 days / Suspension 20 days
   - Dismissal Probation 365 days / Suspension 30 days / Forfeit vacation 45 days
   - Dismissed
@@ -2771,6 +2772,7 @@ NYPD Penalty:
   - 42
   - 43
   - 44
+  - 159
   - 45
   - 46
   - 47
