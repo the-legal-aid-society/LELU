@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 0493b49cd1848355588a8a2c1f8c5bd8e913a595
-  data_hash: eb1302ae24b35e579812d2dd8b45096979c8e4e6
+  hash: 1d9eabd9a050db78a0f13f1d9e882de48a1617db
+  data_hash: 6299c7dca094604d030c77a5f318cdfaa2de8af1
 CCRB officer ID:
   class: character
 Officer last name:
@@ -456,6 +456,7 @@ Current command:
   - EPE RECOVERY TF
   - EQUIPMENT
   - ERMD
+  - ERMD CCSU
   - ERMD EIU
   - ERMD PAS
   - ERMD TRAINING
@@ -489,7 +490,6 @@ Current command:
   - FMD CMS
   - FOR INV
   - FORCE ID
-  - FORCE ID Z1
   - FORCE ID Z2
   - FORCEID
   - FRAUD COL IN
@@ -560,6 +560,7 @@ Current command:
   - IAB CRIM INV
   - IAB GRP 1
   - IAB GRP 10
+  - IAB GRP 21
   - IAB GRP 26
   - IAB GRP 32
   - IAB GRP 33
@@ -571,7 +572,6 @@ Current command:
   - IAB GRP 9
   - IAB RESOURCE
   - IAB SPEC OPS
-  - IAB Z1
   - IAB Z3
   - ID SECT
   - ID THEFT SQD
@@ -660,6 +660,7 @@ Current command:
   - MS CRIME ANL
   - MS GRAND LARC
   - MS OP NIGHT
+  - MS SU CRT
   - MS SU ECT
   - MS TIMES SQ
   - MTN DET
@@ -926,6 +927,7 @@ Current command:
   - SIB OSI
   - SIB PMO
   - SIHU
+  - SIL
   - SOD HOU
   - SOD SRG
   - SOD T/U
@@ -1519,6 +1521,7 @@ Current command:
   - 430
   - 431
   - 653
+  - 500
   - 470
   - 694
   - 1061
@@ -1552,7 +1555,6 @@ Current command:
   - 459
   - 460
   - 461
-  - 462
   - 463
   - 464
   - 465
@@ -1623,6 +1625,7 @@ Current command:
   - 1062
   - 1063
   - 552
+  - 551
   - 1064
   - 471
   - 1065
@@ -1634,7 +1637,6 @@ Current command:
   - 562
   - 563
   - 564
-  - 565
   - 566
   - 567
   - 568
@@ -1723,6 +1725,7 @@ Current command:
   - 644
   - 645
   - 646
+  - 554
   - 647
   - 648
   - 649
@@ -1989,6 +1992,7 @@ Current command:
   - 345
   - 1071
   - 909
+  - 557
   - 910
   - 911
   - 912
@@ -2203,6 +2207,7 @@ Allegation:
   - Entry of Premises
   - Ethnicity
   - Failed to Obtain Language Interpretation
+  - Failure to Explain
   - Failure to provide RTKA card
   - False official statement
   - False Official Statements
@@ -2308,6 +2313,7 @@ Allegation:
   - 8
   - 9
   - 10
+  - 105
   - 11
   - 12
   - 13
@@ -2600,6 +2606,7 @@ NYPD Penalty:
   - Command Discipline A
   - Command Discipline A / Formalized Training
   - Command Discipline A 1 days
+  - Command Discipline A 3 days
   - Command Discipline A 5 days
   - Command Discipline B
   - Command Discipline B 10 days
@@ -2761,6 +2768,7 @@ NYPD Penalty:
   - 32
   - 33
   - 158
+  - 160
   - 34
   - 35
   - 36
