@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: 5e93744ac951ddc8d77272b0a44c938507743cf9
-  data_hash: 98a2f0539b393ed2717d0ae7c2dbdac80eef282a
+  hash: dc484235a5d829e2b6c6b846c1c31ec2d268b60a
+  data_hash: 69552644c37e1ab35121c4be0a3784d652530a6c
 Officer Name:
   class: character
 Document:
@@ -100,6 +100,7 @@ Precinct/Command:
   - '77'
   - '78'
   - '79'
+  - 79 DET SQUAD
   - '81'
   - '83'
   - '84'
@@ -140,8 +141,13 @@ Precinct/Command:
   - crime control strategies
   - Crime Stoppers unit
   - Department of Homeless Services
+  - DET BORO BKLYN NO HOMICIDE SQ
   - DOC
   - Document Fraud
+  - EMER SERV SQ 01
+  - EMER SERV SQ 04
+  - EMER SERV SQ 08
+  - EMER SERV UNIT
   - Emergency Service Unit
   - Executive Protection Unit
   - ferry security
@@ -149,6 +155,7 @@ Precinct/Command:
   - Firearms Training Section
   - Fleet Services
   - Force Investigation Division
+  - GANG SQUAD BROOKLYN NORTH
   - gun violence suppression division
   - Gun Violence Suppression Division
   - Hate Crimes Task Force
@@ -161,8 +168,10 @@ Precinct/Command:
   - Housing Police Service Area
   - Housing Police Service Area 1
   - Housing Police Service Area 8
+  - HOUSING PSA 3
   - Housing PSA 5
   - IAB
+  - INTEL-CRIMINAL INTEL SECTION
   - Intelligence
   - intelligence bureau
   - Intelligence Bureau
@@ -187,6 +196,7 @@ Precinct/Command:
   - Midtown South
   - MIDTOWN SOUTH
   - Missing persons
+  - NARC BORO BKLYN NORTH
   - NARC BORO BROOKLYN NORTH
   - NARCBBN
   - NARCBMS
@@ -207,6 +217,7 @@ Precinct/Command:
   - NBMN
   - NYPD civilian custodial assistant
   - office of management analysis and planning
+  - PATROL BORO MAN NORTH
   - Patrol Boro Queens South
   - Patrol Boro Queens South; 100
   - Patrol Borough Bronx
@@ -346,6 +357,7 @@ Precinct/Command:
   - 62
   - 63
   - 64
+  - 246
   - 65
   - 66
   - 67
@@ -386,8 +398,13 @@ Precinct/Command:
   - 96
   - 97
   - 98
+  - 247
   - 99
   - 100
+  - 248
+  - 249
+  - 250
+  - 251
   - 101
   - 102
   - 103
@@ -395,6 +412,7 @@ Precinct/Command:
   - 104
   - 105
   - 106
+  - 252
   - 107
   - 108
   - 109
@@ -407,8 +425,10 @@ Precinct/Command:
   - 115
   - 116
   - 117
+  - 253
   - 118
   - 119
+  - 254
   - 120
   - 121
   - 122
@@ -433,6 +453,7 @@ Precinct/Command:
   - 140
   - 141
   - 142
+  - 255
   - 241
   - 143
   - 144
@@ -453,6 +474,7 @@ Precinct/Command:
   - 159
   - 160
   - 161
+  - 256
   - 162
   - 163
   - 164
