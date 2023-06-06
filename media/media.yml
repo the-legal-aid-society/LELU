@@ -5,7 +5,7 @@
   sorting:
   - Officer Name
   - Document
-  hash: 7f058f4efcf4a104c0d5d7d20a135e843e37b20b
+  hash: 0e1e271ebde0e704a36aa3ff78b4943aa8bce75f
   data_hash: 0b0cd9bfe75a24077fde9a099ef094f48af387be
 Officer Name:
   class: character
@@ -110,6 +110,7 @@ Precinct/Command:
   - '94'
   - '945699'
   - '959277'
+  - '960367'
   - ADMINISTRATIVE SUPPORT DIV
   - Anti-Crime
   - ANTI TERRORISM UNIT
@@ -368,6 +369,7 @@ Precinct/Command:
   - 70
   - 71
   - 72
+  - 258
   - 233
   - 73
   - 234
