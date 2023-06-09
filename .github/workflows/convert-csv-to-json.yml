@@ -1,7 +1,11 @@
 name: Convert CSV to JSON
 on:
-  schedule:
-    - cron: "0 0 1 * *"
+  push:
+    paths:
+      - "**.csv"
+  pull_request:
+    paths:
+      - "**.csv"
   workflow_dispatch:
 jobs:
   convert_csv_to_json:
