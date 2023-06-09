@@ -32,7 +32,7 @@ logger = setup_logger()
 def find_csv_files(directory):
     """Find all CSV files in a directory."""
     # Use a list comprehension to find all CSV files in the specified directory and its subdirectories
-    return [os.path.join(root, file) for root, dirs, files in os.walk(directory) if file.endswith(".csv")]
+    return [os.path.join(root, file) for root, dirs, files in os.walk(directory) for file in files if file.endswith(".csv")]
 
 def convert_csv_to_json(csv_file_path, json_file_path):
     """Convert a CSV file to JSON file."""
