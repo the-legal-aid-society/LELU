@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: d0f3fc34ebe12f35c70b1aaf0bd46e3fff29cf88
-  data_hash: 6918e07ffe2eeeb4e512889decfba0600bbdf8be
+  hash: 978c46777e974026b5e2f06355d9ac96b6d7997f
+  data_hash: 79e90377ceced4fc7c1c0e88d2fe6175e64d1c2e
 CCRB officer ID:
   class: character
 Officer last name:
@@ -115,6 +115,7 @@ Current command:
   - 081 PCT
   - 083 DET
   - 083 PCT
+  - 084 BK BRDG
   - 084 DET
   - 084 PCT
   - 088 DET
@@ -213,6 +214,7 @@ Current command:
   - BN CRIME ANL
   - BN GRAND LARC
   - BN OP NIGHT
+  - BN SU CRT
   - BN SU ECT
   - BN VICE
   - BN WARR SQD
@@ -223,6 +225,7 @@ Current command:
   - BS CRIME ANL
   - BS GRAND LARC
   - BS OP NIGHT
+  - BS SU CRT
   - BS SU ECT
   - BS VICE
   - BS WARRANT SQD
@@ -238,6 +241,7 @@ Current command:
   - BX OP NIGHT
   - BX SAU
   - BX SU ALU
+  - BX SU CRT
   - BX SU ECT
   - BX SVS
   - BX TRAN ROB
@@ -399,7 +403,8 @@ Current command:
   - DBBX Z9
   - DBCR Z1
   - DBM ZN1
-  - DBM ZN2
+  - DBM ZN3
+  - DBM ZN4
   - DBM ZN5
   - DBM ZN6
   - DBMN
@@ -567,6 +572,7 @@ Current command:
   - IAB GRP 34
   - IAB GRP 41
   - IAB GRP 42
+  - IAB GRP 53
   - IAB GRP 54
   - IAB GRP 56
   - IAB GRP 9
@@ -648,6 +654,7 @@ Current command:
   - MN GRAND LARC
   - MN IRT
   - MN OP NIGHT
+  - MN SU CRT
   - MN SU ECT
   - MN VICE
   - MNROBSQ
@@ -799,6 +806,7 @@ Current command:
   - PBQN
   - PBQN AC
   - PBQN CITI FLD
+  - PBQN FMP
   - PBQN INV UNIT
   - PBQN SC
   - PBQN SU
@@ -856,6 +864,7 @@ Current command:
   - PSA8 VIPER4
   - PSA9 VIPER3
   - PSAC II SEC
+  - PSB CRT
   - PSB IES
   - PSB NPASU
   - PSB RMS
@@ -875,7 +884,7 @@ Current command:
   - QN CAS
   - QN CRIME ANL
   - QN GRAND LARC
-  - QN SU ALU
+  - QN SU CRT
   - QN SU ECT
   - QN TRANSIT ROB
   - QN VICE
@@ -887,6 +896,7 @@ Current command:
   - QS GRAND LARC
   - QS HOMICIDE
   - QS NARC
+  - QS SU CRT
   - QS SU ECT
   - QS VICE
   - R M D
@@ -919,6 +929,7 @@ Current command:
   - SI OP NIGHT
   - SI SAU
   - SI SCSU
+  - SI SU CRT
   - SI SU ECT
   - SI SVS
   - SIB
@@ -1012,6 +1023,7 @@ Current command:
   - TB Q/TF
   - TB QNS
   - TB RESP
+  - TB RESPONSE
   - TB SIU
   - TB SOD
   - TB SOU
@@ -1180,6 +1192,7 @@ Current command:
   - 100
   - 101
   - 102
+  - 462
   - 104
   - 105
   - 106
@@ -1278,6 +1291,7 @@ Current command:
   - 196
   - 197
   - 198
+  - 559
   - 199
   - 200
   - 201
@@ -1288,6 +1302,7 @@ Current command:
   - 205
   - 206
   - 207
+  - 565
   - 208
   - 209
   - 210
@@ -1303,6 +1318,7 @@ Current command:
   - 219
   - 468
   - 220
+  - 636
   - 221
   - 222
   - 223
@@ -1464,7 +1480,8 @@ Current command:
   - 374
   - 375
   - 376
-  - 377
+  - 703
+  - 708
   - 378
   - 379
   - 380
@@ -1632,6 +1649,7 @@ Current command:
   - 1066
   - 558
   - 788
+  - 719
   - 560
   - 561
   - 562
@@ -1713,6 +1731,7 @@ Current command:
   - 633
   - 634
   - 635
+  - 876
   - 637
   - 638
   - 639
@@ -1864,6 +1883,7 @@ Current command:
   - 785
   - 786
   - 787
+  - 880
   - 789
   - 790
   - 791
@@ -1921,6 +1941,7 @@ Current command:
   - 841
   - 842
   - 843
+  - 896
   - 844
   - 845
   - 846
@@ -1940,7 +1961,7 @@ Current command:
   - 484
   - 859
   - 860
-  - 861
+  - 1057
   - 862
   - 863
   - 864
@@ -1952,6 +1973,7 @@ Current command:
   - 868
   - 869
   - 870
+  - 1076
   - 871
   - 872
   - 873
@@ -1984,6 +2006,7 @@ Current command:
   - 902
   - 475
   - 903
+  - 1077
   - 904
   - 905
   - 906
@@ -2077,6 +2100,7 @@ Current command:
   - 988
   - 989
   - 990
+  - 1078
   - 991
   - 992
   - 993
@@ -2199,6 +2223,7 @@ Allegation:
   - Bias-Based Policing (Gender)
   - Bias-Based Policing (Housing Status)
   - Bias-Based Policing (Race)
+  - Bias-Based Policing (Religion)
   - Body Cavity Searches
   - Chokehold
   - Demeanor/tone
@@ -2307,6 +2332,7 @@ Allegation:
   - 107
   - 108
   - 109
+  - 98
   - 3
   - 4
   - 5
@@ -2495,6 +2521,7 @@ NYPD disposition:
   - APU Not guilty
   - APU Previously adjudicated, with discipline
   - APU Retained, with discipline
+  - APU Retired
   - Charge Dismissed - DCT
   - Charge Dismissed - OATH
   - Charges and Specifications - Guilty
@@ -2545,6 +2572,7 @@ NYPD disposition:
   - 21
   - 22
   - 23
+  - 50
   - 24
   - 25
   - 26
@@ -2613,6 +2641,7 @@ NYPD Penalty:
   - Command Discipline A 5 days
   - Command Discipline B
   - Command Discipline B 10 days
+  - Command Discipline B 3 days
   - Command Discipline B 5 days
   - Command Level Instructions
   - Dismissal Probation
@@ -2776,6 +2805,7 @@ NYPD Penalty:
   - 34
   - 35
   - 36
+  - 162
   - 37
   - 38
   - 39
