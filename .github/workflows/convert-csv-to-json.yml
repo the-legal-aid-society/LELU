@@ -1,0 +1,27 @@
+name: Convert CSV to JSON
+on:
+  push:
+    paths:
+      - "**.csv"
+  pull_request:
+    paths:
+      - "**.csv"
+  workflow_dispatch:
+jobs:
+  convert_csv_to_json:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Clone the repository to the runner
+      uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+    - name: Convert CSV to JSON
+      run: python convert_csv_to_json.py
+    - name: Commit and push changes
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add -A
+        git commit -m "Updates are performed automatically. $(date)"
+        git push
