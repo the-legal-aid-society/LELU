@@ -5,7 +5,7 @@
   sorting:
   - Officer Name
   - Document
-  hash: 94b19dc4c266565b34144706e1fb4c91ded46ebd
+  hash: 1d6abde90e48594516bb95ad753217d8defdf52e
   data_hash: 037212f7acc5d1081034bd8bd85a6b5cde9f0655
 Officer Name:
   class: character
@@ -106,6 +106,7 @@ Precinct/Command:
   - '81'
   - '83'
   - '84'
+  - '86'
   - '88'
   - '9'
   - '94'
@@ -221,6 +222,7 @@ Precinct/Command:
   - NYPD civilian custodial assistant
   - office of management analysis and planning
   - PATROL BORO MAN NORTH
+  - PATROL BORO MAN SOUTH
   - Patrol Boro Queens South
   - Patrol Boro Queens South; 100
   - Patrol Borough Bronx
@@ -271,6 +273,7 @@ Precinct/Command:
   - TRANSIT BUREAU DISTRICT 2
   - Transit District 12
   - Transit District 3
+  - TRB QUEENS TRAFFIC ENF UNIT
   - vice
   - vice squad
   - Warrant Section
@@ -366,6 +369,7 @@ Precinct/Command:
   - 65
   - 66
   - 67
+  - 260
   - 68
   - 69
   - 70
@@ -481,6 +485,7 @@ Precinct/Command:
   - 160
   - 161
   - 256
+  - 261
   - 162
   - 163
   - 164
@@ -531,6 +536,7 @@ Precinct/Command:
   - 239
   - 204
   - 205
+  - 262
   - 206
   - 207
   - 208
