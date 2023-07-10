@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 1e6fe11cda1a90e35bcd2bc7778cb89931d8216a
-  data_hash: b8c9b46b4b24a9ff5d2f7f561d1a19fefd4ce1d5
+  hash: 1f8cdafd1d8d8043a7252fd7ab6584ee280707c4
+  data_hash: 7149ef3cce89b9b555676380adf21fc40baeb350
 CCRB officer ID:
   class: character
 Officer last name:
@@ -294,11 +294,11 @@ Current command:
   - CID ADMIN
   - CID CRIME STOP
   - CID TACTICAL TRN
+  - CID TRAINING
   - CIO
   - CIV HIRING
   - CJB
   - CJB CMS
-  - CJB INV
   - CMD LVL TRN
   - CMU 01
   - CMU 02
@@ -340,6 +340,7 @@ Current command:
   - CTERRDV
   - CTR DIV
   - CW T TF
+  - CW TRAF TF
   - CW TRAFF TF
   - D-E T/F
   - D C L M
@@ -513,7 +514,6 @@ Current command:
   - GANG SI
   - GLD ZN 1
   - GUN OFFDR MONT
-  - GVSD GUN REC
   - GVSD JFTF
   - GVSD Z1
   - GVSD Z1 VRTF
@@ -551,12 +551,16 @@ Current command:
   - HWY 03
   - HWY 04
   - HWY 05
+  - HWY 1
+  - HWY 2
+  - HWY 3
   - HWY 5
   - HWY CIS
+  - HWY CTG
   - HWY DIST
   - HWY DST
-  - HWY DST CTG
   - HWY DST STS
+  - HWY STS
   - I T B
   - I T S D
   - I.A.B.
@@ -576,9 +580,24 @@ Current command:
   - IAB GRP 54
   - IAB GRP 56
   - IAB GRP 9
+  - IAB IU 10
+  - IAB IU 12
+  - IAB IU 21
+  - IAB IU 22
+  - IAB IU 26
+  - IAB IU 27
+  - IAB IU 31
+  - IAB IU 32
+  - IAB IU 33
+  - IAB IU 34
+  - IAB IU 41
+  - IAB IU 42
+  - IAB IU 53
+  - IAB IU 56
   - IAB RESOURCE
   - IAB SPEC OPS
   - IAB Z3
+  - IAB Z4
   - ID SECT
   - ID THEFT SQD
   - ID UNIT
@@ -604,7 +623,6 @@ Current command:
   - IT PRGM MGMT
   - ITB
   - ITB ADM DIV
-  - ITB INV
   - ITSD
   - JAMAICA AVE BID
   - JB/R/TF
@@ -755,7 +773,6 @@ Current command:
   - PB EMD
   - PB ERS
   - PB HRD
-  - PB INV
   - PB PAID DTL
   - PB POD
   - PB REC
@@ -967,8 +984,8 @@ Current command:
   - STDS & ASMT SEC
   - STR FOR
   - STR FORCE
+  - SUM YOUTH
   - SUPP SVC DIV
-  - SUPP SVC INV
   - SVD DATA ANL
   - SVD DNA COLD
   - SVD IRTU
@@ -1055,7 +1072,6 @@ Current command:
   - Transit
   - TRANSIT SAU
   - TRANSIT SVS
-  - TRB OPS
   - TRB TED
   - TRB TRF OPS
   - TRDMRK INFRGMT
@@ -1064,10 +1080,10 @@ Current command:
   - TRF/MTF
   - TRIG LOCK
   - TRN BUR
-  - TRN BUR INV
   - TRP BUR
-  - TRP BUR INV
+  - TRP OPS
   - TV UNIT
+  - U-VISA UNIT
   - UPTU
   - VE BK/N
   - VE BSSI
@@ -1371,11 +1387,11 @@ Current command:
   - 268
   - 269
   - 270
+  - 377
   - 290
   - 271
   - 272
   - 273
-  - 274
   - 275
   - 276
   - 277
@@ -1417,6 +1433,7 @@ Current command:
   - 311
   - 555
   - 312
+  - 861
   - 313
   - 314
   - 315
@@ -1590,7 +1607,6 @@ Current command:
   - 498
   - 499
   - 501
-  - 502
   - 503
   - 504
   - 505
@@ -1628,12 +1644,16 @@ Current command:
   - 537
   - 538
   - 539
+  - 1079
+  - 1080
+  - 1081
   - 540
   - 541
+  - 1082
   - 542
   - 543
-  - 544
   - 545
+  - 1083
   - 546
   - 547
   - 548
@@ -1653,9 +1673,24 @@ Current command:
   - 560
   - 561
   - 562
+  - 1084
+  - 1085
+  - 1086
+  - 1087
+  - 1088
+  - 1089
+  - 1090
+  - 1091
+  - 1092
+  - 1093
+  - 1094
+  - 1095
+  - 1096
+  - 1097
   - 563
   - 564
   - 566
+  - 1098
   - 567
   - 568
   - 1067
@@ -1681,7 +1716,6 @@ Current command:
   - 586
   - 587
   - 588
-  - 589
   - 590
   - 472
   - 591
@@ -1832,7 +1866,6 @@ Current command:
   - 734
   - 735
   - 736
-  - 737
   - 738
   - 739
   - 740
@@ -2044,8 +2077,8 @@ Current command:
   - 1072
   - 936
   - 937
+  - 1099
   - 1073
-  - 1074
   - 1075
   - 938
   - 939
@@ -2132,7 +2165,6 @@ Current command:
   - 1019
   - 476
   - 1020
-  - 1021
   - 1022
   - 1023
   - 1024
@@ -2141,10 +2173,10 @@ Current command:
   - 1027
   - 1028
   - 1029
-  - 1030
   - 1031
-  - 1032
+  - 1100
   - 1033
+  - 1101
   - 1034
   - 1035
   - 1036
