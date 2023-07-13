@@ -5,7 +5,7 @@
   sorting:
   - Officer Name
   - Document
-  hash: 1d6abde90e48594516bb95ad753217d8defdf52e
+  hash: 80406abd728a4ff812f6a946df1eb645bba54340
   data_hash: 037212f7acc5d1081034bd8bd85a6b5cde9f0655
 Officer Name:
   class: character
@@ -21,6 +21,7 @@ Precinct/Command:
   - (413) HIGHWAY UNIT NO 3
   - 062 PRECINCT
   - '075'
+  - 077 DET SQUAD
   - '10'
   - '100'
   - '101'
@@ -121,6 +122,7 @@ Precinct/Command:
   - antiterror
   - BKLYN SPECIAL VICTIMS SQUAD
   - Bronx Court
+  - BRONX COURT SECTION
   - Bronx Housing Bureau
   - Bronx Narcotics
   - Brooklyn DA Civil Rights and Police Integrity Bureau
@@ -163,6 +165,7 @@ Precinct/Command:
   - gun violence suppression division
   - Gun Violence Suppression Division
   - Hate Crimes Task Force
+  - HIGHWAY DISTRICT 1
   - Highway Patrol unit
   - highway unit
   - HIGHWAY UNIT NO 2
@@ -174,6 +177,7 @@ Precinct/Command:
   - Housing Police Service Area 8
   - HOUSING PSA 3
   - Housing PSA 5
+  - HOUSING PSA2
   - IAB
   - INTEL-CRIMINAL INTEL SECTION
   - Intelligence
@@ -186,6 +190,7 @@ Precinct/Command:
   - Legal Affairs Bureau
   - License Division
   - Licensing Division
+  - MANHATTAN COURT SECTION
   - Manhattan Housing
   - Manhattan Housing Bureau
   - Manhattan North
@@ -221,6 +226,7 @@ Precinct/Command:
   - NBMN
   - NYPD civilian custodial assistant
   - office of management analysis and planning
+  - PATROL BORO BKLYN NORTH
   - PATROL BORO MAN NORTH
   - PATROL BORO MAN SOUTH
   - Patrol Boro Queens South
@@ -250,6 +256,7 @@ Precinct/Command:
   - Queens South Narcotics Division
   - Queens Vice
   - Questioned Documents Unit
+  - Recruit Training Section
   - school safety
   - School Safety
   - sex crimes unit
@@ -284,6 +291,7 @@ Precinct/Command:
   - 1
   - 2
   - 3
+  - 263
   - 259
   - 4
   - 5
@@ -384,6 +392,7 @@ Precinct/Command:
   - 76
   - 245
   - 77
+  - 264
   - 78
   - 79
   - 80
@@ -426,6 +435,7 @@ Precinct/Command:
   - 107
   - 108
   - 109
+  - 265
   - 110
   - 242
   - 111
@@ -437,6 +447,7 @@ Precinct/Command:
   - 117
   - 253
   - 118
+  - 266
   - 119
   - 254
   - 120
@@ -449,6 +460,7 @@ Precinct/Command:
   - 127
   - 128
   - 129
+  - 267
   - 130
   - 131
   - 132
@@ -484,6 +496,7 @@ Precinct/Command:
   - 159
   - 160
   - 161
+  - 268
   - 256
   - 261
   - 162
@@ -513,6 +526,7 @@ Precinct/Command:
   - 183
   - 184
   - 185
+  - 269
   - 186
   - 187
   - 188
