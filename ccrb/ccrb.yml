@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 1f8cdafd1d8d8043a7252fd7ab6584ee280707c4
-  data_hash: 807ffdcc0b9a7b5dd00abfd204852e54888c51e4
+  hash: 3eb4806ce3faedf3bc3c618f65734f2ec09e5506
+  data_hash: 72c42859e723688a27aac35cc09dc63bc508a751
 CCRB officer ID:
   class: character
 Officer last name:
@@ -2677,6 +2677,7 @@ NYPD Penalty:
   - Command Discipline B 10 days
   - Command Discipline B 3 days
   - Command Discipline B 5 days
+  - Command Discipline B 6 days
   - Command Level Instructions
   - Dismissal Probation
   - Dismissal Probation / Forfeit vacation 15 days
@@ -2697,6 +2698,7 @@ NYPD Penalty:
   - Forfeit vacation 12 days
   - Forfeit vacation 13 days
   - Forfeit vacation 15 days
+  - Forfeit vacation 16 days
   - Forfeit vacation 17 days
   - Forfeit vacation 18 days
   - Forfeit vacation 19 days
@@ -2841,6 +2843,7 @@ NYPD Penalty:
   - 36
   - 162
   - 37
+  - 164
   - 38
   - 39
   - 40
@@ -2861,6 +2864,7 @@ NYPD Penalty:
   - 53
   - 54
   - 55
+  - 165
   - 56
   - 57
   - 58
