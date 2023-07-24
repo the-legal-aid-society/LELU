@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 3eb4806ce3faedf3bc3c618f65734f2ec09e5506
-  data_hash: 72c42859e723688a27aac35cc09dc63bc508a751
+  hash: 1fe2f79960bbc62bae2887d5af2ecaaf2ac880ef
+  data_hash: 3f6d4b8d2fc9dbd86bdef06d9295dcc4dc0e0278
 CCRB officer ID:
   class: character
 Officer last name:
@@ -2254,6 +2254,7 @@ Allegation:
   - Bias-Based Policing (Color)
   - Bias-Based Policing (Gender)
   - Bias-Based Policing (Housing Status)
+  - Bias-Based Policing (National Origin)
   - Bias-Based Policing (Race)
   - Bias-Based Policing (Religion)
   - Body Cavity Searches
@@ -2363,6 +2364,7 @@ Allegation:
   - 106
   - 107
   - 108
+  - 103
   - 109
   - 98
   - 3

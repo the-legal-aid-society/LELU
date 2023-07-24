@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: 80406abd728a4ff812f6a946df1eb645bba54340
-  data_hash: 037212f7acc5d1081034bd8bd85a6b5cde9f0655
+  hash: 1e6978b0aa6d7ec962ca0ac13ff4c0ec9195a4e5
+  data_hash: 0c37f56bb9c685b148825eefb494053bec01be26
 Officer Name:
   class: character
 Document:
@@ -36,6 +36,7 @@ Precinct/Command:
   - '109'
   - '110'
   - 110 Detective Squad
+  - '112'
   - '113'
   - 113TH DET SQUAD
   - '114'
@@ -169,6 +170,7 @@ Precinct/Command:
   - Highway Patrol unit
   - highway unit
   - HIGHWAY UNIT NO 2
+  - HOMELESS OUTREACH UNIT
   - housing
   - housing bureau
   - Housing Bureau
@@ -190,6 +192,7 @@ Precinct/Command:
   - Legal Affairs Bureau
   - License Division
   - Licensing Division
+  - MAN/BX SS ZONE
   - MANHATTAN COURT SECTION
   - Manhattan Housing
   - Manhattan Housing Bureau
@@ -224,6 +227,7 @@ Precinct/Command:
   - Narcotics detective second grade
   - NBBN
   - NBMN
+  - NYPD auto pounds
   - NYPD civilian custodial assistant
   - office of management analysis and planning
   - PATROL BORO BKLYN NORTH
@@ -262,6 +266,7 @@ Precinct/Command:
   - sex crimes unit
   - Special Operations Division
   - Special Victims Division
+  - SPECIALIZED TRAINING SECTION
   - Staten Island Court
   - Staten Island ferry detail
   - Staten Island Investigations Unit
@@ -306,6 +311,7 @@ Precinct/Command:
   - 10
   - 11
   - 12
+  - 270
   - 13
   - 14
   - 212
@@ -439,6 +445,7 @@ Precinct/Command:
   - 110
   - 242
   - 111
+  - 271
   - 112
   - 113
   - 114
@@ -460,6 +467,7 @@ Precinct/Command:
   - 127
   - 128
   - 129
+  - 272
   - 267
   - 130
   - 131
@@ -494,6 +502,7 @@ Precinct/Command:
   - 157
   - 158
   - 159
+  - 273
   - 160
   - 161
   - 268
@@ -532,6 +541,7 @@ Precinct/Command:
   - 188
   - 189
   - 190
+  - 274
   - 191
   - 192
   - 193
