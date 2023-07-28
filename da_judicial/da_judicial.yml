@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 65fb667782fc68c617a1900f4b3aeb953cfa95ba
-  data_hash: 3fdb0b75c967013b89c1d5b1af08e2c17b883722
+  hash: c178021b1c79e56c0cbf18753e4efdf147968011
+  data_hash: dce06ab0927352b5d733b972ad11685b1c7cdc63
 Officer Name:
   class: character
 Document:
@@ -42,3 +42,5 @@ Rank:
   - 4
   - 5
   ordered: no
+'Case #':
+  class: logical
