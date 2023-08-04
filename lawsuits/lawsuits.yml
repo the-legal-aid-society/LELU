@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: b85bb296cb2779afef1e67eec2d804fd5691100e
-  data_hash: d3c94564f2f172df15f08702b51410edb6fd9687
+  hash: 3889229ca9226812b2900ead1a4625c7114b2f71
+  data_hash: 0e6f5bd78d68e3b3d579fba0912c7499399bd4cd
 Officer Defendant:
   class: character
 'Tax #':
@@ -44,6 +44,7 @@ Court:
   - Small Claims Court - Kings
   - Small Claims Court - New York
   - Small Claims Court - Queens
+  - Superior Court of Georgia
   - Supreme Court
   - Supreme Court - Albany
   - Supreme Court - Bronx
@@ -55,6 +56,7 @@ Court:
   - Supreme Court - Orange
   - Supreme Court - Queens
   - Supreme Court - Richmond
+  - Supreme Court - Suffolk
   - Supreme Court - Westchester
   - U.S. Bankruptcy Court - Eastern District NY
   - U.S. District Court
@@ -81,6 +83,7 @@ Court:
   - 8
   - 9
   - 10
+  - 37
   - 11
   - 12
   - 13
@@ -92,6 +95,7 @@ Court:
   - 19
   - 20
   - 21
+  - 38
   - 22
   - 23
   - 24
