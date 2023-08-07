@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 1fe2f79960bbc62bae2887d5af2ecaaf2ac880ef
-  data_hash: f13a9bdc67a613483cd80a3bafdd11d58b1e4560
+  hash: 0eab1cc955cea818c95e0d588faf515c8986bad1
+  data_hash: 5dd51cb4cb4294c347769b8e9d99b060ac9ad458
 CCRB officer ID:
   class: character
 Officer last name:
@@ -129,6 +129,7 @@ Current command:
   - 100 RKWY BCH
   - 101 DET
   - 101 PCT
+  - 101 RKWY BCH
   - 102 DET
   - 102 PCT
   - 103 DET
@@ -298,7 +299,6 @@ Current command:
   - CIO
   - CIV HIRING
   - CJB
-  - CJB CMS
   - CMD LVL TRN
   - CMU 01
   - CMU 02
@@ -513,6 +513,7 @@ Current command:
   - GANG QS
   - GANG SI
   - GLD ZN 1
+  - GRANTS UNIT
   - GUN OFFDR MONT
   - GVSD JFTF
   - GVSD Z1
@@ -597,7 +598,7 @@ Current command:
   - IAB RESOURCE
   - IAB SPEC OPS
   - IAB Z3
-  - IAB Z4
+  - IAB Z5
   - ID SECT
   - ID THEFT SQD
   - ID UNIT
@@ -812,7 +813,6 @@ Current command:
   - PBMN TF
   - PBMS
   - PBMS AC
-  - PBMS INV
   - PBMS SC
   - PBMS SCOOTER
   - PBMS SU
@@ -979,6 +979,7 @@ Current command:
   - SSB
   - SSB INV
   - SSD INV
+  - SSD YRT
   - STAFFSV
   - STD
   - STDS & ASMT SEC
@@ -1073,7 +1074,6 @@ Current command:
   - TRANSIT SAU
   - TRANSIT SVS
   - TRB TED
-  - TRB TRF OPS
   - TRDMRK INFRGMT
   - TRF CD
   - TRF OPS
@@ -1222,6 +1222,7 @@ Current command:
   - 114
   - 115
   - 116
+  - 274
   - 117
   - 118
   - 119
@@ -1391,7 +1392,6 @@ Current command:
   - 290
   - 271
   - 272
-  - 273
   - 275
   - 276
   - 277
@@ -1606,6 +1606,7 @@ Current command:
   - 497
   - 498
   - 499
+  - 502
   - 501
   - 503
   - 504
@@ -1690,7 +1691,7 @@ Current command:
   - 563
   - 564
   - 566
-  - 1098
+  - 544
   - 567
   - 568
   - 1067
@@ -1905,7 +1906,6 @@ Current command:
   - 774
   - 775
   - 776
-  - 777
   - 778
   - 779
   - 780
@@ -2072,6 +2072,7 @@ Current command:
   - 931
   - 932
   - 933
+  - 589
   - 934
   - 935
   - 1072
@@ -2166,7 +2167,6 @@ Current command:
   - 476
   - 1020
   - 1022
-  - 1023
   - 1024
   - 1025
   - 1026
@@ -2530,6 +2530,7 @@ NYPD disposition:
   class: factor
   labels:
   - APU - Decision Pending
+  - APU Charges not served
   - 'APU Closed: Charges not served'
   - 'APU Closed: Deceased'
   - 'APU Closed: Dismissed by APU'
@@ -2582,6 +2583,7 @@ NYPD disposition:
   - Retired
   index:
   - 1
+  - 52
   - 2
   - 3
   - 4
