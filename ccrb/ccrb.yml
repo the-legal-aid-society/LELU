@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 0eab1cc955cea818c95e0d588faf515c8986bad1
-  data_hash: 3787d36e5dab53d3f24b713a4c7be7b28856d0cf
+  hash: d45c97071a7034d58e0eaf2a0388ef80cbb5e2ce
+  data_hash: b5f08ee7ccdab73b90215c2fd7f3c07fdf1c2efe
 CCRB officer ID:
   class: character
 Officer last name:
@@ -2251,12 +2251,7 @@ Allegation:
   labels:
   - Action
   - Animal
-  - Bias-Based Policing (Color)
-  - Bias-Based Policing (Gender)
-  - Bias-Based Policing (Housing Status)
-  - Bias-Based Policing (National Origin)
   - Bias-Based Policing (Race)
-  - Bias-Based Policing (Religion)
   - Body Cavity Searches
   - Chokehold
   - Demeanor/tone
@@ -2269,7 +2264,6 @@ Allegation:
   - Failure to Explain
   - Failure to provide RTKA card
   - False official statement
-  - False Official Statements
   - Flashlight as club
   - Forcible Removal to Hospital
   - Frisk
@@ -2288,10 +2282,10 @@ Allegation:
   - Improper dissemination of medical info
   - Improper use of body-worn camera
   - Inaccurate official statement
-  - Inaccurate Statements
   - Interference with recording
   - Less Than Lethal Force/Device
   - Misleading official statement
+  - Misleading Statements
   - Nightstick as club (incl asp & baton)
   - Nonlethal restraining device
   - Obstructed Rank Designation
@@ -2329,17 +2323,7 @@ Allegation:
   - Sex Miscon (Sexual Harassment, Gesture)
   - Sex Miscon (Sexual Harassment, Verbal)
   - Sex Miscon (Sexual/Romantic Proposition)
-  - Sex Miscon (Sexually Motiv Photo/Video)
-  - Sex Miscon (Sexually Motiv Strip-Search)
-  - Sex Miscon (Sexually Motivated Frisk)
-  - Sex Miscon (Sexually Motivated Question)
-  - Sex Miscon (Sexually Motivated Search)
-  - Sexual Miscon (Forcible Touching)
   - Sexual Miscon (Inappropriate Touching)
-  - Sexual Miscon (On-duty Sexual Activity)
-  - Sexual Miscon (Penetrative Sex. Contact)
-  - Sexual Miscon (Rape)
-  - Sexual Miscon (Sexual Assault)
   - Sexual Misconduct (Sexual Humiliation)
   - Sexual orientation
   - Stop
@@ -2361,12 +2345,7 @@ Allegation:
   index:
   - 1
   - 2
-  - 106
-  - 107
-  - 108
-  - 103
   - 109
-  - 98
   - 3
   - 4
   - 5
@@ -2379,7 +2358,6 @@ Allegation:
   - 105
   - 11
   - 12
-  - 13
   - 14
   - 15
   - 16
@@ -2398,10 +2376,10 @@ Allegation:
   - 29
   - 43
   - 30
-  - 31
   - 32
   - 33
   - 34
+  - 110
   - 35
   - 36
   - 104
@@ -2439,17 +2417,7 @@ Allegation:
   - 69
   - 70
   - 71
-  - 99
-  - 72
-  - 73
-  - 100
-  - 74
-  - 75
   - 76
-  - 101
-  - 102
-  - 77
-  - 78
   - 79
   - 80
   - 81
