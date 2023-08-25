@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 45e0b144f8b1de561704d716c0efb3a8ea9fa556
-  data_hash: dce06ab0927352b5d733b972ad11685b1c7cdc63
+  hash: 02c65dda7f994fafe9612a221e975a4be4b74a50
+  data_hash: e563187686b382b34f223956b20dbea5d09db64a
 Officer Name:
   class: character
 Document:
@@ -12,10 +12,12 @@ Type:
   class: factor
   labels:
   - Brady/Giglio Disclosure
+  - BX DA Notified Officer List
   - DA Adverse Credibility List
   - Judicial determination of incredibility
   index:
   - 1
+  - 4
   - 2
   - 3
   ordered: no
@@ -28,19 +30,8 @@ Precinct/Command:
 Borough:
   class: character
 Rank:
-  class: factor
-  labels:
-  - CAPTAIN
-  - DETECTIVE
-  - LIEUTENANT
-  - POLICE OFFICER
-  - SERGEANT
-  index:
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
-  ordered: no
+  class: character
 'Case #':
+  class: character
+Notes:
   class: character

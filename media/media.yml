@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: 140a6501cbc3500d90562c8b627bf0b6e94d7d1a
-  data_hash: 0c37f56bb9c685b148825eefb494053bec01be26
+  hash: 2dbd0d733fcc048e50cef7769dcaf845982c5eb8
+  data_hash: 1a6f345fe5b48f33ffb0d8339995f2a27e4a8f88
 Officer Name:
   class: character
 Document:
@@ -127,6 +127,7 @@ Precinct/Command:
   - Bronx Court
   - BRONX COURT SECTION
   - Bronx Housing Bureau
+  - Bronx narcotics
   - Bronx Narcotics
   - Brooklyn DA Civil Rights and Police Integrity Bureau
   - Brooklyn narcotics
@@ -404,6 +405,7 @@ Precinct/Command:
   - 77
   - 264
   - 78
+  - 277
   - 79
   - 80
   - 81
