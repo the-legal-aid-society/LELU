@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 1d80407593c1100a2173575452941d5f87c9983d
-  data_hash: 9acca0b711fbb03f0ef1e8e30bbbc8709738fe77
+  hash: 5e1d7770e6f35d629c7bd652a6b9860a213db3a0
+  data_hash: de9dd9056ecfdcaed9adda7cbd4f076c1dd5c8f1
 'Tax #':
   class: numeric
 Officer Profile:
@@ -238,7 +238,6 @@ Current command:
   - BID TEAM
   - BK CHILD
   - BK COURT
-  - BK SAU
   - BK SVS
   - BK TRAN ROB SQD
   - BKLN CT
@@ -329,6 +328,7 @@ Current command:
   - CD OFF
   - CD OP/D
   - CD OP/U
+  - CEASEFIRE
   - CEIS BES TF
   - CEN REC
   - CENROBB
@@ -352,6 +352,7 @@ Current command:
   - CO TR
   - COD DVIU
   - COD DVU
+  - COD RRU
   - COD SAS
   - COL POL
   - COMM DIV
@@ -420,6 +421,7 @@ Current command:
   - DB CRD
   - DB FCTF
   - DB FED
+  - DB FEU
   - DB FID
   - DB GLD
   - DB GVSD
@@ -529,7 +531,6 @@ Current command:
   - ERMD CCSU
   - ERMD EIU
   - ERMD PAS
-  - ERMD TRAINING
   - ESS 01
   - ESS 02
   - ESS 03
@@ -630,6 +631,7 @@ Current command:
   - HOU
   - HQ SEC
   - HSG BUR
+  - HSG CAS
   - HWY 01
   - HWY 02
   - HWY 03
@@ -757,7 +759,6 @@ Current command:
   - MAILDIS
   - MAJOR INV SQD
   - MAN CT
-  - MAN SAU
   - MB SSZC
   - MB SSZN
   - MC/SQD
@@ -1017,13 +1018,13 @@ Current command:
   - QN CAS
   - QN CRIME ANL
   - QN GRAND LARC
+  - QN SU ALU
   - QN SU CRT
   - QN SU ECT
   - QN TRANSIT ROB
   - QN VICE
   - QNROBSQ
   - QNS CT
-  - QNS SAU
   - QS CAS
   - QS CRIME ANL
   - QS GRAND LARC
@@ -1070,7 +1071,6 @@ Current command:
   - SI GRAND LARC
   - SI HOMICIDE
   - SI OP NIGHT
-  - SI SAU
   - SI SCSU
   - SI SU CRT
   - SI SU ECT
@@ -1113,8 +1113,8 @@ Current command:
   - STR FOR
   - STR FORCE
   - STU1
-  - SUM YOUTH
   - SUPP SVC DIV
+  - SUPP SVC INV
   - SVD CAS
   - SVD DATA ANL
   - SVD DNA COLD
@@ -1447,7 +1447,6 @@ Current command:
   - 193
   - 194
   - 195
-  - 196
   - 197
   - 198
   - 199
@@ -1538,6 +1537,7 @@ Current command:
   - 284
   - 285
   - 286
+  - 1209
   - 287
   - 288
   - 289
@@ -1561,6 +1561,7 @@ Current command:
   - 307
   - 308
   - 309
+  - 1210
   - 310
   - 311
   - 312
@@ -1629,6 +1630,7 @@ Current command:
   - 375
   - 376
   - 377
+  - 1211
   - 378
   - 379
   - 380
@@ -1738,7 +1740,6 @@ Current command:
   - 484
   - 485
   - 486
-  - 487
   - 488
   - 489
   - 490
@@ -1839,6 +1840,7 @@ Current command:
   - 585
   - 586
   - 587
+  - 1212
   - 588
   - 589
   - 590
@@ -1966,7 +1968,6 @@ Current command:
   - 712
   - 713
   - 714
-  - 715
   - 716
   - 717
   - 718
@@ -2226,13 +2227,13 @@ Current command:
   - 972
   - 973
   - 974
+  - 1213
   - 975
   - 976
   - 977
   - 978
   - 979
   - 980
-  - 981
   - 982
   - 983
   - 984
@@ -2279,7 +2280,6 @@ Current command:
   - 1025
   - 1026
   - 1027
-  - 1028
   - 1029
   - 1030
   - 1031
@@ -2322,8 +2322,8 @@ Current command:
   - 1068
   - 1069
   - 1070
-  - 1071
   - 1072
+  - 1214
   - 1073
   - 1074
   - 1075
