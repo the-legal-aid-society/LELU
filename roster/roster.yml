@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: a17d0ebec6a7e4bb5aae4fac553325bd926b3387
-  data_hash: b07aa0a6ea13d2ff1b8ecc0c730a7261cf581827
+  hash: 199d5d1139e61800f362c5fb0c118dd78f1362b5
+  data_hash: 9fa2c2e7db988f7469d8c6022e0dfc7f23594a5b
 'Tax #':
   class: numeric
 Officer Profile:
@@ -314,6 +314,7 @@ Current command:
   - CAD PAS
   - CAD RECRUIT
   - CADET CORPS
+  - CAP UNIT
   - CAPITAL CONST
   - CAPITAL PLAN
   - CCCS
@@ -457,6 +458,7 @@ Current command:
   - DBBN OP
   - DBBS
   - DBBS OP
+  - DBBS VIDEO
   - DBBX
   - DBBX OP
   - DBBX Z8
@@ -504,7 +506,6 @@ Current command:
   - DCER
   - DCER CU
   - DCINTCT
-  - DCLM FMLU
   - DCLR
   - DCMB
   - DCMB AMD
@@ -670,7 +671,6 @@ Current command:
   - IAB GRP 27
   - IAB GRP 32
   - IAB GRP 33
-  - IAB GRP 34
   - IAB GRP 41
   - IAB GRP 42
   - IAB GRP 53
@@ -860,7 +860,6 @@ Current command:
   - OFFICE PSB
   - OFFICE RMB
   - OFFICE TRNG
-  - OFFICE TRP
   - OFSCSRG
   - OMAP
   - OPD
@@ -1127,7 +1126,6 @@ Current command:
   - STRAT ANL SECT
   - STU1
   - SUPP SVC DIV
-  - SVD CAS
   - SVD DATA ANL
   - SVD DNA COLD
   - SVD IRTU
@@ -1538,6 +1536,7 @@ Current command:
   - 271
   - 272
   - 273
+  - 994
   - 274
   - 275
   - 276
@@ -1681,6 +1680,7 @@ Current command:
   - 406
   - 407
   - 408
+  - 1030
   - 409
   - 410
   - 411
@@ -1728,7 +1728,6 @@ Current command:
   - 453
   - 454
   - 455
-  - 1028
   - 456
   - 457
   - 458
@@ -1894,7 +1893,6 @@ Current command:
   - 617
   - 618
   - 619
-  - 620
   - 621
   - 622
   - 623
@@ -2084,7 +2082,6 @@ Current command:
   - 806
   - 807
   - 1221
-  - 808
   - 809
   - 810
   - 811
@@ -2351,7 +2348,6 @@ Current command:
   - 715
   - 1070
   - 1072
-  - 1073
   - 1074
   - 1075
   - 1076
