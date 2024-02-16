@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: 2dbd0d733fcc048e50cef7769dcaf845982c5eb8
-  data_hash: 06c4fc8f386a2cb964bb2640360f4844806ade40
+  hash: b198bd6b5c55c9f27b1f92046a92beac0fa4683c
+  data_hash: 5df7f73143b6bc36e6c128cc8e87125d42837fa2
 Officer Name:
   class: character
 Document:
@@ -21,6 +21,7 @@ Precinct/Command:
   - (413) HIGHWAY UNIT NO 3
   - 062 PRECINCT
   - '075'
+  - 075 DET SQUAD
   - 077 DET SQUAD
   - '10'
   - '100'
@@ -114,8 +115,10 @@ Precinct/Command:
   - '90'
   - '94'
   - '945699'
+  - '946508'
   - '959277'
   - '960367'
+  - '968860'
   - ADMINISTRATIVE SUPPORT DIV
   - Anti-Crime
   - ANTI TERRORISM UNIT
@@ -126,6 +129,7 @@ Precinct/Command:
   - BKLYN SPECIAL VICTIMS SQUAD
   - Bronx Court
   - BRONX COURT SECTION
+  - Bronx Homicide Squad
   - Bronx Housing Bureau
   - Bronx narcotics
   - Bronx Narcotics
@@ -152,6 +156,7 @@ Precinct/Command:
   - Crime Stoppers unit
   - Department of Homeless Services
   - DET BORO BKLYN NO HOMICIDE SQ
+  - DET SQUAD
   - DOC
   - Document Fraud
   - EMER SERV SQ 01
@@ -192,10 +197,13 @@ Precinct/Command:
   - Internal Affairs
   - Internal Affairs Bureau
   - investigations of criminal enterprises
+  - Latent Print Section
   - Legal Affairs Bureau
   - License Division
   - Licensing Division
+  - MAN COURT SECTION
   - MAN/BX SS ZONE
+  - MANH ROBBERY SQUAD
   - MANHATTAN COURT SECTION
   - Manhattan Housing
   - Manhattan Housing Bureau
@@ -203,6 +211,7 @@ Precinct/Command:
   - Manhattan North narcotics
   - Manhattan North Narcotics
   - MANHATTAN RESPONSE TEAM
+  - Manhattan Robbery Squad
   - Manhattan South Gang Squad
   - Manhattan South Narcotics
   - Manhattan special victims unit
@@ -286,6 +295,7 @@ Precinct/Command:
   - Transit Bureau
   - Transit Bureau anti-terror unit
   - TRANSIT BUREAU DISTRICT 2
+  - Transit Bureau Special Operations
   - Transit District 12
   - Transit District 3
   - TRB QUEENS TRAFFIC ENF UNIT
@@ -299,6 +309,7 @@ Precinct/Command:
   - 1
   - 2
   - 3
+  - 278
   - 263
   - 259
   - 4
@@ -392,8 +403,10 @@ Precinct/Command:
   - 275
   - 70
   - 71
+  - 279
   - 72
   - 258
+  - 280
   - 233
   - 73
   - 234
@@ -404,6 +417,7 @@ Precinct/Command:
   - 245
   - 77
   - 264
+  - 281
   - 78
   - 277
   - 79
@@ -430,6 +444,7 @@ Precinct/Command:
   - 97
   - 98
   - 247
+  - 282
   - 99
   - 100
   - 248
@@ -470,10 +485,13 @@ Precinct/Command:
   - 124
   - 125
   - 126
+  - 283
   - 127
   - 128
   - 129
+  - 284
   - 272
+  - 285
   - 267
   - 130
   - 131
@@ -481,6 +499,7 @@ Precinct/Command:
   - 133
   - 134
   - 236
+  - 286
   - 135
   - 136
   - 137
@@ -564,6 +583,7 @@ Precinct/Command:
   - 202
   - 203
   - 239
+  - 287
   - 204
   - 205
   - 262

@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 199d5d1139e61800f362c5fb0c118dd78f1362b5
-  data_hash: a93bdbe2085da2effc5ff4c06c159dc972a3f631
+  hash: 5def2f847b4a7c003ae2a14b0eb6fabaa7b4d1ff
+  data_hash: 1b7ee16a34985cdb723e71b30e04385d0c5697ef
 'Tax #':
   class: numeric
 Officer Profile:
@@ -242,7 +242,6 @@ Current command:
   - BKLN CT
   - BKROBSQ
   - BLDG MAINT
-  - BLSTC VEST
   - BM SEC
   - BN CAS
   - BN CRIME ANL
@@ -456,6 +455,7 @@ Current command:
   - DBBKZ22
   - DBBN
   - DBBN OP
+  - DBBN VIDEO
   - DBBS
   - DBBS OP
   - DBBS VIDEO
@@ -479,6 +479,7 @@ Current command:
   - DBQ Z17
   - DBQN
   - DBQN OP
+  - DBQN VIDEO
   - DBQS
   - DBQS OP
   - DBSI
@@ -563,6 +564,7 @@ Current command:
   - FIREARMS INV
   - FIS DIV
   - FISCAL AFF
+  - FISCAL UN
   - FLT SRV
   - FLT SVC
   - FM DIV
@@ -1097,6 +1099,7 @@ Current command:
   - SOD T/U
   - SP FRDS
   - SP INV
+  - SPEC NARC
   - SPL TRN
   - SPORTS UNIT
   - SPRING 3100
@@ -1158,6 +1161,7 @@ Current command:
   - TB CAN
   - TB CRM ANLYS
   - TB CW VTF
+  - TB CWPP
   - TB DT01
   - TB DT02
   - TB DT03
@@ -1186,6 +1190,7 @@ Current command:
   - TB RESPONSE
   - TB SIU
   - TB SOD
+  - TB SOD SP
   - TB SOU
   - TB SSTF
   - TB TPF
@@ -1464,7 +1469,6 @@ Current command:
   - 199
   - 200
   - 201
-  - 202
   - 203
   - 204
   - 205
@@ -1678,6 +1682,7 @@ Current command:
   - 404
   - 405
   - 406
+  - 620
   - 407
   - 408
   - 1030
@@ -1701,6 +1706,7 @@ Current command:
   - 426
   - 427
   - 428
+  - 808
   - 429
   - 430
   - 431
@@ -1785,6 +1791,7 @@ Current command:
   - 510
   - 511
   - 512
+  - 1028
   - 513
   - 514
   - 515
@@ -2319,6 +2326,7 @@ Current command:
   - 1042
   - 1043
   - 1044
+  - 1073
   - 1045
   - 1046
   - 1047
@@ -2380,6 +2388,7 @@ Current command:
   - 1101
   - 1102
   - 1103
+  - 1226
   - 1104
   - 1105
   - 1106
@@ -2408,6 +2417,7 @@ Current command:
   - 1129
   - 1130
   - 1131
+  - 1227
   - 1132
   - 1133
   - 1225
