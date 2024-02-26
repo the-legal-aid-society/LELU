@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: d3857c9b5aa67b9537ebdba053321c4d83f1e7ec
-  data_hash: 89538bdb9069c284cbc5cd8ba28fa7a9c077078e
+  hash: 9739c7c31eef459981b2f4bdfc1876e674b6830c
+  data_hash: 979862599a0a63f9f96c8c934e64d5c472a6c34b
 Fiscal year:
   class: numeric
 Agency:
@@ -32,12 +32,14 @@ Borough:
   - MANHATTAN
   - QUEENS
   - RICHMOND
+  - WESTCHESTER
   index:
   - 1
   - 2
   - 3
   - 4
   - 5
+  - 6
   ordered: no
 Title:
   class: character
