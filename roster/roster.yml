@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 5def2f847b4a7c003ae2a14b0eb6fabaa7b4d1ff
-  data_hash: 7296052bfe647984a678a2da7e12ffb3a45c6d3d
+  hash: 3daca1ff9b8ffb1793b710b9437f6d5d3ee5e77b
+  data_hash: 3faa657d04da3d110052a5cabaf051a2f96ce08e
 'Tax #':
   class: numeric
 Officer Profile:
@@ -251,7 +251,6 @@ Current command:
   - BN SU CRT
   - BN SU ECT
   - BN VICE
-  - BN WARR SQD
   - BNNARCD
   - BOMB SQ
   - BROOKLY
@@ -307,6 +306,7 @@ Current command:
   - CA SECT
   - CA/CP D
   - CAB
+  - CAB CAS
   - CAB COD
   - CAD CAS
   - CAD MAS
@@ -316,6 +316,7 @@ Current command:
   - CAP UNIT
   - CAPITAL CONST
   - CAPITAL PLAN
+  - CC&NC FNGRPT
   - CCCS
   - CCCS DLU
   - CCRB LU
@@ -327,7 +328,6 @@ Current command:
   - CD OFF
   - CD OP/D
   - CD OP/U
-  - CEASEFIRE
   - CEIS BES TF
   - CEN REC
   - CENROBB
@@ -484,6 +484,7 @@ Current command:
   - DBQS OP
   - DBSI
   - DBSI OP
+  - DBSI VIDEO
   - DBSV Z1
   - DBSV Z2
   - DBSV Z3
@@ -673,6 +674,7 @@ Current command:
   - IAB GRP 27
   - IAB GRP 32
   - IAB GRP 33
+  - IAB GRP 34
   - IAB GRP 41
   - IAB GRP 42
   - IAB GRP 53
@@ -691,6 +693,7 @@ Current command:
   - IAB IU 33
   - IAB IU 34
   - IAB IU 41
+  - IAB IU 42
   - IAB IU 53
   - IAB IU 56
   - IAB RESOURCE
@@ -706,6 +709,7 @@ Current command:
   - ID THEFT SQD
   - ID UNIT
   - IG COORD UNIT
+  - INFOSEC
   - INSRVTR
   - INSUPDV
   - INT BUR
@@ -862,6 +866,7 @@ Current command:
   - OFFICE PSB
   - OFFICE RMB
   - OFFICE TRNG
+  - OFFICE TRP
   - OFSCSRG
   - OMAP
   - OPD
@@ -1085,6 +1090,7 @@ Current command:
   - SI OP NIGHT
   - SI SAU
   - SI SCSU
+  - SI SU CRT
   - SI SU ECT
   - SI SVS
   - SIB
@@ -1478,7 +1484,6 @@ Current command:
   - 209
   - 210
   - 211
-  - 212
   - 213
   - 214
   - 215
@@ -1534,6 +1539,7 @@ Current command:
   - 265
   - 266
   - 267
+  - 202
   - 268
   - 269
   - 270
@@ -1543,6 +1549,7 @@ Current command:
   - 994
   - 274
   - 275
+  - 1228
   - 276
   - 277
   - 278
@@ -1554,7 +1561,6 @@ Current command:
   - 284
   - 285
   - 286
-  - 1209
   - 287
   - 288
   - 289
@@ -1711,6 +1717,7 @@ Current command:
   - 430
   - 431
   - 432
+  - 1229
   - 433
   - 434
   - 435
@@ -1900,6 +1907,7 @@ Current command:
   - 617
   - 618
   - 619
+  - 1230
   - 621
   - 622
   - 623
@@ -1918,6 +1926,7 @@ Current command:
   - 635
   - 636
   - 637
+  - 1231
   - 639
   - 640
   - 641
@@ -1933,6 +1942,7 @@ Current command:
   - 651
   - 652
   - 653
+  - 1232
   - 654
   - 655
   - 656
@@ -2089,6 +2099,7 @@ Current command:
   - 806
   - 807
   - 1221
+  - 1233
   - 809
   - 810
   - 811
@@ -2312,6 +2323,7 @@ Current command:
   - 1027
   - 1217
   - 1029
+  - 1234
   - 1031
   - 1032
   - 1033
