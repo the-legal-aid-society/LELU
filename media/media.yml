@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: f84346b07b2e32fb1adc2cf4f0f575f1b3d1bdc9
-  data_hash: 5df7f73143b6bc36e6c128cc8e87125d42837fa2
+  hash: d2d24227156946fe67922cbf4dc13f76bd1140b0
+  data_hash: af77636ed3abd2b292aa81369f9f263ae338e3d4
 Officer Name:
   class: character
 Document:
@@ -41,6 +41,7 @@ Precinct/Command:
   - '113'
   - 113TH DET SQUAD
   - '114'
+  - 114 Det Squad
   - '115'
   - '120'
   - '121'
@@ -118,8 +119,6 @@ Precinct/Command:
   - '946508'
   - '959277'
   - '960367'
-  - '966658'
-  - '968860'
   - ADMINISTRATIVE SUPPORT DIV
   - Anti-Crime
   - ANTI TERRORISM UNIT
@@ -150,11 +149,14 @@ Precinct/Command:
   - Citywide Traffic Task Force
   - collision investigation squad
   - community affairs
+  - Community Affairs Bureau
   - community affairs unit
+  - Community Response Team
   - Counterterrorism
   - Counterterrorism Bureau Critical Response Command
   - crime control strategies
   - Crime Stoppers unit
+  - Criminal Intel Section
   - Department of Homeless Services
   - DET BORO BKLYN NO HOMICIDE SQ
   - DET SQUAD
@@ -220,6 +222,7 @@ Precinct/Command:
   - Midtown North
   - Midtown South
   - MIDTOWN SOUTH
+  - MILITARY & EXTENDED LEAVE DESK
   - Missing persons
   - NARC BORO BKLYN NORTH
   - NARC BORO BROOKLYN NORTH
@@ -240,6 +243,7 @@ Precinct/Command:
   - Narcotics detective second grade
   - NBBN
   - NBMN
+  - NYC Medical Examiner Office
   - NYPD auto pounds
   - NYPD civilian custodial assistant
   - office of management analysis and planning
@@ -250,6 +254,7 @@ Precinct/Command:
   - Patrol Boro Queens South; 100
   - Patrol Borough Bronx
   - Patrol Borough Queens South
+  - Patrol Services Bureau
   - PBBX; 48
   - PBQS
   - personnel
@@ -284,6 +289,8 @@ Precinct/Command:
   - Staten Island ferry detail
   - Staten Island Investigations Unit
   - Staten Island narcotics unit
+  - Strat Resp Group 1 Manh
+  - Strategic Resp Grp 1 Manhattan
   - Strategic Response Group
   - STRATEGIC RESPONSE GROUP 3 BROOKLYN
   - Strategic Response Group 5, Staten Island
@@ -296,6 +303,7 @@ Precinct/Command:
   - Transit Bureau
   - Transit Bureau anti-terror unit
   - TRANSIT BUREAU DISTRICT 2
+  - TRANSIT BUREAU DISTRICT 33
   - Transit Bureau Special Operations
   - Transit District 12
   - Transit District 3
@@ -304,6 +312,7 @@ Precinct/Command:
   - vice squad
   - Warrant Section
   - Warrants Squad
+  - World Trade Center
   - Yankee Stadium
   - Youth Strategies Division
   index:
@@ -330,6 +339,7 @@ Precinct/Command:
   - 13
   - 14
   - 212
+  - 289
   - 15
   - 16
   - 257
@@ -407,8 +417,6 @@ Precinct/Command:
   - 279
   - 72
   - 258
-  - 288
-  - 280
   - 233
   - 73
   - 234
@@ -439,11 +447,14 @@ Precinct/Command:
   - 90
   - 91
   - 92
+  - 290
   - 93
+  - 291
   - 94
   - 95
   - 96
   - 97
+  - 292
   - 98
   - 247
   - 282
@@ -509,6 +520,7 @@ Precinct/Command:
   - 139
   - 140
   - 141
+  - 293
   - 142
   - 255
   - 241
@@ -529,6 +541,7 @@ Precinct/Command:
   - 157
   - 158
   - 159
+  - 294
   - 273
   - 160
   - 161
@@ -539,6 +552,7 @@ Precinct/Command:
   - 163
   - 164
   - 165
+  - 295
   - 166
   - 226
   - 167
@@ -573,6 +587,8 @@ Precinct/Command:
   - 192
   - 193
   - 194
+  - 296
+  - 297
   - 195
   - 238
   - 196
@@ -585,6 +601,7 @@ Precinct/Command:
   - 202
   - 203
   - 239
+  - 298
   - 287
   - 204
   - 205
@@ -593,6 +610,7 @@ Precinct/Command:
   - 207
   - 208
   - 209
+  - 299
   - 210
   - 232
   ordered: no
