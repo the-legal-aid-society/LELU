@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 3daca1ff9b8ffb1793b710b9437f6d5d3ee5e77b
-  data_hash: b7ae69e75e4e8cd2ab863860714cf87beb379513
+  hash: f7024c8def62d4f67df0f7050ca6aed0004d329b
+  data_hash: 5ce6727991d25b7d7c3040654e193c614e5e1208
 'Tax #':
   class: numeric
 Officer Profile:
@@ -243,6 +243,7 @@ Current command:
   - BKROBSQ
   - BLDG MAINT
   - BM SEC
+  - BMD BAS
   - BN CAS
   - BN CRIME ANL
   - BN GRAND LARC
@@ -328,6 +329,7 @@ Current command:
   - CD OFF
   - CD OP/D
   - CD OP/U
+  - CEASEFIRE
   - CEIS BES TF
   - CEN REC
   - CENROBB
@@ -444,6 +446,7 @@ Current command:
   - DB RTCC
   - DB SI
   - DB SID
+  - DB SIU
   - DB SPEC ENF DIV
   - DB SVD
   - DB TCU
@@ -561,7 +564,6 @@ Current command:
   - FAM EXEMPT
   - FAM SEC
   - FAM SUPP TEAM
-  - FIN CRM SEC
   - FIREARMS INV
   - FIS DIV
   - FISCAL AFF
@@ -734,6 +736,7 @@ Current command:
   - ITB
   - ITB ADM DIV
   - ITB INV
+  - ITB WHEEL
   - ITSD
   - JAMAICA AVE BID
   - JB/R/TF
@@ -741,6 +744,7 @@ Current command:
   - JOINT ORG CRM TF
   - JT T/F
   - JTTF
+  - JUV CRIME
   - JUV CRM
   - L S S D
   - L.I.M.S
@@ -764,6 +768,7 @@ Current command:
   - M SVS
   - M TRANS RB SQD
   - M WARRANT SQD
+  - M&B ANALYSIS
   - M/N-NE
   - M/N-NW
   - M/S-DND
@@ -980,6 +985,7 @@ Current command:
   - PCO RTC
   - PEN SEC
   - PER BUR
+  - PHOTO-S
   - PHOTO-U
   - PI&REQ
   - PLT MGT
@@ -989,6 +995,7 @@ Current command:
   - POL LAB
   - POL PEN
   - POL PENSION
+  - PRINT SEC
   - PRINTS
   - PROF SB
   - PROP CLK
@@ -1100,6 +1107,7 @@ Current command:
   - SIB PMO
   - SIHU
   - SIL
+  - SIU CRIME STOP
   - SOD HOU
   - SOD SRG
   - SOD T/U
@@ -1476,6 +1484,7 @@ Current command:
   - 200
   - 201
   - 203
+  - 212
   - 204
   - 205
   - 206
@@ -1561,6 +1570,7 @@ Current command:
   - 284
   - 285
   - 286
+  - 1209
   - 287
   - 288
   - 289
@@ -1677,6 +1687,7 @@ Current command:
   - 394
   - 395
   - 396
+  - 1235
   - 397
   - 398
   - 943
@@ -1794,7 +1805,6 @@ Current command:
   - 506
   - 507
   - 508
-  - 509
   - 510
   - 511
   - 512
@@ -1967,6 +1977,7 @@ Current command:
   - 675
   - 676
   - 677
+  - 1236
   - 678
   - 679
   - 680
@@ -1974,6 +1985,7 @@ Current command:
   - 682
   - 683
   - 684
+  - 1237
   - 685
   - 686
   - 687
@@ -1997,6 +2009,7 @@ Current command:
   - 705
   - 706
   - 707
+  - 1238
   - 708
   - 709
   - 710
@@ -2213,6 +2226,7 @@ Current command:
   - 918
   - 919
   - 920
+  - 1239
   - 921
   - 922
   - 923
@@ -2222,6 +2236,7 @@ Current command:
   - 927
   - 928
   - 929
+  - 1240
   - 930
   - 931
   - 932
@@ -2333,6 +2348,7 @@ Current command:
   - 1037
   - 1038
   - 1039
+  - 1241
   - 1040
   - 1041
   - 1042
