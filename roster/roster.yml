@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: f7024c8def62d4f67df0f7050ca6aed0004d329b
-  data_hash: b304a455e9d722b2a79ccc121f580c18e1a35a75
+  hash: b5b33e2711fef454598a84aa43234de3345a6196
+  data_hash: 897924dc35ae6b173eb04424b329f7312497e0a7
 'Tax #':
   class: numeric
 Officer Profile:
@@ -329,7 +329,6 @@ Current command:
   - CD OFF
   - CD OP/D
   - CD OP/U
-  - CEASEFIRE
   - CEIS BES TF
   - CEN REC
   - CENROBB
@@ -573,6 +572,7 @@ Current command:
   - FM DIV
   - FM SEC
   - FMD CMS
+  - FMD CUST
   - FOR INV
   - FORCE ID
   - FORCE ID Z1
@@ -695,7 +695,6 @@ Current command:
   - IAB IU 33
   - IAB IU 34
   - IAB IU 41
-  - IAB IU 42
   - IAB IU 53
   - IAB IU 56
   - IAB RESOURCE
@@ -802,10 +801,12 @@ Current command:
   - MS BID
   - MS CAS
   - MS CRIME ANL
+  - MS GL PPT
   - MS GRAND LARC
   - MS OP NIGHT
   - MS SU CRT
   - MS SU ECT
+  - MS TD UNIT
   - MS TIMES SQ
   - MTN DET
   - MTN PCT
@@ -1154,6 +1155,9 @@ Current command:
   - SVD Z2
   - SVD Z3
   - SVU ADULT
+  - SVU CEHT TF
+  - SVU HS ST TF
+  - SVU HU TR SQ
   - T.A.R.U
   - TARU
   - TAXI SQ
@@ -1161,6 +1165,7 @@ Current command:
   - TB
   - TB ATER
   - TB ATU
+  - TB ATU 3
   - TB BK
   - TB BK TF
   - TB BKTF
@@ -1198,6 +1203,7 @@ Current command:
   - TB M/TF
   - TB MAN TF
   - TB MANH
+  - TB MCTF
   - TB Q/TF
   - TB QNS
   - TB RESP
@@ -1570,7 +1576,6 @@ Current command:
   - 284
   - 285
   - 286
-  - 1209
   - 287
   - 288
   - 289
@@ -1814,6 +1819,7 @@ Current command:
   - 515
   - 516
   - 517
+  - 509
   - 518
   - 519
   - 520
@@ -1936,7 +1942,6 @@ Current command:
   - 635
   - 636
   - 637
-  - 1231
   - 639
   - 640
   - 641
@@ -2043,10 +2048,12 @@ Current command:
   - 738
   - 739
   - 740
+  - 1242
   - 741
   - 742
   - 743
   - 744
+  - 1243
   - 745
   - 746
   - 747
@@ -2395,6 +2402,9 @@ Current command:
   - 1082
   - 1083
   - 1219
+  - 1244
+  - 1245
+  - 1246
   - 1084
   - 1085
   - 1086
@@ -2402,6 +2412,7 @@ Current command:
   - 1088
   - 1089
   - 1090
+  - 1247
   - 1091
   - 1092
   - 1093
@@ -2439,6 +2450,7 @@ Current command:
   - 1123
   - 1124
   - 1125
+  - 1248
   - 1126
   - 1127
   - 1128
