@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: d2d24227156946fe67922cbf4dc13f76bd1140b0
-  data_hash: af77636ed3abd2b292aa81369f9f263ae338e3d4
+  hash: f988ca20b292f8b85df59d75a76efe3feb68b12a
+  data_hash: 60b3c6c6b4625d5da0bbb4890e1586cbebfd8ece
 Officer Name:
   class: character
 Document:
@@ -26,6 +26,7 @@ Precinct/Command:
   - '10'
   - '100'
   - '101'
+  - 101ST DET SQUAD
   - '102'
   - '103'
   - '104'
@@ -34,6 +35,7 @@ Precinct/Command:
   - '106'
   - '107'
   - '108'
+  - 108TH DET SQUAD
   - '109'
   - '110'
   - 110 Detective Squad
@@ -42,6 +44,7 @@ Precinct/Command:
   - 113TH DET SQUAD
   - '114'
   - 114 Det Squad
+  - 114TH DET SQUAD
   - '115'
   - '120'
   - '121'
@@ -133,6 +136,7 @@ Precinct/Command:
   - Bronx Housing Bureau
   - Bronx narcotics
   - Bronx Narcotics
+  - Bronx Public Safety Unit
   - Brooklyn DA Civil Rights and Police Integrity Bureau
   - Brooklyn narcotics
   - Brooklyn North Gang unit
@@ -159,6 +163,7 @@ Precinct/Command:
   - Criminal Intel Section
   - Department of Homeless Services
   - DET BORO BKLYN NO HOMICIDE SQ
+  - DET BORO MAN NO HOMICIDE SQ
   - DET SQUAD
   - DOC
   - Document Fraud
@@ -170,6 +175,7 @@ Precinct/Command:
   - Executive Protection Unit
   - ferry security
   - Field Intelligence Unit
+  - FINANCIAL CRIMES TASK FORCE
   - Firearms Training Section
   - Fleet Services
   - Force Investigation Division
@@ -177,6 +183,7 @@ Precinct/Command:
   - gun violence suppression division
   - Gun Violence Suppression Division
   - Hate Crimes Task Force
+  - HEALTH AND WELLNESS SECTION
   - HIGHWAY DISTRICT 1
   - Highway Patrol unit
   - highway unit
@@ -188,8 +195,10 @@ Precinct/Command:
   - Housing Police Service Area
   - Housing Police Service Area 1
   - Housing Police Service Area 8
+  - HOUSING PSA 2
   - HOUSING PSA 3
   - Housing PSA 5
+  - HOUSING PSA 5
   - HOUSING PSA2
   - IAB
   - INTEL-CRIMINAL INTEL SECTION
@@ -204,6 +213,7 @@ Precinct/Command:
   - Legal Affairs Bureau
   - License Division
   - Licensing Division
+  - MAJOR CASE SQUAD
   - MAN COURT SECTION
   - MAN/BX SS ZONE
   - MANH ROBBERY SQUAD
@@ -222,10 +232,12 @@ Precinct/Command:
   - Midtown North
   - Midtown South
   - MIDTOWN SOUTH
+  - MILITARY & EXTEND LEAVE DESK
   - MILITARY & EXTENDED LEAVE DESK
   - Missing persons
   - NARC BORO BKLYN NORTH
   - NARC BORO BROOKLYN NORTH
+  - NARC BORO QUEENS NORTH
   - NARCBBN
   - NARCBMS
   - Narcotic Borough Manhattan South
@@ -283,6 +295,7 @@ Precinct/Command:
   - School Safety
   - sex crimes unit
   - Special Operations Division
+  - SPECIAL VICTIMS DIV ZONE 2
   - Special Victims Division
   - SPECIALIZED TRAINING SECTION
   - Staten Island Court
@@ -291,6 +304,7 @@ Precinct/Command:
   - Staten Island narcotics unit
   - Strat Resp Group 1 Manh
   - Strategic Resp Grp 1 Manhattan
+  - STRATEGIC RESP GRP 4 QUEENS
   - Strategic Response Group
   - STRATEGIC RESPONSE GROUP 3 BROOKLYN
   - Strategic Response Group 5, Staten Island
@@ -324,6 +338,7 @@ Precinct/Command:
   - 259
   - 4
   - 5
+  - 280
   - 244
   - 6
   - 7
@@ -332,6 +347,7 @@ Precinct/Command:
   - 229
   - 228
   - 9
+  - 288
   - 10
   - 11
   - 12
@@ -340,6 +356,7 @@ Precinct/Command:
   - 14
   - 212
   - 289
+  - 300
   - 15
   - 16
   - 257
@@ -431,6 +448,7 @@ Precinct/Command:
   - 78
   - 277
   - 79
+  - 301
   - 80
   - 81
   - 235
@@ -457,6 +475,7 @@ Precinct/Command:
   - 292
   - 98
   - 247
+  - 302
   - 282
   - 99
   - 100
@@ -468,6 +487,7 @@ Precinct/Command:
   - 102
   - 103
   - 230
+  - 303
   - 104
   - 105
   - 106
@@ -475,6 +495,7 @@ Precinct/Command:
   - 107
   - 108
   - 109
+  - 304
   - 265
   - 110
   - 242
@@ -486,8 +507,10 @@ Precinct/Command:
   - 115
   - 116
   - 117
+  - 305
   - 253
   - 118
+  - 306
   - 266
   - 119
   - 254
@@ -502,6 +525,7 @@ Precinct/Command:
   - 127
   - 128
   - 129
+  - 307
   - 284
   - 272
   - 285
@@ -520,10 +544,12 @@ Precinct/Command:
   - 139
   - 140
   - 141
+  - 308
   - 293
   - 142
   - 255
   - 241
+  - 309
   - 143
   - 144
   - 145
@@ -581,6 +607,7 @@ Precinct/Command:
   - 187
   - 188
   - 189
+  - 310
   - 190
   - 274
   - 191
@@ -589,6 +616,7 @@ Precinct/Command:
   - 194
   - 296
   - 297
+  - 311
   - 195
   - 238
   - 196
