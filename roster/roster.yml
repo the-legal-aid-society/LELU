@@ -2,10 +2,10 @@
   git2rdata: 0.4.0
   optimize: no
   NA string: NA
-  hash: 60d369b702969a228d00bbe4de55d60c21d4f295
-  data_hash: 18146b1d4f3a13648191f60b65f09d997ad86b49
+  hash: d7bf7d20fe9b01ae0d9e57e6d76da61ff819539a
+  data_hash: f3419e88ee73aa934665b0ce89dc8387a2e3f6af
 'Tax #':
-  class: numeric
+  class: character
 Officer Profile:
   class: character
 Roster Date:
