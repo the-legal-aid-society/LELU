@@ -1,6 +1,6 @@
 ..generic:
   git2rdata: 0.4.0
-  optimize: no
+  optimize: yes
   NA string: NA
   sorting:
   - Officer Name
@@ -8,8 +8,8 @@
   - Document
   - 'Case #'
   - Charge description
-  hash: 0182e43525e172ee8469609162d4f21ec1fb378f
-  data_hash: f280bcacb4a5fe7014d38ff934c2680f374ef5c7
+  hash: 1f117d8922a159710a35bb3703b24fe19f953abc
+  data_hash: d73fd5ceb78d66fd1221bf14eab2a9df8c259c13
 Officer Name:
   class: character
 Type:

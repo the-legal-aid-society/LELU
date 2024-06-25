@@ -1,9 +1,9 @@
 ..generic:
   git2rdata: 0.4.0
-  optimize: no
+  optimize: yes
   NA string: NA
-  hash: 9739c7c31eef459981b2f4bdfc1876e674b6830c
-  data_hash: 4a19fe1c84baf8f2764e5928d881803b212b420d
+  hash: ad18f5d414c54e14ac6dc817c624845a294b67f3
+  data_hash: f9c2d0ab936cf084b88f8094af796afd88609dcb
 Fiscal year:
   class: numeric
 Agency:

@@ -1,12 +1,12 @@
 ..generic:
   git2rdata: 0.4.0
-  optimize: no
+  optimize: yes
   NA string: NA
   sorting:
   - Officer Name
   - Document
-  hash: f988ca20b292f8b85df59d75a76efe3feb68b12a
-  data_hash: 60b3c6c6b4625d5da0bbb4890e1586cbebfd8ece
+  hash: a60e17783487db014b2d473982308e5f984de136
+  data_hash: 23596a9b353e043fff0f242e8fd9d1eaa3deaea0
 Officer Name:
   class: character
 Document:

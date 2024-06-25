@@ -1,9 +1,9 @@
 ..generic:
   git2rdata: 0.4.0
-  optimize: no
+  optimize: yes
   NA string: NA
-  hash: 22a5778502a211ceb7890711d95a359e677aa99a
-  data_hash: d3238e6c5ed78ebf3a521e17be3cb775d175e698
+  hash: d005f5c5d971a7163c09d37a42de7b4f7c1d4e09
+  data_hash: 80960efbd76bb259b0c987bcbb71f766adaaf583
 Officer Last Name:
   class: character
 'Shield #':

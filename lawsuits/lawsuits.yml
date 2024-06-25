@@ -1,9 +1,9 @@
 ..generic:
   git2rdata: 0.4.0
-  optimize: no
+  optimize: yes
   NA string: NA
-  hash: 3889229ca9226812b2900ead1a4625c7114b2f71
-  data_hash: 40cdea7dba434f49c53d0f67346bde3447809bec
+  hash: 767905c04d8b0a970006c40232c0b87c03629490
+  data_hash: 418969fd7e0b8271bbf91caa5baa3bacbce14772
 Officer Defendant:
   class: character
 'Tax #':
