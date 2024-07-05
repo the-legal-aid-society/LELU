@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: a7ecd4697919e02e83a4bd63b00c0767418b01cb
-  data_hash: 4792131b91570f77b9a7f2802033876504497d0a
+  hash: d29cf09360308e3b35319b0ee2f5d01e54961efc
+  data_hash: 6dd84cce669ac61c80754732262c2de77943c4a1
 'Tax #':
   class: character
 Officer last name:
@@ -202,8 +202,8 @@ Current command:
   - BH DIV
   - BK CHILD
   - BK COURT
-  - BK SAT
   - BK SVS
+  - BK TCS
   - BK TRAN ROB SQD
   - BKLN CT
   - BKLYN ATU
@@ -244,7 +244,7 @@ Current command:
   - BX SU CRT
   - BX SU ECT
   - BX SVS
-  - BX TRAN ROB
+  - BX TCS
   - BX VICE
   - BX WARRANT SQD
   - BX/N-ND
@@ -396,6 +396,7 @@ Current command:
   - DB SPEC ENF DIV
   - DB SVD
   - DB TCU
+  - DB TSIS
   - DB TSIU
   - DBBKZ10
   - DBBKZ11
@@ -426,7 +427,6 @@ Current command:
   - DBMS
   - DBMS OP
   - DBQ Z17
-  - DBQ Z51
   - DBQ Z61
   - DBQN
   - DBQN OP
@@ -503,6 +503,7 @@ Current command:
   - FAM ASSIST
   - FAM EXEMPT
   - FAM SEC
+  - FAM SUPP TEAM
   - FIREARMS INV
   - FIS DIV
   - FLT SRV
@@ -588,12 +589,9 @@ Current command:
   - IAB CRIM INV
   - IAB GRP 1
   - IAB GRP 10
-  - IAB GRP 21
   - IAB GRP 22
-  - IAB GRP 26
   - IAB GRP 32
   - IAB GRP 33
-  - IAB GRP 41
   - IAB GRP 42
   - IAB GRP 53
   - IAB GRP 54
@@ -615,7 +613,7 @@ Current command:
   - IAB IU 56
   - IAB RESOURCE
   - IAB SPEC OPS
-  - IAB SUPP SERV
+  - IAB Z2
   - IAB Z3
   - IAB Z4
   - IAB Z5
@@ -643,6 +641,7 @@ Current command:
   - INTEL INV UNIT
   - INV REVIEW
   - INV SUP
+  - IRS TF
   - IT PRGM MGMT
   - ITB
   - ITB ADM DIV
@@ -684,6 +683,7 @@ Current command:
   - MAJOR INV SQD
   - MAN CT
   - MAN SAT
+  - MANH TCS
   - MB SSZN
   - MC/SQD
   - MCS CHILD EXP
@@ -910,6 +910,7 @@ Current command:
   - PSA7 VIPER11
   - PSA8 VIPER4
   - PSA9 VIPER3
+  - PSAC I SEC
   - PSAC II SEC
   - PSB CRT
   - PSB IES
@@ -936,6 +937,7 @@ Current command:
   - QN SU ALU
   - QN SU CRT
   - QN SU ECT
+  - QN TCS
   - QN TRANSIT ROB
   - QN VICE
   - QNROBSQ
@@ -1023,6 +1025,7 @@ Current command:
   - STR FOR
   - STR FORCE
   - STRAT ANL SECT
+  - SUM YOUTH
   - SVD DATA ANL
   - SVD DNA COLD
   - SVD IRTU
@@ -1107,10 +1110,12 @@ Current command:
   - TD 32
   - TD 33
   - TD 34
+  - TD 34 SUMMER
   - TD 4
   - TD DT20
   - TEL ANALYSIS
   - TNG UNT
+  - TNT TF
   - TR/BXTF
   - TR/STED
   - TRAFF ENF DIST
@@ -1342,8 +1347,8 @@ Current command:
   - 187
   - 188
   - 189
-  - 190
   - 191
+  - 1140
   - 192
   - 193
   - 194
@@ -1384,7 +1389,7 @@ Current command:
   - 229
   - 230
   - 231
-  - 232
+  - 1141
   - 233
   - 234
   - 235
@@ -1536,6 +1541,7 @@ Current command:
   - 381
   - 382
   - 383
+  - 1142
   - 384
   - 385
   - 386
@@ -1566,7 +1572,6 @@ Current command:
   - 411
   - 412
   - 413
-  - 414
   - 415
   - 416
   - 417
@@ -1643,6 +1648,7 @@ Current command:
   - 488
   - 489
   - 490
+  - 1143
   - 491
   - 492
   - 493
@@ -1728,12 +1734,9 @@ Current command:
   - 573
   - 574
   - 575
-  - 576
   - 577
-  - 578
   - 579
   - 580
-  - 581
   - 582
   - 583
   - 584
@@ -1755,7 +1758,7 @@ Current command:
   - 600
   - 601
   - 602
-  - 603
+  - 1144
   - 604
   - 605
   - 606
@@ -1783,6 +1786,7 @@ Current command:
   - 628
   - 629
   - 630
+  - 1145
   - 631
   - 632
   - 633
@@ -1824,6 +1828,7 @@ Current command:
   - 669
   - 670
   - 671
+  - 1146
   - 672
   - 673
   - 674
@@ -2050,6 +2055,7 @@ Current command:
   - 895
   - 896
   - 897
+  - 1147
   - 898
   - 899
   - 900
@@ -2076,6 +2082,7 @@ Current command:
   - 921
   - 922
   - 923
+  - 1148
   - 924
   - 925
   - 926
@@ -2163,6 +2170,7 @@ Current command:
   - 1008
   - 1009
   - 1010
+  - 1149
   - 1011
   - 1012
   - 1013
@@ -2247,10 +2255,12 @@ Current command:
   - 1092
   - 1093
   - 1094
+  - 1150
   - 1095
   - 1096
   - 1097
   - 1098
+  - 1151
   - 1099
   - 1100
   - 1101

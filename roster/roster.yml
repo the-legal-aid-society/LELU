@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 11a30a78060c7b37a6cf5254f28505ec4aa0d6b9
-  data_hash: a2ab28284cce58c218cec5e28d7facd341eeb960
+  hash: 74f18a341a5aa7dfa82b5f674911434819f74d1d
+  data_hash: 2050a70c33dd5e733aebbabd36b0c72ab3ce0f2d
 'Tax #':
   class: character
 Officer Profile:
@@ -240,6 +240,7 @@ Current command:
   - BK COURT
   - BK SAT
   - BK SVS
+  - BK TCS
   - BK TRAN ROB SQD
   - BKLN CT
   - BKLYN ATU
@@ -283,7 +284,7 @@ Current command:
   - BX SU CRT
   - BX SU ECT
   - BX SVS
-  - BX TRAN ROB
+  - BX TCS
   - BX VICE
   - BX WARRANT SQD
   - BX/N-ND
@@ -453,6 +454,7 @@ Current command:
   - DB SPEC ENF DIV
   - DB SVD
   - DB TCU
+  - DB TSIS
   - DB TSIU
   - DBBKZ10
   - DBBKZ11
@@ -484,7 +486,6 @@ Current command:
   - DBMS
   - DBMS OP
   - DBQ Z17
-  - DBQ Z51
   - DBQ Z61
   - DBQN
   - DBQN OP
@@ -683,12 +684,10 @@ Current command:
   - IAB GRP 12
   - IAB GRP 21
   - IAB GRP 22
-  - IAB GRP 26
   - IAB GRP 27
   - IAB GRP 32
   - IAB GRP 33
   - IAB GRP 34
-  - IAB GRP 41
   - IAB GRP 42
   - IAB GRP 53
   - IAB GRP 54
@@ -742,6 +741,7 @@ Current command:
   - INTEL INV UNIT
   - INV REVIEW
   - INV SUP
+  - IRS TF
   - IT PRGM MGMT
   - ITB
   - ITB ADM DIV
@@ -787,6 +787,7 @@ Current command:
   - MAJOR INV SQD
   - MAN CT
   - MAN SAT
+  - MANH TCS
   - MB SSZC
   - MB SSZN
   - MC/SQD
@@ -1032,6 +1033,7 @@ Current command:
   - PSA7 VIPER11
   - PSA8 VIPER4
   - PSA9 VIPER3
+  - PSAC I SEC
   - PSAC II SEC
   - PSB CRT
   - PSB IES
@@ -1060,6 +1062,7 @@ Current command:
   - QN SU ALU
   - QN SU CRT
   - QN SU ECT
+  - QN TCS
   - QN TRANSIT ROB
   - QN VICE
   - QNROBSQ
@@ -1158,6 +1161,7 @@ Current command:
   - STR FORCE
   - STRAT ANL SECT
   - STU1
+  - SUM YOUTH
   - SUPP SVC DIV
   - SVD DATA ANL
   - SVD DNA COLD
@@ -1244,6 +1248,7 @@ Current command:
   - TD 32
   - TD 33
   - TD 34
+  - TD 34 SUMMER
   - TD 4
   - TD C/AN
   - TD DT01
@@ -1260,6 +1265,7 @@ Current command:
   - TD INV
   - TEL ANALYSIS
   - TNG UNT
+  - TNT TF
   - TR/BKTF
   - TR/BXTF
   - TR/QTF
@@ -1503,6 +1509,7 @@ Current command:
   - 195
   - 1249
   - 197
+  - 196
   - 198
   - 199
   - 1250
@@ -1546,7 +1553,7 @@ Current command:
   - 238
   - 239
   - 240
-  - 241
+  - 236
   - 242
   - 243
   - 244
@@ -1716,6 +1723,7 @@ Current command:
   - 397
   - 398
   - 943
+  - 282
   - 399
   - 400
   - 401
@@ -1747,7 +1755,6 @@ Current command:
   - 423
   - 424
   - 426
-  - 1257
   - 1258
   - 427
   - 428
@@ -1946,12 +1953,10 @@ Current command:
   - 613
   - 614
   - 615
-  - 616
   - 617
   - 618
   - 619
   - 1230
-  - 621
   - 622
   - 623
   - 624
@@ -2005,6 +2010,7 @@ Current command:
   - 671
   - 672
   - 673
+  - 316
   - 674
   - 675
   - 676
@@ -2050,6 +2056,7 @@ Current command:
   - 713
   - 714
   - 1264
+  - 425
   - 716
   - 717
   - 718
@@ -2295,6 +2302,7 @@ Current command:
   - 949
   - 950
   - 951
+  - 483
   - 952
   - 953
   - 954
@@ -2323,6 +2331,7 @@ Current command:
   - 1213
   - 975
   - 976
+  - 798
   - 977
   - 978
   - 979
@@ -2421,6 +2430,7 @@ Current command:
   - 1069
   - 715
   - 1070
+  - 968
   - 1072
   - 1074
   - 1075
@@ -2507,6 +2517,7 @@ Current command:
   - 1146
   - 1147
   - 1148
+  - 1067
   - 1149
   - 1150
   - 1151
@@ -2523,6 +2534,7 @@ Current command:
   - 1162
   - 1163
   - 1164
+  - 1215
   - 1165
   - 1166
   - 1167
