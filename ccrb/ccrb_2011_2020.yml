@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 56f40561809f4af7f007a9a3e7075c946cf871b2
-  data_hash: 4d878e69723d202f03062cfc6460395a7ad0308e
+  hash: a7ecd4697919e02e83a4bd63b00c0767418b01cb
+  data_hash: 4792131b91570f77b9a7f2802033876504497d0a
 'Tax #':
   class: character
 Officer last name:
@@ -2352,6 +2352,7 @@ Allegation:
   labels:
   - Action
   - Animal
+  - Bias-Based Policing (Color)
   - Bias-Based Policing (Disability)
   - Bias-Based Policing (Gender)
   - Bias-Based Policing (National Origin)
@@ -2453,6 +2454,7 @@ Allegation:
   index:
   - 1
   - 2
+  - 101
   - 3
   - 4
   - 5
@@ -6489,6 +6491,7 @@ Victim race/ethnicity at incident:
   - 'Dominican (E); Other (R): Persian/Iranian'
   - 'Dominican (E); Other (R): Puerto Rican'
   - Dominican (E); Other Hispanic/Latino (E)
+  - Dominican (E); Other Pacific Island (R)
   - Dominican (E); Puerto Rican (E)
   - Dominican (E); White/Caucasian (R)
   - Filipino (R)
@@ -6616,6 +6619,7 @@ Victim race/ethnicity at incident:
   - 46
   - 47
   - 48
+  - 127
   - 49
   - 50
   - 51

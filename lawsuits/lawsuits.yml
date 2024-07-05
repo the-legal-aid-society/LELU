@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 767905c04d8b0a970006c40232c0b87c03629490
-  data_hash: 418969fd7e0b8271bbf91caa5baa3bacbce14772
+  hash: a001ffa2ba343fa7afb1fe15ad84de179ef1343f
+  data_hash: 4649713f2321c19705cd81462a98016cc5a4c3d1
 Officer Defendant:
   class: character
 'Tax #':
@@ -25,10 +25,10 @@ Payout:
   class: numeric
 Lit Start:
   class: Date
-  format: '%Y-%m-%d'
+  origin: '1970-01-01'
 Disp Date:
   class: Date
-  format: '%Y-%m-%d'
+  origin: '1970-01-01'
 Court:
   class: factor
   labels:

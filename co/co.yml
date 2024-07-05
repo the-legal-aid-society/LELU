@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: d005f5c5d971a7163c09d37a42de7b4f7c1d4e09
-  data_hash: 80960efbd76bb259b0c987bcbb71f766adaaf583
+  hash: e4e1b49f64592c0ce868da70ead34ed40a6910ba
+  data_hash: 9341a2f5664da3325d91acded5eb100456fc8628
 Officer Last Name:
   class: character
 'Shield #':
@@ -18,10 +18,10 @@ Case Description:
   class: character
 Npa Execution Date:
   class: Date
-  format: '%Y-%m-%d'
+  origin: '1970-01-01'
 Date Closed:
   class: Date
-  format: '%Y-%m-%d'
+  origin: '1970-01-01'
 Disposition:
   class: factor
   labels:

@@ -2,15 +2,15 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: ab853bfc3afb7796aeb8fcffa5a1a3b6b0e1c72f
-  data_hash: 265ceb7a95ceab3848c7b794ae62cbc2a8bb1a42
+  hash: 11a30a78060c7b37a6cf5254f28505ec4aa0d6b9
+  data_hash: a2ab28284cce58c218cec5e28d7facd341eeb960
 'Tax #':
   class: character
 Officer Profile:
   class: character
 Roster Date:
   class: Date
-  format: '%Y-%m-%d'
+  origin: '1970-01-01'
 Officer first name:
   class: character
 Officer last name:
@@ -2612,7 +2612,7 @@ Active status:
   ordered: no
 Last active:
   class: Date
-  format: '%Y-%m-%d'
+  origin: '1970-01-01'
 AKA:
   class: character
 other shields:

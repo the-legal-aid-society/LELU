@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 56f40561809f4af7f007a9a3e7075c946cf871b2
+  hash: a7ecd4697919e02e83a4bd63b00c0767418b01cb
   data_hash: e39c632169d0d0e0cca380895a463b900d2f9e6c
 'Tax #':
   class: character
@@ -2352,6 +2352,7 @@ Allegation:
   labels:
   - Action
   - Animal
+  - Bias-Based Policing (Color)
   - Bias-Based Policing (Disability)
   - Bias-Based Policing (Gender)
   - Bias-Based Policing (National Origin)
@@ -2453,6 +2454,7 @@ Allegation:
   index:
   - 1
   - 2
+  - 101
   - 3
   - 4
   - 5
@@ -6489,6 +6491,7 @@ Victim race/ethnicity at incident:
   - 'Dominican (E); Other (R): Persian/Iranian'
   - 'Dominican (E); Other (R): Puerto Rican'
   - Dominican (E); Other Hispanic/Latino (E)
+  - Dominican (E); Other Pacific Island (R)
   - Dominican (E); Puerto Rican (E)
   - Dominican (E); White/Caucasian (R)
   - Filipino (R)
@@ -6616,6 +6619,7 @@ Victim race/ethnicity at incident:
   - 46
   - 47
   - 48
+  - 127
   - 49
   - 50
   - 51
