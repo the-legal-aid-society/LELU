@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: d29cf09360308e3b35319b0ee2f5d01e54961efc
-  data_hash: 3cb363608105cfd5c5dfe7716a5627ee0a2bf64b
+  hash: 4aee45d86418bbaa11b8c0ab0ac4a6229c888378
+  data_hash: bf90aec60691287304bcc522e0b3b289b68898eb
 'Tax #':
   class: character
 Officer last name:
@@ -2901,6 +2901,7 @@ NYPD Penalty:
   - Dismissal Probation 365 days / Suspension 30 days / Forfeit vacation 45 days
   - Dismissed
   - Forced Separation / Forfeit vacation 26 days
+  - Forfeit vacation
   - Forfeit vacation 1 days
   - Forfeit vacation 1 days / Command Discipline A
   - Forfeit vacation 10 days
@@ -3083,6 +3084,7 @@ NYPD Penalty:
   - 56
   - 57
   - 58
+  - 182
   - 59
   - 60
   - 61
@@ -4416,6 +4418,7 @@ Command at incident:
   - I.A.B
   - I.A.B.
   - IAB
+  - IAB IU 12
   - IAB IU 33
   - ID SECT
   - INSRVTR
@@ -5828,6 +5831,7 @@ Command at incident:
   - 861
   - 862
   - 863
+  - 1412
   - 864
   - 865
   - 866
@@ -6558,6 +6562,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): No answer given'
   - 'Other (R): Peruvian'
   - 'Other (R): Spanish'
+  - 'Other (R): Turkish'
   - 'Other (R): West Indian'
   - 'Other (R): White/Hispanic ; White/Caucasian (R)'
   - Other (R); Puerto Rican (E)
@@ -6686,6 +6691,7 @@ Victim race/ethnicity at incident:
   - 102
   - 103
   - 104
+  - 128
   - 105
   - 106
   - 107
