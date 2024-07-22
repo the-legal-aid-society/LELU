@@ -5,7 +5,7 @@
   sorting:
   - Officer Name
   - Document
-  hash: a60e17783487db014b2d473982308e5f984de136
+  hash: f235da0d5728b30d9c3ffaa0b0101765266ceecd
   data_hash: bcd18a3f32a73ddd882cae355ab40ddd643c046b
 Officer Name:
   class: character
@@ -259,6 +259,7 @@ Precinct/Command:
   - NYPD auto pounds
   - NYPD civilian custodial assistant
   - office of management analysis and planning
+  - Patrol Border Queens North Community Response Team
   - PATROL BORO BKLYN NORTH
   - PATROL BORO MAN NORTH
   - PATROL BORO MAN SOUTH
@@ -571,6 +572,7 @@ Precinct/Command:
   - 273
   - 160
   - 161
+  - 312
   - 268
   - 256
   - 261

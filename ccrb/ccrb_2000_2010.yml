@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 4aee45d86418bbaa11b8c0ab0ac4a6229c888378
+  hash: 388ca141836a924c9fb2c531bcd290f9a8951536
   data_hash: d309f817d69236169804a0f0bcfa6e51b928fc80
 'Tax #':
   class: character
@@ -2884,6 +2884,7 @@ NYPD Penalty:
   - Command Discipline A
   - Command Discipline A / Formalized Training
   - Command Discipline A 1 days
+  - Command Discipline A 3 days
   - Command Discipline A 5 days
   - Command Discipline B
   - Command Discipline B 10 days
@@ -2962,6 +2963,7 @@ NYPD Penalty:
   - Suspension 10 days / Forfeit vacation 15 days
   - Suspension 10 days / Forfeit vacation 25 days
   - Suspension 15 days
+  - Suspension 15 days / Forfeit vacation 15 days
   - Suspension 25 days
   - Suspension 60 days
   - 'Suspension:'
@@ -3067,6 +3069,7 @@ NYPD Penalty:
   - 39
   - 40
   - 41
+  - 183
   - 42
   - 43
   - 44
@@ -3145,6 +3148,7 @@ NYPD Penalty:
   - 116
   - 117
   - 118
+  - 184
   - 119
   - 120
   - 121
@@ -3327,6 +3331,7 @@ APU Plea agreed penalty:
   - Instructions
   - Reprimand
   - Suspension 10 days
+  - Suspension 15 days
   index:
   - 1
   - 2
@@ -3370,6 +3375,7 @@ APU Plea agreed penalty:
   - 40
   - 41
   - 42
+  - 43
   ordered: no
 APU CCRB Trial recommended penalty:
   class: factor
@@ -3757,6 +3763,7 @@ Command at incident:
   - 077 Precinct
   - 078 DET
   - 078 PCT
+  - 078 PROSP PK
   - 079
   - 079 DET
   - 079 Pct
@@ -5170,6 +5177,7 @@ Command at incident:
   - 200
   - 201
   - 202
+  - 1413
   - 203
   - 204
   - 205
@@ -6550,6 +6558,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Haitian'
   - 'Other (R): Indian'
   - 'Other (R): Indian; South Asian (R)'
+  - 'Other (R): Italian; Puerto Rican (E)'
   - 'Other (R): Jewish'
   - 'Other (R): Jewish Askenazi'
   - 'Other (R): Jordanian'
@@ -6565,6 +6574,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Turkish'
   - 'Other (R): West Indian'
   - 'Other (R): White/Hispanic ; White/Caucasian (R)'
+  - Other (R); Other Asian (R)
   - Other (R); Puerto Rican (E)
   - Other (R); White/Caucasian (R)
   - Other Asian (R)
@@ -6679,6 +6689,7 @@ Victim race/ethnicity at incident:
   - 90
   - 91
   - 92
+  - 129
   - 93
   - 94
   - 95
@@ -6694,6 +6705,7 @@ Victim race/ethnicity at incident:
   - 128
   - 105
   - 106
+  - 130
   - 107
   - 108
   - 109
