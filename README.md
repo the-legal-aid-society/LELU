@@ -3,7 +3,7 @@ Data contained within Legal Aid Society's Law Enforcement Lookup (LELU)
 
 https://legalaidnyc.org/law-enforcement-look-up/
 
-Folders contain raw tsv and yml files corresponding to each tab of LELU.
+Folders contain raw csv and yml files corresponding to each tab of LELU.
 
 See 'About' Section of each LELU tab for information on the origins of the data. 
 
