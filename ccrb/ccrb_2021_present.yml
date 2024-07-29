@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 388ca141836a924c9fb2c531bcd290f9a8951536
-  data_hash: b4a89fa139778e80da0feb77540e55b1a390ef02
+  hash: 29c39f10efe2d348fa9651d0f86e6ab8cad007dc
+  data_hash: ddcc5a692074879e77b5c9e79634432b8228cfdb
 'Tax #':
   class: character
 Officer last name:
@@ -4311,6 +4311,7 @@ Command at incident:
   - Det 67pct
   - DET BUR
   - DIS CTL
+  - DOC FRAUD SQD
   - DPT ADV
   - DPT INV
   - DR.ED&T
@@ -4418,6 +4419,7 @@ Command at incident:
   - HWY 05
   - HWY 1
   - HWY 2
+  - HWY 3
   - HWY 5
   - HWY DST
   - HWY DST STS
@@ -4623,6 +4625,7 @@ Command at incident:
   - PBBS TF
   - PBBX
   - PBBX AC
+  - PBBX ORCHARD
   - PBBX SC
   - PBBX SU
   - PBBX SU PST
@@ -5725,6 +5728,7 @@ Command at incident:
   - 747
   - 748
   - 749
+  - 1414
   - 750
   - 751
   - 752
@@ -5832,6 +5836,7 @@ Command at incident:
   - 854
   - 855
   - 856
+  - 1415
   - 857
   - 858
   - 859
@@ -6037,6 +6042,7 @@ Command at incident:
   - 1058
   - 1059
   - 1060
+  - 1416
   - 1061
   - 1062
   - 1063
@@ -6476,10 +6482,12 @@ Victim race/ethnicity at incident:
   - Black and/or African American (R); Chinese (R)
   - Black and/or African American (R); Decline to Answer (NA)
   - Black and/or African American (R); Dominican (E)
+  - Black and/or African American (R); Filipino (R)
   - Black and/or African American (R); Japanese (R)
   - Black and/or African American (R); Non-Hispanic/Latino (E)
   - Black and/or African American (R); Other (R)
   - 'Black and/or African American (R); Other (R): African-American Jewish'
+  - 'Black and/or African American (R); Other (R): Asiatic'
   - 'Black and/or African American (R); Other (R): Biracial'
   - 'Black and/or African American (R); Other (R): Dominican'
   - 'Black and/or African American (R); Other (R): Haitian'
@@ -6525,6 +6533,7 @@ Victim race/ethnicity at incident:
   - Mexican, Chicano/a (E); Other Hispanic/Latino (E)
   - Middle Eastern/North African (R)
   - 'Middle Eastern/North African (R); Other (R): Arab'
+  - 'Middle Eastern/North African (R); Other (R): Mediterranean'
   - Middle Eastern/North African (R); Other Asian (R)
   - Middle Eastern/North African (R); White/Caucasian (R)
   - Multi Racial/Multi Ethnic
@@ -6559,6 +6568,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Indian'
   - 'Other (R): Indian; South Asian (R)'
   - 'Other (R): Italian; Puerto Rican (E)'
+  - 'Other (R): Jamaican'
   - 'Other (R): Jewish'
   - 'Other (R): Jewish Askenazi'
   - 'Other (R): Jordanian'
@@ -6607,10 +6617,12 @@ Victim race/ethnicity at incident:
   - 9
   - 10
   - 11
+  - 131
   - 12
   - 13
   - 14
   - 15
+  - 132
   - 16
   - 17
   - 18
@@ -6656,6 +6668,7 @@ Victim race/ethnicity at incident:
   - 57
   - 58
   - 59
+  - 133
   - 60
   - 61
   - 62
@@ -6690,6 +6703,7 @@ Victim race/ethnicity at incident:
   - 91
   - 92
   - 129
+  - 134
   - 93
   - 94
   - 95
