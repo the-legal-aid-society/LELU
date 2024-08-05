@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 1121aca7215207b537ab6e5c4789986e0ab45761
-  data_hash: fae877bd5f6b6431d1df637a29271c2d774e0f45
+  hash: a20513629d52e85e3d20a912361b31b681a43416
+  data_hash: ff65769e32511ac5846ed672a72b08a4c9286ecd
 'Tax #':
   class: character
 Roster Date:
@@ -490,6 +490,7 @@ Current command:
   - DBQN VIDEO
   - DBQS
   - DBQS OP
+  - DBQS VIDEO
   - DBSI
   - DBSI OP
   - DBSI VIDEO
@@ -506,6 +507,7 @@ Current command:
   - DC LABR
   - DC MAP
   - DC OPER
+  - DC OPS
   - DC TRIALS
   - DC TRL
   - DC TRNG
@@ -682,6 +684,7 @@ Current command:
   - IAB GRP 12
   - IAB GRP 21
   - IAB GRP 22
+  - IAB GRP 26
   - IAB GRP 27
   - IAB GRP 32
   - IAB GRP 33
@@ -752,7 +755,6 @@ Current command:
   - JOINT ORG CRM TF
   - JT T/F
   - JTTF
-  - JUV CRIME
   - JUV CRM
   - L S S D
   - L.I.M.S
@@ -816,7 +818,6 @@ Current command:
   - MS OP NIGHT
   - MS SU CRT
   - MS SU ECT
-  - MS TD UNIT
   - MS TIMES SQ
   - MS VICE
   - MTN DET
@@ -1132,6 +1133,7 @@ Current command:
   - SP FRDS
   - SP INV
   - SPEC NARC
+  - SPECAT
   - SPL TRN
   - SPORTS UNIT
   - SPRING 3100
@@ -1151,6 +1153,7 @@ Current command:
   - SSB
   - SSB INV
   - SSD INV
+  - SSD JUV CR
   - SSD YRT
   - STAFFSV
   - STD
@@ -1161,6 +1164,7 @@ Current command:
   - STU1
   - SUM YOUTH
   - SUPP SVC DIV
+  - SVD CAS
   - SVD DATA ANL
   - SVD DNA COLD
   - SVD IRTU
@@ -1759,6 +1763,7 @@ Current command:
   - 808
   - 429
   - 430
+  - 241
   - 431
   - 432
   - 1229
@@ -1775,6 +1780,7 @@ Current command:
   - 443
   - 444
   - 445
+  - 616
   - 446
   - 447
   - 448
@@ -1951,6 +1957,7 @@ Current command:
   - 613
   - 614
   - 615
+  - 621
   - 617
   - 618
   - 619
@@ -2021,7 +2028,6 @@ Current command:
   - 682
   - 683
   - 684
-  - 1237
   - 685
   - 686
   - 687
@@ -2085,7 +2091,6 @@ Current command:
   - 742
   - 743
   - 744
-  - 1243
   - 745
   - 1265
   - 746
@@ -2401,6 +2406,7 @@ Current command:
   - 1043
   - 1044
   - 1073
+  - 1216
   - 1045
   - 1046
   - 1047
@@ -2420,6 +2426,7 @@ Current command:
   - 1061
   - 1062
   - 1063
+  - 1223
   - 1064
   - 1065
   - 1066
@@ -2430,6 +2437,7 @@ Current command:
   - 1070
   - 968
   - 1072
+  - 1257
   - 1074
   - 1075
   - 1076

@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 29c39f10efe2d348fa9651d0f86e6ab8cad007dc
-  data_hash: d309f817d69236169804a0f0bcfa6e51b928fc80
+  hash: f964f9e75426dd0e5925b644e0ae3ea0c91bda5d
+  data_hash: c96d53ffa940f917e1826e84ddcd0a98879ee6fc
 'Tax #':
   class: character
 Officer last name:
@@ -202,6 +202,7 @@ Current command:
   - BH DIV
   - BK CHILD
   - BK COURT
+  - BK SAT
   - BK SVS
   - BK TCS
   - BK TRAN ROB SQD
@@ -433,6 +434,7 @@ Current command:
   - DBQN VIDEO
   - DBQS
   - DBQS OP
+  - DBQS VIDEO
   - DBSI
   - DBSI OP
   - DBSI VIDEO
@@ -444,6 +446,7 @@ Current command:
   - DC EEO
   - DC LABR
   - DC OPER
+  - DC OPS
   - DC TRIALS
   - DC TRL
   - DC TRNG
@@ -590,12 +593,12 @@ Current command:
   - IAB GRP 1
   - IAB GRP 10
   - IAB GRP 22
+  - IAB GRP 26
   - IAB GRP 32
   - IAB GRP 33
   - IAB GRP 42
   - IAB GRP 53
   - IAB GRP 54
-  - IAB GRP 56
   - IAB GRP 9
   - IAB INV
   - IAB IU 10
@@ -653,7 +656,6 @@ Current command:
   - JOINT ORG CRM TF
   - JT T/F
   - JTTF
-  - JUV CRIME
   - JUV CRM
   - L S S D
   - L.I.M.S
@@ -713,7 +715,6 @@ Current command:
   - MS OP NIGHT
   - MS SU CRT
   - MS SU ECT
-  - MS TD UNIT
   - MS TIMES SQ
   - MTN DET
   - MTN PCT
@@ -999,6 +1000,7 @@ Current command:
   - SP FRDS
   - SP INV
   - SPEC NARC
+  - SPECAT
   - SPL TRN
   - SPORTS UNIT
   - SPRING 3100
@@ -1018,6 +1020,7 @@ Current command:
   - SSB
   - SSB INV
   - SSD INV
+  - SSD JUV CR
   - SSD YRT
   - STAFFSV
   - STD
@@ -1026,6 +1029,7 @@ Current command:
   - STR FORCE
   - STRAT ANL SECT
   - SUM YOUTH
+  - SVD CAS
   - SVD DATA ANL
   - SVD DNA COLD
   - SVD IRTU
@@ -1347,6 +1351,7 @@ Current command:
   - 187
   - 188
   - 189
+  - 190
   - 191
   - 1140
   - 192
@@ -1578,6 +1583,7 @@ Current command:
   - 418
   - 419
   - 420
+  - 232
   - 421
   - 422
   - 423
@@ -1589,6 +1595,7 @@ Current command:
   - 429
   - 430
   - 431
+  - 414
   - 432
   - 433
   - 434
@@ -1735,12 +1742,12 @@ Current command:
   - 574
   - 575
   - 577
+  - 576
   - 579
   - 580
   - 582
   - 583
   - 584
-  - 585
   - 586
   - 587
   - 588
@@ -1798,7 +1805,6 @@ Current command:
   - 639
   - 640
   - 641
-  - 642
   - 643
   - 644
   - 645
@@ -1858,7 +1864,6 @@ Current command:
   - 698
   - 699
   - 700
-  - 701
   - 702
   - 703
   - 704
@@ -2144,6 +2149,7 @@ Current command:
   - 982
   - 983
   - 984
+  - 578
   - 985
   - 986
   - 987
@@ -2163,6 +2169,7 @@ Current command:
   - 1001
   - 1002
   - 1003
+  - 581
   - 1004
   - 1005
   - 1006
@@ -2171,6 +2178,7 @@ Current command:
   - 1009
   - 1010
   - 1149
+  - 603
   - 1011
   - 1012
   - 1013
