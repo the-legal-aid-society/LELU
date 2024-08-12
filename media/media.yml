@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: 31532659bff9eca3c83197bc9e0e76ac7a6983d8
-  data_hash: e7ad63c28f2a9d34346278b5e26d14b730bb7e74
+  hash: a4a0f0b070baea6fdac722a259bd9bfe778e38f4
+  data_hash: b898841d1106ce3b664244203a94e4b0c3416b2e
 Officer Name:
   class: character
 Document:
@@ -278,6 +278,7 @@ Precinct/Command:
   - personnel
   - Police Service Area 1
   - Police Service Area 2
+  - Police Service Area 3
   - Police Service Area 4
   - Port Authority
   - PORT AUTHORITY POLICE DEPARTMENT
@@ -596,6 +597,7 @@ Precinct/Command:
   - 167
   - 168
   - 169
+  - 312
   - 170
   - 171
   - 172

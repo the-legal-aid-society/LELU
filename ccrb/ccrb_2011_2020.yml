@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: f964f9e75426dd0e5925b644e0ae3ea0c91bda5d
-  data_hash: e6af546b5db39dd796ca79e72f18852c02122885
+  hash: c74483ec473dc74209fa03706544ccc1bbe36aa4
+  data_hash: e2e15fd31cccef00130efb23095bafe122a91493
 'Tax #':
   class: character
 Officer last name:
@@ -3894,6 +3894,7 @@ Command at incident:
   - 114th Precinct
   - 115 DET
   - 115 PCT
+  - 115 RSVLT TF
   - 115PCT
   - 115th PCT
   - 115th Precinct
@@ -4295,6 +4296,7 @@ Command at incident:
   - DBBKZ13
   - DBBN
   - DBBN OP
+  - DBBS
   - DBBS OP
   - DBBX
   - DBBX OP
@@ -4961,6 +4963,7 @@ Command at incident:
   - UNKNOWN
   - unkown
   - Unkown
+  - UPTU
   - VE BK/N
   - VE BSSI
   - VED BX
@@ -5311,6 +5314,7 @@ Command at incident:
   - 322
   - 323
   - 324
+  - 1417
   - 325
   - 326
   - 327
@@ -5712,6 +5716,7 @@ Command at incident:
   - 723
   - 724
   - 725
+  - 1418
   - 726
   - 727
   - 728
@@ -6378,6 +6383,7 @@ Command at incident:
   - 1385
   - 1386
   - 1387
+  - 1419
   - 1388
   - 1389
   - 1390
@@ -6518,6 +6524,7 @@ Victim race/ethnicity at incident:
   - Decline to Answer (NA); Other (R)
   - 'Decline to Answer (NA); Other (R): American'
   - 'Decline to Answer (NA); Other (R): Black'
+  - 'Decline to Answer (NA); Other (R): Guyanese'
   - Decline to Answer (NA); Other Asian (R)
   - Decline to Answer (NA); Other Hispanic/Latino (E)
   - Decline to Answer (NA); Other Pacific Island (R)
@@ -6653,6 +6660,7 @@ Victim race/ethnicity at incident:
   - 35
   - 36
   - 37
+  - 135
   - 38
   - 39
   - 40
