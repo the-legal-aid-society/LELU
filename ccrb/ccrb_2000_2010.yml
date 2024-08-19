@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: c74483ec473dc74209fa03706544ccc1bbe36aa4
+  hash: e340b72cf7c2e7ee3568c3a6fe3680e93e68e807
   data_hash: c96d53ffa940f917e1826e84ddcd0a98879ee6fc
 'Tax #':
   class: character
@@ -4325,6 +4325,7 @@ Command at incident:
   - DPT ADV
   - DPT INV
   - DR.ED&T
+  - DRUG ENF TF
   - DT32
   - E S U
   - E.S.U.
@@ -5745,6 +5746,7 @@ Command at incident:
   - 750
   - 751
   - 752
+  - 1420
   - 753
   - 754
   - 755
@@ -6540,6 +6542,7 @@ Victim race/ethnicity at incident:
   - Dominican (E); Puerto Rican (E)
   - Dominican (E); White/Caucasian (R)
   - Filipino (R)
+  - Filipino (R); Non-Hispanic/Latino (E)
   - Filipino (R); Other (R)
   - Filipino (R); White/Caucasian (R)
   - Japanese (R)
@@ -6676,6 +6679,7 @@ Victim race/ethnicity at incident:
   - 49
   - 50
   - 51
+  - 136
   - 52
   - 53
   - 54
