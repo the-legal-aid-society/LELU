@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: e340b72cf7c2e7ee3568c3a6fe3680e93e68e807
-  data_hash: d5a16eb940e6f73795ab37b629579867346e7760
+  hash: eb95684545b6388edc5e767b08160b66a9244dfa
+  data_hash: d952879540db32b35a5495b6188d1d3719ea95c4
 'Tax #':
   class: character
 Officer last name:
@@ -2373,6 +2373,7 @@ Allegation:
   - Bias-Based Policing (Color)
   - Bias-Based Policing (Disability)
   - Bias-Based Policing (Gender)
+  - Bias-Based Policing (Housing Status)
   - Bias-Based Policing (National Origin)
   - Bias-Based Policing (Race)
   - Body Cavity Searches
@@ -2475,6 +2476,7 @@ Allegation:
   - 101
   - 3
   - 4
+  - 102
   - 5
   - 6
   - 7
@@ -2723,6 +2725,7 @@ NYPD allegation disposition:
   - APU Command Discipline A
   - APU Command Discipline B
   - APU Dismissed
+  - APU Dismissed by Police Commissioner
   - APU Formalized Training
   - APU Guilty
   - APU Instructions
@@ -2778,6 +2781,7 @@ NYPD allegation disposition:
   - 18
   - 19
   - 20
+  - 55
   - 21
   - 22
   - 23
@@ -3406,6 +3410,7 @@ APU CCRB Trial recommended penalty:
   - Forfeit vacation 13 days
   - Forfeit vacation 14 days
   - Forfeit vacation 15 days
+  - Forfeit vacation 16 days
   - Forfeit vacation 18 days
   - Forfeit vacation 2 days
   - Forfeit vacation 20 days
@@ -3451,6 +3456,7 @@ APU CCRB Trial recommended penalty:
   - 16
   - 17
   - 18
+  - 45
   - 19
   - 20
   - 21
@@ -4456,6 +4462,7 @@ Command at incident:
   - IRT MN
   - JAMAICA AVE BID
   - JB/R/TF
+  - JOINT ORG CRM TF
   - JT T/F
   - JTTF
   - JUV CRM
@@ -4789,6 +4796,7 @@ Command at incident:
   - School Safety
   - SCU
   - Shea Stadium Detail
+  - SI CAS
   - SI COURT
   - SI EMER
   - SI Emerg
@@ -5877,6 +5885,7 @@ Command at incident:
   - 878
   - 879
   - 880
+  - 1421
   - 881
   - 882
   - 883
@@ -6210,6 +6219,7 @@ Command at incident:
   - 1210
   - 1211
   - 1212
+  - 1422
   - 1213
   - 1214
   - 1215
@@ -6514,6 +6524,7 @@ Victim race/ethnicity at incident:
   - Black and/or African American (R); Puerto Rican (E)
   - Black and/or African American (R); White/Caucasian (R)
   - Chinese (R)
+  - Chinese (R); Decline to Answer (NA)
   - Chinese (R); Filipino (R)
   - 'Chinese (R); Other (R): Taiwanese'
   - Cuban (E)
@@ -6591,6 +6602,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Jewish Askenazi'
   - 'Other (R): Jordanian'
   - 'Other (R): Latino; White/Caucasian (R)'
+  - 'Other (R): Mixed'
   - 'Other (R): Mixed Race'
   - 'Other (R): Mixed Race; Other Pacific Island (R)'
   - 'Other (R): Moroccan'
@@ -6621,6 +6633,7 @@ Victim race/ethnicity at incident:
   - Puerto Rican (E); White/Caucasian (R)
   - Samoan (R)
   - South Asian (R)
+  - South Asian (R); White/Caucasian (R)
   - Vietnamese (R)
   - White/Caucasian (R)
   index:
@@ -6651,6 +6664,7 @@ Victim race/ethnicity at incident:
   - 23
   - 24
   - 25
+  - 137
   - 26
   - 27
   - 28
@@ -6728,6 +6742,7 @@ Victim race/ethnicity at incident:
   - 94
   - 95
   - 96
+  - 138
   - 97
   - 98
   - 99
@@ -6758,6 +6773,7 @@ Victim race/ethnicity at incident:
   - 122
   - 123
   - 124
+  - 139
   - 125
   - 126
   ordered: no
