@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: eb95684545b6388edc5e767b08160b66a9244dfa
-  data_hash: 55110e3a23e1753a982c10e4491d2c7990b1308a
+  hash: 2d46ef14d6ba7374096b763fce04cecee77d379c
+  data_hash: cea8e00c1b622d2be5ca2ec348c1ad35b49ae16b
 'Tax #':
   class: character
 Officer last name:
@@ -269,6 +269,7 @@ Current command:
   - CA JVJD
   - CA SECT
   - CAB
+  - CAB CAS
   - CAB COD
   - CAD CAS
   - CAD MAS
@@ -278,7 +279,6 @@ Current command:
   - CAP UNIT
   - CAPITAL CONST
   - CAPITAL PLAN
-  - CC&NC FNGRPT
   - CCCS
   - CCCS DLU
   - CCRB LU
@@ -320,6 +320,7 @@ Current command:
   - CONTRACT ADM
   - CPK DET
   - CPK PCT
+  - CPU YSU
   - CR PREV
   - CRC
   - CRC CANINE
@@ -431,7 +432,6 @@ Current command:
   - DBQ Z61
   - DBQN
   - DBQN OP
-  - DBQN VIDEO
   - DBQS
   - DBQS OP
   - DBQS VIDEO
@@ -450,7 +450,6 @@ Current command:
   - DC TRIALS
   - DC TRL
   - DC TRNG
-  - DCCP
   - DCCP YSU
   - DCDAO
   - DCEI
@@ -461,14 +460,15 @@ Current command:
   - DCMB
   - DCMB AMD
   - DCMB INV
+  - DCO DT
   - DCSC
   - DCSI
   - DCU TACT TRN
   - DET BUR
-  - DFRU
   - DIS CTL
   - DOC FRAUD SQD
   - DOHMH IL
+  - DOPR IL
   - DPT INV
   - DR.ED&T
   - DRIVE ED & TRN
@@ -483,6 +483,7 @@ Current command:
   - EQUIPMENT
   - ERMD CCSU
   - ERMD PAS
+  - ERMS
   - ERMS CCSU
   - ERMS EIU
   - ERMS PAS
@@ -592,6 +593,7 @@ Current command:
   - IAB CRIM INV
   - IAB GRP 1
   - IAB GRP 10
+  - IAB GRP 21
   - IAB GRP 22
   - IAB GRP 26
   - IAB GRP 32
@@ -877,6 +879,7 @@ Current command:
   - PBSI SU PST
   - PBSI TF
   - PCO
+  - PCO CPU
   - PCO L U
   - PCO RTC
   - PCO SSD
@@ -1028,7 +1031,6 @@ Current command:
   - STR FOR
   - STR FORCE
   - STRAT ANL SECT
-  - SUM YOUTH
   - SVD CAS
   - SVD DATA ANL
   - SVD DNA COLD
@@ -1418,6 +1420,7 @@ Current command:
   - 253
   - 254
   - 255
+  - 585
   - 256
   - 257
   - 258
@@ -1427,7 +1430,6 @@ Current command:
   - 262
   - 263
   - 264
-  - 265
   - 266
   - 267
   - 268
@@ -1469,6 +1471,7 @@ Current command:
   - 304
   - 305
   - 306
+  - 642
   - 307
   - 308
   - 309
@@ -1580,7 +1583,6 @@ Current command:
   - 415
   - 416
   - 417
-  - 418
   - 419
   - 420
   - 232
@@ -1599,7 +1601,6 @@ Current command:
   - 432
   - 433
   - 434
-  - 435
   - 436
   - 437
   - 438
@@ -1610,14 +1611,15 @@ Current command:
   - 443
   - 444
   - 445
+  - 701
   - 446
   - 447
   - 448
   - 449
-  - 450
   - 451
   - 452
   - 453
+  - 1152
   - 454
   - 455
   - 456
@@ -1632,6 +1634,7 @@ Current command:
   - 465
   - 466
   - 467
+  - 1153
   - 468
   - 469
   - 470
@@ -1741,6 +1744,7 @@ Current command:
   - 573
   - 574
   - 575
+  - 1154
   - 577
   - 576
   - 579
@@ -2026,6 +2030,7 @@ Current command:
   - 861
   - 862
   - 863
+  - 1155
   - 864
   - 865
   - 866
@@ -2177,7 +2182,6 @@ Current command:
   - 1008
   - 1009
   - 1010
-  - 1149
   - 603
   - 1011
   - 1012
@@ -2960,6 +2964,7 @@ NYPD Penalty:
   - Forfeit vacation 9 days / Command Discipline B
   - Formalized Training
   - Formalized Training / Command Level Instructions
+  - Formalized Training / Formalized Training
   - Formalized Training / Instructions
   - Formalized Training / Reprimand
   - Instructions
@@ -3145,6 +3150,7 @@ NYPD Penalty:
   - 101
   - 102
   - 103
+  - 185
   - 104
   - 105
   - 106
@@ -3511,6 +3517,7 @@ APU Trial Commissioner Recommended Penalty:
   - Forfeit vacation 7 days
   - Forfeit vacation 8 days
   - Forfeit vacation 9 days
+  - Formalized Training
   - Reprimand
   - Suspension 10 days
   - Terminated
@@ -3540,6 +3547,7 @@ APU Trial Commissioner Recommended Penalty:
   - 22
   - 23
   - 24
+  - 29
   - 25
   - 26
   - 27
@@ -4192,6 +4200,7 @@ Command at incident:
   - Brooklyn Southwest Narcotics Officer
   - Brooklyn Warrant Squad
   - BS CAS
+  - BS GRAND LARC
   - BS IRT
   - BS SU CRT
   - BS VICE
@@ -5615,6 +5624,7 @@ Command at incident:
   - 613
   - 614
   - 615
+  - 1423
   - 616
   - 617
   - 618
@@ -7142,3 +7152,5 @@ Outcome of police encounter:
 APU close date:
   class: Date
   origin: '1970-01-01'
+investigator_recommended_allegation_disposition:
+  class: character

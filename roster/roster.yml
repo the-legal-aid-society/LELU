@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: a20513629d52e85e3d20a912361b31b681a43416
-  data_hash: ccba3d5ca5927fded84174e9356fb6c871c2e390
+  hash: 56c508e160ec12dccb204f9a356182e42090582a
+  data_hash: 8ba189a45c2f636d5c783352af01810885381daa
 'Tax #':
   class: character
 Roster Date:
@@ -369,6 +369,7 @@ Current command:
   - CP YSU
   - CPK DET
   - CPK PCT
+  - CPU YSU
   - CR PREV
   - CRC
   - CRC CANINE
@@ -414,6 +415,7 @@ Current command:
   - DA SQD NY
   - DA SQD SI
   - DATA A&MAP
+  - DATS
   - DB BCIU
   - DB BKLN
   - DB BNHM
@@ -487,7 +489,6 @@ Current command:
   - DBQ Z61
   - DBQN
   - DBQN OP
-  - DBQN VIDEO
   - DBQS
   - DBQS OP
   - DBQS VIDEO
@@ -522,16 +523,17 @@ Current command:
   - DCMB
   - DCMB AMD
   - DCMB INV
+  - DCO DT
   - DCSC
   - DCSI
   - DCSI ORI
   - DCU TACT TRN
   - DET BUR
-  - DFRU
   - DIR TRN
   - DIS CTL
   - DOC FRAUD SQD
   - DOHMH IL
+  - DOPR IL
   - DPT ADV
   - DPT INV
   - DR.ED&T
@@ -587,7 +589,6 @@ Current command:
   - FMD CUST
   - FOR INV
   - FORCE ID
-  - FORCE ID Z1
   - FORCE ID Z2
   - FORCEID
   - FRAUD COL IN
@@ -778,7 +779,6 @@ Current command:
   - M SVS
   - M TRANS RB SQD
   - M WARRANT SQD
-  - M&B ANALYSIS
   - M/N-NE
   - M/N-NW
   - M/S-DND
@@ -820,6 +820,7 @@ Current command:
   - MS SU ECT
   - MS TIMES SQ
   - MS VICE
+  - MSS TF
   - MTN DET
   - MTN PCT
   - MTS DET
@@ -869,7 +870,6 @@ Current command:
   - OFF COD
   - OFF CSO
   - OFF DB
-  - OFF DCCP
   - OFF DCMB
   - OFF I/T
   - OFF PROF ST
@@ -993,6 +993,7 @@ Current command:
   - PBSI TF
   - PCO
   - PCO C U
+  - PCO CPU
   - PCO L U
   - PCO QAD
   - PCO RTC
@@ -1162,7 +1163,6 @@ Current command:
   - STR FORCE
   - STRAT ANL SECT
   - STU1
-  - SUM YOUTH
   - SUPP SVC DIV
   - SVD CAS
   - SVD DATA ANL
@@ -1642,6 +1642,7 @@ Current command:
   - 320
   - 321
   - 322
+  - 1237
   - 323
   - 324
   - 325
@@ -1687,6 +1688,7 @@ Current command:
   - 362
   - 363
   - 981
+  - 1243
   - 364
   - 365
   - 366
@@ -1760,7 +1762,6 @@ Current command:
   - 1258
   - 427
   - 428
-  - 808
   - 429
   - 430
   - 241
@@ -1795,16 +1796,17 @@ Current command:
   - 457
   - 458
   - 459
+  - 1275
   - 460
   - 461
   - 462
   - 463
   - 464
-  - 1259
   - 465
   - 466
   - 467
   - 1071
+  - 1276
   - 468
   - 469
   - 470
@@ -1860,7 +1862,6 @@ Current command:
   - 509
   - 518
   - 519
-  - 520
   - 521
   - 522
   - 523
@@ -2051,7 +2052,6 @@ Current command:
   - 705
   - 706
   - 707
-  - 1238
   - 708
   - 709
   - 710
@@ -2093,6 +2093,7 @@ Current command:
   - 744
   - 745
   - 1265
+  - 1277
   - 746
   - 747
   - 748
@@ -2142,7 +2143,6 @@ Current command:
   - 792
   - 793
   - 794
-  - 795
   - 796
   - 797
   - 1266
@@ -2266,6 +2266,7 @@ Current command:
   - 913
   - 914
   - 915
+  - 1278
   - 916
   - 917
   - 918
@@ -2435,7 +2436,6 @@ Current command:
   - 1069
   - 715
   - 1070
-  - 968
   - 1072
   - 1257
   - 1074
