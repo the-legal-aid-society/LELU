@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 502a98846390f23690216431c6ad188d1e0171b5
+  hash: 212c73442b7cba8f8ada89dc300b815df250d4c2
   data_hash: 0d955fc973b704cd08a21d4f53f77171f60d76af
 'Tax #':
   class: character
@@ -2936,6 +2936,7 @@ NYPD Penalty:
   - Forfeit vacation 2 days / Formalized Training
   - Forfeit vacation 20 days
   - Forfeit vacation 21 days
+  - Forfeit vacation 23 days
   - Forfeit vacation 25 days
   - Forfeit vacation 28 days
   - Forfeit vacation 3 days
@@ -3121,6 +3122,7 @@ NYPD Penalty:
   - 74
   - 75
   - 76
+  - 182
   - 77
   - 78
   - 79
@@ -3504,6 +3506,7 @@ APU Trial Commissioner Recommended Penalty:
   - Forfeit vacation 18 days
   - Forfeit vacation 2 days
   - Forfeit vacation 20 days
+  - Forfeit vacation 23 days
   - Forfeit vacation 25 days
   - Forfeit vacation 3 days
   - Forfeit vacation 30 days
@@ -3534,6 +3537,7 @@ APU Trial Commissioner Recommended Penalty:
   - 11
   - 12
   - 13
+  - 30
   - 14
   - 15
   - 16
