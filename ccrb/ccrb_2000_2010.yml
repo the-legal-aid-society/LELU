@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 212c73442b7cba8f8ada89dc300b815df250d4c2
+  hash: f7d2bfa6b206b557b1324f3d396d75697ad9c30c
   data_hash: 0d955fc973b704cd08a21d4f53f77171f60d76af
 'Tax #':
   class: character
@@ -4203,6 +4203,7 @@ Command at incident:
   - Brooklyn Southwest Narcotics Officer
   - Brooklyn Warrant Squad
   - BS CAS
+  - BS CRIME ANL
   - BS GRAND LARC
   - BS IRT
   - BS SU CRT
@@ -4318,6 +4319,7 @@ Command at incident:
   - DBBS OP
   - DBBX
   - DBBX OP
+  - DBM ZN1
   - DBM ZN2
   - DBM ZN6
   - DBMN
@@ -4378,6 +4380,7 @@ Command at incident:
   - F.T.S.
   - FLT SVC
   - FOR INV
+  - FORCEID
   - FTU 10
   - FTU 11
   - FTU 13
@@ -4780,6 +4783,7 @@ Command at incident:
   - QB SSZN
   - QM SEC
   - QN CRIME ANL
+  - QN GRAND LARC
   - QN SU ALU
   - QN SU CRT
   - QN/N-ND
@@ -4819,6 +4823,7 @@ Command at incident:
   - SI SU CRT
   - SI SVS
   - SIHU
+  - SIL
   - So. East Qns. Initiative
   - SOD SRG
   - SOD T/U
@@ -4932,6 +4937,7 @@ Command at incident:
   - TD 32
   - TD 33
   - TD 34
+  - TD 34 SUMMER
   - TD 4
   - TD DT01
   - TD DT02
@@ -4998,6 +5004,7 @@ Command at incident:
   - VED ZNI
   - VICE
   - VICE ED
+  - VICE MAJOR
   - Warrant Division
   - Warrant Section
   - Warrants Section
@@ -5628,6 +5635,7 @@ Command at incident:
   - 613
   - 614
   - 615
+  - 1425
   - 1423
   - 616
   - 617
@@ -5743,6 +5751,7 @@ Command at incident:
   - 726
   - 727
   - 728
+  - 1426
   - 729
   - 730
   - 731
@@ -5803,6 +5812,7 @@ Command at incident:
   - 784
   - 785
   - 786
+  - 1427
   - 787
   - 788
   - 789
@@ -6205,6 +6215,7 @@ Command at incident:
   - 1182
   - 1183
   - 1184
+  - 1428
   - 1185
   - 1186
   - 1187
@@ -6244,6 +6255,7 @@ Command at incident:
   - 1220
   - 1221
   - 1222
+  - 1429
   - 1223
   - 1224
   - 1225
@@ -6357,6 +6369,7 @@ Command at incident:
   - 1333
   - 1334
   - 1335
+  - 1430
   - 1336
   - 1337
   - 1338
@@ -6423,6 +6436,7 @@ Command at incident:
   - 1398
   - 1399
   - 1400
+  - 1431
   - 1401
   - 1402
   - 1403
@@ -6530,6 +6544,7 @@ Victim race/ethnicity at incident:
   - 'Black and/or African American (R); Other (R): Asiatic'
   - 'Black and/or African American (R); Other (R): Biracial'
   - 'Black and/or African American (R); Other (R): Dominican'
+  - 'Black and/or African American (R); Other (R): Guyanese'
   - 'Black and/or African American (R); Other (R): Haitian'
   - 'Black and/or African American (R); Other (R): Hatian'
   - 'Black and/or African American (R); Other (R): Jamaican'
@@ -6542,6 +6557,7 @@ Victim race/ethnicity at incident:
   - Chinese (R); Decline to Answer (NA)
   - Chinese (R); Filipino (R)
   - 'Chinese (R); Other (R): Taiwanese'
+  - Chinese (R); Other Asian (R)
   - Cuban (E)
   - 'Cuban (E); Other (R): White'
   - Cuban (E); Puerto Rican (E)
@@ -6609,6 +6625,8 @@ Victim race/ethnicity at incident:
   - 'Other (R): Greek'
   - 'Other (R): Guyanese'
   - 'Other (R): Haitian'
+  - 'Other (R): Hindu Indian'
+  - 'Other (R): Hispanic Caucasian; Other Hispanic/Latino (E)'
   - 'Other (R): Indian'
   - 'Other (R): Indian; South Asian (R)'
   - 'Other (R): Italian; Puerto Rican (E)'
@@ -6672,6 +6690,7 @@ Victim race/ethnicity at incident:
   - 132
   - 16
   - 17
+  - 142
   - 18
   - 19
   - 20
@@ -6684,6 +6703,7 @@ Victim race/ethnicity at incident:
   - 137
   - 26
   - 27
+  - 143
   - 28
   - 29
   - 30
@@ -6751,6 +6771,8 @@ Victim race/ethnicity at incident:
   - 88
   - 89
   - 90
+  - 144
+  - 145
   - 91
   - 92
   - 129
