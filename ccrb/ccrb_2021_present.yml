@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: f7d2bfa6b206b557b1324f3d396d75697ad9c30c
-  data_hash: 17c6348ec6cbc9ebd8b4a4788790753ac7033d65
+  hash: 01d55a405bfb6abec05e87b7b66960ce04850e1b
+  data_hash: 7d501c56f08c1988d5085034c2d8b5abfc714d70
 'Tax #':
   class: character
 Officer last name:
@@ -3436,6 +3436,7 @@ APU CCRB Trial recommended penalty:
   - Forfeit vacation 6 days
   - Forfeit vacation 7 days
   - Forfeit vacation 8 days
+  - Forfeit vacation 9 days
   - Reprimand
   - Suspension
   - Suspension 10 days
@@ -3482,6 +3483,7 @@ APU CCRB Trial recommended penalty:
   - 35
   - 36
   - 37
+  - 46
   - 38
   - 39
   - 40
@@ -6562,6 +6564,7 @@ Victim race/ethnicity at incident:
   - 'Cuban (E); Other (R): White'
   - Cuban (E); Puerto Rican (E)
   - Decline to Answer (NA)
+  - Decline to Answer (NA); Dominican (E)
   - Decline to Answer (NA); Korean (R)
   - Decline to Answer (NA); Middle Eastern/North African (R)
   - Decline to Answer (NA); Native Hawaiian (R)
@@ -6708,6 +6711,7 @@ Victim race/ethnicity at incident:
   - 29
   - 30
   - 31
+  - 146
   - 32
   - 33
   - 34
