@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 01d55a405bfb6abec05e87b7b66960ce04850e1b
-  data_hash: 9ce01cf9fceae81f22b2648e79de10d084f637b5
+  hash: 4803ac6138f91896f2501a8e8bc91620552292d0
+  data_hash: 93d1bb3385dd019b6e430353b870c13d40555eb9
 'Tax #':
   class: character
 Officer last name:
@@ -115,7 +115,6 @@ Current command:
   - 081 PCT
   - 083 DET
   - 083 PCT
-  - 084 BK BRDG
   - 084 DET
   - 084 PCT
   - 088 DET
@@ -129,7 +128,6 @@ Current command:
   - 100 RKWY BCH
   - 101 DET
   - 101 PCT
-  - 101 RKWY BCH
   - 102 DET
   - 102 PCT
   - 103 DET
@@ -202,12 +200,10 @@ Current command:
   - BH DIV
   - BK CHILD
   - BK COURT
-  - BK SAT
   - BK SVS
   - BK TCS
   - BK TRAN ROB SQD
   - BKLN CT
-  - BKLYN ATU
   - BKROBSQ
   - BLDG MAINT
   - BM SEC
@@ -300,6 +296,7 @@ Current command:
   - CIO
   - CIV HIRING
   - CJB
+  - CJB CMS
   - CMD LVL TRN
   - CMU 01
   - CMU 02
@@ -310,6 +307,7 @@ Current command:
   - COD DVIU
   - COD DVU
   - COD RRU
+  - COD SAS
   - COL POL
   - COMM DIV
   - COMMDIV
@@ -437,7 +435,6 @@ Current command:
   - DBQS VIDEO
   - DBSI
   - DBSI OP
-  - DBSI VIDEO
   - DBSV Z2
   - DBSV Z3
   - DC ADV
@@ -461,6 +458,7 @@ Current command:
   - DCMB AMD
   - DCMB INV
   - DCO DT
+  - DCO TDT
   - DCSC
   - DCSI
   - DCU TACT TRN
@@ -618,6 +616,7 @@ Current command:
   - IAB IU 56
   - IAB RESOURCE
   - IAB SPEC OPS
+  - IAB SUPP SERV
   - IAB Z2
   - IAB Z3
   - IAB Z4
@@ -628,6 +627,7 @@ Current command:
   - ID UNIT
   - IG COORD UNIT
   - INFOSEC
+  - INS TRN
   - INSUPDV
   - INT BUR
   - INT CIS
@@ -856,7 +856,6 @@ Current command:
   - PBQN
   - PBQN AC
   - PBQN CITI FLD
-  - PBQN FMP
   - PBQN INV UNIT
   - PBQN SC
   - PBQN SU
@@ -1030,7 +1029,6 @@ Current command:
   - STOL PROP INQ UN
   - STR FOR
   - STR FORCE
-  - STRAT ANL SECT
   - SVD CAS
   - SVD DATA ANL
   - SVD DNA COLD
@@ -1052,7 +1050,9 @@ Current command:
   - TAXI UT
   - TB
   - TB ATU
+  - TB ATU 1
   - TB ATU 3
+  - TB ATU BK
   - TB BK
   - TB BK TF
   - TB BKTF
@@ -1116,7 +1116,6 @@ Current command:
   - TD 32
   - TD 33
   - TD 34
-  - TD 34 SUMMER
   - TD 4
   - TD DT20
   - TEL ANALYSIS
@@ -1266,7 +1265,6 @@ Current command:
   - 100
   - 101
   - 102
-  - 103
   - 104
   - 105
   - 106
@@ -1280,7 +1278,6 @@ Current command:
   - 114
   - 115
   - 116
-  - 117
   - 118
   - 119
   - 120
@@ -1353,12 +1350,10 @@ Current command:
   - 187
   - 188
   - 189
-  - 190
   - 191
   - 1140
   - 192
   - 193
-  - 194
   - 195
   - 196
   - 197
@@ -1451,6 +1446,7 @@ Current command:
   - 284
   - 285
   - 286
+  - 265
   - 287
   - 288
   - 289
@@ -1461,6 +1457,7 @@ Current command:
   - 294
   - 295
   - 296
+  - 418
   - 297
   - 298
   - 299
@@ -1588,7 +1585,6 @@ Current command:
   - 232
   - 421
   - 422
-  - 423
   - 424
   - 425
   - 426
@@ -1612,6 +1608,7 @@ Current command:
   - 444
   - 445
   - 701
+  - 435
   - 446
   - 447
   - 448
@@ -1769,6 +1766,7 @@ Current command:
   - 600
   - 601
   - 602
+  - 450
   - 1144
   - 604
   - 605
@@ -1779,6 +1777,7 @@ Current command:
   - 610
   - 611
   - 612
+  - 1149
   - 613
   - 614
   - 615
@@ -2007,7 +2006,6 @@ Current command:
   - 838
   - 839
   - 840
-  - 841
   - 842
   - 843
   - 844
@@ -2181,7 +2179,6 @@ Current command:
   - 1007
   - 1008
   - 1009
-  - 1010
   - 603
   - 1011
   - 1012
@@ -2203,7 +2200,9 @@ Current command:
   - 1028
   - 1029
   - 1030
+  - 1156
   - 1031
+  - 1157
   - 1032
   - 1033
   - 1034
@@ -2267,7 +2266,6 @@ Current command:
   - 1092
   - 1093
   - 1094
-  - 1150
   - 1095
   - 1096
   - 1097
@@ -2910,6 +2908,7 @@ NYPD Penalty:
   - Dismissal Probation / Forfeit vacation 15 days
   - Dismissal Probation / Forfeit vacation 25 days
   - Dismissal Probation / Forfeit vacation 40 days
+  - Dismissal Probation / Forfeit vacation 60 days
   - Dismissal Probation 30 days
   - Dismissal Probation 365 days
   - Dismissal Probation 365 days / Forfeit vacation 30 days
@@ -3096,6 +3095,7 @@ NYPD Penalty:
   - 48
   - 49
   - 50
+  - 186
   - 51
   - 52
   - 53
@@ -6549,6 +6549,7 @@ Victim race/ethnicity at incident:
   - 'Black and/or African American (R); Other (R): Guyanese'
   - 'Black and/or African American (R); Other (R): Haitian'
   - 'Black and/or African American (R); Other (R): Hatian'
+  - 'Black and/or African American (R); Other (R): Indian'
   - 'Black and/or African American (R); Other (R): Jamaican'
   - 'Black and/or African American (R); Other (R): Mixed Race'
   - 'Black and/or African American (R); Other (R): Panamanian'
@@ -6696,6 +6697,7 @@ Victim race/ethnicity at incident:
   - 142
   - 18
   - 19
+  - 147
   - 20
   - 21
   - 140

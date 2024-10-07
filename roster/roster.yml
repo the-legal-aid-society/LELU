@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 56c508e160ec12dccb204f9a356182e42090582a
-  data_hash: f888d91adfc687710dbbff1f2e4491c9867d91b1
+  hash: 3e1579e8c7900193bc2622cd0943f932168a1029
+  data_hash: ff4b67bc7ed844288271b7cc7059d53bdc3044dd
 'Tax #':
   class: character
 Roster Date:
@@ -143,7 +143,6 @@ Current command:
   - 081 PCT
   - 083 DET
   - 083 PCT
-  - 084 BK BRDG
   - 084 DET
   - 084 PCT
   - 088 DET
@@ -157,7 +156,6 @@ Current command:
   - 100 RKWY BCH
   - 101 DET
   - 101 PCT
-  - 101 RKWY BCH
   - 102 DET
   - 102 PCT
   - 103 DET
@@ -241,7 +239,6 @@ Current command:
   - BK TCS
   - BK TRAN ROB SQD
   - BKLN CT
-  - BKLYN ATU
   - BKROBSQ
   - BLDG MAINT
   - BM SEC
@@ -359,6 +356,7 @@ Current command:
   - COD SAS
   - COL POL
   - COMM DIV
+  - COMM SECT
   - COMMDIV
   - COMMSEC
   - COMP CRIMES
@@ -394,6 +392,7 @@ Current command:
   - CTD INV UNIT
   - CTERRDV
   - CTR DIV
+  - CTS ADM
   - CW INV
   - CW T TF
   - CW TRAF TF
@@ -494,7 +493,6 @@ Current command:
   - DBQS VIDEO
   - DBSI
   - DBSI OP
-  - DBSI VIDEO
   - DBSV Z1
   - DBSV Z2
   - DBSV Z3
@@ -524,6 +522,7 @@ Current command:
   - DCMB AMD
   - DCMB INV
   - DCO DT
+  - DCO TDT
   - DCSC
   - DCSI
   - DCSI ORI
@@ -723,6 +722,7 @@ Current command:
   - ID UNIT
   - IG COORD UNIT
   - INFOSEC
+  - INS TRN
   - INSRVTR
   - INSUPDV
   - INT BUR
@@ -768,6 +768,7 @@ Current command:
   - LDS TRN
   - LEADER TRN
   - LEG BUR
+  - LGA TF
   - LIAIS UNIT
   - LIC DIV
   - LMSI PMO
@@ -1161,7 +1162,6 @@ Current command:
   - STOL PROP INQ UN
   - STR FOR
   - STR FORCE
-  - STRAT ANL SECT
   - STU1
   - SUPP SVC DIV
   - SVD CAS
@@ -1178,6 +1178,7 @@ Current command:
   - SVU ADULT
   - SVU CEHT TF
   - SVU HS ST TF
+  - SVU HU TR SEC
   - SVU HU TR SQ
   - T.A.R.U
   - TARU
@@ -1186,7 +1187,9 @@ Current command:
   - TB
   - TB ATER
   - TB ATU
+  - TB ATU 1
   - TB ATU 3
+  - TB ATU BK
   - TB BK
   - TB BK TF
   - TB BKTF
@@ -1250,7 +1253,6 @@ Current command:
   - TD 32
   - TD 33
   - TD 34
-  - TD 34 SUMMER
   - TD 4
   - TD C/AN
   - TD DT01
@@ -1275,6 +1277,7 @@ Current command:
   - TRAFF ENF DIST
   - TRAFF MGMT
   - TRAFF SAFETY
+  - TRAFF STAT
   - TRANSIT
   - TRANSIT SAT
   - TRANSIT SAU
@@ -1416,7 +1419,6 @@ Current command:
   - 100
   - 101
   - 102
-  - 1209
   - 104
   - 105
   - 106
@@ -1430,7 +1432,6 @@ Current command:
   - 114
   - 115
   - 116
-  - 1231
   - 118
   - 119
   - 120
@@ -1514,7 +1515,6 @@ Current command:
   - 196
   - 198
   - 199
-  - 1250
   - 200
   - 201
   - 203
@@ -1632,6 +1632,7 @@ Current command:
   - 310
   - 311
   - 312
+  - 520
   - 313
   - 314
   - 315
@@ -1667,6 +1668,7 @@ Current command:
   - 342
   - 343
   - 344
+  - 795
   - 117
   - 345
   - 346
@@ -1767,7 +1769,6 @@ Current command:
   - 241
   - 431
   - 432
-  - 1229
   - 433
   - 434
   - 435
@@ -1797,6 +1798,7 @@ Current command:
   - 458
   - 459
   - 1275
+  - 808
   - 460
   - 461
   - 462
@@ -1996,6 +1998,7 @@ Current command:
   - 652
   - 653
   - 1232
+  - 968
   - 654
   - 655
   - 656
@@ -2041,6 +2044,7 @@ Current command:
   - 694
   - 695
   - 696
+  - 1238
   - 697
   - 698
   - 699
@@ -2434,7 +2438,6 @@ Current command:
   - 1218
   - 1068
   - 1069
-  - 715
   - 1070
   - 1072
   - 1257
@@ -2451,6 +2454,7 @@ Current command:
   - 1219
   - 1244
   - 1245
+  - 1259
   - 1246
   - 1084
   - 1085
@@ -2459,7 +2463,9 @@ Current command:
   - 1088
   - 1089
   - 1090
+  - 1279
   - 1247
+  - 1280
   - 1091
   - 1092
   - 1093
@@ -2523,7 +2529,6 @@ Current command:
   - 1146
   - 1147
   - 1148
-  - 1067
   - 1149
   - 1150
   - 1151
@@ -2548,6 +2553,7 @@ Current command:
   - 1169
   - 1170
   - 1171
+  - 1281
   - 1172
   - 1274
   - 1173
