@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 4803ac6138f91896f2501a8e8bc91620552292d0
+  hash: 3b2769fe566e4b7fe8f6f41629f591563279982a
   data_hash: 146c19262ad7ae75161d92a62194d6712c708671
 'Tax #':
   class: character
@@ -4255,6 +4255,7 @@ Command at incident:
   - CHI
   - CI&RDIV
   - CMD LVL TRN
+  - CO RESPONSE
   - CO TR
   - COD BUSINESS
   - Command unknown
@@ -4380,6 +4381,7 @@ Command at incident:
   - F S D
   - F S S
   - F.T.S.
+  - FIREARMS INV
   - FLT SVC
   - FOR INV
   - FORCEID
@@ -4477,6 +4479,7 @@ Command at incident:
   - INT RIS
   - INT UOU
   - IRT MN
+  - ITB ADM DIV
   - JAMAICA AVE BID
   - JB/R/TF
   - JOINT ORG CRM TF
@@ -5687,6 +5690,7 @@ Command at incident:
   - 661
   - 662
   - 663
+  - 1432
   - 664
   - 665
   - 666
@@ -5812,6 +5816,7 @@ Command at incident:
   - 782
   - 783
   - 784
+  - 1433
   - 785
   - 786
   - 1427
@@ -5909,6 +5914,7 @@ Command at incident:
   - 876
   - 877
   - 878
+  - 1434
   - 879
   - 880
   - 1421
@@ -6642,10 +6648,12 @@ Victim race/ethnicity at incident:
   - 'Other (R): Mixed'
   - 'Other (R): Mixed Race'
   - 'Other (R): Mixed Race; Other Pacific Island (R)'
+  - 'Other (R): Moorish- American'
   - 'Other (R): Moroccan'
   - 'Other (R): Morris American'
   - 'Other (R): Nigerian and Cameroonian'
   - 'Other (R): No answer given'
+  - 'Other (R): Palestinian'
   - 'Other (R): Peruvian'
   - 'Other (R): Senegalese'
   - 'Other (R): Spanish'
@@ -6790,10 +6798,12 @@ Victim race/ethnicity at incident:
   - 138
   - 97
   - 98
+  - 148
   - 99
   - 100
   - 101
   - 102
+  - 149
   - 103
   - 141
   - 104
