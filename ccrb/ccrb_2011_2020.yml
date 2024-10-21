@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 3b2769fe566e4b7fe8f6f41629f591563279982a
+  hash: 1da4edd0aff08551c9e42927f27b4a1886da143d
   data_hash: 3f9225fb54ebd1672cb859e56e2da44f9d0dca0b
 'Tax #':
   class: character
@@ -2595,6 +2595,7 @@ CCRB complaint disposition:
   - Miscellaneous - Subject Terminated
   - Officer(s) Unidentified
   - OMB PEG Directive Closure
+  - SRAD Closure
   - Substantiated (Charges)
   - Substantiated (Command Discipline A)
   - Substantiated (Command Discipline B)
@@ -2627,6 +2628,7 @@ CCRB complaint disposition:
   - 14
   - 15
   - 16
+  - 32
   - 17
   - 18
   - 19
@@ -2659,6 +2661,7 @@ CCRB allegation disposition:
   - Miscellaneous - Subject Terminated
   - Officer(s) Unidentified
   - OMB PEG Directive Closure
+  - SRAD Closure
   - Substantiated (Charges)
   - Substantiated (Command Discipline A)
   - Substantiated (Command Discipline B)
@@ -2688,6 +2691,7 @@ CCRB allegation disposition:
   - 11
   - 12
   - 13
+  - 29
   - 14
   - 15
   - 16
@@ -4827,6 +4831,7 @@ Command at incident:
   - SI SCSU
   - SI SU CRT
   - SI SVS
+  - SIB OSI
   - SIHU
   - SIL
   - So. East Qns. Initiative
@@ -4872,6 +4877,7 @@ Command at incident:
   - TB 12
   - TB ATER
   - TB ATU
+  - TB ATU 3
   - TB BK
   - TB BK TF
   - TB BKTF
@@ -6262,6 +6268,7 @@ Command at incident:
   - 1219
   - 1220
   - 1221
+  - 1435
   - 1222
   - 1429
   - 1223
@@ -6307,6 +6314,7 @@ Command at incident:
   - 1263
   - 1264
   - 1265
+  - 1436
   - 1266
   - 1267
   - 1268
@@ -6538,6 +6546,7 @@ Victim race/ethnicity at incident:
   - American Indian/Alaska Native (R); Decline to Answer (NA)
   - American Indian/Alaska Native (R); Other (R)
   - 'American Indian/Alaska Native (R); Other (R): Jamaican'
+  - 'American Indian/Alaska Native (R); Other (R): West Indian'
   - American Indian/Alaska Native (R); Other Hispanic/Latino (E)
   - American Indian/Alaska Native (R); White/Caucasian (R)
   - Black and/or African American (R)
@@ -6651,6 +6660,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Moorish- American'
   - 'Other (R): Moroccan'
   - 'Other (R): Morris American'
+  - 'Other (R): Nation of Judah(Yahudah)'
   - 'Other (R): Nigerian and Cameroonian'
   - 'Other (R): No answer given'
   - 'Other (R): Palestinian'
@@ -6661,6 +6671,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): West Indian'
   - 'Other (R): White/Hispanic ; White/Caucasian (R)'
   - Other (R); Other Asian (R)
+  - Other (R); Other Hispanic/Latino (E)
   - Other (R); Puerto Rican (E)
   - Other (R); White/Caucasian (R)
   - Other Asian (R)
@@ -6688,6 +6699,7 @@ Victim race/ethnicity at incident:
   - 3
   - 4
   - 5
+  - 150
   - 6
   - 7
   - 8
@@ -6801,6 +6813,7 @@ Victim race/ethnicity at incident:
   - 148
   - 99
   - 100
+  - 151
   - 101
   - 102
   - 149
@@ -6811,6 +6824,7 @@ Victim race/ethnicity at incident:
   - 105
   - 106
   - 130
+  - 152
   - 107
   - 108
   - 109

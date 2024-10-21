@@ -5,7 +5,7 @@
   sorting:
   - Officer Name
   - Document
-  hash: 35c725f7fd4a13f1c64dca380a402b8a3163b3a3
+  hash: 5f067fa2801d95b9c3832e57b98733712021f311
   data_hash: 4ba107e8e5d797fb0ddb0e593d98c3e146e2d806
 Officer Name:
   class: character
@@ -51,6 +51,7 @@ Precinct/Command:
   - '121'
   - '122'
   - '123'
+  - '14'
   - '17'
   - 171-PATROL BORO QUEENS SOUTH
   - '18'
@@ -150,6 +151,7 @@ Precinct/Command:
   - Brooklyn South Narcotics Division
   - Brooklyn South Vice
   - Brooklyn transit robbery
+  - CAD
   - Central Investigations Division
   - Central Park
   - Central Robbery Division
@@ -179,6 +181,7 @@ Precinct/Command:
   - ferry security
   - Field Intelligence Unit
   - FINANCIAL CRIMES TASK FORCE
+  - Firearms Suppression Section
   - Firearms Training Section
   - Fleet Services
   - Force Investigation Division
@@ -202,6 +205,7 @@ Precinct/Command:
   - HOUSING PSA 3
   - Housing PSA 5
   - HOUSING PSA 5
+  - Housing PSA 9
   - HOUSING PSA2
   - IAB
   - IAB GRP 26
@@ -266,6 +270,7 @@ Precinct/Command:
   - NYPD civilian custodial assistant
   - office of management analysis and planning
   - PATROL BORO BKLYN NORTH
+  - PATROL BORO BRONX
   - PATROL BORO MAN NORTH
   - PATROL BORO MAN SOUTH
   - Patrol Boro Queens South
@@ -371,6 +376,7 @@ Precinct/Command:
   - 257
   - 17
   - 18
+  - 320
   - 19
   - 213
   - 20
@@ -470,6 +476,7 @@ Precinct/Command:
   - 85
   - 86
   - 87
+  - 321
   - 88
   - 89
   - 231
@@ -499,6 +506,7 @@ Precinct/Command:
   - 103
   - 230
   - 303
+  - 322
   - 104
   - 105
   - 106
@@ -522,6 +530,7 @@ Precinct/Command:
   - 253
   - 118
   - 306
+  - 323
   - 266
   - 119
   - 319
@@ -586,6 +595,7 @@ Precinct/Command:
   - 160
   - 161
   - 268
+  - 324
   - 256
   - 261
   - 162
