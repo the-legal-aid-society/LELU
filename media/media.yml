@@ -5,7 +5,7 @@
   sorting:
   - Officer Name
   - Document
-  hash: 5f067fa2801d95b9c3832e57b98733712021f311
+  hash: 04593fb35fa584d6ac16c5475bca620f412958c6
   data_hash: 4ba107e8e5d797fb0ddb0e593d98c3e146e2d806
 Officer Name:
   class: character
@@ -69,6 +69,7 @@ Precinct/Command:
   - 32 PCT
   - 32 Precinct
   - '33'
+  - 33 DET SQUAD
   - 335-105TH DET SQUAD
   - 335/105 PDU
   - '34'
@@ -145,6 +146,7 @@ Precinct/Command:
   - Brooklyn narcotics
   - Brooklyn North Gang unit
   - Brooklyn North Narcotics
+  - Brooklyn North Traffic Enforcement Unit
   - Brooklyn South gang squad unit
   - Brooklyn South Intersection Control Command
   - Brooklyn South Narcotics
@@ -184,8 +186,10 @@ Precinct/Command:
   - Firearms Suppression Section
   - Firearms Training Section
   - Fleet Services
+  - Fleet Services Division
   - Force Investigation Division
   - GANG SQUAD BROOKLYN NORTH
+  - GRAND LARCENY DIVISION
   - gun violence suppression division
   - Gun Violence Suppression Division
   - Hate Crimes Task Force
@@ -205,6 +209,7 @@ Precinct/Command:
   - HOUSING PSA 3
   - Housing PSA 5
   - HOUSING PSA 5
+  - HOUSING PSA 7
   - Housing PSA 9
   - HOUSING PSA2
   - IAB
@@ -306,6 +311,7 @@ Precinct/Command:
   - Recruit Training Section
   - school safety
   - School Safety
+  - School Safety Unit
   - sex crimes unit
   - Special Operations Division
   - SPECIAL VICTIMS DIV ZONE 2
@@ -335,6 +341,7 @@ Precinct/Command:
   - Transit District 12
   - Transit District 3
   - TRB QUEENS TRAFFIC ENF UNIT
+  - TRB SOUTH INTERSECTION CTRL
   - vice
   - vice squad
   - Warrant Section
@@ -394,6 +401,7 @@ Precinct/Command:
   - 28
   - 29
   - 30
+  - 325
   - 217
   - 218
   - 31
@@ -470,6 +478,7 @@ Precinct/Command:
   - 81
   - 235
   - 82
+  - 326
   - 83
   - 240
   - 84
@@ -509,8 +518,10 @@ Precinct/Command:
   - 322
   - 104
   - 105
+  - 327
   - 106
   - 252
+  - 328
   - 107
   - 108
   - 109
@@ -530,6 +541,7 @@ Precinct/Command:
   - 253
   - 118
   - 306
+  - 329
   - 323
   - 266
   - 119
@@ -631,6 +643,7 @@ Precinct/Command:
   - 269
   - 186
   - 187
+  - 330
   - 188
   - 189
   - 310
@@ -660,6 +673,7 @@ Precinct/Command:
   - 204
   - 205
   - 262
+  - 331
   - 206
   - 207
   - 208
