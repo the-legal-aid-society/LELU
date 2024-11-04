@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 3e1579e8c7900193bc2622cd0943f932168a1029
-  data_hash: e5fee1dab8a6b589bd86cc361e8940d0d098001b
+  hash: de757d28957df34300c2ebefb25ec82a540feba0
+  data_hash: 51716011ea0b5a702f5168c7795e7f7375560c40
 'Tax #':
   class: character
 Roster Date:
@@ -185,6 +185,7 @@ Current command:
   - 115 DET
   - 115 PCT
   - 115 RSVLT TF
+  - 116 PCT
   - 120 DET
   - 120 PCT
   - 120 VIPER
@@ -197,6 +198,7 @@ Current command:
   - 123 PCT
   - 125 ST BID
   - 125 ST TF
+  - 1ST AMEND
   - 1ST D C
   - 1ST D.C
   - 28 PCT HUB
@@ -243,6 +245,7 @@ Current command:
   - BLDG MAINT
   - BM SEC
   - BMD BAS
+  - BMD GCS
   - BN CAS
   - BN CRIME ANL
   - BN GRAND LARC
@@ -338,9 +341,9 @@ Current command:
   - CID ADMIN
   - CID CRIME STOP
   - CID TACTICAL TRN
-  - CID TRAINING
   - CIO
   - CIV HIRING
+  - CIVTRN SEC
   - CJB
   - CJB CMS
   - CMD LVL TRN
@@ -452,7 +455,9 @@ Current command:
   - DB SIU
   - DB SPEC ENF DIV
   - DB SVD
+  - DB TACTICAL TRN
   - DB TCU
+  - DB TRAINING
   - DB TSIS
   - DB TSIU
   - DBBKZ10
@@ -460,7 +465,6 @@ Current command:
   - DBBKZ14
   - DBBKZ21
   - DBBKZ22
-  - DBBKZ41
   - DBBN
   - DBBN OP
   - DBBN VIDEO
@@ -576,10 +580,10 @@ Current command:
   - FAM EXEMPT
   - FAM SEC
   - FAM SUPP TEAM
+  - FBI CCTF
   - FIREARMS INV
   - FIS DIV
   - FISCAL AFF
-  - FISCAL UN
   - FLT SRV
   - FLT SVC
   - FM DIV
@@ -620,6 +624,7 @@ Current command:
   - GANG SI
   - GLD ZN 1
   - GRANTS UNIT
+  - GUARD TF
   - GUN OFFDR MONT
   - GVSD JFTF
   - GVSD Z1
@@ -648,6 +653,7 @@ Current command:
   - HBX/QIM
   - HBXQ RT
   - HBXQIRT
+  - HCF TF
   - HLTH & WELL
   - HOMLESS
   - HOSS
@@ -687,7 +693,6 @@ Current command:
   - IAB GRP 26
   - IAB GRP 27
   - IAB GRP 32
-  - IAB GRP 33
   - IAB GRP 34
   - IAB GRP 42
   - IAB GRP 53
@@ -757,6 +762,7 @@ Current command:
   - JT T/F
   - JTTF
   - JUV CRM
+  - JVC TF
   - L S S D
   - L.I.M.S
   - LAB EVID&SECTY
@@ -798,6 +804,7 @@ Current command:
   - MELD
   - MGMT ANL
   - MIDTOWN
+  - MJT TF
   - MN CAS
   - MN CRIME ANL
   - MN GRAND LARC
@@ -1291,6 +1298,7 @@ Current command:
   - TRIG LOCK
   - TRN BUR
   - TRN BUR INV
+  - TRN SUPP
   - TRP BUR
   - TRP OPS
   - TV UNIT
@@ -1306,6 +1314,7 @@ Current command:
   - VED ZN1
   - VED ZN2
   - VEHICLE ID
+  - VGANG TF
   - VICE
   - VICE ED
   - VICE MAJOR
@@ -1461,6 +1470,7 @@ Current command:
   - 144
   - 145
   - 146
+  - 715
   - 147
   - 148
   - 149
@@ -1473,6 +1483,7 @@ Current command:
   - 156
   - 157
   - 158
+  - 1067
   - 159
   - 160
   - 161
@@ -1519,6 +1530,7 @@ Current command:
   - 201
   - 203
   - 212
+  - 1209
   - 204
   - 205
   - 206
@@ -1614,9 +1626,9 @@ Current command:
   - 294
   - 295
   - 296
-  - 297
   - 298
   - 299
+  - 1229
   - 300
   - 103
   - 301
@@ -1728,7 +1740,9 @@ Current command:
   - 1235
   - 397
   - 398
+  - 1231
   - 943
+  - 1250
   - 282
   - 399
   - 400
@@ -1736,7 +1750,6 @@ Current command:
   - 402
   - 403
   - 404
-  - 1255
   - 405
   - 406
   - 620
@@ -1852,10 +1865,10 @@ Current command:
   - 506
   - 507
   - 508
+  - 1282
   - 510
   - 511
   - 512
-  - 1028
   - 513
   - 514
   - 515
@@ -1896,6 +1909,7 @@ Current command:
   - 550
   - 551
   - 552
+  - 1283
   - 553
   - 554
   - 555
@@ -1924,6 +1938,7 @@ Current command:
   - 578
   - 579
   - 580
+  - 1284
   - 581
   - 582
   - 583
@@ -1963,7 +1978,6 @@ Current command:
   - 621
   - 617
   - 618
-  - 619
   - 1230
   - 622
   - 623
@@ -2033,6 +2047,7 @@ Current command:
   - 683
   - 684
   - 685
+  - 1285
   - 686
   - 687
   - 688
@@ -2074,6 +2089,7 @@ Current command:
   - 722
   - 723
   - 724
+  - 1286
   - 725
   - 726
   - 727
@@ -2567,6 +2583,7 @@ Current command:
   - 1181
   - 1182
   - 1183
+  - 1287
   - 1184
   - 1185
   - 1186
@@ -2582,6 +2599,7 @@ Current command:
   - 1196
   - 1197
   - 1198
+  - 1288
   - 1199
   - 1200
   - 1201

@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 1da4edd0aff08551c9e42927f27b4a1886da143d
-  data_hash: 146c19262ad7ae75161d92a62194d6712c708671
+  hash: 0f23a8f612e73cfc52e0c1a6672a2adfa24202d3
+  data_hash: f9af8cd085bed793dadb458edbce5983dccbc761
 'Tax #':
   class: character
 Officer last name:
@@ -157,6 +157,7 @@ Current command:
   - 115 DET
   - 115 PCT
   - 115 RSVLT TF
+  - 116 PCT
   - 120 DET
   - 120 PCT
   - 120 VIPER
@@ -169,6 +170,7 @@ Current command:
   - 123 PCT
   - 125 ST BID
   - 125 ST TF
+  - 1ST AMEND
   - 1ST D C
   - 28 PCT HUB
   - 6th Pre
@@ -200,6 +202,7 @@ Current command:
   - BH DIV
   - BK CHILD
   - BK COURT
+  - BK SAT
   - BK SVS
   - BK TCS
   - BK TRAN ROB SQD
@@ -208,6 +211,7 @@ Current command:
   - BLDG MAINT
   - BM SEC
   - BMD BAS
+  - BMD GCS
   - BN CAS
   - BN CRIME ANL
   - BN GRAND LARC
@@ -292,7 +296,6 @@ Current command:
   - CID ADMIN
   - CID CRIME STOP
   - CID TACTICAL TRN
-  - CID TRAINING
   - CIO
   - CIV HIRING
   - CJB
@@ -395,7 +398,9 @@ Current command:
   - DB SIU
   - DB SPEC ENF DIV
   - DB SVD
+  - DB TACTICAL TRN
   - DB TCU
+  - DB TRAINING
   - DB TSIS
   - DB TSIU
   - DBBKZ10
@@ -403,7 +408,6 @@ Current command:
   - DBBKZ14
   - DBBKZ21
   - DBBKZ22
-  - DBBKZ41
   - DBBN
   - DBBN OP
   - DBBN VIDEO
@@ -506,6 +510,7 @@ Current command:
   - FAM EXEMPT
   - FAM SEC
   - FAM SUPP TEAM
+  - FBI CCTF
   - FIREARMS INV
   - FIS DIV
   - FLT SRV
@@ -534,6 +539,7 @@ Current command:
   - GANG SI
   - GLD ZN 1
   - GRANTS UNIT
+  - GUARD TF
   - GUN OFFDR MONT
   - GVSD JFTF
   - GVSD Z1
@@ -561,6 +567,7 @@ Current command:
   - HBX/QIM
   - HBXQ RT
   - HBXQIRT
+  - HCF TF
   - HLTH & WELL
   - HOMLESS
   - HOST NEG
@@ -595,7 +602,6 @@ Current command:
   - IAB GRP 22
   - IAB GRP 26
   - IAB GRP 32
-  - IAB GRP 33
   - IAB GRP 42
   - IAB GRP 53
   - IAB GRP 54
@@ -617,6 +623,7 @@ Current command:
   - IAB RESOURCE
   - IAB SPEC OPS
   - IAB SUPP SERV
+  - IAB Z1
   - IAB Z2
   - IAB Z3
   - IAB Z4
@@ -659,6 +666,7 @@ Current command:
   - JT T/F
   - JTTF
   - JUV CRM
+  - JVC TF
   - L S S D
   - L.I.M.S
   - LAB EVID&SECTY
@@ -696,6 +704,7 @@ Current command:
   - MELD
   - MGMT ANL
   - Midtown
+  - MJT TF
   - MN CAS
   - MN CRIME ANL
   - MN GRAND LARC
@@ -718,6 +727,8 @@ Current command:
   - MS SU CRT
   - MS SU ECT
   - MS TIMES SQ
+  - MS VICE
+  - MSS TF
   - MTN DET
   - MTN PCT
   - MTS DET
@@ -1137,6 +1148,7 @@ Current command:
   - TRF/MTF
   - TRIG LOCK
   - TRN BUR
+  - TRN SUPP
   - TRP BUR
   - TRP OPS
   - TV UNIT
@@ -1152,6 +1164,7 @@ Current command:
   - VED ZN1
   - VED ZN2
   - VEHICLE ID
+  - VGANG TF
   - VICE
   - VICE ED
   - VICE MAJOR
@@ -1307,6 +1320,7 @@ Current command:
   - 144
   - 145
   - 146
+  - 103
   - 147
   - 148
   - 149
@@ -1319,6 +1333,7 @@ Current command:
   - 156
   - 157
   - 158
+  - 117
   - 159
   - 160
   - 161
@@ -1350,6 +1365,7 @@ Current command:
   - 187
   - 188
   - 189
+  - 190
   - 191
   - 1140
   - 192
@@ -1358,6 +1374,7 @@ Current command:
   - 196
   - 197
   - 198
+  - 194
   - 199
   - 200
   - 201
@@ -1442,7 +1459,6 @@ Current command:
   - 280
   - 281
   - 282
-  - 283
   - 284
   - 285
   - 286
@@ -1545,7 +1561,9 @@ Current command:
   - 380
   - 381
   - 382
+  - 423
   - 383
+  - 841
   - 1142
   - 384
   - 385
@@ -1553,7 +1571,6 @@ Current command:
   - 387
   - 388
   - 389
-  - 390
   - 391
   - 392
   - 393
@@ -1656,6 +1673,7 @@ Current command:
   - 489
   - 490
   - 1143
+  - 1010
   - 491
   - 492
   - 493
@@ -1684,6 +1702,7 @@ Current command:
   - 516
   - 517
   - 518
+  - 1150
   - 519
   - 520
   - 521
@@ -1711,6 +1730,7 @@ Current command:
   - 543
   - 544
   - 545
+  - 1158
   - 546
   - 547
   - 548
@@ -1745,7 +1765,6 @@ Current command:
   - 577
   - 576
   - 579
-  - 580
   - 582
   - 583
   - 584
@@ -1767,6 +1786,7 @@ Current command:
   - 601
   - 602
   - 450
+  - 1159
   - 1144
   - 604
   - 605
@@ -1809,6 +1829,7 @@ Current command:
   - 640
   - 641
   - 643
+  - 1160
   - 644
   - 645
   - 646
@@ -1846,6 +1867,7 @@ Current command:
   - 677
   - 678
   - 679
+  - 1161
   - 680
   - 681
   - 682
@@ -1868,6 +1890,8 @@ Current command:
   - 699
   - 700
   - 702
+  - 1162
+  - 1163
   - 703
   - 704
   - 705
@@ -2287,6 +2311,7 @@ Current command:
   - 1112
   - 1113
   - 1114
+  - 1164
   - 1115
   - 1116
   - 1117
@@ -2302,6 +2327,7 @@ Current command:
   - 1127
   - 1128
   - 1129
+  - 1165
   - 1130
   - 1131
   - 1132
@@ -7212,5 +7238,3 @@ Outcome of police encounter:
 APU close date:
   class: Date
   origin: '1970-01-01'
-investigator_recommended_allegation_disposition:
-  class: character
