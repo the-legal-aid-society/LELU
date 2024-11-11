@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 0f23a8f612e73cfc52e0c1a6672a2adfa24202d3
-  data_hash: ddf572b0e13a857e85bb6058cba7d36651388644
+  hash: ce85e5bcd80ef7f9bbc5bfca4e757de76add0980
+  data_hash: 1fb7d14d584b2f1d02f0cce2fea932eab8d7fb9a
 'Tax #':
   class: character
 Officer last name:
@@ -2407,6 +2407,7 @@ Allegation:
   - Body Cavity Searches
   - Chokehold
   - Demeanor/tone
+  - Detention
   - Disability
   - Disseminated immigration status
   - Electronic device information deletion
@@ -2510,6 +2511,7 @@ Allegation:
   - 7
   - 8
   - 9
+  - 103
   - 10
   - 11
   - 12
@@ -4487,6 +4489,7 @@ Command at incident:
   - HWY 2
   - HWY 3
   - HWY 5
+  - HWY CIS
   - HWY DST
   - HWY DST STS
   - HWY patrol
@@ -4804,6 +4807,7 @@ Command at incident:
   - PSB CRT
   - PSB IES
   - PSB RMS
+  - PSB WHEEL
   - Public Service Area 3
   - Public Service Area 4
   - Public Service Area 7
@@ -5924,6 +5928,7 @@ Command at incident:
   - 856
   - 1415
   - 857
+  - 1437
   - 858
   - 859
   - 860
@@ -6241,6 +6246,7 @@ Command at incident:
   - 1168
   - 1169
   - 1170
+  - 1438
   - 1171
   - 1172
   - 1173
@@ -6618,6 +6624,7 @@ Victim race/ethnicity at incident:
   - Decline to Answer (NA); Other Hispanic/Latino (E)
   - Decline to Answer (NA); Other Pacific Island (R)
   - Decline to Answer (NA); Puerto Rican (E)
+  - Decline to Answer (NA); South Asian (R)
   - Decline to Answer (NA); White/Caucasian (R)
   - Dominican (E)
   - Dominican (E); Guamanian or Chamorro (R)
@@ -6771,6 +6778,7 @@ Victim race/ethnicity at incident:
   - 39
   - 40
   - 41
+  - 153
   - 42
   - 43
   - 44
@@ -7238,3 +7246,7 @@ Outcome of police encounter:
 APU close date:
   class: Date
   origin: '1970-01-01'
+bwc_evidence:
+  class: character
+video_evidence:
+  class: character
