@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: ce85e5bcd80ef7f9bbc5bfca4e757de76add0980
-  data_hash: 4f7199e18a147492bb0d7989983d120b209a83ac
+  hash: 3fb1181c4c86d1378d26e70d6ef9b9e33cf53b0f
+  data_hash: 9b036244aeed6397f079206bd87ee671617f73db
 'Tax #':
   class: character
 Officer last name:
@@ -6661,6 +6661,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): 5'
   - 'Other (R): Albanian'
   - 'Other (R): American'
+  - 'Other (R): American; Other Hispanic/Latino (E)'
   - 'Other (R): Arab'
   - 'Other (R): Asiactic'
   - 'Other (R): Asian American'
@@ -6815,6 +6816,7 @@ Victim race/ethnicity at incident:
   - 72
   - 73
   - 74
+  - 154
   - 75
   - 76
   - 77

@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: ce85e5bcd80ef7f9bbc5bfca4e757de76add0980
+  hash: 3fb1181c4c86d1378d26e70d6ef9b9e33cf53b0f
   data_hash: 455f549f989dc1d95820e9302980be1ae514094d
 'Tax #':
   class: character
@@ -6661,6 +6661,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): 5'
   - 'Other (R): Albanian'
   - 'Other (R): American'
+  - 'Other (R): American; Other Hispanic/Latino (E)'
   - 'Other (R): Arab'
   - 'Other (R): Asiactic'
   - 'Other (R): Asian American'
@@ -6815,6 +6816,7 @@ Victim race/ethnicity at incident:
   - 72
   - 73
   - 74
+  - 154
   - 75
   - 76
   - 77
