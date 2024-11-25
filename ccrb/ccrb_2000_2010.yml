@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 3fb1181c4c86d1378d26e70d6ef9b9e33cf53b0f
+  hash: a104ec42cb3c5515394b3a496fb8aa02af194a37
   data_hash: 455f549f989dc1d95820e9302980be1ae514094d
 'Tax #':
   class: character
@@ -4252,6 +4252,7 @@ Command at incident:
   - BX COURT
   - BX CT
   - BX IRT
+  - BX OP NIGHT
   - BX SU ALU
   - BX SU CRT
   - BX SVS
@@ -4364,6 +4365,7 @@ Command at incident:
   - DBMS OP
   - DBQ Z24
   - DBQN
+  - DBQN OP
   - DBQS
   - DBQS OP
   - DBSI
@@ -5691,6 +5693,7 @@ Command at incident:
   - 626
   - 627
   - 628
+  - 1439
   - 629
   - 630
   - 631
@@ -5803,6 +5806,7 @@ Command at incident:
   - 735
   - 736
   - 737
+  - 1440
   - 738
   - 739
   - 740
@@ -6589,7 +6593,9 @@ Victim race/ethnicity at incident:
   - Black and/or African American (R); Japanese (R)
   - Black and/or African American (R); Non-Hispanic/Latino (E)
   - Black and/or African American (R); Other (R)
+  - 'Black and/or African American (R); Other (R): "Human"'
   - 'Black and/or African American (R); Other (R): African-American Jewish'
+  - 'Black and/or African American (R); Other (R): America'
   - 'Black and/or African American (R); Other (R): Asiatic'
   - 'Black and/or African American (R); Other (R): Biracial'
   - 'Black and/or African American (R); Other (R): Dominican'
@@ -6600,6 +6606,7 @@ Victim race/ethnicity at incident:
   - 'Black and/or African American (R); Other (R): Jamaican'
   - 'Black and/or African American (R); Other (R): Mixed Race'
   - 'Black and/or African American (R); Other (R): Panamanian'
+  - 'Black and/or African American (R); Other (R): West Indian'
   - Black and/or African American (R); Other Hispanic/Latino (E)
   - Black and/or African American (R); Puerto Rican (E)
   - Black and/or African American (R); White/Caucasian (R)
@@ -6609,6 +6616,7 @@ Victim race/ethnicity at incident:
   - 'Chinese (R); Other (R): Taiwanese'
   - Chinese (R); Other Asian (R)
   - Cuban (E)
+  - Cuban (E); Dominican (E)
   - 'Cuban (E); Other (R): White'
   - Cuban (E); Puerto Rican (E)
   - Decline to Answer (NA)
@@ -6677,9 +6685,11 @@ Victim race/ethnicity at incident:
   - 'Other (R): German'
   - 'Other (R): Greek'
   - 'Other (R): Guyanese'
+  - 'Other (R): Guyanese; Other Asian (R)'
   - 'Other (R): Haitian'
   - 'Other (R): Hindu Indian'
   - 'Other (R): Hispanic Caucasian; Other Hispanic/Latino (E)'
+  - 'Other (R): Hondurian; Other Hispanic/Latino (E)'
   - 'Other (R): Indian'
   - 'Other (R): Indian; South Asian (R)'
   - 'Other (R): Italian; Puerto Rican (E)'
@@ -6707,6 +6717,7 @@ Victim race/ethnicity at incident:
   - Other (R); Other Asian (R)
   - Other (R); Other Hispanic/Latino (E)
   - Other (R); Puerto Rican (E)
+  - Other (R); South Asian (R)
   - Other (R); White/Caucasian (R)
   - Other Asian (R)
   - Other Asian (R); Other Hispanic/Latino (E)
@@ -6744,7 +6755,9 @@ Victim race/ethnicity at incident:
   - 12
   - 13
   - 14
+  - 155
   - 15
+  - 156
   - 132
   - 16
   - 17
@@ -6755,6 +6768,7 @@ Victim race/ethnicity at incident:
   - 20
   - 21
   - 140
+  - 157
   - 22
   - 23
   - 24
@@ -6764,6 +6778,7 @@ Victim race/ethnicity at incident:
   - 27
   - 143
   - 28
+  - 158
   - 29
   - 30
   - 31
@@ -6832,9 +6847,11 @@ Victim race/ethnicity at incident:
   - 87
   - 88
   - 89
+  - 159
   - 90
   - 144
   - 145
+  - 160
   - 91
   - 92
   - 129
@@ -6862,6 +6879,7 @@ Victim race/ethnicity at incident:
   - 130
   - 152
   - 107
+  - 161
   - 108
   - 109
   - 110
