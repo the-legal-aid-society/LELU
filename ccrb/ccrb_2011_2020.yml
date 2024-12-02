@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: a104ec42cb3c5515394b3a496fb8aa02af194a37
-  data_hash: 5ca9fc67490f478f0f19667567ad8714262a6290
+  hash: fbe38a83413c630143c4d5e7deb7ea4666d941d9
+  data_hash: c4767bbf659e11bf9a884bb3352ce6dab6cff14c
 'Tax #':
   class: character
 Officer last name:
@@ -2934,6 +2934,7 @@ NYPD Penalty:
   - Command Discipline A 5 days
   - Command Discipline B
   - Command Discipline B 10 days
+  - Command Discipline B 3 days
   - Command Discipline B 5 days
   - Command Level Instructions
   - Dismissal Probation
@@ -3121,6 +3122,7 @@ NYPD Penalty:
   - 42
   - 43
   - 44
+  - 187
   - 45
   - 46
   - 47
@@ -4299,6 +4301,7 @@ Command at incident:
   - CR PREV
   - CRC
   - CRD SPARTA
+  - CRIME PREV
   - Crime Unit
   - CRJ BUR
   - CRM CTL
@@ -4815,6 +4818,7 @@ Command at incident:
   - Public Service Area 7
   - Public Service Area 8
   - Q CHILD
+  - Q NIGHT WATCH
   - Q SVS
   - Q/N-ND
   - Q/S-ND
@@ -5740,6 +5744,7 @@ Command at incident:
   - 671
   - 672
   - 673
+  - 1441
   - 674
   - 675
   - 676
@@ -6256,6 +6261,7 @@ Command at incident:
   - 1173
   - 1174
   - 1175
+  - 1442
   - 1176
   - 1177
   - 1178
