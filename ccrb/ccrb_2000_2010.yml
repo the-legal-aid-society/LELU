@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: fbe38a83413c630143c4d5e7deb7ea4666d941d9
-  data_hash: 455f549f989dc1d95820e9302980be1ae514094d
+  hash: bc9dec9448b91cea4944feb14cb63f5c0cde472f
+  data_hash: 2c7695795c1712244aa1412d91e345740d84b53e
 'Tax #':
   class: character
 Officer last name:
@@ -210,7 +210,6 @@ Current command:
   - BKROBSQ
   - BLDG MAINT
   - BM SEC
-  - BMD BAS
   - BMD GCS
   - BN CAS
   - BN CRIME ANL
@@ -416,6 +415,7 @@ Current command:
   - DBBS VIDEO
   - DBBX
   - DBBX OP
+  - DBBX VIDEO
   - DBBX Z8
   - DBBX Z9
   - DBCR Z1
@@ -485,7 +485,6 @@ Current command:
   - EQUIPMENT
   - ERMD CCSU
   - ERMD PAS
-  - ERMS
   - ERMS CCSU
   - ERMS EIU
   - ERMS PAS
@@ -1004,6 +1003,7 @@ Current command:
   - SIB CMO
   - SIB ORE
   - SIB OSI
+  - SIB PMO
   - SIHU
   - SIL
   - SIU CRIME STOP
@@ -1373,7 +1373,6 @@ Current command:
   - 195
   - 196
   - 197
-  - 198
   - 194
   - 199
   - 200
@@ -1579,6 +1578,7 @@ Current command:
   - 396
   - 397
   - 398
+  - 283
   - 399
   - 400
   - 401
@@ -1648,7 +1648,6 @@ Current command:
   - 465
   - 466
   - 467
-  - 1153
   - 468
   - 469
   - 470
@@ -2167,6 +2166,7 @@ Current command:
   - 973
   - 974
   - 975
+  - 390
   - 976
   - 977
   - 978
@@ -2930,6 +2930,7 @@ NYPD Penalty:
   - Command Discipline A
   - Command Discipline A / Formalized Training
   - Command Discipline A 1 days
+  - Command Discipline A 2 days
   - Command Discipline A 3 days
   - Command Discipline A 5 days
   - Command Discipline B
@@ -3118,6 +3119,7 @@ NYPD Penalty:
   - 39
   - 40
   - 41
+  - 188
   - 183
   - 42
   - 43
@@ -4210,6 +4212,7 @@ Command at incident:
   - BLKN CT
   - BM SEC
   - BN Gang unit
+  - BN GRAND LARC
   - BN IRT
   - BN SU CRT
   - BN VICE
@@ -5653,6 +5656,7 @@ Command at incident:
   - 584
   - 585
   - 586
+  - 1443
   - 587
   - 588
   - 589
@@ -6677,6 +6681,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): American'
   - 'Other (R): American; Other Hispanic/Latino (E)'
   - 'Other (R): Arab'
+  - 'Other (R): Ashkenazi Jewish'
   - 'Other (R): Asiactic'
   - 'Other (R): Asian American'
   - 'Other (R): Asian Indian; Other Asian (R)'
@@ -6690,6 +6695,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Eygptian'
   - 'Other (R): German'
   - 'Other (R): Greek'
+  - 'Other (R): Guianese'
   - 'Other (R): Guyanese'
   - 'Other (R): Guyanese; Other Asian (R)'
   - 'Other (R): Haitian'
@@ -6698,6 +6704,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Hondurian; Other Hispanic/Latino (E)'
   - 'Other (R): Indian'
   - 'Other (R): Indian; South Asian (R)'
+  - 'Other (R): Indigenous American; Other Hispanic/Latino (E)'
   - 'Other (R): Italian; Puerto Rican (E)'
   - 'Other (R): Jamaican'
   - 'Other (R): Jewish'
@@ -6707,6 +6714,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Mixed'
   - 'Other (R): Mixed Race'
   - 'Other (R): Mixed Race; Other Pacific Island (R)'
+  - 'Other (R): Moorish'
   - 'Other (R): Moorish- American'
   - 'Other (R): Moroccan'
   - 'Other (R): Morris American'
@@ -6839,6 +6847,7 @@ Victim race/ethnicity at incident:
   - 74
   - 154
   - 75
+  - 162
   - 76
   - 77
   - 78
@@ -6852,6 +6861,7 @@ Victim race/ethnicity at incident:
   - 86
   - 87
   - 88
+  - 163
   - 89
   - 159
   - 90
@@ -6860,6 +6870,7 @@ Victim race/ethnicity at incident:
   - 160
   - 91
   - 92
+  - 164
   - 129
   - 134
   - 93
@@ -6869,6 +6880,7 @@ Victim race/ethnicity at incident:
   - 138
   - 97
   - 98
+  - 165
   - 148
   - 99
   - 100

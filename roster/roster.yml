@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: de757d28957df34300c2ebefb25ec82a540feba0
-  data_hash: c3217bc078d3d7d03670c94b3c4c471a7c1fdebe
+  hash: 2d48a634330ed7f93a418aa31d05d626fc55398f
+  data_hash: 14afbbb12310de7b2bc3fe19f96bdbdcf2dbec7e
 'Tax #':
   class: character
 Roster Date:
@@ -244,7 +244,6 @@ Current command:
   - BKROBSQ
   - BLDG MAINT
   - BM SEC
-  - BMD BAS
   - BMD GCS
   - BN CAS
   - BN CRIME ANL
@@ -343,6 +342,7 @@ Current command:
   - CID TACTICAL TRN
   - CIO
   - CIV HIRING
+  - CIV TRN
   - CIVTRN SEC
   - CJB
   - CJB CMS
@@ -473,6 +473,7 @@ Current command:
   - DBBS VIDEO
   - DBBX
   - DBBX OP
+  - DBBX VIDEO
   - DBBX Z8
   - DBBX Z9
   - DBCR Z1
@@ -1529,7 +1530,6 @@ Current command:
   - 200
   - 201
   - 203
-  - 212
   - 1209
   - 204
   - 205
@@ -1628,6 +1628,7 @@ Current command:
   - 296
   - 298
   - 299
+  - 297
   - 1229
   - 300
   - 103
@@ -1758,6 +1759,7 @@ Current command:
   - 1030
   - 409
   - 410
+  - 619
   - 411
   - 412
   - 413
