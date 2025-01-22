@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: e19626c56d8680e479a9af167caa7465f112a8ed
-  data_hash: f88cd44be3f47dce0c46f824e464e6a4490e0018
+  hash: 6c51fa76deacfec0f7f1e6fb799c74131e696c63
+  data_hash: cd057d55d29af1a71cda53c935efd33c4fcd4ddb
 Officer Name:
   class: character
 Document:
@@ -313,6 +313,7 @@ Precinct/Command:
   - School Safety
   - School Safety Unit
   - sex crimes unit
+  - SIU photographic squad
   - Special Operations Division
   - SPECIAL VICTIMS DIV ZONE 2
   - Special Victims Division
@@ -646,6 +647,7 @@ Precinct/Command:
   - 187
   - 330
   - 188
+  - 333
   - 189
   - 310
   - 190

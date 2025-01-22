@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 2d48a634330ed7f93a418aa31d05d626fc55398f
-  data_hash: 14afbbb12310de7b2bc3fe19f96bdbdcf2dbec7e
+  hash: 3969db377c5f223fcb7293366444437dd9a728ed
+  data_hash: 1eeb4d9c4973444cf9d3f00f0500701bf2c861b5
 'Tax #':
   class: character
 Roster Date:
@@ -185,6 +185,7 @@ Current command:
   - 115 DET
   - 115 PCT
   - 115 RSVLT TF
+  - 116 DET
   - 116 PCT
   - 120 DET
   - 120 PCT
@@ -244,7 +245,6 @@ Current command:
   - BKROBSQ
   - BLDG MAINT
   - BM SEC
-  - BMD GCS
   - BN CAS
   - BN CRIME ANL
   - BN GRAND LARC
@@ -342,7 +342,6 @@ Current command:
   - CID TACTICAL TRN
   - CIO
   - CIV HIRING
-  - CIV TRN
   - CIVTRN SEC
   - CJB
   - CJB CMS
@@ -455,6 +454,7 @@ Current command:
   - DB SIU
   - DB SPEC ENF DIV
   - DB SVD
+  - DB SVU
   - DB TACTICAL TRN
   - DB TCU
   - DB TRAINING
@@ -480,7 +480,6 @@ Current command:
   - DBM Z14
   - DBM ZN1
   - DBM ZN2
-  - DBM ZN3
   - DBM ZN4
   - DBM ZN5
   - DBM ZN6
@@ -532,6 +531,7 @@ Current command:
   - DCSI
   - DCSI ORI
   - DCU TACT TRN
+  - DEA FTF
   - DET BUR
   - DIR TRN
   - DIS CTL
@@ -715,7 +715,6 @@ Current command:
   - IAB IU 53
   - IAB IU 56
   - IAB RESOURCE
-  - IAB SPEC OPS
   - IAB SUPP SERV
   - IAB Z1
   - IAB Z2
@@ -811,6 +810,7 @@ Current command:
   - MN GRAND LARC
   - MN IRT
   - MN OP NIGHT
+  - MN SU ALU
   - MN SU CRT
   - MN SU ECT
   - MN VICE
@@ -1471,6 +1471,7 @@ Current command:
   - 144
   - 145
   - 146
+  - 212
   - 715
   - 147
   - 148
@@ -1530,7 +1531,6 @@ Current command:
   - 200
   - 201
   - 203
-  - 1209
   - 204
   - 205
   - 206
@@ -1628,7 +1628,6 @@ Current command:
   - 296
   - 298
   - 299
-  - 297
   - 1229
   - 300
   - 103
@@ -1741,6 +1740,7 @@ Current command:
   - 1235
   - 397
   - 398
+  - 1028
   - 1231
   - 943
   - 1250
@@ -1766,7 +1766,6 @@ Current command:
   - 1256
   - 414
   - 415
-  - 416
   - 417
   - 418
   - 419
@@ -1818,6 +1817,7 @@ Current command:
   - 461
   - 462
   - 463
+  - 1255
   - 464
   - 465
   - 466
@@ -2001,7 +2001,6 @@ Current command:
   - 639
   - 640
   - 641
-  - 642
   - 643
   - 644
   - 645
@@ -2097,6 +2096,7 @@ Current command:
   - 727
   - 728
   - 729
+  - 1289
   - 730
   - 731
   - 732
