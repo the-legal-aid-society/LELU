@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 02e82106d92b195438759961244281090b6f4de4
-  data_hash: 4b979b9357277197deabb56a722b38b110c6a835
+  hash: 46c0a09ee401bb2c17ca66cc0e06c2b20ea832eb
+  data_hash: 99d32f53f7d1403458cac3fdea422fcb7113d05b
 Officer Defendant:
   class: character
 'Tax #':
@@ -39,6 +39,7 @@ Court:
   - Civil Court - Richmond
   - Court of Claims - New York State
   - Eastern District NY
+  - Kings
   - Small Claims Court
   - Small Claims Court - Bronx
   - Small Claims Court - Kings
@@ -81,6 +82,7 @@ Court:
   - 5
   - 34
   - 6
+  - 42
   - 35
   - 7
   - 8

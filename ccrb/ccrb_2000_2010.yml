@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: f5a422866b827ff560d00c09df4799335b24148c
+  hash: 58f20ad7e85ecfa7283a2790636b2dabf1629660
   data_hash: e8ad2f3394323ecde6f69dbb6e254ff198156b95
 'Tax #':
   class: character
@@ -4867,6 +4867,7 @@ Command at incident:
   - SI COURT
   - SI EMER
   - SI Emerg
+  - SI HOMICIDE
   - SI HWYP
   - SI IRT
   - SI Narcotics Division
@@ -6313,6 +6314,7 @@ Command at incident:
   - 1213
   - 1214
   - 1215
+  - 861
   - 1216
   - 1217
   - 1218
@@ -6597,6 +6599,7 @@ Victim race/ethnicity at incident:
   - American Indian/Alaska Native (R); Black and/or African American (R)
   - American Indian/Alaska Native (R); Decline to Answer (NA)
   - American Indian/Alaska Native (R); Other (R)
+  - 'American Indian/Alaska Native (R); Other (R): Garifuna'
   - 'American Indian/Alaska Native (R); Other (R): Jamaican'
   - 'American Indian/Alaska Native (R); Other (R): West Indian'
   - American Indian/Alaska Native (R); Other Hispanic/Latino (E)
@@ -6623,6 +6626,7 @@ Victim race/ethnicity at incident:
   - 'Black and/or African American (R); Other (R): Mixed Race'
   - 'Black and/or African American (R); Other (R): Panamanian'
   - 'Black and/or African American (R); Other (R): West Indian'
+  - Black and/or African American (R); Other Asian (R)
   - Black and/or African American (R); Other Hispanic/Latino (E)
   - Black and/or African American (R); Puerto Rican (E)
   - Black and/or African American (R); White/Caucasian (R)
@@ -6683,6 +6687,7 @@ Victim race/ethnicity at incident:
   - Other (R)
   - 'Other (R):  Afro-Latino'
   - 'Other (R): "Arab"'
+  - 'Other (R): "Indian" ; Other Pacific Island (R)'
   - 'Other (R): "Mixed"'
   - 'Other (R): 5'
   - 'Other (R): Albanian'
@@ -6708,6 +6713,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Guyanese'
   - 'Other (R): Guyanese; Other Asian (R)'
   - 'Other (R): Haitian'
+  - 'Other (R): Hebrew-Israelite'
   - 'Other (R): Hindu Indian'
   - 'Other (R): Hispanic Caucasian; Other Hispanic/Latino (E)'
   - 'Other (R): Hondurian; Other Hispanic/Latino (E)'
@@ -6766,6 +6772,7 @@ Victim race/ethnicity at incident:
   - 2
   - 3
   - 4
+  - 169
   - 5
   - 150
   - 6
@@ -6792,6 +6799,7 @@ Victim race/ethnicity at incident:
   - 21
   - 140
   - 157
+  - 170
   - 22
   - 23
   - 24
@@ -6852,6 +6860,7 @@ Victim race/ethnicity at incident:
   - 68
   - 69
   - 70
+  - 171
   - 71
   - 72
   - 73
@@ -6877,6 +6886,7 @@ Victim race/ethnicity at incident:
   - 89
   - 159
   - 90
+  - 172
   - 144
   - 145
   - 160
