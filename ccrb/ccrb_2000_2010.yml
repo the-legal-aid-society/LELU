@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 58f20ad7e85ecfa7283a2790636b2dabf1629660
-  data_hash: e8ad2f3394323ecde6f69dbb6e254ff198156b95
+  hash: ccb16177cf62b35d9acac75ce725af9a391de737
+  data_hash: 350c021caf77a32a9fdeba243f53e8413ce5620f
 'Tax #':
   class: character
 Officer last name:
@@ -290,7 +290,6 @@ Current command:
   - CENROBB
   - CENTRAL REC
   - CEREMONIAL
-  - CHAPLAINS
   - CI&RDIV
   - CID ADMIN
   - CID CRIME STOP
@@ -427,6 +426,7 @@ Current command:
   - DBM ZN6
   - DBMN
   - DBMN OP
+  - DBMN VIDEO
   - DBMNHTF
   - DBMS
   - DBMS OP
@@ -621,7 +621,7 @@ Current command:
   - IAB IU 53
   - IAB IU 56
   - IAB RESOURCE
-  - IAB SUPP SERV
+  - IAB Z1
   - IAB Z2
   - IAB Z3
   - IAB Z4
@@ -696,6 +696,7 @@ Current command:
   - MAN SAT
   - MANH TCS
   - MB SSZN
+  - MC UNIT
   - MC/SQD
   - MCS CHILD EXP
   - MCS HUMAN TR
@@ -773,7 +774,6 @@ Current command:
   - OCDE-SF
   - OCME LIAISON
   - OEEO
-  - OFF COD
   - OFF CSO
   - OFF DB
   - OFF DCMB
@@ -892,7 +892,6 @@ Current command:
   - PCO CPU
   - PCO L U
   - PCO RTC
-  - PCO SSD
   - PER BUR
   - PHOTO-S
   - PI&REQ
@@ -1005,7 +1004,6 @@ Current command:
   - SIB CMO
   - SIB ORE
   - SIB OSI
-  - SIB PMO
   - SIHU
   - SIL
   - SIU CRIME STOP
@@ -1064,7 +1062,6 @@ Current command:
   - TAXI UT
   - TB
   - TB ATU
-  - TB ATU 1
   - TB ATU 3
   - TB ATU BK
   - TB BK
@@ -1456,7 +1453,6 @@ Current command:
   - 275
   - 276
   - 277
-  - 278
   - 279
   - 280
   - 281
@@ -1593,6 +1589,7 @@ Current command:
   - 407
   - 408
   - 409
+  - 194
   - 410
   - 411
   - 412
@@ -1787,7 +1784,7 @@ Current command:
   - 599
   - 600
   - 601
-  - 450
+  - 404
   - 1144
   - 604
   - 605
@@ -1862,6 +1859,7 @@ Current command:
   - 671
   - 1146
   - 672
+  - 602
   - 673
   - 674
   - 675
@@ -1939,7 +1937,6 @@ Current command:
   - 744
   - 745
   - 746
-  - 747
   - 748
   - 749
   - 750
@@ -2058,7 +2055,6 @@ Current command:
   - 1155
   - 864
   - 865
-  - 866
   - 867
   - 868
   - 869
@@ -2171,7 +2167,6 @@ Current command:
   - 973
   - 974
   - 975
-  - 390
   - 976
   - 977
   - 978
@@ -2230,7 +2225,6 @@ Current command:
   - 1028
   - 1029
   - 1030
-  - 1156
   - 1031
   - 1157
   - 1032
@@ -2892,6 +2886,7 @@ NYPD Penalty:
   - Closed Administratively
   - Closed Administratively (Command Discipline - A)
   - 'Closed Administratively (Command Discipline - A) / Vacation: 0.25 days'
+  - 'Closed Administratively (Command Discipline - A) / Vacation: 0.50 days'
   - 'Closed Administratively (Command Discipline - A) / Vacation: 2 days'
   - Closed Administratively (Command Discipline - B)
   - 'Closed Administratively (Command Discipline - B) / Vacation: 0.13 days'
@@ -3083,6 +3078,7 @@ NYPD Penalty:
   - 2
   - 3
   - 189
+  - 185
   - 4
   - 5
   - 6
@@ -4836,6 +4832,7 @@ Command at incident:
   - QN GRAND LARC
   - QN SU ALU
   - QN SU CRT
+  - QN VICE
   - QN/N-ND
   - QNROBSQ
   - QNS CT
@@ -4845,6 +4842,7 @@ Command at incident:
   - QS IRT
   - QS NARC
   - QS SU CRT
+  - QS VICE
   - Queens Gang Squad
   - Queens South Narcotics
   - Queens South Narcotics District
@@ -6283,6 +6281,7 @@ Command at incident:
   - 1428
   - 1185
   - 1186
+  - 939
   - 1187
   - 1188
   - 1189
@@ -6292,6 +6291,7 @@ Command at incident:
   - 1192
   - 1193
   - 1194
+  - 1448
   - 1195
   - 1196
   - 1197
@@ -6621,6 +6621,7 @@ Victim race/ethnicity at incident:
   - 'Black and/or African American (R); Other (R): Guyanese'
   - 'Black and/or African American (R); Other (R): Haitian'
   - 'Black and/or African American (R); Other (R): Hatian'
+  - 'Black and/or African American (R); Other (R): Hispanic'
   - 'Black and/or African American (R); Other (R): Indian'
   - 'Black and/or African American (R); Other (R): Jamaican'
   - 'Black and/or African American (R); Other (R): Mixed Race'
@@ -6741,6 +6742,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Senegalese'
   - 'Other (R): Spanish'
   - 'Other (R): Turkish'
+  - 'Other (R): Venezuela; Other Hispanic/Latino (E)'
   - 'Other (R): West Indian'
   - 'Other (R): White/Hispanic ; White/Caucasian (R)'
   - Other (R); Other Asian (R)
@@ -6794,6 +6796,7 @@ Victim race/ethnicity at incident:
   - 142
   - 18
   - 19
+  - 173
   - 147
   - 20
   - 21
@@ -6914,6 +6917,7 @@ Victim race/ethnicity at incident:
   - 141
   - 104
   - 128
+  - 174
   - 105
   - 106
   - 130
