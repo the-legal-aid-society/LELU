@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: ccb16177cf62b35d9acac75ce725af9a391de737
-  data_hash: ee0c7abca639276e5529850dd1bcaa69e66d12ff
+  hash: d18172f7115cb3b01126472b9edd83614f51d09a
+  data_hash: 1774778ddcd0450ab5e1a6a6e3a4c6eba38cee15
 'Tax #':
   class: character
 Officer last name:
@@ -6603,6 +6603,7 @@ Victim race/ethnicity at incident:
   - 'American Indian/Alaska Native (R); Other (R): Jamaican'
   - 'American Indian/Alaska Native (R); Other (R): West Indian'
   - American Indian/Alaska Native (R); Other Hispanic/Latino (E)
+  - American Indian/Alaska Native (R); Puerto Rican (E)
   - American Indian/Alaska Native (R); White/Caucasian (R)
   - Black and/or African American (R)
   - Black and/or African American (R); Chinese (R)
@@ -6713,6 +6714,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Guyana'
   - 'Other (R): Guyanese'
   - 'Other (R): Guyanese; Other Asian (R)'
+  - 'Other (R): Gypsy'
   - 'Other (R): Haitian'
   - 'Other (R): Hebrew-Israelite'
   - 'Other (R): Hindu Indian'
@@ -6721,6 +6723,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Indian'
   - 'Other (R): Indian; South Asian (R)'
   - 'Other (R): Indigenous American; Other Hispanic/Latino (E)'
+  - 'Other (R): Indigenous/ Mayan/ Guatemalan; Other Hispanic/Latino (E)'
   - 'Other (R): Italian; Puerto Rican (E)'
   - 'Other (R): Jamaican'
   - 'Other (R): Jewish'
@@ -6730,6 +6733,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Mixed'
   - 'Other (R): Mixed Race'
   - 'Other (R): Mixed Race; Other Pacific Island (R)'
+  - 'Other (R): Moor'
   - 'Other (R): Moorish'
   - 'Other (R): Moorish- American'
   - 'Other (R): Moroccan'
@@ -6778,6 +6782,7 @@ Victim race/ethnicity at incident:
   - 5
   - 150
   - 6
+  - 175
   - 7
   - 8
   - 9
@@ -6888,6 +6893,7 @@ Victim race/ethnicity at incident:
   - 168
   - 89
   - 159
+  - 176
   - 90
   - 172
   - 144
@@ -6896,6 +6902,7 @@ Victim race/ethnicity at incident:
   - 91
   - 92
   - 164
+  - 177
   - 129
   - 134
   - 93
@@ -6905,6 +6912,7 @@ Victim race/ethnicity at incident:
   - 138
   - 97
   - 98
+  - 178
   - 165
   - 148
   - 99
