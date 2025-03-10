@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: b85ecce568d1ebccc245790e388dfdc18b0a543d
-  data_hash: ad5d8513a5accd4b3479a3bca9d1c5eef10ff384
+  hash: 9b2d3ec2bd0fdd4db09fe471f55a5b4664b1e3f5
+  data_hash: 763e6ee55378525aba3a85b31bd61f3b87253572
 Officer Name:
   class: character
 Document:
@@ -27,6 +27,7 @@ Precinct/Command:
   - '10'
   - '100'
   - '101'
+  - 101 Det Squad
   - 101ST DET SQUAD
   - '102'
   - '103'
@@ -51,14 +52,17 @@ Precinct/Command:
   - '121'
   - '122'
   - '123'
+  - 13 Det Squad
   - '14'
   - '17'
+  - 17 Det Squad
   - 171-PATROL BORO QUEENS SOUTH
   - '18'
   - '185'
   - 185-PBQS-SPECIALIZED UNITS
   - 185-PBQS SPECIALIZED UNITS
   - '19'
+  - '22214'
   - '23'
   - '24'
   - '25'
@@ -66,6 +70,7 @@ Precinct/Command:
   - '28'
   - '30'
   - '32'
+  - 32 Det Squad
   - 32 PCT
   - 32 Precinct
   - '33'
@@ -200,6 +205,7 @@ Precinct/Command:
   - HIGHWAY DISTRICT 1
   - Highway Patrol unit
   - highway unit
+  - Highway Unit No 1
   - HIGHWAY UNIT NO 2
   - HOMELESS OUTREACH UNIT
   - housing
@@ -209,10 +215,12 @@ Precinct/Command:
   - Housing Police Service Area 1
   - Housing Police Service Area 8
   - HOUSING PSA 2
+  - Housing PSA 3
   - HOUSING PSA 3
   - Housing PSA 5
   - HOUSING PSA 5
   - HOUSING PSA 7
+  - Housing PSA 8
   - Housing PSA 9
   - HOUSING PSA2
   - IAB
@@ -253,6 +261,7 @@ Precinct/Command:
   - MILITARY & EXTEND LEAVE DESK
   - MILITARY & EXTENDED LEAVE DESK
   - Missing persons
+  - MTS Det Squad
   - NARC BORO BKLYN NORTH
   - NARC BORO BROOKLYN NORTH
   - NARC BORO QUEENS NORTH
@@ -281,6 +290,7 @@ Precinct/Command:
   - PATROL BORO BKLYN NORTH
   - PATROL BORO BRONX
   - PATROL BORO MAN NORTH
+  - Patrol Boro Man North T/F
   - PATROL BORO MAN SOUTH
   - Patrol Boro Queens South
   - Patrol Boro Queens South; 100
@@ -342,6 +352,7 @@ Precinct/Command:
   - Transit
   - Transit Bureau
   - Transit Bureau anti-terror unit
+  - Transit Bureau District 11
   - TRANSIT BUREAU DISTRICT 2
   - Transit Bureau District 3
   - TRANSIT BUREAU DISTRICT 33
@@ -367,6 +378,7 @@ Precinct/Command:
   - 259
   - 4
   - 5
+  - 340
   - 280
   - 244
   - 6
@@ -391,14 +403,17 @@ Precinct/Command:
   - 257
   - 17
   - 18
+  - 341
   - 320
   - 19
+  - 342
   - 213
   - 20
   - 225
   - 214
   - 215
   - 216
+  - 343
   - 21
   - 22
   - 23
@@ -406,6 +421,7 @@ Precinct/Command:
   - 25
   - 26
   - 27
+  - 344
   - 28
   - 29
   - 30
@@ -540,6 +556,7 @@ Precinct/Command:
   - 265
   - 110
   - 242
+  - 345
   - 111
   - 271
   - 112
@@ -549,10 +566,12 @@ Precinct/Command:
   - 116
   - 117
   - 305
+  - 346
   - 253
   - 118
   - 306
   - 329
+  - 347
   - 323
   - 266
   - 119
@@ -593,6 +612,7 @@ Precinct/Command:
   - 308
   - 293
   - 142
+  - 348
   - 255
   - 241
   - 309
@@ -621,6 +641,7 @@ Precinct/Command:
   - 268
   - 324
   - 256
+  - 349
   - 261
   - 162
   - 163
@@ -682,6 +703,7 @@ Precinct/Command:
   - 227
   - 202
   - 203
+  - 350
   - 239
   - 339
   - 298

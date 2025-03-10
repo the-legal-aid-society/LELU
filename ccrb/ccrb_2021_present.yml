@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: b7e732070c152480a4ed78b3509171c1fd79fe08
-  data_hash: e1fdd14d75c870e50f511b2001ff388609a4bf84
+  hash: 4216265f7746b59cce4f5fbc17f1d0bd0a01c3b4
+  data_hash: 1c87a1d7e9e7e4552b3d5521dcd66a1bf765d458
 'Tax #':
   class: character
 Officer last name:
@@ -407,6 +407,7 @@ Current command:
   - DBBKZ14
   - DBBKZ21
   - DBBKZ22
+  - DBBKZ34
   - DBBN
   - DBBN OP
   - DBBN VIDEO
@@ -430,6 +431,7 @@ Current command:
   - DBMNHTF
   - DBMS
   - DBMS OP
+  - DBMS VIDEO
   - DBQ Z17
   - DBQ Z61
   - DBQN
@@ -594,7 +596,6 @@ Current command:
   - I T S D
   - I.A.B.
   - IAB
-  - IAB ADMIN
   - IAB CRIM INV
   - IAB GRP 1
   - IAB GRP 10
@@ -620,7 +621,6 @@ Current command:
   - IAB IU 41
   - IAB IU 53
   - IAB IU 56
-  - IAB RESOURCE
   - IAB Z1
   - IAB Z2
   - IAB Z3
@@ -727,6 +727,7 @@ Current command:
   - MS OP NIGHT
   - MS SU CRT
   - MS SU ECT
+  - MS TD UNIT
   - MS TIMES SQ
   - MS VICE
   - MSS TF
@@ -774,6 +775,7 @@ Current command:
   - OCDE-SF
   - OCME LIAISON
   - OEEO
+  - OFF COD
   - OFF CSO
   - OFF DB
   - OFF DCMB
@@ -1570,6 +1572,7 @@ Current command:
   - 387
   - 388
   - 389
+  - 278
   - 391
   - 392
   - 393
@@ -1593,6 +1596,7 @@ Current command:
   - 410
   - 411
   - 412
+  - 390
   - 413
   - 415
   - 416
@@ -1757,7 +1761,6 @@ Current command:
   - 569
   - 570
   - 571
-  - 572
   - 573
   - 574
   - 575
@@ -1783,7 +1786,6 @@ Current command:
   - 598
   - 599
   - 600
-  - 601
   - 404
   - 1144
   - 604
@@ -1890,6 +1892,7 @@ Current command:
   - 698
   - 699
   - 700
+  - 450
   - 702
   - 1162
   - 1163
@@ -1937,6 +1940,7 @@ Current command:
   - 744
   - 745
   - 746
+  - 747
   - 748
   - 749
   - 750
@@ -4551,6 +4555,7 @@ Command at incident:
   - Manhattan Traffic Task Force
   - MB SSZN
   - MC/SQD
+  - MCS HUMAN TR
   - MED DIV
   - MELD
   - Midtown
@@ -4910,6 +4915,7 @@ Command at incident:
   - Street Crime Manhattan North
   - SVD Z2
   - SVD Z3
+  - SVU HU TR SQ
   - T.A.R.U
   - T.A.R.U.
   - TARU
@@ -6000,6 +6006,7 @@ Command at incident:
   - 907
   - 908
   - 909
+  - 1449
   - 910
   - 911
   - 912
@@ -6359,6 +6366,7 @@ Command at incident:
   - 1254
   - 1255
   - 1256
+  - 1450
   - 1257
   - 1258
   - 1259

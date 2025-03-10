@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 45a5300021e44d643ffe261cd61ec1aa62769186
-  data_hash: aff902eace7dadaaad44a93d19aaf0e2551261db
+  hash: bd54d4d90f960f1d00d580e6a79b0fa8da33de58
+  data_hash: 1f3a4ad2a39757dc86a2ee505313b1f620b57408
 'Tax #':
   class: character
 Roster Date:
@@ -465,6 +465,7 @@ Current command:
   - DBBKZ14
   - DBBKZ21
   - DBBKZ22
+  - DBBKZ34
   - DBBN
   - DBBN OP
   - DBBN VIDEO
@@ -488,6 +489,7 @@ Current command:
   - DBMNHTF
   - DBMS
   - DBMS OP
+  - DBMS VIDEO
   - DBQ Z17
   - DBQ Z61
   - DBQN
@@ -683,7 +685,6 @@ Current command:
   - I T S D
   - I.A.B.
   - IAB
-  - IAB ADMIN
   - IAB CMD CTR
   - IAB CRIM INV
   - IAB GRP 1
@@ -714,7 +715,6 @@ Current command:
   - IAB IU 41
   - IAB IU 53
   - IAB IU 56
-  - IAB RESOURCE
   - IAB SUPP SERV
   - IAB Z1
   - IAB Z2
@@ -828,6 +828,7 @@ Current command:
   - MS OP NIGHT
   - MS SU CRT
   - MS SU ECT
+  - MS TD UNIT
   - MS TIMES SQ
   - MS VICE
   - MSS TF
@@ -876,7 +877,7 @@ Current command:
   - OCDE-SF
   - OCME LIAISON
   - OEEO
-  - OFF CIO
+  - OFF COD
   - OFF CSO
   - OFF DB
   - OFF DCMB
@@ -1088,6 +1089,7 @@ Current command:
   - R M D
   - REC SEC
   - REC TNG
+  - RECRUIT TRN
   - RM BUR
   - RMB BODY CAM
   - RMB CD
@@ -1749,6 +1751,7 @@ Current command:
   - 402
   - 403
   - 404
+  - 415
   - 405
   - 406
   - 620
@@ -1772,6 +1775,7 @@ Current command:
   - 422
   - 423
   - 424
+  - 642
   - 426
   - 1258
   - 427
@@ -1967,7 +1971,6 @@ Current command:
   - 605
   - 606
   - 607
-  - 608
   - 609
   - 610
   - 611
@@ -1998,7 +2001,6 @@ Current command:
   - 637
   - 639
   - 640
-  - 641
   - 643
   - 644
   - 645
@@ -2112,6 +2114,7 @@ Current command:
   - 742
   - 743
   - 744
+  - 792
   - 745
   - 1265
   - 1277
@@ -2160,7 +2163,7 @@ Current command:
   - 788
   - 789
   - 790
-  - 791
+  - 1209
   - 793
   - 794
   - 796
@@ -2372,6 +2375,7 @@ Current command:
   - 991
   - 992
   - 993
+  - 1267
   - 995
   - 996
   - 997
