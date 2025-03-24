@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 0157381ad2f267301e7881908b98ed530e5cf0a5
-  data_hash: 7b9138b11e8b88c3e401830eb65f74e430d0570b
+  hash: a0cf7af4f3403c95576fb21f75296cfab268cc5b
+  data_hash: fc9e877301cfebe5d51bf6eee9891de7d26e300d
 'Tax #':
   class: character
 Officer last name:
@@ -4911,7 +4911,6 @@ Command at incident:
   - Staten Island Gang Inv. Division
   - Staten Island Gangs Division
   - Staten Island Vice Unit
-  - STOL PROP INQ UN
   - STR FOR
   - Strategic Action Team Narcotics Operations Brooklyn North
   - Strategic and Tactical Narcotics Operations
@@ -4928,6 +4927,7 @@ Command at incident:
   - TB 12
   - TB ATER
   - TB ATU
+  - TB ATU 1
   - TB ATU 3
   - TB BK
   - TB BK TF
@@ -6363,7 +6363,6 @@ Command at incident:
   - 1248
   - 1249
   - 1250
-  - 1447
   - 1251
   - 1252
   - 1253
@@ -6380,6 +6379,7 @@ Command at incident:
   - 1263
   - 1264
   - 1265
+  - 1452
   - 1436
   - 1266
   - 1267
@@ -6706,6 +6706,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): "Indian" ; Other Pacific Island (R)'
   - 'Other (R): "Mixed"'
   - 'Other (R): 5'
+  - 'Other (R): African'
   - 'Other (R): Albanian'
   - 'Other (R): American'
   - 'Other (R): American; Other Hispanic/Latino (E)'
@@ -6757,6 +6758,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): No answer given'
   - 'Other (R): Palestinian'
   - 'Other (R): Peruvian'
+  - 'Other (R): Russian; White/Caucasian (R)'
   - 'Other (R): Senegalese'
   - 'Other (R): Spanish'
   - 'Other (R): Turkish'
@@ -6887,6 +6889,7 @@ Victim race/ethnicity at incident:
   - 171
   - 71
   - 72
+  - 181
   - 73
   - 74
   - 154
@@ -6938,6 +6941,7 @@ Victim race/ethnicity at incident:
   - 102
   - 149
   - 103
+  - 182
   - 141
   - 104
   - 128
@@ -7014,6 +7018,7 @@ Precinct of incident:
   - '113'
   - '114'
   - '115'
+  - '116'
   - '120'
   - '122'
   - '123'
@@ -7094,6 +7099,7 @@ Precinct of incident:
   - 20
   - 21
   - 22
+  - 80
   - 23
   - 24
   - 25

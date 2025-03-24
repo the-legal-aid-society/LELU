@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: 9b2d3ec2bd0fdd4db09fe471f55a5b4664b1e3f5
-  data_hash: 763e6ee55378525aba3a85b31bd61f3b87253572
+  hash: 70d2c8fa42d084984864c436a8194ab3fe69a001
+  data_hash: 2e1463d0366baef76f19e01c69cd34f13ae74585
 Officer Name:
   class: character
 Document:
@@ -170,6 +170,7 @@ Precinct/Command:
   - Community Affairs Bureau
   - community affairs unit
   - Community Response Team
+  - Community Response Team CRT
   - Counterterrorism
   - Counterterrorism Bureau Critical Response Command
   - crime control strategies
@@ -197,6 +198,7 @@ Precinct/Command:
   - Force Investigation Division
   - GANG SQUAD BROOKLYN NORTH
   - GRAND LARCENY DIVISION
+  - Gun Viol Supp Div Z1
   - gun violence suppression division
   - Gun Violence Suppression Division
   - Hate Crimes Task Force
@@ -264,6 +266,7 @@ Precinct/Command:
   - MTS Det Squad
   - NARC BORO BKLYN NORTH
   - NARC BORO BROOKLYN NORTH
+  - Narc Boro Brooklyn South
   - NARC BORO QUEENS NORTH
   - NARCBBN
   - NARCBMS
@@ -353,11 +356,13 @@ Precinct/Command:
   - Transit Bureau
   - Transit Bureau anti-terror unit
   - Transit Bureau District 11
+  - Transit Bureau District 2
   - TRANSIT BUREAU DISTRICT 2
   - Transit Bureau District 3
   - TRANSIT BUREAU DISTRICT 33
   - Transit Bureau Special Operations
   - Transit District 12
+  - Transit District 20
   - Transit District 3
   - TRB QUEENS TRAFFIC ENF UNIT
   - TRB SOUTH INTERSECTION CTRL
@@ -521,6 +526,7 @@ Precinct/Command:
   - 290
   - 93
   - 291
+  - 351
   - 94
   - 95
   - 96
@@ -548,6 +554,7 @@ Precinct/Command:
   - 106
   - 252
   - 328
+  - 352
   - 107
   - 108
   - 109
@@ -615,6 +622,7 @@ Precinct/Command:
   - 348
   - 255
   - 241
+  - 353
   - 309
   - 143
   - 144
@@ -704,11 +712,13 @@ Precinct/Command:
   - 202
   - 203
   - 350
+  - 354
   - 239
   - 339
   - 298
   - 287
   - 204
+  - 355
   - 205
   - 262
   - 331
