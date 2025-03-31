@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: 70d2c8fa42d084984864c436a8194ab3fe69a001
-  data_hash: 2e1463d0366baef76f19e01c69cd34f13ae74585
+  hash: 582df3e0a336d025575eb5891c14741ae60f5e32
+  data_hash: b7773c569ad03a9f828c35f1ab0d564dacf5e047
 Officer Name:
   class: character
 Document:
@@ -178,6 +178,7 @@ Precinct/Command:
   - Criminal Intel Section
   - Department of Homeless Services
   - DET BORO BKLYN NO HOMICIDE SQ
+  - Det Boro Bronx
   - DET BORO MAN NO HOMICIDE SQ
   - DET SQUAD
   - DOC
@@ -243,6 +244,7 @@ Precinct/Command:
   - MAJOR CASE SQUAD
   - MAN COURT SECTION
   - MAN/BX SS ZONE
+  - Manh Robbery Squad
   - MANH ROBBERY SQUAD
   - Manhattan Court Section
   - MANHATTAN COURT SECTION
@@ -534,6 +536,7 @@ Precinct/Command:
   - 292
   - 98
   - 247
+  - 356
   - 302
   - 282
   - 99
@@ -599,6 +602,7 @@ Precinct/Command:
   - 307
   - 284
   - 272
+  - 357
   - 285
   - 316
   - 267
