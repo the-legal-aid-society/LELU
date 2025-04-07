@@ -35,6 +35,7 @@ jobs:
         run: | # Start a multiline shell script to run
           # Loop through all .tsv files in the repository
           for file in $(find . -name "*.tsv"); do  
-            echo "Validating file: $file"  # Print the name of the file being validated
+            echo "File: $file"  # Print the name of the file being validated
             csvclean -t -e utf-8 "$file"
+            csvstat "$file" # Print the statistics of the .tsv file
           done
