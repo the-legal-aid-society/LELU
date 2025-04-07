@@ -36,7 +36,7 @@ jobs:
           # Loop through all .tsv files in the repository
           for file in $(find . -name "*.tsv"); do  
             echo "File: $file"  # Print the name of the file being validated
-            csvclean -t -e utf-8 "$file"
+            csvclean -t -e utf-8 -d, "$file"
           done
 
       # Run csvstat to print statistics of the .csv files.
