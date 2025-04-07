@@ -28,9 +28,7 @@ jobs:
 
       # Step 2: Install csvkit, a tool to validate .tsv files, via apt-get
       - name: Install csvkit # Step description in GitHub Actions UI
-        run: | # Start a multiline shell script to run
-          sudo apt-get update  # Update package lists to ensure the latest version of packages
-          sudo apt-get install -y csvkit  # Install the csvkit package for CSV file validation
+        run: sudo apt-get update && sudo apt-get install -y csvkit
 
       # Step 3: Run csvclean with verbose output to check for errors in .tsv files
       - name: Run csvclean to print errors # Step description in GitHub Actions UI
