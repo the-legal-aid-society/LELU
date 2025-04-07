@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: a0cf7af4f3403c95576fb21f75296cfab268cc5b
-  data_hash: 27f1f982f8e20996523b1ae2dc7bcd1bbee10d48
+  hash: 45a5e84770de17121b780952e04dc94373ffd80d
+  data_hash: 9eae4f5893ca3a11d3923ef1c3659fabd0abe565
 'Tax #':
   class: character
 Officer last name:
@@ -751,6 +751,7 @@ Current command:
   - NBBN ZN 15
   - NBBS MAJOR
   - NBBX MAJOR
+  - NBBX ZN 8
   - NBMN MAJOR
   - NBMS MAJOR
   - NBQN MAJOR
@@ -775,6 +776,8 @@ Current command:
   - OCDE-SF
   - OCME LIAISON
   - OEEO
+  - OEEO INV UNIT
+  - OEI
   - OFF COD
   - OFF CSO
   - OFF DB
@@ -1916,6 +1919,7 @@ Current command:
   - 720
   - 721
   - 722
+  - 572
   - 723
   - 724
   - 725
@@ -1940,6 +1944,8 @@ Current command:
   - 744
   - 745
   - 746
+  - 601
+  - 866
   - 747
   - 748
   - 749
@@ -4856,6 +4862,7 @@ Command at incident:
   - Queens South Narcotics District
   - REC TNG
   - Retired
+  - RTCC
   - RTS RECRUIT
   - S O D
   - S S B
@@ -4883,6 +4890,7 @@ Command at incident:
   - SIB OSI
   - SIHU
   - SIL
+  - SIU CRIME STOP
   - So. East Qns. Initiative
   - SOD SRG
   - SOD T/U
@@ -6308,6 +6316,7 @@ Command at incident:
   - 1197
   - 1198
   - 1199
+  - 1447
   - 1200
   - 1201
   - 1202
@@ -6335,6 +6344,7 @@ Command at incident:
   - 1435
   - 1222
   - 1429
+  - 1453
   - 1223
   - 1224
   - 1225
@@ -6610,6 +6620,7 @@ Victim race/ethnicity at incident:
   - American Indian/Alaska Native (R)
   - American Indian/Alaska Native (R); Black and/or African American (R)
   - American Indian/Alaska Native (R); Decline to Answer (NA)
+  - American Indian/Alaska Native (R); Non-Hispanic/Latino (E)
   - American Indian/Alaska Native (R); Other (R)
   - 'American Indian/Alaska Native (R); Other (R): Garifuna'
   - 'American Indian/Alaska Native (R); Other (R): Jamaican'
@@ -6628,6 +6639,7 @@ Victim race/ethnicity at incident:
   - 'Black and/or African American (R); Other (R): "Human"'
   - 'Black and/or African American (R); Other (R): African-American Jewish'
   - 'Black and/or African American (R); Other (R): America'
+  - 'Black and/or African American (R); Other (R): American'
   - 'Black and/or African American (R); Other (R): Asiatic'
   - 'Black and/or African American (R); Other (R): Biracial'
   - 'Black and/or African American (R); Other (R): Dominican'
@@ -6716,6 +6728,8 @@ Victim race/ethnicity at incident:
   - 'Other (R): Asian American'
   - 'Other (R): Asian Indian; Other Asian (R)'
   - 'Other (R): Bengali'
+  - 'Other (R): Bengali; South Asian (R)'
+  - 'Other (R): Black; Other Hispanic/Latino (E)'
   - 'Other (R): Brazilian'
   - 'Other (R): brown skin'
   - 'Other (R): Colombian ; Other Hispanic/Latino (E)'
@@ -6793,6 +6807,7 @@ Victim race/ethnicity at incident:
   - 1
   - 2
   - 3
+  - 183
   - 4
   - 169
   - 5
@@ -6811,6 +6826,7 @@ Victim race/ethnicity at incident:
   - 155
   - 15
   - 156
+  - 184
   - 132
   - 16
   - 17
@@ -6899,6 +6915,8 @@ Victim race/ethnicity at incident:
   - 77
   - 78
   - 79
+  - 185
+  - 186
   - 80
   - 81
   - 82

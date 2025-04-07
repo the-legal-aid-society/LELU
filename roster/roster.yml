@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: bd54d4d90f960f1d00d580e6a79b0fa8da33de58
-  data_hash: 11c28829daf2ac4b981349e0aab22d73ccd99663
+  hash: 8208d488c89cc54959f51c2547bb09f9bccd4b0b
+  data_hash: 8b122bfe40e49317e9d32911f8212dce0b1ff24c
 'Tax #':
   class: character
 Roster Date:
@@ -852,6 +852,7 @@ Current command:
   - NBBN ZN 15
   - NBBS MAJOR
   - NBBX MAJOR
+  - NBBX ZN 8
   - NBMN MAJOR
   - NBMS MAJOR
   - NBQN MAJOR
@@ -877,6 +878,8 @@ Current command:
   - OCDE-SF
   - OCME LIAISON
   - OEEO
+  - OEEO INV UNIT
+  - OEI
   - OFF COD
   - OFF CSO
   - OFF DB
@@ -2138,6 +2141,7 @@ Current command:
   - 763
   - 764
   - 765
+  - 608
   - 766
   - 767
   - 768
@@ -2163,6 +2167,8 @@ Current command:
   - 788
   - 789
   - 790
+  - 641
+  - 791
   - 1209
   - 793
   - 794
