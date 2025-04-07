@@ -28,29 +28,32 @@ jobs:
 
       # Step 2: Set up Golang environment
       - name: Setup Go # Step description in GitHub Actions UI
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v5 # Use the setup-go action to install Go
         with:
           go-version: 1.20 # Specify the Go version to use
           check-latest: true # Check for the latest version of Go
 
-      # Setup 3: Install yamlfmt.
+      # Step 3: Install yamlfmt
       - name: Install yamlfmt # Step description in GitHub Actions UI
-        run: go install github.com/google/yamlfmt/cmd/yamlfmt@latest # Install yamlfmt using Go
+        run: |
+          # Ensure GOBIN is set to make the binary available in the PATH
+          export GOBIN=$HOME/go/bin # Set GOBIN to the $HOME/go/bin directory
+          go install github.com/google/yamlfmt/cmd/yamlfmt@latest # Install yamlfmt using Go
 
-      # Step 3: Install yamllint, a tool to validate .yml files, via apt-get
+      # Step 4: Install yamllint, a tool to validate .yml files, via apt-get
       - name: Install yamllint # Step description in GitHub Actions UI
-        run: | # Start a multiline shell script to run
+        run: |
           sudo apt-get update  # Update package lists to ensure the latest version of packages
           sudo apt-get install -y yamllint  # Install the yamllint package for YAML file validation
 
-      # Step 4: Run yamllint with verbose output to check for errors in .yml files
+      # Step 5: Run yamllint and yamlfmt
       - name: Run yamllint to print errors # Step description in GitHub Actions UI
-        run: | # Start a multiline shell script to run
-          # Loop through all .yml files in the repository
-          for file in $(find . -name "*.yml"); do
+        run: |
+          # Loop through all .yml files and run yamlfmt and yamllint
+          for file in $(find . -name "*.yml"); do # Loop through each .yml file in the repository
             echo "Validating file: $file"  # Print the name of the file being validated
-            # Run yamlfmt to format the file
+            # Run yamlfmt to format the .yml file
             yamlfmt "$file"  # Format the .yml file using yamlfmt, overwriting the original file
             # Run yamllint on the file and print errors if any
             yamllint "$file"  # Validate the .yml file using yamllint, it will print errors if any
-          done
+          done # End of the loop over all .yml files
