@@ -1,0 +1,42 @@
+# Name of the workflow, visible in the GitHub Actions UI
+name: Validate YML File
+
+# Define the events that trigger the workflow
+on:
+  # Trigger the workflow when there are changes to .yml files on push
+  push:
+    paths:
+      - "**.yml" # Trigger workflow if any .yml file is changed in the repository
+
+  # Trigger the workflow on pull request if there are changes to .yml files
+  pull_request:
+    paths:
+      - "**.yml" # Trigger workflow if any .yml file is changed in a pull request
+
+  # Allow manual triggering of the workflow through the GitHub UI
+  workflow_dispatch: # Allows users to manually trigger this workflow
+
+# Define the jobs section where the steps to run are listed
+jobs:
+  validate:
+    runs-on: ubuntu-latest # Specifies the operating system for the runner (latest Ubuntu version)
+
+    steps:
+      # Step 1: Checkout the repository's code to the GitHub Actions runner
+      - name: Checkout repository # Step description in GitHub Actions UI
+        uses: actions/checkout@v2 # Action used to check out the code from the repository
+
+      # Step 2: Install yamllint, a tool to validate .yml files, via apt-get
+      - name: Install yamllint # Step description in GitHub Actions UI
+        run: | # Start a multiline shell script to run
+          sudo apt-get update  # Update package lists to ensure the latest version of packages
+          sudo apt-get install -y yamllint  # Install the yamllint package for YAML file validation
+
+      # Step 3: Run yamllint with verbose output to check for errors in .yml files
+      - name: Run yamllint to print errors # Step description in GitHub Actions UI
+        run: | # Start a multiline shell script to run
+          # Loop through all .yml files in the repository
+          for file in $(find . -name "*.yml"); do
+            echo "Validating file: $file"  # Print the name of the file being validated
+            yamllint "$file"  # Validate the .yml file using yamllint, it will print errors if any
+          done
