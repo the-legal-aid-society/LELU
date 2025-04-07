@@ -35,16 +35,25 @@ jobs:
 
       # Install Requirements.
       - name: Install Requirements # Step description in GitHub Actions UI
-        run: sudo apt-get update && sudo apt-get install -y git # Install git to clone repositories if needed
+        run: sudo apt-get update && sudo apt-get install -y git coreutils curl tar
 
       # Install yamlfmt
       - name: Install yamlfmt # Step description in GitHub Actions UI
         run: |
-          # Ensure GOBIN is set to make the binary available in the PATH
-          export GO111MODULE=on # Enable Go modules
-          export GOPATH=$HOME/go # Set GOPATH to the $HOME/go directory
-          export GOBIN=$GOPATH/bin # Set GOBIN to the $GOPATH/bin directory
-          go install github.com/google/yamlfmt/cmd/yamlfmt@latest # Install yamlfmt using Go
+          # Define temporary directory
+          TEMP_DIR=$(mktemp -d)
+          # Determine the system architecture
+          ARCH=$(uname -m)
+          # Set the tarball name based on the architecture
+          TARBALL="yamlfmt_0.16.0_Linux_${ARCH}.tar.gz"
+          # Download the tarball to the temp directory
+          curl -Lo "$TEMP_DIR/$TARBALL" "https://github.com/google/yamlfmt/releases/download/v0.16.0/$TARBALL"
+          # Extract the tarball in the temp directory
+          tar -xzf "$TEMP_DIR/$TARBALL" -C "$TEMP_DIR"
+          # Move the yamlfmt binary to the correct location
+          mv "$TEMP_DIR/yamlfmt" /usr/local/bin/
+          # Clean up: Remove temporary directory and other files
+          rm -rf "$TEMP_DIR"
 
       # Install yamllint, a tool to validate .yml files, via apt-get
       - name: Install yamllint # Step description in GitHub Actions UI
