@@ -36,5 +36,5 @@ jobs:
           # Loop through all .tsv files in the repository
           for file in $(find . -name "*.tsv"); do  
             echo "Validating file: $file"  # Print the name of the file being validated
-            csvclean -t -v "$file"  # Validate the .tsv file using csvclean, -t specifies tab delimiter, -v enables verbose output
+            csvclean -t -e utf-8 "$file"
           done
