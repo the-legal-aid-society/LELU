@@ -41,7 +41,8 @@ jobs:
       - name: Install yamlfmt # Step description in GitHub Actions UI
         run: |
           # Ensure GOBIN is set to make the binary available in the PATH
-          export GOBIN=$HOME/go/bin # Set GOBIN to the $HOME/go/bin directory
+          export GOPATH=$HOME/go # Set GOPATH to the $HOME/go directory
+          export GOBIN=$GOPATH/bin # Set GOBIN to the $GOPATH/bin directory
           go install github.com/google/yamlfmt/cmd/yamlfmt@latest # Install yamlfmt using Go
 
       # Install yamllint, a tool to validate .yml files, via apt-get
