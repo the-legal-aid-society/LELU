@@ -26,17 +26,31 @@ jobs:
       - name: Checkout repository # Step description in GitHub Actions UI
         uses: actions/checkout@v2 # Action used to check out the code from the repository
 
-      # Step 2: Install yamllint, a tool to validate .yml files, via apt-get
+      # Step 2: Set up Golang environment
+      - name: Setup Go # Step description in GitHub Actions UI
+        uses: actions/setup-go@v5
+        with:
+          go-version: 1.20 # Specify the Go version to use
+          check-latest: true # Check for the latest version of Go
+
+      # Setup 3: Install yamlfmt.
+      - name: Install yamlfmt # Step description in GitHub Actions UI
+        run: go install github.com/google/yamlfmt/cmd/yamlfmt@latest # Install yamlfmt using Go
+
+      # Step 3: Install yamllint, a tool to validate .yml files, via apt-get
       - name: Install yamllint # Step description in GitHub Actions UI
         run: | # Start a multiline shell script to run
           sudo apt-get update  # Update package lists to ensure the latest version of packages
           sudo apt-get install -y yamllint  # Install the yamllint package for YAML file validation
 
-      # Step 3: Run yamllint with verbose output to check for errors in .yml files
+      # Step 4: Run yamllint with verbose output to check for errors in .yml files
       - name: Run yamllint to print errors # Step description in GitHub Actions UI
         run: | # Start a multiline shell script to run
           # Loop through all .yml files in the repository
           for file in $(find . -name "*.yml"); do
             echo "Validating file: $file"  # Print the name of the file being validated
+            # Run yamlfmt to format the file
+            yamlfmt "$file"  # Format the .yml file using yamlfmt, overwriting the original file
+            # Run yamllint on the file and print errors if any
             yamllint "$file"  # Validate the .yml file using yamllint, it will print errors if any
           done
