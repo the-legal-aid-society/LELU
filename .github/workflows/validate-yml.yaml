@@ -22,31 +22,33 @@ jobs:
     runs-on: ubuntu-latest # Specifies the operating system for the runner (latest Ubuntu version)
 
     steps:
-      # Step 1: Checkout the repository's code to the GitHub Actions runner
+      # Checkout the repository's code to the GitHub Actions runner
       - name: Checkout repository # Step description in GitHub Actions UI
         uses: actions/checkout@v2 # Action used to check out the code from the repository
 
-      # Step 2: Set up Golang environment
+      # Set up Golang environment
       - name: Setup Go # Step description in GitHub Actions UI
         uses: actions/setup-go@v5 # Use the setup-go action to install Go
         with:
           go-version: 1.20 # Specify the Go version to use
           check-latest: true # Check for the latest version of Go
 
-      # Step 3: Install yamlfmt
+      # Install Requirements.
+      - name: Install Requirements # Step description in GitHub Actions UI
+        run: apt-get update && apt-get install -y git # Install git to clone repositories if needed
+
+      # Install yamlfmt
       - name: Install yamlfmt # Step description in GitHub Actions UI
         run: |
           # Ensure GOBIN is set to make the binary available in the PATH
           export GOBIN=$HOME/go/bin # Set GOBIN to the $HOME/go/bin directory
           go install github.com/google/yamlfmt/cmd/yamlfmt@latest # Install yamlfmt using Go
 
-      # Step 4: Install yamllint, a tool to validate .yml files, via apt-get
+      # Install yamllint, a tool to validate .yml files, via apt-get
       - name: Install yamllint # Step description in GitHub Actions UI
-        run: |
-          sudo apt-get update  # Update package lists to ensure the latest version of packages
-          sudo apt-get install -y yamllint  # Install the yamllint package for YAML file validation
+        run: apt-get update && apt-get install -y yamllint # Install yamllint using apt-get
 
-      # Step 5: Run yamllint and yamlfmt
+      # Run yamllint and yamlfmt
       - name: Run yamllint to print errors # Step description in GitHub Actions UI
         run: |
           # Loop through all .yml files and run yamlfmt and yamllint
