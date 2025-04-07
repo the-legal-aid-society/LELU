@@ -22,20 +22,28 @@ jobs:
     runs-on: ubuntu-latest # Specifies the operating system for the runner (latest Ubuntu version)
 
     steps:
-      # Step 1: Checkout the repository's code to the GitHub Actions runner
+      # Checkout the repository's code to the GitHub Actions runner
       - name: Checkout repository # Step description in GitHub Actions UI
         uses: actions/checkout@v2 # Action used to check out the code from the repository
 
-      # Step 2: Install csvkit, a tool to validate .tsv files, via apt-get
+      # Install csvkit, a tool to validate .tsv files, via apt-get
       - name: Install csvkit # Step description in GitHub Actions UI
         run: sudo apt-get update && sudo apt-get install -y csvkit
 
-      # Step 3: Run csvclean with verbose output to check for errors in .tsv files
+      # Run csvclean with verbose output to check for errors in .tsv files
       - name: Run csvclean to print errors # Step description in GitHub Actions UI
         run: | # Start a multiline shell script to run
           # Loop through all .tsv files in the repository
           for file in $(find . -name "*.tsv"); do  
             echo "File: $file"  # Print the name of the file being validated
             csvclean -t -e utf-8 "$file"
-            csvstat "$file" # Print the statistics of the .tsv file
+          done
+
+      # Run csvstat to print statistics of the .csv files.
+      - name: Run csvstat to print statistics # Step description in GitHub Actions UI
+        run: | # Start a multiline shell script to run
+          # Loop through all .csv files in the repository
+          for file in $(find . -name "*.csv"); do  
+            echo "File: $file"  # Print the name of the file being validated
+            csvstat "$file" # Print the statistics of the .csv file
           done
