@@ -47,3 +47,13 @@ jobs:
             echo "File: $file"  # Print the name of the file being validated
             csvstat "$file" # Print the statistics of the .csv file
           done
+
+      # Run csvjson to convert .csv files to .json and print the result
+      - name: Run csvjson to convert .csv to .json # Step description in GitHub Actions UI
+        run: | # Start a multiline shell script to run
+          # Loop through all .csv files in the repository
+          for file in $(find . -name "*.csv"); do  
+            echo "File: $file"  # Print the name of the file being processed
+            # Convert .csv to .json using csvjson
+            csvjson "$file" > "${file%.csv}.json"
+          done
