@@ -35,7 +35,7 @@ jobs:
 
       # Install Requirements.
       - name: Install Requirements # Step description in GitHub Actions UI
-        run: apt-get update && apt-get install -y git # Install git to clone repositories if needed
+        run: sudo apt-get update && sudo apt-get install -y git # Install git to clone repositories if needed
 
       # Install yamlfmt
       - name: Install yamlfmt # Step description in GitHub Actions UI
@@ -46,7 +46,7 @@ jobs:
 
       # Install yamllint, a tool to validate .yml files, via apt-get
       - name: Install yamllint # Step description in GitHub Actions UI
-        run: apt-get update && apt-get install -y yamllint # Install yamllint using apt-get
+        run: sudo apt-get update && sudo apt-get install -y yamllint # Install yamllint using apt-get
 
       # Run yamllint and yamlfmt
       - name: Run yamllint to print errors # Step description in GitHub Actions UI
