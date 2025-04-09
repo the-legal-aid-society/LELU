@@ -28,42 +28,40 @@ jobs:
 
       # Install csvkit & gnumeric, a tool to validate .tsv files, via apt-get
       - name: Install csvkit & gnumeric # Step description in GitHub Actions UI
-        run: sudo apt-get update && sudo apt-get install -y csvkit gnumeric
+        run: sudo apt-get update && sudo apt-get install -y csvkit gnumeric # Update apt repositories and install csvkit & gnumeric for validating .tsv files
 
       # Run csvclean with verbose output to check for errors in .tsv files
       - name: Run csvclean to print errors # Step description in GitHub Actions UI
-        run: | # Start a multiline shell script to run
+        run: |
           # Loop through all .tsv files in the repository
-          for file in $(find . -name "*.tsv"); do  
+          for file in $(find . -name "*.tsv"); do  # Find all .tsv files starting from the current directory
             echo "File: $file"  # Print the name of the file being validated
-            csvclean -t -e utf-8 "$file"
-          done
+            csvclean -t -e utf-8 "$file"  # Validate the .tsv file with csvclean, specifying tab-delimited (-t) and utf-8 encoding (-e)
+          done  # End of loop for validating all .tsv files
 
       # Run csvstat to print statistics of the .csv files.
       - name: Run csvstat to print statistics # Step description in GitHub Actions UI
-        run: | # Start a multiline shell script to run
+        run: |
           # Loop through all .csv files in the repository
-          for file in $(find . -name "*.csv"); do  
+          for file in $(find . -name "*.csv"); do  # Find all .csv files starting from the current directory
             echo "File: $file"  # Print the name of the file being validated
-            csvstat "$file" # Print the statistics of the .csv file
-          done
+            csvstat "$file"  # Print statistics about the .csv file (e.g., number of rows, columns, data types)
+          done  # End of loop for generating stats on all .csv files
 
       # Run csvjson to convert .csv files to .json and print the result
       - name: Run csvjson to convert .csv to .json # Step description in GitHub Actions UI
-        run: | # Start a multiline shell script to run
-          # Loop through all .csv files in the repository
-          for file in $(find . -name "*.csv"); do  
-            echo "File: $file"  # Print the name of the file being processed
-            # Convert .csv to .json using csvjson
-            csvjson "$file" > "${file%.csv}.json"
-          done
-
-      # Convert .csv files to .xls format using ssconvert
-      - name: Convert .csv to .xls using ssconvert # Step description in GitHub Actions UI
         run: |
           # Loop through all .csv files in the repository
-          for file in $(find . -name "*.csv"); do  
-            echo "Converting File: $file"  # Print the name of the file being processed
-            # Convert .csv to .xls using ssconvert
-            ssconvert "$file" "${file%.csv}.xls" # Convert to .xls
-          done
+          for file in $(find . -name "*.csv"); do  # Find all .csv files starting from the current directory
+            echo "File: $file"  # Print the name of the file being processed
+            csvjson "$file" > "${file%.csv}.json"  # Convert the .csv file to .json and save it with the same name but with .json extension
+          done  # End of loop for converting all .csv files to .json
+
+      # Convert .tsv files to .xls format using ssconvert
+      - name: Convert .tsv to .xls using ssconvert # Step description in GitHub Actions UI
+        run: |
+          # Loop through each .tsv file found in the repository
+          for file in $(find . -name "*.tsv"); do  # Find all .tsv files starting from the current directory
+            # Convert the .tsv file to .xls by removing the .tsv extension
+            ssconvert "$file" "${file%.tsv}.xls"  # Use ssconvert to convert .tsv to .xls format and save it with the same name but with .xls extension
+          done  # End of loop for converting all .tsv files to .xls
