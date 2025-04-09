@@ -62,6 +62,7 @@ jobs:
         run: |
           # Loop through each .tsv file found in the repository
           for file in $(find . -name "*.tsv"); do  # Find all .tsv files starting from the current directory
+            echo "File: $file"  # Print the name of the file being processed
             # Convert the .tsv file to .xls by removing the .tsv extension
             ssconvert "$file" "${file%.tsv}.xls"  # Use ssconvert to convert .tsv to .xls format and save it with the same name but with .xls extension
           done  # End of loop for converting all .tsv files to .xls
