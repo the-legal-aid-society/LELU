@@ -26,9 +26,9 @@ jobs:
       - name: Checkout repository # Step description in GitHub Actions UI
         uses: actions/checkout@v2 # Action used to check out the code from the repository
 
-      # Install csvkit, a tool to validate .tsv files, via apt-get
-      - name: Install csvkit # Step description in GitHub Actions UI
-        run: sudo apt-get update && sudo apt-get install -y csvkit
+      # Install csvkit & gnumeric, a tool to validate .tsv files, via apt-get
+      - name: Install csvkit & gnumeric # Step description in GitHub Actions UI
+        run: sudo apt-get update && sudo apt-get install -y csvkit gnumeric
 
       # Run csvclean with verbose output to check for errors in .tsv files
       - name: Run csvclean to print errors # Step description in GitHub Actions UI
@@ -56,4 +56,14 @@ jobs:
             echo "File: $file"  # Print the name of the file being processed
             # Convert .csv to .json using csvjson
             csvjson "$file" > "${file%.csv}.json"
+          done
+
+      # Convert .csv files to .xls format using ssconvert
+      - name: Convert .csv to .xls using ssconvert # Step description in GitHub Actions UI
+        run: |
+          # Loop through all .csv files in the repository
+          for file in $(find . -name "*.csv"); do  
+            echo "Converting File: $file"  # Print the name of the file being processed
+            # Convert .csv to .xls using ssconvert
+            ssconvert "$file" "${file%.csv}.xls" # Convert to .xls
           done
