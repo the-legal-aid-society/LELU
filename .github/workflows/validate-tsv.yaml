@@ -66,3 +66,16 @@ jobs:
             # Convert the .tsv file to .xls by removing the .tsv extension
             ssconvert "$file" "${file%.tsv}.xls"  # Use ssconvert to convert .tsv to .xls format and save it with the same name but with .xls extension
           done  # End of loop for converting all .tsv files to .xls
+
+      # Step Check for changes and push the updated files back to GitHub
+      - name: Push Updated Files to GitHub
+        run: |
+          # Configure Git user for commits made by GitHub Actions
+          git config user.name github-actions  # Use "github-actions" as the username
+          git config user.email github-actions@github.com  # Use GitHub Actions default email
+          # If changes are detected, stage and commit the updated files
+          git add .
+          # Commit the changes with a message that includes the current date
+          git commit -m "Updated files on $(date)"  # Commit changes with a timestamped message
+          # Push the committed changes to GitHub
+          git push  # Push changes to the remote repository
