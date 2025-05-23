@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 8340460827c9a8eaa3b1b6585bd0b2e432b5daa6
-  data_hash: 9eae4f5893ca3a11d3923ef1c3659fabd0abe565
+  hash: 818022796b19e02d63fd9ec99b2e4922566c3035
+  data_hash: f97f6c2940616e8a141aa9d0857cbb5f4317339b
 'Tax #':
   class: character
 Officer last name:
@@ -307,6 +307,7 @@ Current command:
   - CO TR
   - COD DVIU
   - COD DVU
+  - COD QLD
   - COD RRU
   - COD SAS
   - COL POL
@@ -635,6 +636,7 @@ Current command:
   - INS TRN
   - INSUPDV
   - INT BUR
+  - INT CDU
   - INT CIS
   - INT DIV
   - INT EPU
@@ -788,7 +790,6 @@ Current command:
   - OFF/L R
   - OFF/TRP
   - OFFICE CCCS
-  - OFFICE DCEI
   - OFFICE DCT
   - OFFICE PB
   - OFFICE PSB
@@ -898,7 +899,6 @@ Current command:
   - PCO L U
   - PCO RTC
   - PER BUR
-  - PHOTO-S
   - PI&REQ
   - PLT MGT
   - POD
@@ -1010,7 +1010,6 @@ Current command:
   - SIB ORE
   - SIB OSI
   - SIHU
-  - SIL
   - SIU CRIME STOP
   - SOD HOU
   - SOD SRG
@@ -1475,6 +1474,7 @@ Current command:
   - 293
   - 294
   - 295
+  - 1156
   - 296
   - 418
   - 297
@@ -1803,6 +1803,7 @@ Current command:
   - 1149
   - 613
   - 614
+  - 1159
   - 615
   - 616
   - 617
@@ -1956,7 +1957,6 @@ Current command:
   - 754
   - 755
   - 756
-  - 757
   - 758
   - 759
   - 760
@@ -2066,7 +2066,6 @@ Current command:
   - 864
   - 865
   - 867
-  - 868
   - 869
   - 870
   - 871
@@ -2178,7 +2177,6 @@ Current command:
   - 974
   - 975
   - 976
-  - 977
   - 978
   - 979
   - 980
@@ -2747,6 +2745,7 @@ NYPD allegation disposition:
   - APU Charges not served
   - 'APU Closed: Charges not served'
   - 'APU Closed: Deceased'
+  - 'APU Closed: Department adjudication in process'
   - 'APU Closed: Dismissed by APU'
   - 'APU Closed: Other'
   - 'APU Closed: Previously adjudicated, with discipline'
@@ -2803,6 +2802,7 @@ NYPD allegation disposition:
   - 2
   - 3
   - 4
+  - 56
   - 5
   - 6
   - 7
@@ -3294,6 +3294,7 @@ APU case status:
   labels:
   - 'Closed: Charges not served'
   - 'Closed: Deceased'
+  - 'Closed: Department adjudication in process'
   - 'Closed: Dismissed by APU'
   - 'Closed: Dismissed by Police Commissioner'
   - 'Closed: Guilty after trial'
@@ -3323,6 +3324,7 @@ APU case status:
   index:
   - 1
   - 2
+  - 29
   - 3
   - 4
   - 5
@@ -4275,6 +4277,7 @@ Command at incident:
   - BX SVS
   - BX TRAN ROB
   - BX VICE
+  - BX WARRANT SQD
   - BX/N-ND
   - BX/Q IM
   - BX/S-ND
@@ -4295,6 +4298,7 @@ Command at incident:
   - CA SECT
   - CAB
   - CAB COD
+  - CAD CAS
   - CD IRS
   - CD OFF
   - CD OP/D
@@ -5731,6 +5735,7 @@ Command at incident:
   - 631
   - 632
   - 633
+  - 1456
   - 634
   - 635
   - 636
@@ -5751,6 +5756,7 @@ Command at incident:
   - 651
   - 652
   - 653
+  - 1457
   - 654
   - 655
   - 656
@@ -6631,6 +6637,7 @@ Victim race/ethnicity at incident:
   - 'American Indian/Alaska Native (R); Other (R): West Indian'
   - American Indian/Alaska Native (R); Other Hispanic/Latino (E)
   - American Indian/Alaska Native (R); Puerto Rican (E)
+  - American Indian/Alaska Native (R); South Asian (R)
   - American Indian/Alaska Native (R); White/Caucasian (R)
   - Black and/or African American (R)
   - Black and/or African American (R); Chinese (R)
@@ -6666,10 +6673,12 @@ Victim race/ethnicity at incident:
   - Chinese (R); Filipino (R)
   - 'Chinese (R); Other (R): Taiwanese'
   - Chinese (R); Other Asian (R)
+  - Chinese (R); Puerto Rican (E)
   - Cuban (E)
   - Cuban (E); Dominican (E)
   - 'Cuban (E); Other (R): White'
   - Cuban (E); Puerto Rican (E)
+  - Cuban (E); White/Caucasian (R)
   - Decline to Answer (NA)
   - Decline to Answer (NA); Dominican (E)
   - Decline to Answer (NA); Korean (R)
@@ -6679,6 +6688,7 @@ Victim race/ethnicity at incident:
   - 'Decline to Answer (NA); Other (R): American'
   - 'Decline to Answer (NA); Other (R): Black'
   - 'Decline to Answer (NA); Other (R): Guyanese'
+  - 'Decline to Answer (NA); Other (R): Unknown'
   - Decline to Answer (NA); Other Asian (R)
   - Decline to Answer (NA); Other Hispanic/Latino (E)
   - Decline to Answer (NA); Other Pacific Island (R)
@@ -6709,6 +6719,7 @@ Victim race/ethnicity at incident:
   - 'Middle Eastern/North African (R); Other (R): Arab'
   - 'Middle Eastern/North African (R); Other (R): Mediterranean'
   - Middle Eastern/North African (R); Other Asian (R)
+  - Middle Eastern/North African (R); South Asian (R)
   - Middle Eastern/North African (R); White/Caucasian (R)
   - Multi Racial/Multi Ethnic
   - Native Hawaiian (R)
@@ -6749,6 +6760,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Guyanese; Other Asian (R)'
   - 'Other (R): Gypsy'
   - 'Other (R): Haitian'
+  - 'Other (R): Hebrew'
   - 'Other (R): Hebrew-Israelite'
   - 'Other (R): Hindu Indian'
   - 'Other (R): Hispanic Caucasian; Other Hispanic/Latino (E)'
@@ -6819,6 +6831,7 @@ Victim race/ethnicity at incident:
   - 150
   - 6
   - 175
+  - 188
   - 7
   - 8
   - 9
@@ -6854,10 +6867,12 @@ Victim race/ethnicity at incident:
   - 26
   - 27
   - 143
+  - 189
   - 28
   - 158
   - 29
   - 30
+  - 190
   - 31
   - 146
   - 32
@@ -6867,6 +6882,7 @@ Victim race/ethnicity at incident:
   - 36
   - 37
   - 135
+  - 191
   - 38
   - 39
   - 40
@@ -6897,6 +6913,7 @@ Victim race/ethnicity at incident:
   - 59
   - 133
   - 60
+  - 192
   - 61
   - 62
   - 63
@@ -6937,6 +6954,7 @@ Victim race/ethnicity at incident:
   - 159
   - 176
   - 90
+  - 193
   - 172
   - 144
   - 145
@@ -7331,6 +7349,7 @@ Outcome of police encounter:
   labels:
   - Arrest - assault (against a PO)
   - Arrest - disorderly conduct
+  - Arrest - disorderly/OGA/resisting
   - Arrest - harrassment (against a PO)
   - Arrest - OGA
   - Arrest - other violation/crime
@@ -7347,6 +7366,7 @@ Outcome of police encounter:
   index:
   - 1
   - 2
+  - 16
   - 3
   - 4
   - 5

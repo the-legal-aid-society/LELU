@@ -5,7 +5,7 @@
   sorting:
   - Officer Name
   - Document
-  hash: 582df3e0a336d025575eb5891c14741ae60f5e32
+  hash: fe2860006e262ca9d95fba9cce7ccca527686cb5
   data_hash: 8ad0a82c37811463059619c6ee980789be518957
 Officer Name:
   class: character
@@ -48,6 +48,7 @@ Precinct/Command:
   - 114 Det Squad
   - 114TH DET SQUAD
   - '115'
+  - 115th Det Squad
   - '120'
   - '121'
   - '122'
@@ -220,6 +221,7 @@ Precinct/Command:
   - HOUSING PSA 2
   - Housing PSA 3
   - HOUSING PSA 3
+  - Housing PSA 4
   - Housing PSA 5
   - HOUSING PSA 5
   - HOUSING PSA 7
@@ -236,6 +238,7 @@ Precinct/Command:
   - Internal Affairs
   - Internal Affairs Bureau
   - investigations of criminal enterprises
+  - Investigative Support Section
   - Latent Print Section
   - Legal Affairs Bureau
   - License Division
@@ -320,6 +323,7 @@ Precinct/Command:
   - Public safety teams
   - Public Service Area 7
   - Public Service Area 8
+  - QNS/BKLYN/SI SS Zone
   - Queens Central Booking
   - Queens Evidence Collection
   - Queens Highway Patrol
@@ -369,6 +373,7 @@ Precinct/Command:
   - TRB QUEENS TRAFFIC ENF UNIT
   - TRB SOUTH INTERSECTION CTRL
   - vice
+  - Vice Enforcement Div Zone 2
   - vice squad
   - Warrant Section
   - Warrants Squad
@@ -406,6 +411,7 @@ Precinct/Command:
   - 289
   - 300
   - 15
+  - 358
   - 16
   - 257
   - 17
@@ -578,6 +584,7 @@ Precinct/Command:
   - 305
   - 346
   - 253
+  - 359
   - 118
   - 306
   - 329
@@ -594,6 +601,7 @@ Precinct/Command:
   - 124
   - 125
   - 126
+  - 360
   - 283
   - 127
   - 128
@@ -678,6 +686,7 @@ Precinct/Command:
   - 176
   - 177
   - 178
+  - 361
   - 179
   - 180
   - 181
@@ -727,6 +736,7 @@ Precinct/Command:
   - 262
   - 331
   - 206
+  - 362
   - 207
   - 208
   - 209
