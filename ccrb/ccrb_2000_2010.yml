@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 818022796b19e02d63fd9ec99b2e4922566c3035
+  hash: ae7dfd85718e68d9ee7301661d41e24b289ff629
   data_hash: f97f6c2940616e8a141aa9d0857cbb5f4317339b
 'Tax #':
   class: character
@@ -4826,6 +4826,7 @@ Command at incident:
   - PSA3
   - PSA4
   - PSA5
+  - PSA5 VIPER12
   - PSA6
   - PSA7
   - PSA8
@@ -6284,6 +6285,7 @@ Command at incident:
   - 1161
   - 1162
   - 1163
+  - 1458
   - 1164
   - 1165
   - 1166
@@ -6785,6 +6787,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Moroccan'
   - 'Other (R): Morris American'
   - 'Other (R): Nation of Judah(Yahudah)'
+  - 'Other (R): Nigerian'
   - 'Other (R): Nigerian and Cameroonian'
   - 'Other (R): No answer given'
   - 'Other (R): Palestinian'
@@ -6979,6 +6982,7 @@ Victim race/ethnicity at incident:
   - 99
   - 100
   - 151
+  - 194
   - 101
   - 102
   - 149
