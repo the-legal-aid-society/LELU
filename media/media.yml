@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: fe2860006e262ca9d95fba9cce7ccca527686cb5
-  data_hash: 8ad0a82c37811463059619c6ee980789be518957
+  hash: 5de33a72677bf2156411aec9829439e39426717e
+  data_hash: 0d07400fe613a785d99035e5549a63526011c88b
 Officer Name:
   class: character
 Document:
@@ -150,6 +150,7 @@ Precinct/Command:
   - Bronx Public Safety Unit
   - Bronx Traffic Enforcement Unit
   - Brooklyn Court Section
+  - Brooklyn Criminal Court
   - Brooklyn DA Civil Rights and Police Integrity Bureau
   - Brooklyn narcotics
   - Brooklyn North Gang unit
@@ -162,6 +163,7 @@ Precinct/Command:
   - Brooklyn South Vice
   - Brooklyn transit robbery
   - CAD
+  - Candidate Assessment Division
   - Central Investigations Division
   - Central Park
   - Central Robbery Division
@@ -177,6 +179,7 @@ Precinct/Command:
   - crime control strategies
   - Crime Stoppers unit
   - Criminal Intel Section
+  - Criminal Justice Bureau
   - Department of Homeless Services
   - DET BORO BKLYN NO HOMICIDE SQ
   - Det Boro Bronx
@@ -222,6 +225,7 @@ Precinct/Command:
   - Housing PSA 3
   - HOUSING PSA 3
   - Housing PSA 4
+  - Housing PSA 4 / Viper 6
   - Housing PSA 5
   - HOUSING PSA 5
   - HOUSING PSA 7
@@ -513,6 +517,7 @@ Precinct/Command:
   - 301
   - 335
   - 315
+  - 363
   - 80
   - 81
   - 235
@@ -525,6 +530,7 @@ Precinct/Command:
   - 86
   - 87
   - 321
+  - 364
   - 88
   - 89
   - 231
@@ -540,6 +546,7 @@ Precinct/Command:
   - 96
   - 97
   - 292
+  - 365
   - 98
   - 247
   - 356
@@ -585,6 +592,7 @@ Precinct/Command:
   - 346
   - 253
   - 359
+  - 366
   - 118
   - 306
   - 329

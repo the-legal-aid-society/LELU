@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: ae7dfd85718e68d9ee7301661d41e24b289ff629
+  hash: db69e7e47d710862566d7cabc4b4f3214e66c609
   data_hash: f97f6c2940616e8a141aa9d0857cbb5f4317339b
 'Tax #':
   class: character
@@ -2959,6 +2959,7 @@ NYPD Penalty:
   - Forced Separation / Forfeit vacation 26 days
   - Forfeit vacation 1 days
   - Forfeit vacation 1 days / Command Discipline A
+  - Forfeit vacation 1 days / Command Discipline A / Formalized Training
   - Forfeit vacation 10 days
   - Forfeit vacation 10 days / Command Discipline B
   - Forfeit vacation 10 days / Formalized Training
@@ -3151,6 +3152,7 @@ NYPD Penalty:
   - 58
   - 59
   - 60
+  - 192
   - 61
   - 62
   - 63
@@ -4515,6 +4517,7 @@ Command at incident:
   - HWY 3
   - HWY 5
   - HWY CIS
+  - HWY DIST
   - HWY DST
   - HWY DST STS
   - HWY patrol
@@ -5974,6 +5977,7 @@ Command at incident:
   - 1415
   - 857
   - 1437
+  - 1459
   - 858
   - 859
   - 860
@@ -6735,6 +6739,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): "Indian" ; Other Pacific Island (R)'
   - 'Other (R): "Mixed"'
   - 'Other (R): 5'
+  - 'Other (R): Afghani'
   - 'Other (R): African'
   - 'Other (R): Albanian'
   - 'Other (R): American'
@@ -6930,6 +6935,7 @@ Victim race/ethnicity at incident:
   - 171
   - 71
   - 72
+  - 195
   - 181
   - 73
   - 74
