@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: db69e7e47d710862566d7cabc4b4f3214e66c609
-  data_hash: 5909c215724f9901ddbd4cd68658b6f595475806
+  hash: b3b9bcacbc342d523c7297ed1c3ceff473bc8e78
+  data_hash: 56e96b668927624ed51c49af05d9bd0c3efbb97c
 'Tax #':
   class: character
 Officer last name:
@@ -115,6 +115,7 @@ Current command:
   - 081 PCT
   - 083 DET
   - 083 PCT
+  - 084 BK BRDG
   - 084 DET
   - 084 PCT
   - 088 DET
@@ -128,6 +129,7 @@ Current command:
   - 100 RKWY BCH
   - 101 DET
   - 101 PCT
+  - 101 RKWY BCH
   - 102 DET
   - 102 PCT
   - 103 DET
@@ -203,7 +205,7 @@ Current command:
   - BH DIV
   - BK CHILD
   - BK COURT
-  - BK SAT
+  - BK STDS & ASMTS
   - BK SVS
   - BK TCS
   - BK TRAN ROB SQD
@@ -240,6 +242,7 @@ Current command:
   - BX GRAND LARC
   - BX OP NIGHT
   - BX SAT
+  - BX STDS & ASMTS
   - BX SU ALU
   - BX SU CRT
   - BX SU ECT
@@ -280,6 +283,7 @@ Current command:
   - CAPITAL PLAN
   - CCCS
   - CCCS DLU
+  - CCCS JUV CR
   - CCRB LU
   - CD EPES
   - CD IRS
@@ -410,12 +414,15 @@ Current command:
   - DBBKZ22
   - DBBKZ34
   - DBBN
+  - DBBN ECT
   - DBBN OP
   - DBBN VIDEO
   - DBBS
+  - DBBS ECT
   - DBBS OP
   - DBBS VIDEO
   - DBBX
+  - DBBX ECT
   - DBBX OP
   - DBBX VIDEO
   - DBBX Z8
@@ -427,20 +434,25 @@ Current command:
   - DBM ZN5
   - DBM ZN6
   - DBMN
+  - DBMN ECT
   - DBMN OP
   - DBMN VIDEO
   - DBMNHTF
   - DBMS
+  - DBMS ECT
   - DBMS OP
   - DBMS VIDEO
   - DBQ Z17
   - DBQ Z61
   - DBQN
+  - DBQN ECT
   - DBQN OP
   - DBQS
+  - DBQS ECT
   - DBQS OP
   - DBQS VIDEO
   - DBSI
+  - DBSI ECT
   - DBSI OP
   - DBSV Z2
   - DBSV Z3
@@ -450,7 +462,6 @@ Current command:
   - DC EEO
   - DC LABR
   - DC OPER
-  - DC OPS
   - DC TRIALS
   - DC TRL
   - DC TRNG
@@ -464,8 +475,6 @@ Current command:
   - DCMB
   - DCMB AMD
   - DCMB INV
-  - DCO DT
-  - DCO TDT
   - DCSC
   - DCSI
   - DCU TACT TRN
@@ -605,6 +614,7 @@ Current command:
   - IAB GRP 26
   - IAB GRP 32
   - IAB GRP 42
+  - IAB GRP 52
   - IAB GRP 53
   - IAB GRP 54
   - IAB GRP 9
@@ -695,7 +705,7 @@ Current command:
   - M/S-ND
   - MAJOR INV SQD
   - MAN CT
-  - MAN SAT
+  - MAN STDS & ASMTS
   - MANH TCS
   - MB SSZN
   - MC UNIT
@@ -791,6 +801,7 @@ Current command:
   - OFF/TRP
   - OFFICE CCCS
   - OFFICE DCT
+  - OFFICE HOUSING
   - OFFICE PB
   - OFFICE PSB
   - OFFICE RMB
@@ -844,6 +855,7 @@ Current command:
   - PBBS TF
   - PBBX
   - PBBX AC
+  - PBBX COURT TM
   - PBBX INV UNIT
   - PBBX ORCHARD
   - PBBX SC
@@ -873,6 +885,7 @@ Current command:
   - PBQN
   - PBQN AC
   - PBQN CITI FLD
+  - PBQN FMP
   - PBQN INV UNIT
   - PBQN SC
   - PBQN SU
@@ -960,7 +973,7 @@ Current command:
   - QN VICE
   - QNROBSQ
   - QNS CT
-  - QNS SAT
+  - QNS STDS & ASMTS
   - QS CAS
   - QS CRIME ANL
   - QS GRAND LARC
@@ -986,7 +999,6 @@ Current command:
   - S O D
   - S S B
   - S T D
-  - S&A UNIT
   - S.I. CT
   - SATDOPS
   - SATHOPS
@@ -1002,13 +1014,14 @@ Current command:
   - SI SAT
   - SI SAU
   - SI SCSU
+  - SI STDS & ASMTS
   - SI SU CRT
   - SI SU ECT
   - SI SVS
   - SIB
   - SIB CMO
   - SIB ORE
-  - SIB OSI
+  - SIB PMO
   - SIHU
   - SIU CRIME STOP
   - SOD HOU
@@ -1037,10 +1050,10 @@ Current command:
   - SSB
   - SSB INV
   - SSD INV
-  - SSD JUV CR
   - SSD YRT
   - STAFFSV
   - STD
+  - STDS & ASMTS SEC
   - STOL PROP INQ UN
   - STR FOR
   - STR FORCE
@@ -1058,10 +1071,10 @@ Current command:
   - SVU ADULT
   - SVU CEHT TF
   - SVU HS ST TF
-  - SVU HU TR SEC
   - SVU HU TR SQ
   - T.A.R.U
   - TARU
+  - TARU DRONE
   - TAXI SQ
   - TAXI UT
   - TB
@@ -1131,6 +1144,7 @@ Current command:
   - TD 32
   - TD 33
   - TD 34
+  - TD 34 SUMMER
   - TD 4
   - TD DT20
   - TEL ANALYSIS
@@ -1144,6 +1158,7 @@ Current command:
   - Transit
   - TRANSIT SAT
   - TRANSIT SAU
+  - TRANSIT STDS & ASMTS
   - TRANSIT SVS
   - TRB TED
   - TRDMRK INFRGMT
@@ -1282,6 +1297,7 @@ Current command:
   - 100
   - 101
   - 102
+  - 757
   - 104
   - 105
   - 106
@@ -1295,6 +1311,7 @@ Current command:
   - 114
   - 115
   - 116
+  - 868
   - 118
   - 119
   - 120
@@ -1370,7 +1387,7 @@ Current command:
   - 187
   - 188
   - 189
-  - 190
+  - 977
   - 191
   - 1140
   - 192
@@ -1407,6 +1424,7 @@ Current command:
   - 225
   - 226
   - 227
+  - 1170
   - 228
   - 229
   - 230
@@ -1447,6 +1465,7 @@ Current command:
   - 264
   - 266
   - 267
+  - 1171
   - 268
   - 269
   - 270
@@ -1577,12 +1596,15 @@ Current command:
   - 389
   - 278
   - 391
+  - 1172
   - 392
   - 393
   - 394
+  - 1173
   - 395
   - 396
   - 397
+  - 1174
   - 398
   - 283
   - 399
@@ -1594,20 +1616,25 @@ Current command:
   - 406
   - 407
   - 408
+  - 1175
   - 409
   - 194
   - 410
   - 411
+  - 1176
   - 412
   - 390
   - 413
   - 415
   - 416
+  - 1177
   - 417
   - 419
+  - 1178
   - 420
   - 232
   - 421
+  - 1179
   - 422
   - 424
   - 425
@@ -1617,7 +1644,6 @@ Current command:
   - 429
   - 430
   - 431
-  - 414
   - 432
   - 433
   - 434
@@ -1631,8 +1657,6 @@ Current command:
   - 443
   - 444
   - 445
-  - 701
-  - 435
   - 446
   - 447
   - 448
@@ -1772,6 +1796,7 @@ Current command:
   - 576
   - 579
   - 582
+  - 1180
   - 583
   - 584
   - 586
@@ -1862,7 +1887,7 @@ Current command:
   - 668
   - 669
   - 670
-  - 671
+  - 1181
   - 1146
   - 672
   - 602
@@ -1958,6 +1983,7 @@ Current command:
   - 755
   - 756
   - 758
+  - 1182
   - 759
   - 760
   - 761
@@ -2011,6 +2037,7 @@ Current command:
   - 809
   - 810
   - 811
+  - 1183
   - 812
   - 813
   - 814
@@ -2040,6 +2067,7 @@ Current command:
   - 838
   - 839
   - 840
+  - 1184
   - 842
   - 843
   - 844
@@ -2127,7 +2155,7 @@ Current command:
   - 925
   - 926
   - 927
-  - 928
+  - 1185
   - 929
   - 930
   - 931
@@ -2153,7 +2181,6 @@ Current command:
   - 950
   - 951
   - 952
-  - 953
   - 954
   - 955
   - 956
@@ -2169,13 +2196,14 @@ Current command:
   - 966
   - 967
   - 968
+  - 1186
   - 969
   - 970
   - 971
   - 972
   - 973
   - 974
-  - 975
+  - 1187
   - 976
   - 978
   - 979
@@ -2204,10 +2232,10 @@ Current command:
   - 1001
   - 1002
   - 1003
-  - 581
   - 1004
   - 1005
   - 1006
+  - 1188
   - 1007
   - 1008
   - 1009
@@ -2225,10 +2253,10 @@ Current command:
   - 1021
   - 1022
   - 1023
-  - 1169
   - 1024
   - 1025
   - 1026
+  - 1189
   - 1027
   - 1028
   - 1029
@@ -2298,6 +2326,7 @@ Current command:
   - 1092
   - 1093
   - 1094
+  - 1190
   - 1095
   - 1096
   - 1097
@@ -2311,6 +2340,7 @@ Current command:
   - 1104
   - 1105
   - 1106
+  - 1191
   - 1107
   - 1108
   - 1109
@@ -2907,6 +2937,7 @@ NYPD Penalty:
   - 'Closed Administratively (Suspension: 4 days) / Closed Administratively (Vacation:Vacation:
     4 days)'
   - Command Discipline - A
+  - Command Discipline - A (Formalized Training)
   - 'Command Discipline - A (Vacation: 0.13 days)'
   - 'Command Discipline - A (Vacation: 0.25 days)'
   - 'Command Discipline - A (Vacation: 0.38 days)'
@@ -3100,6 +3131,7 @@ NYPD Penalty:
   - 10
   - 11
   - 12
+  - 193
   - 13
   - 14
   - 15
@@ -3380,6 +3412,7 @@ APU Plea agreed penalty:
   - Forfeit vacation 16 days
   - Forfeit vacation 17 days
   - Forfeit vacation 18 days
+  - Forfeit vacation 19 days
   - Forfeit vacation 2 days
   - Forfeit vacation 20 days
   - Forfeit vacation 21 days
@@ -3424,6 +3457,7 @@ APU Plea agreed penalty:
   - 21
   - 22
   - 23
+  - 44
   - 24
   - 25
   - 26
@@ -4843,6 +4877,7 @@ Command at incident:
   - Public Service Area 7
   - Public Service Area 8
   - Q CHILD
+  - Q COURT
   - Q NIGHT WATCH
   - Q SVS
   - Q/N-ND
@@ -6303,6 +6338,7 @@ Command at incident:
   - 1173
   - 1174
   - 1175
+  - 1460
   - 1442
   - 1176
   - 1177

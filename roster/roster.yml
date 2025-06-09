@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 44103a47a5f1fc0a5193d94c9c619b8fa496391d
-  data_hash: 0e86677b567653e4c742f9f46d4f6ba7ad706952
+  hash: 3211293b2729183cc5314ef90eadf861cdb75061
+  data_hash: ec0ec74083147d1a14ae919510ac3e72744fc3e5
 'Tax #':
   class: character
 Roster Date:
@@ -143,6 +143,7 @@ Current command:
   - 081 PCT
   - 083 DET
   - 083 PCT
+  - 084 BK BRDG
   - 084 DET
   - 084 PCT
   - 088 DET
@@ -156,6 +157,7 @@ Current command:
   - 100 RKWY BCH
   - 101 DET
   - 101 PCT
+  - 101 RKWY BCH
   - 102 DET
   - 102 PCT
   - 103 DET
@@ -238,6 +240,7 @@ Current command:
   - BK CHILD
   - BK COURT
   - BK SAT
+  - BK STDS & ASMTS
   - BK SVS
   - BK TCS
   - BK TRAN ROB SQD
@@ -277,6 +280,7 @@ Current command:
   - BX IRT
   - BX OP NIGHT
   - BX SAT
+  - BX STDS & ASMTS
   - BX SU ALU
   - BX SU CRT
   - BX SU ECT
@@ -321,6 +325,7 @@ Current command:
   - CC&NC FNGRPT
   - CCCS
   - CCCS DLU
+  - CCCS JUV CR
   - CCRB LU
   - CD BODY CAM
   - CD C&C
@@ -468,12 +473,15 @@ Current command:
   - DBBKZ22
   - DBBKZ34
   - DBBN
+  - DBBN ECT
   - DBBN OP
   - DBBN VIDEO
   - DBBS
+  - DBBS ECT
   - DBBS OP
   - DBBS VIDEO
   - DBBX
+  - DBBX ECT
   - DBBX OP
   - DBBX VIDEO
   - DBBX Z8
@@ -485,20 +493,25 @@ Current command:
   - DBM ZN5
   - DBM ZN6
   - DBMN
+  - DBMN ECT
   - DBMN OP
   - DBMN VIDEO
   - DBMNHTF
   - DBMS
+  - DBMS ECT
   - DBMS OP
   - DBMS VIDEO
   - DBQ Z17
   - DBQ Z61
   - DBQN
+  - DBQN ECT
   - DBQN OP
   - DBQS
+  - DBQS ECT
   - DBQS OP
   - DBQS VIDEO
   - DBSI
+  - DBSI ECT
   - DBSI OP
   - DBSV Z1
   - DBSV Z2
@@ -513,7 +526,6 @@ Current command:
   - DC LABR
   - DC MAP
   - DC OPER
-  - DC OPS
   - DC TRIALS
   - DC TRL
   - DC TRNG
@@ -528,8 +540,6 @@ Current command:
   - DCMB
   - DCMB AMD
   - DCMB INV
-  - DCO DT
-  - DCO TDT
   - DCSC
   - DCSI
   - DCSI ORI
@@ -698,6 +708,7 @@ Current command:
   - IAB GRP 32
   - IAB GRP 34
   - IAB GRP 42
+  - IAB GRP 52
   - IAB GRP 53
   - IAB GRP 54
   - IAB GRP 56
@@ -795,7 +806,7 @@ Current command:
   - MAILDIS
   - MAJOR INV SQD
   - MAN CT
-  - MAN SAT
+  - MAN STDS & ASMTS
   - MANH TCS
   - MB SSZC
   - MB SSZN
@@ -894,6 +905,7 @@ Current command:
   - OFF/TRP
   - OFFICE CCCS
   - OFFICE DCT
+  - OFFICE HOUSING
   - OFFICE PB
   - OFFICE PSB
   - OFFICE RMB
@@ -953,6 +965,7 @@ Current command:
   - PBBS TF
   - PBBX
   - PBBX AC
+  - PBBX COURT TM
   - PBBX INV UNIT
   - PBBX ORCHARD
   - PBBX SC
@@ -1079,7 +1092,7 @@ Current command:
   - QN VICE
   - QNROBSQ
   - QNS CT
-  - QNS SAT
+  - QNS STDS & ASMTS
   - QS CAS
   - QS CRIME ANL
   - QS GRAND LARC
@@ -1110,7 +1123,6 @@ Current command:
   - S P I S
   - S S B
   - S T D
-  - S&A UNIT
   - S.I. CT
   - SAT B/N
   - SAT QS
@@ -1130,6 +1142,7 @@ Current command:
   - SI SAT
   - SI SAU
   - SI SCSU
+  - SI STDS & ASMTS
   - SI SU CRT
   - SI SU ECT
   - SI SVS
@@ -1167,10 +1180,10 @@ Current command:
   - SSB
   - SSB INV
   - SSD INV
-  - SSD JUV CR
   - SSD YRT
   - STAFFSV
   - STD
+  - STDS & ASMTS SEC
   - STOL PROP INQ UN
   - STR FOR
   - STR FORCE
@@ -1194,12 +1207,12 @@ Current command:
   - SVU HU TR SQ
   - T.A.R.U
   - TARU
+  - TARU DRONE
   - TAXI SQ
   - TAXI UT
   - TB
   - TB ATER
   - TB ATU
-  - TB ATU 1
   - TB ATU 3
   - TB ATU BK
   - TB BK
@@ -1265,6 +1278,7 @@ Current command:
   - TD 32
   - TD 33
   - TD 34
+  - TD 34 SUMMER
   - TD 4
   - TD C/AN
   - TD DT01
@@ -1292,6 +1306,7 @@ Current command:
   - TRANSIT
   - TRANSIT SAT
   - TRANSIT SAU
+  - TRANSIT STDS & ASMTS
   - TRANSIT SVS
   - TRB TED
   - TRB TRF OPS
@@ -1432,6 +1447,7 @@ Current command:
   - 100
   - 101
   - 102
+  - 849
   - 104
   - 105
   - 106
@@ -1445,6 +1461,7 @@ Current command:
   - 114
   - 115
   - 116
+  - 1220
   - 118
   - 119
   - 120
@@ -1527,6 +1544,7 @@ Current command:
   - 194
   - 195
   - 1249
+  - 1281
   - 197
   - 196
   - 198
@@ -1566,6 +1584,7 @@ Current command:
   - 234
   - 235
   - 1251
+  - 1292
   - 237
   - 238
   - 239
@@ -1610,6 +1629,7 @@ Current command:
   - 1228
   - 276
   - 277
+  - 1293
   - 278
   - 279
   - 280
@@ -1757,12 +1777,15 @@ Current command:
   - 404
   - 415
   - 405
+  - 1294
   - 406
   - 620
   - 407
+  - 1295
   - 408
   - 1030
   - 409
+  - 1296
   - 410
   - 619
   - 411
@@ -1774,20 +1797,25 @@ Current command:
   - 418
   - 419
   - 420
+  - 1297
   - 421
   - 297
   - 422
   - 423
+  - 1298
   - 424
   - 642
   - 426
   - 1258
   - 427
+  - 1299
   - 428
   - 429
+  - 1300
   - 430
   - 241
   - 431
+  - 1301
   - 432
   - 433
   - 434
@@ -1802,7 +1830,6 @@ Current command:
   - 443
   - 444
   - 445
-  - 616
   - 446
   - 447
   - 448
@@ -1817,8 +1844,6 @@ Current command:
   - 457
   - 458
   - 459
-  - 1275
-  - 808
   - 460
   - 461
   - 462
@@ -1987,6 +2012,7 @@ Current command:
   - 618
   - 1230
   - 622
+  - 1302
   - 623
   - 624
   - 625
@@ -2084,7 +2110,7 @@ Current command:
   - 712
   - 713
   - 714
-  - 1264
+  - 1303
   - 425
   - 716
   - 717
@@ -2183,6 +2209,7 @@ Current command:
   - 802
   - 803
   - 804
+  - 1304
   - 805
   - 806
   - 807
@@ -2242,6 +2269,7 @@ Current command:
   - 860
   - 861
   - 862
+  - 1305
   - 863
   - 864
   - 865
@@ -2368,7 +2396,7 @@ Current command:
   - 978
   - 979
   - 980
-  - 1271
+  - 1306
   - 982
   - 983
   - 984
@@ -2399,7 +2427,6 @@ Current command:
   - 1009
   - 1010
   - 1011
-  - 1272
   - 1012
   - 1013
   - 1014
@@ -2419,6 +2446,7 @@ Current command:
   - 1273
   - 1217
   - 1029
+  - 1307
   - 1234
   - 1031
   - 1032
@@ -2456,10 +2484,10 @@ Current command:
   - 1061
   - 1062
   - 1063
-  - 1223
   - 1064
   - 1065
   - 1066
+  - 1308
   - 1218
   - 1068
   - 1069
@@ -2483,12 +2511,12 @@ Current command:
   - 1246
   - 1084
   - 1085
+  - 1309
   - 1086
   - 1087
   - 1088
   - 1089
   - 1090
-  - 1291
   - 1247
   - 1280
   - 1091
@@ -2554,6 +2582,7 @@ Current command:
   - 1146
   - 1147
   - 1148
+  - 1310
   - 1149
   - 1150
   - 1151
@@ -2581,6 +2610,7 @@ Current command:
   - 1172
   - 1274
   - 1173
+  - 1311
   - 1174
   - 1175
   - 1176
