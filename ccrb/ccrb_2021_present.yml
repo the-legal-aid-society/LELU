@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: b3b9bcacbc342d523c7297ed1c3ceff473bc8e78
-  data_hash: 110b2cf18207c6fe9f73f195c290c9c0a4ca574b
+  hash: c806c1d2cb3b4d89918872a0c907d719602ed6af
+  data_hash: 0f9251ddd6ffabd7441c049bf47b184337b951c5
 'Tax #':
   class: character
 Officer last name:
@@ -2930,6 +2930,7 @@ NYPD Penalty:
   - 'Closed Administratively (Command Discipline - A) / Vacation: 2 days'
   - Closed Administratively (Command Discipline - B)
   - 'Closed Administratively (Command Discipline - B) / Vacation: 0.13 days'
+  - 'Closed Administratively (Command Discipline - B) / Vacation: 1 day'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 2 days'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 8 days'
   - Closed Administratively (Instructions)
@@ -3036,6 +3037,7 @@ NYPD Penalty:
   - Forfeit vacation 9 days
   - Forfeit vacation 9 days / Command Discipline B
   - Formalized Training
+  - Formalized Training (Command Discipline - A)
   - Formalized Training / Command Level Instructions
   - Formalized Training / Instructions
   - Formalized Training / Reprimand
@@ -3125,6 +3127,7 @@ NYPD Penalty:
   - 4
   - 5
   - 6
+  - 194
   - 7
   - 8
   - 9
@@ -3230,6 +3233,7 @@ NYPD Penalty:
   - 100
   - 101
   - 102
+  - 195
   - 103
   - 104
   - 105
@@ -4866,6 +4870,7 @@ Command at incident:
   - PSA5 VIPER12
   - PSA6
   - PSA7
+  - PSA7 VIPER11
   - PSA8
   - PSA9
   - PSB CRT
@@ -6327,6 +6332,7 @@ Command at incident:
   - 1458
   - 1164
   - 1165
+  - 1461
   - 1166
   - 1167
   - 1168
