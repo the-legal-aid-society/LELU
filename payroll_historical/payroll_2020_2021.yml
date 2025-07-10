@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 6dad545e52ddc2db28de91fc9d8782f21191130b
-  data_hash: eedd5464d8ae419da77c5881d153ff3e594b7e50
+  hash: 9523004bcf85401637d95169d07cb4bef2de03ab
+  data_hash: c7f06b00a0b02d978cbd8209a883a228e406e4d3
 Fiscal year:
   class: numeric
 Agency:
@@ -14,7 +14,7 @@ First name:
   class: character
 Start date:
   class: POSIXct
-  format: '%Y-%m-%dT%H:%M:%SZ'
+  origin: 1970-01-01 00:00:00
   timezone: UTC
 Borough:
   class: character
