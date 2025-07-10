@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: c806c1d2cb3b4d89918872a0c907d719602ed6af
-  data_hash: a796dffe05c70f27cb79e708f658a78c37bb681a
+  hash: 63c3b3ee0059df686940fb69bd55ede58ac86d41
+  data_hash: 57c9ece29289cf96cefa21f25160304d698bb48a
 'Tax #':
   class: character
 Officer last name:
@@ -203,6 +203,7 @@ Current command:
   - BARRIER
   - BDBKZ14
   - BH DIV
+  - BK ASCS
   - BK CHILD
   - BK COURT
   - BK STDS & ASMTS
@@ -234,6 +235,7 @@ Current command:
   - BUS UT
   - BUSINESS INTGRTY
   - BX APP TEAM
+  - BX ASCS
   - BX CAS
   - BX CHILD
   - BX COURT
@@ -412,7 +414,10 @@ Current command:
   - DBBKZ14
   - DBBKZ21
   - DBBKZ22
+  - DBBKZ32
   - DBBKZ34
+  - DBBKZ35
+  - DBBKZ44
   - DBBN
   - DBBN ECT
   - DBBN OP
@@ -692,6 +697,7 @@ Current command:
   - LIC DIV
   - LMSI PMO
   - LSSD
+  - M ASCS
   - M CHILD
   - M COURT
   - M E L D
@@ -949,6 +955,7 @@ Current command:
   - PSB RMS
   - PSB WHEEL
   - PUBLIC SECUR
+  - Q ASCS
   - Q CHILD
   - Q COURT
   - Q NIGHT WATCH
@@ -1057,11 +1064,9 @@ Current command:
   - STOL PROP INQ UN
   - STR FOR
   - STR FORCE
-  - SVD CAS
   - SVD DATA ANL
   - SVD DNA COLD
   - SVD IRTU
-  - SVD LIAISON
   - SVD NIGHT
   - SVD SOMU
   - SVD STRANGER
@@ -1069,9 +1074,18 @@ Current command:
   - SVD Z2
   - SVD Z3
   - SVU ADULT
+  - SVU CAS
   - SVU CEHT TF
+  - SVU COMPSTAT
+  - SVU CW HU TR SQ
   - SVU HS ST TF
   - SVU HU TR SQ
+  - SVU IRT LER
+  - SVU MC DNA COLD
+  - SVU NIGHT
+  - SVU SOMU
+  - SVU TRAINING
+  - SVU Z1
   - T.A.R.U
   - TARU
   - TARU DRONE
@@ -1079,6 +1093,7 @@ Current command:
   - TAXI UT
   - TB
   - TB ATU
+  - TB ATU 1
   - TB ATU 3
   - TB ATU BK
   - TB BK
@@ -1385,6 +1400,7 @@ Current command:
   - 185
   - 186
   - 187
+  - 190
   - 188
   - 189
   - 977
@@ -1416,6 +1432,7 @@ Current command:
   - 217
   - 218
   - 219
+  - 414
   - 220
   - 221
   - 222
@@ -1594,7 +1611,10 @@ Current command:
   - 387
   - 388
   - 389
+  - 435
   - 278
+  - 581
+  - 671
   - 391
   - 1172
   - 392
@@ -1874,6 +1894,7 @@ Current command:
   - 655
   - 656
   - 657
+  - 701
   - 658
   - 659
   - 660
@@ -2131,6 +2152,7 @@ Current command:
   - 902
   - 903
   - 904
+  - 928
   - 905
   - 906
   - 907
@@ -2239,11 +2261,9 @@ Current command:
   - 1007
   - 1008
   - 1009
-  - 603
   - 1011
   - 1012
   - 1013
-  - 1014
   - 1015
   - 1016
   - 1017
@@ -2251,9 +2271,18 @@ Current command:
   - 1019
   - 1020
   - 1021
+  - 953
   - 1022
+  - 975
+  - 1169
   - 1023
   - 1024
+  - 1192
+  - 1193
+  - 1194
+  - 1195
+  - 1196
+  - 1197
   - 1025
   - 1026
   - 1189
@@ -2261,6 +2290,7 @@ Current command:
   - 1028
   - 1029
   - 1030
+  - 1198
   - 1031
   - 1157
   - 1032
@@ -2516,6 +2546,7 @@ Allegation:
   - Sex Miscon (Sexual Harassment, Verbal)
   - Sex Miscon (Sexual/Romantic Proposition)
   - Sexual Miscon (Inappropriate Touching)
+  - Sexual Miscon (Sexual Assault)
   - Sexual Misconduct (Sexual Humiliation)
   - Sexual orientation
   - Stop
@@ -2617,6 +2648,7 @@ Allegation:
   - 80
   - 81
   - 82
+  - 20
   - 83
   - 84
   - 85
@@ -2716,6 +2748,7 @@ CCRB allegation disposition:
   - Complaint Withdrawn
   - Exonerated
   - Miscellaneous
+  - Miscellaneous - Subject Deceased
   - Miscellaneous - Subject Resigned
   - Miscellaneous - Subject Retired
   - Miscellaneous - Subject Terminated
@@ -2746,6 +2779,7 @@ CCRB allegation disposition:
   - 6
   - 7
   - 8
+  - 30
   - 9
   - 10
   - 11
@@ -2955,6 +2989,7 @@ NYPD Penalty:
   - Command Discipline - A 7 days
   - Command Discipline - B
   - 'Command Discipline - B (Vacation: 1 day)'
+  - 'Command Discipline - B (Vacation: 1 day) / Formalized Training'
   - 'Command Discipline - B (Vacation: 10 days)'
   - 'Command Discipline - B (Vacation: 2 days)'
   - 'Command Discipline - B (Vacation: 3 days)'
@@ -3151,6 +3186,7 @@ NYPD Penalty:
   - 26
   - 27
   - 28
+  - 196
   - 29
   - 30
   - 31
@@ -4913,6 +4949,7 @@ Command at incident:
   - REC TNG
   - Retired
   - RTCC
+  - RTCC SMART
   - RTS RECRUIT
   - S O D
   - S S B
@@ -4969,6 +5006,7 @@ Command at incident:
   - Staten Island Gang Inv. Division
   - Staten Island Gangs Division
   - Staten Island Vice Unit
+  - STDS & ASMT SEC
   - STR FOR
   - Strategic Action Team Narcotics Operations Brooklyn North
   - Strategic and Tactical Narcotics Operations
@@ -6375,6 +6413,7 @@ Command at incident:
   - 1198
   - 1199
   - 1447
+  - 1462
   - 1200
   - 1201
   - 1202
@@ -6431,6 +6470,7 @@ Command at incident:
   - 1248
   - 1249
   - 1250
+  - 1463
   - 1251
   - 1252
   - 1253
@@ -6678,6 +6718,7 @@ Victim race/ethnicity at incident:
   - American Indian/Alaska Native (R)
   - American Indian/Alaska Native (R); Black and/or African American (R)
   - American Indian/Alaska Native (R); Decline to Answer (NA)
+  - American Indian/Alaska Native (R); Mexican, Chicano/a (E)
   - American Indian/Alaska Native (R); Non-Hispanic/Latino (E)
   - American Indian/Alaska Native (R); Other (R)
   - 'American Indian/Alaska Native (R); Other (R): Garifuna'
@@ -6701,6 +6742,7 @@ Victim race/ethnicity at incident:
   - 'Black and/or African American (R); Other (R): American'
   - 'Black and/or African American (R); Other (R): Asiatic'
   - 'Black and/or African American (R); Other (R): Biracial'
+  - 'Black and/or African American (R); Other (R): Black and Indian'
   - 'Black and/or African American (R); Other (R): Dominican'
   - 'Black and/or African American (R); Other (R): Guyanese'
   - 'Black and/or African American (R); Other (R): Haitian'
@@ -6710,6 +6752,7 @@ Victim race/ethnicity at incident:
   - 'Black and/or African American (R); Other (R): Jamaican'
   - 'Black and/or African American (R); Other (R): Mixed'
   - 'Black and/or African American (R); Other (R): Mixed Race'
+  - 'Black and/or African American (R); Other (R): Moor'
   - 'Black and/or African American (R); Other (R): Panamanian'
   - 'Black and/or African American (R); Other (R): West Indian'
   - Black and/or African American (R); Other Asian (R)
@@ -6773,6 +6816,7 @@ Victim race/ethnicity at incident:
   - Native Hawaiian (R)
   - Non-Hispanic/Latino (E)
   - Non-Hispanic/Latino (E); Other (R)
+  - 'Non-Hispanic/Latino (E); Other (R): Guyanese'
   - Non-Hispanic/Latino (E); Puerto Rican (E)
   - Non-Hispanic/Latino (E); White/Caucasian (R)
   - Other (R)
@@ -6874,6 +6918,7 @@ Victim race/ethnicity at incident:
   - 1
   - 2
   - 3
+  - 196
   - 183
   - 4
   - 169
@@ -6897,6 +6942,7 @@ Victim race/ethnicity at incident:
   - 184
   - 132
   - 16
+  - 197
   - 17
   - 142
   - 18
@@ -6906,6 +6952,7 @@ Victim race/ethnicity at incident:
   - 20
   - 179
   - 21
+  - 198
   - 140
   - 157
   - 170
@@ -6969,6 +7016,7 @@ Victim race/ethnicity at incident:
   - 63
   - 64
   - 65
+  - 199
   - 66
   - 67
   - 68

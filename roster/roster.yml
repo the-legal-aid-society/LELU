@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 3211293b2729183cc5314ef90eadf861cdb75061
-  data_hash: dfee812dc8a750b0e5a7b5be46dd154528a3353a
+  hash: d6537d7f80dcb18723a7c6580217c991230650f7
+  data_hash: 7a8cef3112e34c96915c4ec4b1b617b9b207a7b6
 'Tax #':
   class: character
 Roster Date:
@@ -237,6 +237,7 @@ Current command:
   - BDBKZ14
   - BH DIV
   - BID TEAM
+  - BK ASCS
   - BK CHILD
   - BK COURT
   - BK SAT
@@ -271,6 +272,7 @@ Current command:
   - BUS UT
   - BUSINESS INTGRTY
   - BX APP TEAM
+  - BX ASCS
   - BX CAS
   - BX CHILD
   - BX COURT
@@ -471,7 +473,11 @@ Current command:
   - DBBKZ14
   - DBBKZ21
   - DBBKZ22
+  - DBBKZ32
+  - DBBKZ33
   - DBBKZ34
+  - DBBKZ35
+  - DBBKZ44
   - DBBN
   - DBBN ECT
   - DBBN OP
@@ -792,6 +798,7 @@ Current command:
   - LIC DIV
   - LMSI PMO
   - LSSD
+  - M ASCS
   - M CHILD
   - M COURT
   - M E L D
@@ -1066,6 +1073,7 @@ Current command:
   - PSB RMS
   - PSB WHEEL
   - PUBLIC SECUR
+  - Q ASCS
   - Q CHILD
   - Q COURT
   - Q NIGHT WATCH
@@ -1189,11 +1197,9 @@ Current command:
   - STR FORCE
   - STU1
   - SUPP SVC DIV
-  - SVD CAS
   - SVD DATA ANL
   - SVD DNA COLD
   - SVD IRTU
-  - SVD LIAISON
   - SVD NIGHT
   - SVD SOMU
   - SVD STRANGER
@@ -1201,10 +1207,19 @@ Current command:
   - SVD Z2
   - SVD Z3
   - SVU ADULT
+  - SVU CAS
   - SVU CEHT TF
+  - SVU COMPSTAT
+  - SVU CW HU TR SQ
   - SVU HS ST TF
   - SVU HU TR SEC
   - SVU HU TR SQ
+  - SVU IRT LER
+  - SVU MC DNA COLD
+  - SVU NIGHT
+  - SVU SOMU
+  - SVU TRAINING
+  - SVU Z1
   - T.A.R.U
   - TARU
   - TARU DRONE
@@ -1213,6 +1228,7 @@ Current command:
   - TB
   - TB ATER
   - TB ATU
+  - TB ATU 1
   - TB ATU 3
   - TB ATU BK
   - TB BK
@@ -1541,6 +1557,7 @@ Current command:
   - 191
   - 192
   - 193
+  - 616
   - 194
   - 195
   - 1249
@@ -1575,6 +1592,7 @@ Current command:
   - 225
   - 226
   - 227
+  - 808
   - 228
   - 229
   - 230
@@ -1775,7 +1793,11 @@ Current command:
   - 402
   - 403
   - 404
+  - 1223
+  - 1264
   - 415
+  - 1271
+  - 1272
   - 405
   - 1294
   - 406
@@ -2096,6 +2118,7 @@ Current command:
   - 698
   - 699
   - 700
+  - 1275
   - 701
   - 702
   - 703
@@ -2370,6 +2393,7 @@ Current command:
   - 956
   - 638
   - 957
+  - 1291
   - 958
   - 959
   - 960
@@ -2493,11 +2517,9 @@ Current command:
   - 1069
   - 1070
   - 1072
-  - 1257
   - 1074
   - 1075
   - 1076
-  - 1077
   - 1078
   - 1079
   - 1080
@@ -2505,10 +2527,19 @@ Current command:
   - 1082
   - 1083
   - 1219
+  - 1312
   - 1244
+  - 1313
+  - 1314
   - 1245
   - 1259
   - 1246
+  - 1315
+  - 1316
+  - 1317
+  - 1318
+  - 1319
+  - 1320
   - 1084
   - 1085
   - 1309
@@ -2517,6 +2548,7 @@ Current command:
   - 1088
   - 1089
   - 1090
+  - 1321
   - 1247
   - 1280
   - 1091
