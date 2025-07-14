@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 63c3b3ee0059df686940fb69bd55ede58ac86d41
+  hash: 05006d8a0f674550a6bc3f5708aa1eb6522a191a
   data_hash: b137cc7bb38ac7b2f70593b355287cf8b4e83fab
 'Tax #':
   class: character
@@ -2975,6 +2975,7 @@ NYPD Penalty:
   - Command Discipline - A (Formalized Training)
   - 'Command Discipline - A (Vacation: 0.13 days)'
   - 'Command Discipline - A (Vacation: 0.25 days)'
+  - 'Command Discipline - A (Vacation: 0.37 days)'
   - 'Command Discipline - A (Vacation: 0.38 days)'
   - 'Command Discipline - A (Vacation: 0.50 days)'
   - 'Command Discipline - A (Vacation: 0.75 days)'
@@ -3172,6 +3173,7 @@ NYPD Penalty:
   - 193
   - 13
   - 14
+  - 197
   - 15
   - 16
   - 17
