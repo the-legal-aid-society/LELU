@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 05006d8a0f674550a6bc3f5708aa1eb6522a191a
-  data_hash: 2c65c6c88967bf96d1700d902129cad474c1ebf7
+  hash: 0359b8241670f628483eb189eb6017e7bc215b23
+  data_hash: 8d81df4784ddd46b945dfd44a913d22f6482dac6
 'Tax #':
   class: character
 Officer last name:
@@ -4908,7 +4908,6 @@ Command at incident:
   - PSA5 VIPER12
   - PSA6
   - PSA7
-  - PSA7 VIPER11
   - PSA8
   - PSA9
   - PSB CRT
@@ -6372,7 +6371,6 @@ Command at incident:
   - 1458
   - 1164
   - 1165
-  - 1461
   - 1166
   - 1167
   - 1168
@@ -6739,6 +6737,7 @@ Victim race/ethnicity at incident:
   - Black and/or African American (R); Non-Hispanic/Latino (E)
   - Black and/or African American (R); Other (R)
   - 'Black and/or African American (R); Other (R): "Human"'
+  - 'Black and/or African American (R); Other (R): "Native American"'
   - 'Black and/or African American (R); Other (R): African-American Jewish'
   - 'Black and/or African American (R); Other (R): America'
   - 'Black and/or African American (R); Other (R): American'
@@ -6939,6 +6938,7 @@ Victim race/ethnicity at incident:
   - 13
   - 14
   - 155
+  - 200
   - 15
   - 156
   - 184
@@ -7489,6 +7489,4 @@ APU close date:
 bwc_evidence:
   class: character
 video_evidence:
-  class: character
-investigator_recommendation:
   class: character
