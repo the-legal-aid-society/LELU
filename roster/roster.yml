@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: d6537d7f80dcb18723a7c6580217c991230650f7
-  data_hash: 899b2d9ac576acd11c2a03902e96fb24e00be8b9
+  hash: 96c5769e52b7ae9f62d7d3415cdce665d807515c
+  data_hash: 1be4387cc3785ed720f12533c8fc52130519eb5f
 'Tax #':
   class: character
 Roster Date:
@@ -71,34 +71,46 @@ Current command:
   - 026 PCT
   - 028 DET
   - 028 PCT
+  - 028 PCT FTU
   - 030 DET
   - 030 PCT
   - 032 DET
   - 032 PCT
+  - 032 PCT FTU
   - 033 DET
   - 033 PCT
   - 034 DET
   - 034 PCT
+  - 034 PCT FTU
   - 040 DET
   - 040 PCT
+  - 040 PCT FTU
   - 041 DET
   - 041 PCT
+  - 041 PCT FTU
   - 042 DET
   - 042 PCT
+  - 042 PCT FTU
   - 043 DET
   - 043 PCT
+  - 043 PCT FTU
   - 044 DET
   - 044 PCT
+  - 044 PCT FTU
   - 045 DET
   - 045 PCT
   - 046 DET
   - 046 PCT
+  - 046 PCT FTU
   - 047 DET
   - 047 PCT
+  - 047 PCT FTU
   - 048 DET
   - 048 PCT
+  - 048 PCT FTU
   - 049 DET
   - 049 PCT
+  - 049 PCT FTU
   - 050 DET
   - 050 PCT
   - 052 DET
@@ -116,38 +128,47 @@ Current command:
   - 066 PCT
   - 067 DET
   - 067 PCT
+  - 067 PCT FTU
   - 068 DET
   - 068 PCT
   - 069 DET
   - 069 PCT
   - 070 DET
   - 070 PCT
+  - 070 PCT FTU
   - 071 DET
   - 071 PCT
   - 072 DET
   - 072 PCT
   - 073 DET
   - 073 PCT
+  - 073 PCT FTU
   - 075 DET
   - 075 PCT
+  - 075 PCT FTU
   - 076 DET
   - 076 PCT
   - 077 DET
   - 077 PCT
+  - 077 PCT FTU
   - 078 DET
   - 078 PCT
   - 078 PROSP PK
   - 079 DET
   - 079 PCT
+  - 079 PCT FTU
   - 081 DET
   - 081 PCT
+  - 081 PCT FTU
   - 083 DET
   - 083 PCT
+  - 083 PCT FTU
   - 084 BK BRDG
   - 084 DET
   - 084 PCT
   - 088 DET
   - 088 PCT
+  - 088 PCT FTU
   - 090 DET
   - 090 PCT
   - 094 DET
@@ -157,11 +178,13 @@ Current command:
   - 100 RKWY BCH
   - 101 DET
   - 101 PCT
+  - 101 PCT FTU
   - 101 RKWY BCH
   - 102 DET
   - 102 PCT
   - 103 DET
   - 103 PCT
+  - 103 PCT FTU
   - 104 DET
   - 104 PCT
   - 105 DET
@@ -174,6 +197,7 @@ Current command:
   - 108 PCT
   - 109 DET
   - 109 PCT
+  - 109 PCT FTU
   - 110 DET
   - 110 PCT
   - 111 DET
@@ -182,6 +206,7 @@ Current command:
   - 112 PCT
   - 113 DET
   - 113 PCT
+  - 113 PCT FTU
   - 114 DET
   - 114 PCT
   - 115 DET
@@ -377,7 +402,6 @@ Current command:
   - CP YSU
   - CPK DET
   - CPK PCT
-  - CPU YSU
   - CR PREV
   - CRC
   - CRC CANINE
@@ -911,7 +935,6 @@ Current command:
   - OFF/L R
   - OFF/TRP
   - OFFICE CCCS
-  - OFFICE DCT
   - OFFICE HOUSING
   - OFFICE PB
   - OFFICE PSB
@@ -1049,14 +1072,22 @@ Current command:
   - PROP CLK
   - PROPCLK
   - PSA 1
+  - PSA 1 FTU
   - PSA 2
+  - PSA 2 FTU
   - PSA 3
+  - PSA 3 FTU
   - PSA 4
   - PSA 5
+  - PSA 5 FTU
   - PSA 6
+  - PSA 6 FTU
   - PSA 7
+  - PSA 7 FTU
   - PSA 8
+  - PSA 8 FTU
   - PSA 9
+  - PSA 9 FTU
   - PSA1 VIPER13
   - PSA2 VIPER2
   - PSA4 VIPER6
@@ -1125,6 +1156,7 @@ Current command:
   - RTCC
   - RTCC INV SUPP
   - RTCC SMART
+  - RTCC VIG
   - RTS ADM
   - RTS RECRUIT
   - S O D
@@ -1156,6 +1188,7 @@ Current command:
   - SI SVS
   - SIB
   - SIB CMO
+  - SIB CMO ICU
   - SIB ORE
   - SIB OSI
   - SIB PMO
@@ -1206,7 +1239,6 @@ Current command:
   - SVD Z1
   - SVD Z2
   - SVD Z3
-  - SVU ADULT
   - SVU CAS
   - SVU CEHT TF
   - SVU COMPSTAT
@@ -1310,6 +1342,7 @@ Current command:
   - TD DT33
   - TD INV
   - TEL ANALYSIS
+  - TIMES SQUARE FTU
   - TNG UNT
   - TNT TF
   - TR/BKTF
@@ -1391,34 +1424,46 @@ Current command:
   - 28
   - 29
   - 30
+  - 1077
   - 31
   - 32
   - 33
   - 34
+  - 1257
   - 35
   - 36
   - 37
   - 38
+  - 1322
   - 39
   - 40
+  - 1323
   - 41
   - 42
+  - 1324
   - 43
   - 44
+  - 1325
   - 45
   - 46
+  - 1326
   - 47
   - 48
+  - 1327
   - 49
   - 50
   - 51
   - 52
+  - 1328
   - 53
   - 54
+  - 1329
   - 55
   - 56
+  - 1330
   - 57
   - 58
+  - 1331
   - 59
   - 60
   - 61
@@ -1436,38 +1481,47 @@ Current command:
   - 73
   - 74
   - 75
+  - 1332
   - 76
   - 77
   - 78
   - 79
   - 80
   - 81
+  - 1333
   - 82
   - 83
   - 84
   - 85
   - 86
   - 87
+  - 1334
   - 88
   - 89
+  - 1335
   - 90
   - 91
   - 92
   - 93
+  - 1336
   - 94
   - 95
   - 96
   - 97
   - 98
+  - 1337
   - 99
   - 100
+  - 1338
   - 101
   - 102
+  - 1339
   - 849
   - 104
   - 105
   - 106
   - 107
+  - 1340
   - 108
   - 109
   - 110
@@ -1477,11 +1531,13 @@ Current command:
   - 114
   - 115
   - 116
+  - 1341
   - 1220
   - 118
   - 119
   - 120
   - 121
+  - 1342
   - 122
   - 123
   - 124
@@ -1494,6 +1550,7 @@ Current command:
   - 131
   - 132
   - 133
+  - 1343
   - 134
   - 135
   - 136
@@ -1502,6 +1559,7 @@ Current command:
   - 139
   - 140
   - 141
+  - 1344
   - 142
   - 143
   - 144
@@ -1697,7 +1755,6 @@ Current command:
   - 320
   - 321
   - 322
-  - 1237
   - 323
   - 324
   - 325
@@ -2231,7 +2288,6 @@ Current command:
   - 801
   - 802
   - 803
-  - 804
   - 1304
   - 805
   - 806
@@ -2369,14 +2425,22 @@ Current command:
   - 932
   - 933
   - 934
+  - 1345
   - 935
+  - 1346
   - 936
+  - 1347
   - 937
   - 938
+  - 1348
   - 939
+  - 1349
   - 940
+  - 1350
   - 941
+  - 1351
   - 942
+  - 1352
   - 944
   - 945
   - 946
@@ -2445,6 +2509,7 @@ Current command:
   - 1003
   - 1004
   - 1005
+  - 1353
   - 1006
   - 1007
   - 1008
@@ -2476,6 +2541,7 @@ Current command:
   - 1032
   - 1033
   - 1034
+  - 1354
   - 1035
   - 1036
   - 1037
@@ -2526,7 +2592,6 @@ Current command:
   - 1081
   - 1082
   - 1083
-  - 1219
   - 1312
   - 1244
   - 1313
@@ -2630,6 +2695,7 @@ Current command:
   - 1161
   - 1162
   - 1163
+  - 1355
   - 1164
   - 1215
   - 1165

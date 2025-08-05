@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 0359b8241670f628483eb189eb6017e7bc215b23
-  data_hash: 8d81df4784ddd46b945dfd44a913d22f6482dac6
+  hash: 2da5e4b86f457428fcd09d90abef2db1d332f603
+  data_hash: 3e82b2304ab25abb6e82caf6d5a7d2c41d5d5af9
 'Tax #':
   class: character
 Officer last name:
@@ -57,6 +57,7 @@ Current command:
   - 041 PCT
   - 042 DET
   - 042 PCT
+  - 042 PCT FTU
   - 043 DET
   - 043 PCT
   - 044 DET
@@ -326,7 +327,6 @@ Current command:
   - CONTRACT ADM
   - CPK DET
   - CPK PCT
-  - CPU YSU
   - CR PREV
   - CRC
   - CRC CANINE
@@ -806,7 +806,6 @@ Current command:
   - OFF/L R
   - OFF/TRP
   - OFFICE CCCS
-  - OFFICE DCT
   - OFFICE HOUSING
   - OFFICE PB
   - OFFICE PSB
@@ -1001,6 +1000,7 @@ Current command:
   - RTCC
   - RTCC INV SUPP
   - RTCC SMART
+  - RTCC VIG
   - RTS ADM
   - RTS RECRUIT
   - S O D
@@ -1027,6 +1027,7 @@ Current command:
   - SI SVS
   - SIB
   - SIB CMO
+  - SIB CMO ICU
   - SIB ORE
   - SIB PMO
   - SIHU
@@ -1073,7 +1074,6 @@ Current command:
   - SVD Z1
   - SVD Z2
   - SVD Z3
-  - SVU ADULT
   - SVU CAS
   - SVU CEHT TF
   - SVU COMPSTAT
@@ -1163,6 +1163,7 @@ Current command:
   - TD 4
   - TD DT20
   - TEL ANALYSIS
+  - TIMES SQUARE FTU
   - TNG UNT
   - TNT TF
   - TR/BXTF
@@ -1254,6 +1255,7 @@ Current command:
   - 42
   - 43
   - 44
+  - 603
   - 45
   - 46
   - 47
@@ -1523,7 +1525,6 @@ Current command:
   - 304
   - 305
   - 306
-  - 642
   - 307
   - 308
   - 309
@@ -2003,7 +2004,6 @@ Current command:
   - 754
   - 755
   - 756
-  - 758
   - 1182
   - 759
   - 760
@@ -2198,6 +2198,7 @@ Current command:
   - 946
   - 947
   - 948
+  - 1014
   - 949
   - 1168
   - 950
@@ -2224,6 +2225,7 @@ Current command:
   - 971
   - 972
   - 973
+  - 1199
   - 974
   - 1187
   - 976
@@ -2270,7 +2272,6 @@ Current command:
   - 1018
   - 1019
   - 1020
-  - 1021
   - 953
   - 1022
   - 975
@@ -2360,6 +2361,7 @@ Current command:
   - 1095
   - 1096
   - 1097
+  - 1200
   - 1098
   - 1151
   - 1099
@@ -2989,6 +2991,7 @@ NYPD Penalty:
   - 'Command Discipline - A / Vacation: 3 days'
   - Command Discipline - A 7 days
   - Command Discipline - B
+  - Command Discipline - B (Formalized Training)
   - 'Command Discipline - B (Vacation: 1 day)'
   - 'Command Discipline - B (Vacation: 1 day) / Formalized Training'
   - 'Command Discipline - B (Vacation: 10 days)'
@@ -3187,6 +3190,7 @@ NYPD Penalty:
   - 25
   - 26
   - 27
+  - 198
   - 28
   - 196
   - 29
@@ -4403,6 +4407,7 @@ Command at incident:
   - CRJ BUR
   - CRM CTL
   - CT LMSI
+  - CT OSS
   - CTERRDV
   - CW T TF
   - CW TRAF TF
@@ -4661,6 +4666,7 @@ Command at incident:
   - MN CAS
   - MN IRT
   - MN SU CRT
+  - MN SU ECT
   - MNN
   - MNROBSQ
   - MOUNTED
@@ -4801,6 +4807,7 @@ Command at incident:
   - PBBS TF
   - PBBX
   - PBBX AC
+  - PBBX COURT TM
   - PBBX ORCHARD
   - PBBX SC
   - PBBX SU
@@ -5866,6 +5873,7 @@ Command at incident:
   - 675
   - 676
   - 677
+  - 1461
   - 678
   - 679
   - 680
@@ -6124,6 +6132,7 @@ Command at incident:
   - 918
   - 919
   - 920
+  - 1464
   - 921
   - 922
   - 923
@@ -6264,6 +6273,7 @@ Command at incident:
   - 1058
   - 1059
   - 1060
+  - 1465
   - 1416
   - 1061
   - 1062
@@ -6870,6 +6880,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Jordanian'
   - 'Other (R): Latina; Other Hispanic/Latino (E)'
   - 'Other (R): Latino; White/Caucasian (R)'
+  - 'Other (R): Man on land'
   - 'Other (R): Mixed'
   - 'Other (R): Mixed Race'
   - 'Other (R): Mixed Race; Other Pacific Island (R)'
@@ -7071,6 +7082,7 @@ Victim race/ethnicity at incident:
   - 95
   - 187
   - 96
+  - 201
   - 138
   - 97
   - 98
@@ -7489,4 +7501,6 @@ APU close date:
 bwc_evidence:
   class: character
 video_evidence:
+  class: character
+investigator_recommendation:
   class: character
