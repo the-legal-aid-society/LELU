@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: 5de33a72677bf2156411aec9829439e39426717e
-  data_hash: 9943fb85cee4d69018c1fc1f8e1ac9ba641f7d36
+  hash: cb80d97351ec94d2eb00098bd55979c62e4b1d95
+  data_hash: 938fbdf652a297f267bf3751c586da0d062c270c
 Officer Name:
   class: character
 Document:
@@ -48,6 +48,7 @@ Precinct/Command:
   - 114 Det Squad
   - 114TH DET SQUAD
   - '115'
+  - 115 Detective Squad
   - 115th Det Squad
   - '120'
   - '121'
@@ -106,6 +107,7 @@ Precinct/Command:
   - '63'
   - '66'
   - '67'
+  - 67 Det Squad
   - '68'
   - '69'
   - '7'
@@ -230,6 +232,7 @@ Precinct/Command:
   - HOUSING PSA 5
   - HOUSING PSA 7
   - Housing PSA 8
+  - HOUSING PSA 8
   - Housing PSA 9
   - HOUSING PSA2
   - IAB
@@ -323,6 +326,7 @@ Precinct/Command:
   - Property Division
   - PSA 1
   - PSA 4
+  - PSA 5 Viper
   - PSA 8
   - Public safety teams
   - Public Service Area 7
@@ -415,6 +419,7 @@ Precinct/Command:
   - 289
   - 300
   - 15
+  - 367
   - 358
   - 16
   - 257
@@ -473,6 +478,7 @@ Precinct/Command:
   - 50
   - 51
   - 52
+  - 368
   - 53
   - 54
   - 55
@@ -597,6 +603,7 @@ Precinct/Command:
   - 306
   - 329
   - 347
+  - 369
   - 323
   - 266
   - 119
@@ -690,6 +697,7 @@ Precinct/Command:
   - 243
   - 173
   - 174
+  - 370
   - 175
   - 176
   - 177

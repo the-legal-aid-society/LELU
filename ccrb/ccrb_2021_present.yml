@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 2da5e4b86f457428fcd09d90abef2db1d332f603
-  data_hash: 3e82b2304ab25abb6e82caf6d5a7d2c41d5d5af9
+  hash: 03179a8027f0e720d4b9f5201c4e3a6eb47f061b
+  data_hash: 0e33ea99e842a353274928a3c37096534bf16c2f
 'Tax #':
   class: character
 Officer last name:
@@ -47,6 +47,7 @@ Current command:
   - 030 PCT
   - 032 DET
   - 032 PCT
+  - 032 PCT FTU
   - 033 DET
   - 033 PCT
   - 034 DET
@@ -60,6 +61,7 @@ Current command:
   - 042 PCT FTU
   - 043 DET
   - 043 PCT
+  - 043 PCT FTU
   - 044 DET
   - 044 PCT
   - 045 DET
@@ -217,6 +219,7 @@ Current command:
   - BM SEC
   - BN CAS
   - BN CRIME ANL
+  - BN CRT
   - BN GRAND LARC
   - BN OP NIGHT
   - BN SU CRT
@@ -227,6 +230,7 @@ Current command:
   - Brookly
   - BS CAS
   - BS CRIME ANL
+  - BS CRT
   - BS GRAND LARC
   - BS OP NIGHT
   - BS SU CRT
@@ -241,6 +245,7 @@ Current command:
   - BX CHILD
   - BX COURT
   - BX CRIME ANL
+  - BX CRT
   - BX CT
   - BX GRAND LARC
   - BX OP NIGHT
@@ -432,9 +437,11 @@ Current command:
   - DBBX VIDEO
   - DBBX Z8
   - DBBX Z9
+  - DBBXZ24
   - DBCR Z1
   - DBM Z14
   - DBM ZN1
+  - DBM ZN13
   - DBM ZN4
   - DBM ZN5
   - DBM ZN6
@@ -487,7 +494,6 @@ Current command:
   - DET BUR
   - DIS CTL
   - DOC FRAUD SQD
-  - DOHMH IL
   - DOPR IL
   - DPT INV
   - DR.ED&T
@@ -725,6 +731,7 @@ Current command:
   - MJT TF
   - MN CAS
   - MN CRIME ANL
+  - MN CRT
   - MN GRAND LARC
   - MN IRT
   - MN OP NIGHT
@@ -740,6 +747,7 @@ Current command:
   - MS BID
   - MS CAS
   - MS CRIME ANL
+  - MS CRT
   - MS GL PPT
   - MS GRAND LARC
   - MS OP NIGHT
@@ -806,10 +814,11 @@ Current command:
   - OFF/L R
   - OFF/TRP
   - OFFICE CCCS
+  - OFFICE COP
   - OFFICE HOUSING
   - OFFICE PB
-  - OFFICE PSB
   - OFFICE RMB
+  - OFFICE SS
   - OFFICE TRP
   - OFSCSRG
   - OMAP
@@ -970,6 +979,7 @@ Current command:
   - QM SEC
   - QN CAS
   - QN CRIME ANL
+  - QN CRT
   - QN GRAND LARC
   - QN SU ALU
   - QN SU CRT
@@ -982,6 +992,7 @@ Current command:
   - QNS STDS & ASMTS
   - QS CAS
   - QS CRIME ANL
+  - QS CRT
   - QS GRAND LARC
   - QS HOMICIDE
   - QS NARC
@@ -1014,6 +1025,7 @@ Current command:
   - SI CAS
   - SI COURT
   - SI CRIME ANL
+  - SI CRT
   - SI EMER
   - SI GRAND LARC
   - SI HOMICIDE
@@ -1022,7 +1034,6 @@ Current command:
   - SI SAU
   - SI SCSU
   - SI STDS & ASMTS
-  - SI SU CRT
   - SI SU ECT
   - SI SVS
   - SIB
@@ -1079,6 +1090,7 @@ Current command:
   - SVU COMPSTAT
   - SVU CW HU TR SQ
   - SVU HS ST TF
+  - SVU HU TR SEC
   - SVU HU TR SQ
   - SVU IRT LER
   - SVU MC DNA COLD
@@ -1245,6 +1257,7 @@ Current command:
   - 32
   - 33
   - 34
+  - 642
   - 35
   - 36
   - 37
@@ -1258,6 +1271,7 @@ Current command:
   - 603
   - 45
   - 46
+  - 758
   - 47
   - 48
   - 49
@@ -1415,6 +1429,7 @@ Current command:
   - 197
   - 199
   - 200
+  - 1021
   - 201
   - 202
   - 203
@@ -1425,6 +1440,7 @@ Current command:
   - 208
   - 209
   - 210
+  - 1201
   - 211
   - 212
   - 213
@@ -1439,6 +1455,7 @@ Current command:
   - 221
   - 222
   - 223
+  - 1202
   - 224
   - 225
   - 226
@@ -1630,9 +1647,11 @@ Current command:
   - 283
   - 399
   - 400
+  - 1203
   - 401
   - 402
   - 403
+  - 1204
   - 405
   - 406
   - 407
@@ -1685,7 +1704,6 @@ Current command:
   - 449
   - 451
   - 452
-  - 453
   - 1152
   - 454
   - 455
@@ -1923,6 +1941,7 @@ Current command:
   - 1161
   - 680
   - 681
+  - 1205
   - 682
   - 683
   - 684
@@ -1938,6 +1957,7 @@ Current command:
   - 693
   - 694
   - 695
+  - 1206
   - 696
   - 697
   - 698
@@ -2004,10 +2024,11 @@ Current command:
   - 754
   - 755
   - 756
+  - 1207
   - 1182
   - 759
-  - 760
   - 761
+  - 1208
   - 762
   - 763
   - 764
@@ -2168,6 +2189,7 @@ Current command:
   - 917
   - 918
   - 919
+  - 1209
   - 920
   - 921
   - 922
@@ -2180,6 +2202,7 @@ Current command:
   - 1185
   - 929
   - 930
+  - 1210
   - 931
   - 932
   - 933
@@ -2212,6 +2235,7 @@ Current command:
   - 959
   - 960
   - 961
+  - 1211
   - 962
   - 963
   - 964
@@ -2220,7 +2244,6 @@ Current command:
   - 967
   - 968
   - 1186
-  - 969
   - 970
   - 971
   - 972
@@ -2277,6 +2300,7 @@ Current command:
   - 975
   - 1169
   - 1023
+  - 1212
   - 1024
   - 1192
   - 1193
@@ -2835,6 +2859,7 @@ NYPD allegation disposition:
   - APU Nolo contendere
   - APU Not guilty
   - APU Not guilty after trial
+  - APU Other
   - APU Previously adjudicated, with discipline
   - APU Resigned
   - APU Retained, with discipline
@@ -2858,6 +2883,7 @@ NYPD allegation disposition:
   - No Finding
   - Not Guilty - DCT
   - Not Guilty - OATH
+  - Past SOL - MOS unable to contest at trial
   - Plead Guilty - DCT
   - Plead Guilty - OATH
   - Previously Adjudicated
@@ -2892,6 +2918,7 @@ NYPD allegation disposition:
   - 24
   - 25
   - 26
+  - 57
   - 27
   - 28
   - 29
@@ -2915,6 +2942,7 @@ NYPD allegation disposition:
   - 47
   - 48
   - 49
+  - 58
   - 50
   - 51
   - 52
@@ -2968,6 +2996,7 @@ NYPD Penalty:
   - 'Closed Administratively (Command Discipline - B) / Vacation: 0.13 days'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 1 day'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 2 days'
+  - 'Closed Administratively (Command Discipline - B) / Vacation: 5 days'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 8 days'
   - Closed Administratively (Instructions)
   - Closed Administratively (No penalty reported)
@@ -2982,6 +3011,7 @@ NYPD Penalty:
   - 'Command Discipline - A (Vacation: 0.50 days)'
   - 'Command Discipline - A (Vacation: 0.75 days)'
   - 'Command Discipline - A (Vacation: 1 day)'
+  - 'Command Discipline - A (Vacation: 1 day) / Formalized Training'
   - 'Command Discipline - A (Vacation: 2 days)'
   - 'Command Discipline - A (Vacation: 3 days)'
   - 'Command Discipline - A (Vacation: 5 days)'
@@ -3168,6 +3198,7 @@ NYPD Penalty:
   - 6
   - 194
   - 7
+  - 199
   - 8
   - 9
   - 10
@@ -3181,6 +3212,7 @@ NYPD Penalty:
   - 16
   - 17
   - 18
+  - 200
   - 19
   - 20
   - 21
@@ -4298,6 +4330,7 @@ Command at incident:
   - BARRIER
   - Bias Incd. Inv. Unit
   - BID TEAM
+  - BK ASCS
   - BK CHILD
   - BK COURT
   - BK IMP
@@ -4307,6 +4340,7 @@ Command at incident:
   - BKROBSQ
   - BLKN CT
   - BM SEC
+  - BN CAS
   - BN Gang unit
   - BN GRAND LARC
   - BN IRT
@@ -4394,9 +4428,11 @@ Command at incident:
   - CO RESPONSE
   - CO TR
   - COD BUSINESS
+  - COD QLD
   - Command unknown
   - COMMDIV
   - COMMSEC
+  - COMP CRIMES
   - CPK DET
   - CPK PCT
   - CR PREV
@@ -4436,6 +4472,7 @@ Command at incident:
   - DB CRD
   - DB FCTF
   - DB FED
+  - DB FID
   - DB GLD
   - DB GVSD
   - DB HATE
@@ -4571,6 +4608,7 @@ Command at incident:
   - HB
   - HBK IRT
   - HBK RT
+  - HBM
   - HBM IRT
   - HBM RT
   - HBX/QIM
@@ -4607,6 +4645,7 @@ Command at incident:
   - IAB IU 12
   - IAB IU 33
   - ID SECT
+  - ID THEFT SQD
   - INSRVTR
   - INSUPDV
   - INT BUR
@@ -4678,6 +4717,7 @@ Command at incident:
   - MS CRIME ANL
   - MS SU CRT
   - MS SU ECT
+  - MS TD UNIT
   - MS TIMES SQ
   - MTN DET
   - MTN PCT
@@ -4736,6 +4776,7 @@ Command at incident:
   - NBBX MAJOR
   - NBMN
   - NBMN MAJOR
+  - NBMS MAJOR
   - NBQ
   - NBQN
   - NBQN MAJOR
@@ -4772,6 +4813,7 @@ Command at incident:
   - OMAP
   - OPER&ANALYSIS
   - OPS UNIT
+  - ORG THEFT SQD
   - Organized Crime Control Bureau
   - P A T U
   - P C C U
@@ -4914,6 +4956,7 @@ Command at incident:
   - PSA5
   - PSA5 VIPER12
   - PSA6
+  - PSA6 VIPER1
   - PSA7
   - PSA8
   - PSA9
@@ -5021,6 +5064,7 @@ Command at incident:
   - Street Crime Manhattan North
   - SVD Z2
   - SVD Z3
+  - SVU CW HU TR SQ
   - SVU HU TR SQ
   - T.A.R.U
   - T.A.R.U.
@@ -5764,6 +5808,7 @@ Command at incident:
   - 574
   - 575
   - 576
+  - 1466
   - 577
   - 578
   - 579
@@ -5773,6 +5818,7 @@ Command at incident:
   - 583
   - 584
   - 585
+  - 1467
   - 586
   - 1443
   - 587
@@ -5860,9 +5906,11 @@ Command at incident:
   - 1432
   - 664
   - 665
+  - 1468
   - 666
   - 667
   - 668
+  - 1469
   - 669
   - 670
   - 671
@@ -5902,6 +5950,7 @@ Command at incident:
   - 703
   - 704
   - 705
+  - 1470
   - 706
   - 707
   - 708
@@ -6037,6 +6086,7 @@ Command at incident:
   - 830
   - 831
   - 832
+  - 1471
   - 833
   - 834
   - 835
@@ -6073,6 +6123,7 @@ Command at incident:
   - 1412
   - 864
   - 865
+  - 1472
   - 866
   - 867
   - 868
@@ -6144,6 +6195,7 @@ Command at incident:
   - 929
   - 930
   - 1445
+  - 1473
   - 931
   - 932
   - 933
@@ -6202,6 +6254,7 @@ Command at incident:
   - 987
   - 988
   - 989
+  - 1474
   - 990
   - 991
   - 992
@@ -6238,6 +6291,7 @@ Command at incident:
   - 1023
   - 1024
   - 1025
+  - 1475
   - 1026
   - 1027
   - 1028
@@ -6380,6 +6434,7 @@ Command at incident:
   - 1163
   - 1458
   - 1164
+  - 1476
   - 1165
   - 1166
   - 1167
@@ -6487,6 +6542,7 @@ Command at incident:
   - 1254
   - 1255
   - 1256
+  - 1477
   - 1450
   - 1257
   - 1258
@@ -6746,6 +6802,7 @@ Victim race/ethnicity at incident:
   - Black and/or African American (R); Japanese (R)
   - Black and/or African American (R); Non-Hispanic/Latino (E)
   - Black and/or African American (R); Other (R)
+  - 'Black and/or African American (R); Other (R): "Human Race" and "Moorish"'
   - 'Black and/or African American (R); Other (R): "Human"'
   - 'Black and/or African American (R); Other (R): "Native American"'
   - 'Black and/or African American (R); Other (R): African-American Jewish'
@@ -6809,6 +6866,7 @@ Victim race/ethnicity at incident:
   - Filipino (R)
   - Filipino (R); Non-Hispanic/Latino (E)
   - Filipino (R); Other (R)
+  - Filipino (R); Puerto Rican (E)
   - Filipino (R); White/Caucasian (R)
   - Japanese (R)
   - Japanese (R); Vietnamese (R)
@@ -6834,16 +6892,19 @@ Victim race/ethnicity at incident:
   - 'Other (R):  Afro-Latino'
   - 'Other (R): "Arab"'
   - 'Other (R): "Indian" ; Other Pacific Island (R)'
+  - 'Other (R): "Italian"'
   - 'Other (R): "Mixed"'
   - 'Other (R): 5'
   - 'Other (R): Afghani'
   - 'Other (R): African'
+  - 'Other (R): Afro-Guyanese'
   - 'Other (R): Albanian'
   - 'Other (R): American'
   - 'Other (R): American; Other Hispanic/Latino (E)'
   - 'Other (R): Arab'
   - 'Other (R): Ashkenazi Jewish'
   - 'Other (R): Asiactic'
+  - 'Other (R): Asian ; Other Asian (R)'
   - 'Other (R): Asian American'
   - 'Other (R): Asian Indian; Other Asian (R)'
   - 'Other (R): Bengali'
@@ -6873,14 +6934,17 @@ Victim race/ethnicity at incident:
   - 'Other (R): Indian; South Asian (R)'
   - 'Other (R): Indigenous American; Other Hispanic/Latino (E)'
   - 'Other (R): Indigenous/ Mayan/ Guatemalan; Other Hispanic/Latino (E)'
+  - 'Other (R): Irish; Other Hispanic/Latino (E)'
   - 'Other (R): Italian; Puerto Rican (E)'
   - 'Other (R): Jamaican'
   - 'Other (R): Jewish'
+  - 'Other (R): Jewish and Roman Gypsy'
   - 'Other (R): Jewish Askenazi'
   - 'Other (R): Jordanian'
   - 'Other (R): Latina; Other Hispanic/Latino (E)'
   - 'Other (R): Latino; White/Caucasian (R)'
   - 'Other (R): Man on land'
+  - 'Other (R): Mestiza'
   - 'Other (R): Mixed'
   - 'Other (R): Mixed Race'
   - 'Other (R): Mixed Race; Other Pacific Island (R)'
@@ -6893,6 +6957,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Nigerian'
   - 'Other (R): Nigerian and Cameroonian'
   - 'Other (R): No answer given'
+  - 'Other (R): Other'
   - 'Other (R): Palestinian'
   - 'Other (R): Peruvian'
   - 'Other (R): Russian; White/Caucasian (R)'
@@ -6948,6 +7013,7 @@ Victim race/ethnicity at incident:
   - 12
   - 13
   - 14
+  - 202
   - 155
   - 200
   - 15
@@ -7011,6 +7077,7 @@ Victim race/ethnicity at incident:
   - 51
   - 136
   - 52
+  - 203
   - 53
   - 54
   - 180
@@ -7036,16 +7103,19 @@ Victim race/ethnicity at incident:
   - 69
   - 70
   - 171
+  - 204
   - 71
   - 72
   - 195
   - 181
+  - 205
   - 73
   - 74
   - 154
   - 75
   - 162
   - 76
+  - 206
   - 77
   - 78
   - 79
@@ -7075,14 +7145,17 @@ Victim race/ethnicity at incident:
   - 92
   - 164
   - 177
+  - 207
   - 129
   - 134
   - 93
+  - 208
   - 94
   - 95
   - 187
   - 96
   - 201
+  - 209
   - 138
   - 97
   - 98
@@ -7095,6 +7168,7 @@ Victim race/ethnicity at incident:
   - 194
   - 101
   - 102
+  - 210
   - 149
   - 103
   - 182

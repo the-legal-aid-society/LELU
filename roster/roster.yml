@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 96c5769e52b7ae9f62d7d3415cdce665d807515c
-  data_hash: 1be4387cc3785ed720f12533c8fc52130519eb5f
+  hash: 7f61505895a6110db0669cda59d90bad22c63e1e
+  data_hash: 04442cbabdea9f4f994abde2df823f41feebd782
 'Tax #':
   class: character
 Roster Date:
@@ -63,10 +63,12 @@ Current command:
   - 020 PCT
   - 023 DET
   - 023 PCT
+  - 023 PCT FTU
   - 024 DET
   - 024 PCT
   - 025 DET
   - 025 PCT
+  - 025 PCT FTU
   - 026 DET
   - 026 PCT
   - 028 DET
@@ -115,6 +117,7 @@ Current command:
   - 050 PCT
   - 052 DET
   - 052 PCT
+  - 052 PCT FTU
   - 060 CONEY ISL
   - 060 DET
   - 060 PCT
@@ -200,6 +203,7 @@ Current command:
   - 109 PCT FTU
   - 110 DET
   - 110 PCT
+  - 110 PCT FTU
   - 111 DET
   - 111 PCT
   - 112 DET
@@ -209,13 +213,16 @@ Current command:
   - 113 PCT FTU
   - 114 DET
   - 114 PCT
+  - 114 PCT FTU
   - 115 DET
   - 115 PCT
+  - 115 PCT FTU
   - 115 RSVLT TF
   - 116 DET
   - 116 PCT
   - 120 DET
   - 120 PCT
+  - 120 PCT FTU
   - 120 VIPER
   - 121 DET
   - 121 PCT
@@ -276,6 +283,7 @@ Current command:
   - BM SEC
   - BN CAS
   - BN CRIME ANL
+  - BN CRT
   - BN GRAND LARC
   - BN IRT
   - BN OP NIGHT
@@ -287,6 +295,7 @@ Current command:
   - BROOKLY
   - BS CAS
   - BS CRIME ANL
+  - BS CRT
   - BS GRAND LARC
   - BS IRT
   - BS OP NIGHT
@@ -302,6 +311,7 @@ Current command:
   - BX CHILD
   - BX COURT
   - BX CRIME ANL
+  - BX CRT
   - BX CT
   - BX GRAND LARC
   - BX IRT
@@ -516,9 +526,11 @@ Current command:
   - DBBX VIDEO
   - DBBX Z8
   - DBBX Z9
+  - DBBXZ24
   - DBCR Z1
   - DBM Z14
   - DBM ZN1
+  - DBM ZN13
   - DBM ZN4
   - DBM ZN5
   - DBM ZN6
@@ -579,7 +591,6 @@ Current command:
   - DIR TRN
   - DIS CTL
   - DOC FRAUD SQD
-  - DOHMH IL
   - DOPR IL
   - DPT ADV
   - DPT INV
@@ -852,6 +863,7 @@ Current command:
   - MJT TF
   - MN CAS
   - MN CRIME ANL
+  - MN CRT
   - MN GRAND LARC
   - MN IRT
   - MN OP NIGHT
@@ -867,6 +879,7 @@ Current command:
   - MS BID
   - MS CAS
   - MS CRIME ANL
+  - MS CRT
   - MS GL PPT
   - MS GRAND LARC
   - MS OP NIGHT
@@ -935,10 +948,11 @@ Current command:
   - OFF/L R
   - OFF/TRP
   - OFFICE CCCS
+  - OFFICE COP
   - OFFICE HOUSING
   - OFFICE PB
-  - OFFICE PSB
   - OFFICE RMB
+  - OFFICE SS
   - OFFICE TRNG
   - OFFICE TRP
   - OFSCSRG
@@ -1122,6 +1136,7 @@ Current command:
   - QM SEC
   - QN CAS
   - QN CRIME ANL
+  - QN CRT
   - QN GRAND LARC
   - QN SU ALU
   - QN SU CRT
@@ -1134,6 +1149,7 @@ Current command:
   - QNS STDS & ASMTS
   - QS CAS
   - QS CRIME ANL
+  - QS CRT
   - QS GRAND LARC
   - QS HOMICIDE
   - QS IRT
@@ -1174,6 +1190,7 @@ Current command:
   - SI CAS
   - SI COURT
   - SI CRIME ANL
+  - SI CRT
   - SI DO
   - SI EMER
   - SI GRAND LARC
@@ -1183,7 +1200,6 @@ Current command:
   - SI SAU
   - SI SCSU
   - SI STDS & ASMTS
-  - SI SU CRT
   - SI SU ECT
   - SI SVS
   - SIB
@@ -1416,10 +1432,12 @@ Current command:
   - 20
   - 21
   - 22
+  - 804
   - 23
   - 24
   - 25
   - 26
+  - 1219
   - 27
   - 28
   - 29
@@ -1468,6 +1486,7 @@ Current command:
   - 60
   - 61
   - 62
+  - 1237
   - 63
   - 64
   - 65
@@ -1553,6 +1572,7 @@ Current command:
   - 1343
   - 134
   - 135
+  - 1356
   - 136
   - 137
   - 138
@@ -1562,13 +1582,16 @@ Current command:
   - 1344
   - 142
   - 143
+  - 1357
   - 144
   - 145
+  - 1358
   - 146
   - 212
   - 715
   - 147
   - 148
+  - 1359
   - 149
   - 150
   - 151
@@ -1629,6 +1652,7 @@ Current command:
   - 203
   - 204
   - 205
+  - 1360
   - 206
   - 207
   - 208
@@ -1640,6 +1664,7 @@ Current command:
   - 215
   - 216
   - 217
+  - 1361
   - 218
   - 219
   - 220
@@ -1655,6 +1680,7 @@ Current command:
   - 229
   - 230
   - 231
+  - 1362
   - 232
   - 233
   - 234
@@ -1869,9 +1895,11 @@ Current command:
   - 619
   - 411
   - 412
+  - 1363
   - 413
   - 1256
   - 414
+  - 1364
   - 417
   - 418
   - 419
@@ -1932,7 +1960,6 @@ Current command:
   - 465
   - 466
   - 467
-  - 1071
   - 1276
   - 468
   - 469
@@ -2205,6 +2232,7 @@ Current command:
   - 1286
   - 725
   - 726
+  - 1365
   - 727
   - 728
   - 729
@@ -2220,6 +2248,7 @@ Current command:
   - 738
   - 739
   - 740
+  - 1366
   - 1242
   - 741
   - 742
@@ -2288,10 +2317,11 @@ Current command:
   - 801
   - 802
   - 803
+  - 1367
   - 1304
   - 805
-  - 806
   - 807
+  - 1368
   - 1221
   - 1233
   - 809
@@ -2475,6 +2505,7 @@ Current command:
   - 971
   - 972
   - 973
+  - 1369
   - 974
   - 1213
   - 975
@@ -2487,6 +2518,7 @@ Current command:
   - 1306
   - 982
   - 983
+  - 1370
   - 984
   - 985
   - 986
@@ -2527,6 +2559,7 @@ Current command:
   - 1020
   - 1021
   - 1022
+  - 1371
   - 1023
   - 1024
   - 1025
@@ -2536,7 +2569,6 @@ Current command:
   - 1217
   - 1029
   - 1307
-  - 1234
   - 1031
   - 1032
   - 1033
