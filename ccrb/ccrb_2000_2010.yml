@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 03179a8027f0e720d4b9f5201c4e3a6eb47f061b
-  data_hash: fdf7aef9d9b6b864539900b3feb2924ee204a200
+  hash: 6239d5a324c83030951ec12e57e9218dadce3cb2
+  data_hash: 0e2f8bf646817cfdd1cc88b42a0a2cc29a7855d5
 'Tax #':
   class: character
 Officer last name:
@@ -132,7 +132,6 @@ Current command:
   - 100 RKWY BCH
   - 101 DET
   - 101 PCT
-  - 101 RKWY BCH
   - 102 DET
   - 102 PCT
   - 103 DET
@@ -289,6 +288,7 @@ Current command:
   - CAP UNIT
   - CAPITAL CONST
   - CAPITAL PLAN
+  - CC&NC FNGRPT
   - CCCS
   - CCCS DLU
   - CCCS JUV CR
@@ -547,6 +547,7 @@ Current command:
   - FORCE ID Z2
   - FORCEID
   - FRAUD COL IN
+  - FSD SEC
   - FTS
   - FTU 25
   - FTU 6
@@ -621,7 +622,6 @@ Current command:
   - IAB GRP 1
   - IAB GRP 10
   - IAB GRP 21
-  - IAB GRP 22
   - IAB GRP 26
   - IAB GRP 32
   - IAB GRP 42
@@ -851,6 +851,7 @@ Current command:
   - PB PAID DTL
   - PB POD
   - PB REC
+  - PB RECRUIT
   - PB SAS
   - PBBN
   - PBBN AC
@@ -899,7 +900,6 @@ Current command:
   - PBQN
   - PBQN AC
   - PBQN CITI FLD
-  - PBQN FMP
   - PBQN INV UNIT
   - PBQN SC
   - PBQN SU
@@ -1011,7 +1011,6 @@ Current command:
   - RTCC
   - RTCC INV SUPP
   - RTCC SMART
-  - RTCC VIG
   - RTS ADM
   - RTS RECRUIT
   - S O D
@@ -1085,6 +1084,7 @@ Current command:
   - SVD Z1
   - SVD Z2
   - SVD Z3
+  - SVU ADULT
   - SVU CAS
   - SVU CEHT TF
   - SVU COMPSTAT
@@ -1342,7 +1342,6 @@ Current command:
   - 114
   - 115
   - 116
-  - 868
   - 118
   - 119
   - 120
@@ -1499,6 +1498,7 @@ Current command:
   - 262
   - 263
   - 264
+  - 453
   - 266
   - 267
   - 1171
@@ -1757,6 +1757,7 @@ Current command:
   - 501
   - 502
   - 503
+  - 760
   - 504
   - 505
   - 506
@@ -1831,7 +1832,6 @@ Current command:
   - 574
   - 575
   - 1154
-  - 577
   - 576
   - 579
   - 582
@@ -2061,6 +2061,7 @@ Current command:
   - 791
   - 792
   - 793
+  - 969
   - 794
   - 795
   - 796
@@ -2109,7 +2110,6 @@ Current command:
   - 838
   - 839
   - 840
-  - 1184
   - 842
   - 843
   - 844
@@ -2221,7 +2221,6 @@ Current command:
   - 946
   - 947
   - 948
-  - 1014
   - 949
   - 1168
   - 950
@@ -2295,6 +2294,7 @@ Current command:
   - 1018
   - 1019
   - 1020
+  - 1213
   - 953
   - 1022
   - 975
@@ -2551,6 +2551,7 @@ Allegation:
   - Question and/or stop
   - Questioned immigration status
   - Race
+  - Racial Profiling (Race)
   - Radio as club
   - Refusal to obtain medical treatment
   - Refusal to process civilian complaint
@@ -2653,6 +2654,7 @@ Allegation:
   - 59
   - 60
   - 61
+  - 40
   - 62
   - 63
   - 64
@@ -2834,19 +2836,19 @@ NYPD allegation disposition:
   - APU - Decision Pending
   - APU Charges not served
   - 'APU Closed: Charges not served'
-  - 'APU Closed: Deceased'
   - 'APU Closed: Department adjudication in process'
   - 'APU Closed: Dismissed by APU'
+  - 'APU Closed: MOS Deceased'
+  - 'APU Closed: MOS Resigned'
+  - 'APU Closed: MOS Retired'
   - 'APU Closed: Other'
   - 'APU Closed: Previously adjudicated, with discipline'
   - 'APU Closed: Previously adjudicated, without discipline'
-  - 'APU Closed: Resigned'
   - 'APU Closed: Retained, with discipline'
   - 'APU Closed: Retained, without discipline'
-  - 'APU Closed: Retired'
   - 'APU Closed: SOL Expired in APU'
   - 'APU Closed: SOL Expired prior to APU'
-  - 'APU Closed: Terminal leave'
+  - 'APU Closed: Terminal Leave, Adjudication Pending'
   - 'APU Closed: Terminated'
   - APU Command Discipline
   - APU Command Discipline A
@@ -2856,15 +2858,14 @@ NYPD allegation disposition:
   - APU Formalized Training
   - APU Guilty
   - APU Instructions
+  - APU MOS Resigned
+  - APU MOS Retired
   - APU Nolo contendere
   - APU Not guilty
-  - APU Not guilty after trial
-  - APU Other
+  - APU Not guilty after trial-PC Approved
   - APU Previously adjudicated, with discipline
-  - APU Resigned
   - APU Retained, with discipline
   - APU Retained, without discipline
-  - APU Retired
   - Charge Dismissed - DCT
   - Charge Dismissed - OATH
   - Charges and Specifications - Guilty
@@ -2893,19 +2894,19 @@ NYPD allegation disposition:
   - 1
   - 2
   - 3
-  - 4
   - 56
   - 5
+  - 59
+  - 60
+  - 61
   - 6
   - 7
   - 8
-  - 9
   - 10
   - 11
-  - 12
   - 13
   - 14
-  - 15
+  - 62
   - 16
   - 17
   - 18
@@ -2915,15 +2916,14 @@ NYPD allegation disposition:
   - 21
   - 22
   - 23
+  - 63
+  - 64
   - 24
   - 25
-  - 26
-  - 57
+  - 65
   - 27
-  - 28
   - 29
   - 30
-  - 31
   - 32
   - 33
   - 34
@@ -3405,12 +3405,14 @@ APU case status:
   class: factor
   labels:
   - 'Closed: Charges not served'
-  - 'Closed: Deceased'
   - 'Closed: Department adjudication in process'
   - 'Closed: Dismissed by APU'
   - 'Closed: Dismissed by Police Commissioner'
-  - 'Closed: Guilty after trial'
-  - 'Closed: Not guilty after trial'
+  - 'Closed: Guilty after trial-PC Approved'
+  - 'Closed: MOS Deceased'
+  - 'Closed: MOS Resigned'
+  - 'Closed: MOS Retired'
+  - 'Closed: Not guilty after trial-PC Approved'
   - 'Closed: Not guilty after trial but Discipline Imposed'
   - 'Closed: Other'
   - 'Closed: Plea Renegotiated by PC'
@@ -3421,26 +3423,26 @@ APU case status:
   - 'Closed: Plea set aside, Without discipline'
   - 'Closed: Previously adjudicated, with discipline'
   - 'Closed: Previously adjudicated, without discipline'
-  - 'Closed: Resigned'
   - 'Closed: Resolved by plea'
   - 'Closed: Retained, with discipline'
   - 'Closed: Retained, without discipline'
-  - 'Closed: Retired'
   - 'Closed: SOL Expired in APU'
   - 'Closed: SOL Expired prior to APU'
-  - 'Closed: Terminal leave'
+  - 'Closed: Terminal Leave, Adjudication Pending'
   - 'Closed: Terminated'
   - 'Closed: Trial verdict reversed by PC, Final verdict Guilty'
   - 'Closed: Trial verdict reversed by PC, Final verdict Not Guilty'
   - Pending
   index:
   - 1
-  - 2
   - 29
   - 3
   - 4
-  - 5
-  - 6
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
   - 7
   - 8
   - 9
@@ -3451,14 +3453,12 @@ APU case status:
   - 14
   - 15
   - 16
-  - 17
   - 18
   - 19
   - 20
-  - 21
   - 22
   - 23
-  - 24
+  - 35
   - 25
   - 26
   - 27
@@ -4381,6 +4381,7 @@ Command at incident:
   - BSNI
   - BUS UT
   - BX APP TEAM
+  - BX CAS
   - BX CB
   - BX CHILD
   - BX Court
@@ -5190,6 +5191,7 @@ Command at incident:
   - TRN BUR
   - TRP BUR
   - TRP BUR INV
+  - TRP OPS
   - TV UNIT
   - Uknown
   - unidentified
@@ -5859,6 +5861,7 @@ Command at incident:
   - 620
   - 621
   - 622
+  - 1478
   - 623
   - 624
   - 625
@@ -6668,6 +6671,7 @@ Command at incident:
   - 1375
   - 1376
   - 1377
+  - 1479
   - 1378
   - 1379
   - 1380

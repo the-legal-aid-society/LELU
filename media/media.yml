@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: cb80d97351ec94d2eb00098bd55979c62e4b1d95
-  data_hash: 938fbdf652a297f267bf3751c586da0d062c270c
+  hash: a8255b8d1bd1aaea3930adc4834482c1f72929dd
+  data_hash: be973552960b16a9598dc9573634ead3d936802f
 Officer Name:
   class: character
 Document:
@@ -158,6 +158,7 @@ Precinct/Command:
   - Brooklyn North Gang unit
   - Brooklyn North Narcotics
   - Brooklyn North Traffic Enforcement Unit
+  - Brooklyn North Warrant Section
   - Brooklyn South gang squad unit
   - Brooklyn South Intersection Control Command
   - Brooklyn South Narcotics
@@ -221,6 +222,7 @@ Precinct/Command:
   - housing bureau
   - Housing Bureau
   - Housing Police Service Area
+  - Housing Police Service Area (PSA) 8
   - Housing Police Service Area 1
   - Housing Police Service Area 8
   - HOUSING PSA 2
@@ -529,6 +531,7 @@ Precinct/Command:
   - 235
   - 82
   - 326
+  - 371
   - 83
   - 240
   - 84
@@ -592,6 +595,7 @@ Precinct/Command:
   - 113
   - 114
   - 115
+  - 372
   - 116
   - 117
   - 305
