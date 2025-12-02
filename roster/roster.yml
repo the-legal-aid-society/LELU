@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: d17b7c2e5336162e206ace38288252df39631c8d
-  data_hash: b009f3b205277d1ba3d5486c987dadb167ba79c8
+  hash: 69d4d5b9003104d300d094f75d2c233eaf14aff5
+  data_hash: 21ee7573404b396ce92d66443a4e6d8590c134e3
 'Tax #':
   class: character
 Roster Date:
@@ -42,194 +42,269 @@ Current command:
   class: factor
   labels:
   - 001 DET
+  - 001 DV SQD
   - 001 PCT
   - 005 DET
+  - 005 DV SQD
   - 005 PCT
   - 006 DET
+  - 006 DV SQD
   - 006 PCT
   - 007 DET
+  - 007 DV SQD
   - 007 PCT
   - 009 DET
+  - 009 DV SQD
   - 009 PCT
   - 010 DET
+  - 010 DV SQD
   - 010 PCT
   - 013 DET
+  - 013 DV SQD
   - 013 PCT
   - 017 DET
+  - 017 DV SQD
   - 017 PCT
   - 019 DET
+  - 019 DV SQD
   - 019 PCT
   - 020 DET
+  - 020 DV SQD
   - 020 PCT
   - 023 DET
+  - 023 DV SQD
   - 023 PCT
   - 023 PCT FTU
   - 024 DET
+  - 024 DV SQD
   - 024 PCT
   - 025 DET
+  - 025 DV SQD
   - 025 PCT
   - 025 PCT FTU
   - 026 DET
+  - 026 DV SQD
   - 026 PCT
   - 028 DET
+  - 028 DV SQD
   - 028 PCT
   - 028 PCT FTU
   - 030 DET
+  - 030 DV SQD
   - 030 PCT
   - 032 DET
+  - 032 DV SQD
   - 032 PCT
   - 032 PCT FTU
   - 033 DET
+  - 033 DV SQD
   - 033 PCT
   - 034 DET
+  - 034 DV SQD
   - 034 PCT
   - 034 PCT FTU
   - 040 DET
+  - 040 DV SQD
   - 040 PCT
   - 040 PCT FTU
   - 041 DET
+  - 041 DV SQD
   - 041 PCT
   - 041 PCT FTU
   - 042 DET
+  - 042 DV SQD
   - 042 PCT
   - 042 PCT FTU
   - 043 DET
+  - 043 DV SQD
   - 043 PCT
   - 043 PCT FTU
   - 044 DET
+  - 044 DV SQD
   - 044 PCT
   - 044 PCT FTU
   - 045 DET
+  - 045 DV SQD
   - 045 PCT
   - 046 DET
+  - 046 DV SQD
   - 046 PCT
   - 046 PCT FTU
   - 047 DET
+  - 047 DV SQD
   - 047 PCT
   - 047 PCT FTU
   - 048 DET
+  - 048 DV SQD
   - 048 PCT
   - 048 PCT FTU
   - 049 DET
+  - 049 DV SQD
   - 049 PCT
   - 049 PCT FTU
   - 050 DET
+  - 050 DV SQD
   - 050 PCT
   - 052 DET
+  - 052 DV SQD
   - 052 PCT
   - 052 PCT FTU
   - 060 CONEY ISL
   - 060 DET
+  - 060 DV SQD
   - 060 PCT
   - 061 DET
+  - 061 DV SQD
   - 061 PCT
   - 062 DET
+  - 062 DV SQD
   - 062 PCT
   - 063 DET
+  - 063 DV SQD
   - 063 PCT
   - 066 DET
+  - 066 DV SQD
   - 066 PCT
   - 067 DET
+  - 067 DV SQD
   - 067 PCT
   - 067 PCT FTU
   - 068 DET
+  - 068 DV SQD
   - 068 PCT
   - 069 DET
+  - 069 DV SQD
   - 069 PCT
   - 070 DET
+  - 070 DV SQD
   - 070 PCT
   - 070 PCT FTU
   - 071 DET
+  - 071 DV SQD
   - 071 PCT
   - 072 DET
+  - 072 DV SQD
   - 072 PCT
   - 073 DET
+  - 073 DV SQD
   - 073 PCT
   - 073 PCT FTU
   - 075 DET
+  - 075 DV SQD
   - 075 PCT
   - 075 PCT FTU
   - 076 DET
+  - 076 DV SQD
   - 076 PCT
   - 077 DET
+  - 077 DV SQD
   - 077 PCT
   - 077 PCT FTU
   - 078 DET
+  - 078 DV SQD
   - 078 PCT
   - 078 PROSP PK
   - 079 DET
+  - 079 DV SQD
   - 079 PCT
   - 079 PCT FTU
   - 081 DET
+  - 081 DV SQD
   - 081 PCT
   - 081 PCT FTU
   - 083 DET
+  - 083 DV SQD
   - 083 PCT
   - 083 PCT FTU
   - 084 BK BRDG
   - 084 DET
+  - 084 DV SQD
   - 084 PCT
   - 088 DET
+  - 088 DV SQD
   - 088 PCT
   - 088 PCT FTU
   - 090 DET
+  - 090 DV SQD
   - 090 PCT
   - 094 DET
+  - 094 DV SQD
   - 094 PCT
   - 100 DET
+  - 100 DV SQD
   - 100 PCT
   - 100 RKWY BCH
   - 101 DET
+  - 101 DV SQD
   - 101 PCT
   - 101 PCT FTU
   - 101 RKWY BCH
   - 102 DET
+  - 102 DV SQD
   - 102 PCT
   - 103 DET
+  - 103 DV SQD
   - 103 PCT
   - 103 PCT FTU
   - 104 DET
+  - 104 DV SQD
   - 104 PCT
   - 105 DET
+  - 105 DV SQD
   - 105 PCT
   - 106 DET
+  - 106 DV SQD
   - 106 PCT
   - 107 DET
+  - 107 DV SQD
   - 107 PCT
   - 108 DET
+  - 108 DV SQD
   - 108 PCT
   - 109 DET
+  - 109 DV SQD
   - 109 PCT
   - 109 PCT FTU
   - 110 DET
+  - 110 DV SQD
   - 110 PCT
   - 110 PCT FTU
   - 111 DET
+  - 111 DV SQD
   - 111 PCT
   - 112 DET
+  - 112 DV SQD
   - 112 PCT
   - 113 DET
+  - 113 DV SQD
   - 113 PCT
   - 113 PCT FTU
   - 114 DET
+  - 114 DV SQD
   - 114 PCT
   - 114 PCT FTU
   - 115 DET
+  - 115 DV SQD
   - 115 PCT
   - 115 PCT FTU
   - 115 RSVLT TF
   - 116 DET
+  - 116 DV SQD
   - 116 PCT
   - 120 DET
+  - 120 DV SQD
   - 120 PCT
   - 120 PCT FTU
   - 120 VIPER
   - 121 DET
+  - 121 DV SQD
   - 121 PCT
   - 122 DET
+  - 122 DV SQD
   - 122 PCT
   - 123 DET
   - 123 DET SQD
+  - 123 DV SQD
   - 123 PCT
   - 125 ST BID
   - 125 ST TF
@@ -363,6 +438,7 @@ Current command:
   - CCCS
   - CCCS DLU
   - CCCS JUV CR
+  - CCCS JUV STRAT
   - CCRB LU
   - CD BODY CAM
   - CD C&C
@@ -394,7 +470,6 @@ Current command:
   - CMU 2
   - CO RESPONSE
   - CO TR
-  - COD DVIU
   - COD DVU
   - COD QLD
   - COD RRU
@@ -471,6 +546,7 @@ Current command:
   - DB CEIS
   - DB CID
   - DB CRD
+  - DB DVU
   - DB FCTF
   - DB FED
   - DB FEU
@@ -890,8 +966,10 @@ Current command:
   - MS VICE
   - MSS TF
   - MTN DET
+  - MTN DV SQD
   - MTN PCT
   - MTS DET
+  - MTS DV SQD
   - MTS PCT
   - NAR DIV
   - NARC SI
@@ -949,6 +1027,7 @@ Current command:
   - OFF/TRP
   - OFFICE CCCS
   - OFFICE COP
+  - OFFICE DB DVU
   - OFFICE HOUSING
   - OFFICE PB
   - OFFICE RMB
@@ -1220,7 +1299,6 @@ Current command:
   - SPECAT
   - SPL TRN
   - SPORTS UNIT
-  - SPRING 3100
   - SRG
   - SRG 04
   - SRG 05
@@ -1412,194 +1490,269 @@ Current command:
   - YTH SS
   index:
   - 1
+  - 615
   - 2
   - 3
+  - 1353
   - 4
   - 5
+  - 1372
   - 6
   - 7
+  - 1373
   - 8
   - 9
+  - 1374
   - 10
   - 11
+  - 1375
   - 12
   - 13
+  - 1376
   - 14
   - 15
+  - 1377
   - 16
   - 17
+  - 1378
   - 18
   - 19
+  - 1379
   - 20
   - 21
+  - 1380
   - 22
   - 804
   - 23
+  - 1381
   - 24
   - 25
+  - 1382
   - 26
   - 1219
   - 27
+  - 1383
   - 28
   - 29
+  - 1384
   - 30
   - 1077
   - 31
+  - 1385
   - 32
   - 33
+  - 1386
   - 34
   - 1257
   - 35
+  - 1387
   - 36
   - 37
+  - 1388
   - 38
   - 1322
   - 39
+  - 1389
   - 40
   - 1323
   - 41
+  - 1390
   - 42
   - 1324
   - 43
+  - 1391
   - 44
   - 1325
   - 45
+  - 1392
   - 46
   - 1326
   - 47
+  - 1393
   - 48
   - 1327
   - 49
+  - 1394
   - 50
   - 51
+  - 1395
   - 52
   - 1328
   - 53
+  - 1396
   - 54
   - 1329
   - 55
+  - 1397
   - 56
   - 1330
   - 57
+  - 1398
   - 58
   - 1331
   - 59
+  - 1399
   - 60
   - 61
+  - 1400
   - 62
   - 1237
   - 63
   - 64
+  - 1401
   - 65
   - 66
+  - 1402
   - 67
   - 68
+  - 1403
   - 69
   - 70
+  - 1404
   - 71
   - 72
+  - 1405
   - 73
   - 74
+  - 1406
   - 75
   - 1332
   - 76
+  - 1407
   - 77
   - 78
+  - 1408
   - 79
   - 80
+  - 1409
   - 81
   - 1333
   - 82
+  - 1410
   - 83
   - 84
+  - 1411
   - 85
   - 86
+  - 1412
   - 87
   - 1334
   - 88
+  - 1413
   - 89
   - 1335
   - 90
+  - 1414
   - 91
   - 92
+  - 1415
   - 93
   - 1336
   - 94
+  - 1416
   - 95
   - 96
   - 97
+  - 1417
   - 98
   - 1337
   - 99
+  - 1418
   - 100
   - 1338
   - 101
+  - 1419
   - 102
   - 1339
   - 849
   - 104
+  - 1420
   - 105
   - 106
+  - 1421
   - 107
   - 1340
   - 108
+  - 1422
   - 109
   - 110
+  - 1423
   - 111
   - 112
+  - 1424
   - 113
   - 114
   - 115
+  - 1425
   - 116
   - 1341
   - 1220
   - 118
+  - 1426
   - 119
   - 120
+  - 1427
   - 121
   - 1342
   - 122
+  - 1428
   - 123
   - 124
+  - 1429
   - 125
   - 126
+  - 1430
   - 127
   - 128
+  - 1431
   - 129
   - 130
+  - 1432
   - 131
   - 132
+  - 1433
   - 133
   - 1343
   - 134
+  - 1434
   - 135
   - 1356
   - 136
+  - 1435
   - 137
   - 138
+  - 1436
   - 139
   - 140
+  - 1437
   - 141
   - 1344
   - 142
+  - 1438
   - 143
   - 1357
   - 144
+  - 1439
   - 145
   - 1358
   - 146
   - 212
+  - 1440
   - 715
   - 147
+  - 1441
   - 148
   - 1359
   - 149
   - 150
+  - 1442
   - 151
   - 152
+  - 1443
   - 153
   - 154
   - 155
+  - 1444
   - 156
   - 157
   - 158
@@ -1733,6 +1886,7 @@ Current command:
   - 276
   - 277
   - 1293
+  - 1445
   - 278
   - 279
   - 280
@@ -1764,7 +1918,6 @@ Current command:
   - 305
   - 306
   - 307
-  - 308
   - 309
   - 1279
   - 1210
@@ -1841,6 +1994,7 @@ Current command:
   - 373
   - 374
   - 375
+  - 1446
   - 376
   - 377
   - 1211
@@ -2260,8 +2414,10 @@ Current command:
   - 1265
   - 1277
   - 746
+  - 1447
   - 747
   - 748
+  - 1448
   - 749
   - 750
   - 751
@@ -2319,6 +2475,7 @@ Current command:
   - 802
   - 803
   - 1367
+  - 1449
   - 1304
   - 805
   - 807
@@ -2590,7 +2747,6 @@ Current command:
   - 1216
   - 1045
   - 1046
-  - 1047
   - 1048
   - 1049
   - 1050

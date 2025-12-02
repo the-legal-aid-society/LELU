@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 46c0a09ee401bb2c17ca66cc0e06c2b20ea832eb
-  data_hash: dc585d3b793e2f6e7cbbc7ec50293e501c5dd3c4
+  hash: 623a67fc3f0e5bc52ca94a79812a1eaf98139309
+  data_hash: 89f64a2b37928884a9f292e4031d8c976c8dce9f
 Officer Defendant:
   class: character
 'Tax #':
@@ -37,16 +37,26 @@ Court:
   - Civil Court - New York
   - Civil Court - Queens
   - Civil Court - Richmond
+  - Contract Dispute Resolution Bd - City of New York
   - Court of Claims - New York State
+  - Court of Common Pleas
+  - District Court - 1st District Nassau
+  - District DC
+  - Division of Human Rights - New York State
   - Eastern District NY
+  - Equal Employment Oppty Comm. - United States
   - Kings
   - Small Claims Court
   - Small Claims Court - Bronx
   - Small Claims Court - Kings
   - Small Claims Court - New York
   - Small Claims Court - Queens
+  - Small Claims Court - Richmond
   - Superior Court of Georgia
   - Superior Court of Georgia - Fulton
+  - Superior Court of New Jersey - Bergen
+  - Superior Court of New Jersey - Hudson
+  - Superior Court of New Jersey - Monmouth
   - Superior Court of the District of Columbia
   - Supreme Court
   - Supreme Court - Albany
@@ -60,9 +70,12 @@ Court:
   - Supreme Court - Queens
   - Supreme Court - Richmond
   - Supreme Court - Suffolk
+  - Supreme Court - Sullivan
   - Supreme Court - Westchester
+  - Surrogates Court - New York
   - U.S. Bankruptcy Court - Eastern District NY
   - U.S. District Court
+  - U.S. District Court - Central District CA
   - U.S. District Court - District CT
   - U.S. District Court - District NJ
   - U.S. District Court - Eastern District CA
@@ -70,26 +83,39 @@ Court:
   - U.S. District Court - Eastern District NC
   - U.S. District Court - Eastern District NY
   - U.S. District Court - Eastern District PA
+  - U.S. District Court - Northern District CA
   - U.S. District Court - Northern District NY
   - U.S. District Court - Southern District CA
+  - U.S. District Court - Southern District FL
   - U.S. District Court - Southern District IN
   - U.S. District Court - Southern District NY
+  - U.S. District Court - Western District NY
   index:
   - 1
   - 2
   - 3
   - 4
   - 5
+  - 43
   - 34
+  - 44
+  - 45
+  - 46
+  - 47
   - 6
+  - 48
   - 42
   - 35
   - 7
   - 8
   - 9
   - 10
+  - 49
   - 37
   - 39
+  - 50
+  - 51
+  - 52
   - 40
   - 11
   - 12
@@ -103,9 +129,12 @@ Court:
   - 20
   - 21
   - 38
+  - 53
   - 22
+  - 54
   - 23
   - 24
+  - 55
   - 25
   - 26
   - 27
@@ -113,10 +142,13 @@ Court:
   - 29
   - 30
   - 41
+  - 56
   - 31
   - 36
+  - 57
   - 32
   - 33
+  - 58
   ordered: no
 'Docket/Index #':
   class: character

@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 6239d5a324c83030951ec12e57e9218dadce3cb2
-  data_hash: 5a3e37b4fdb0549bac9dca32df32714030fb3fe0
+  hash: 0420d4e85ae49e121e2d534fc446b012f384f544
+  data_hash: 42f20252e860f4a2a989049449dd259a626754dd
 'Tax #':
   class: character
 Officer last name:
@@ -14,164 +14,250 @@ Current command:
   class: factor
   labels:
   - 001 DET
+  - 001 DV SQD
   - 001 PCT
   - 005 DET
+  - 005 DV SQD
   - 005 PCT
   - 006 DET
+  - 006 DV SQD
   - 006 PCT
   - 007 DET
+  - 007 DV SQD
   - 007 PCT
   - 009 DET
+  - 009 DV SQD
   - 009 PCT
   - 010 DET
+  - 010 DV SQD
   - 010 PCT
   - 013 DET
+  - 013 DV SQD
   - 013 PCT
   - 017 DET
+  - 017 DV SQD
   - 017 PCT
   - 019 DET
+  - 019 DV SQD
   - 019 PCT
   - 020 DET
+  - 020 DV SQD
   - 020 PCT
   - 023 DET
+  - 023 DV SQD
   - 023 PCT
   - 024 DET
+  - 024 DV SQD
   - 024 PCT
   - 025 DET
+  - 025 DV SQD
   - 025 PCT
   - 026 DET
+  - 026 DV SQD
   - 026 PCT
   - 028 DET
+  - 028 DV SQD
   - 028 PCT
+  - 028 PCT FTU
   - 030 DET
+  - 030 DV SQD
   - 030 PCT
   - 032 DET
+  - 032 DV SQD
   - 032 PCT
   - 032 PCT FTU
   - 033 DET
+  - 033 DV SQD
   - 033 PCT
   - 034 DET
+  - 034 DV SQD
   - 034 PCT
   - 040 DET
+  - 040 DV SQD
   - 040 PCT
+  - 040 PCT FTU
   - 041 DET
+  - 041 DV SQD
   - 041 PCT
+  - 041 PCT FTU
   - 042 DET
+  - 042 DV SQD
   - 042 PCT
   - 042 PCT FTU
   - 043 DET
+  - 043 DV SQD
   - 043 PCT
   - 043 PCT FTU
   - 044 DET
+  - 044 DV SQD
   - 044 PCT
+  - 044 PCT FTU
   - 045 DET
+  - 045 DV SQD
   - 045 PCT
   - 046 DET
+  - 046 DV SQD
   - 046 PCT
+  - 046 PCT FTU
   - 047 DET
+  - 047 DV SQD
   - 047 PCT
   - 048 DET
+  - 048 DV SQD
   - 048 PCT
   - 049 DET
+  - 049 DV SQD
   - 049 PCT
   - 050 DET
+  - 050 DV SQD
   - 050 PCT
   - 052 DET
+  - 052 DV SQD
   - 052 PCT
   - 060 CONEY ISL
   - 060 DET
+  - 060 DV SQD
   - 060 PCT
   - 061 DET
+  - 061 DV SQD
   - 061 PCT
   - 062 DET
+  - 062 DV SQD
   - 062 PCT
   - 063 DET
+  - 063 DV SQD
   - 063 PCT
   - 066 DET
+  - 066 DV SQD
   - 066 PCT
   - 067 DET
+  - 067 DV SQD
   - 067 PCT
+  - 067 PCT FTU
   - 068 DET
+  - 068 DV SQD
   - 068 PCT
   - 069 DET
+  - 069 DV SQD
   - 069 PCT
   - 070 DET
+  - 070 DV SQD
   - 070 PCT
   - 071 DET
+  - 071 DV SQD
   - 071 PCT
   - 072 DET
+  - 072 DV SQD
   - 072 PCT
   - 073 DET
+  - 073 DV SQD
   - 073 PCT
+  - 073 PCT FTU
   - 075 DET
+  - 075 DV SQD
   - 075 PCT
+  - 075 PCT FTU
   - 076 DET
+  - 076 DV SQD
   - 076 PCT
   - 077 DET
+  - 077 DV SQD
   - 077 PCT
   - 078 DET
+  - 078 DV SQD
   - 078 PCT
   - 078 PROSP PK
   - 079 DET
+  - 079 DV SQD
   - 079 PCT
+  - 079 PCT FTU
   - 081 DET
+  - 081 DV SQD
   - 081 PCT
   - 083 DET
+  - 083 DV SQD
   - 083 PCT
   - 084 BK BRDG
   - 084 DET
+  - 084 DV SQD
   - 084 PCT
   - 088 DET
+  - 088 DV SQD
   - 088 PCT
   - 090 DET
+  - 090 DV SQD
   - 090 PCT
   - 094 DET
+  - 094 DV SQD
   - 094 PCT
   - 100 DET
+  - 100 DV SQD
   - 100 PCT
   - 100 RKWY BCH
   - 101 DET
+  - 101 DV SQD
   - 101 PCT
+  - 101 PCT FTU
   - 102 DET
+  - 102 DV SQD
   - 102 PCT
   - 103 DET
+  - 103 DV SQD
   - 103 PCT
+  - 103 PCT FTU
   - 104 DET
+  - 104 DV SQD
   - 104 PCT
   - 105 DET
+  - 105 DV SQD
   - 105 PCT
   - 106 DET
+  - 106 DV SQD
   - 106 PCT
   - 107 DET
+  - 107 DV SQD
   - 107 PCT
   - 108 DET
+  - 108 DV SQD
   - 108 PCT
   - 109 DET
+  - 109 DV SQD
   - 109 PCT
   - 110 DET
+  - 110 DV SQD
   - 110 PCT
   - 111 DET
+  - 111 DV SQD
   - 111 PCT
   - 112 DET
+  - 112 DV SQD
   - 112 PCT
   - 113 DET
+  - 113 DV SQD
   - 113 PCT
   - 114 DET
+  - 114 DV SQD
   - 114 PCT
   - 115 DET
+  - 115 DV SQD
   - 115 PCT
   - 115 RSVLT TF
   - 116 DET
+  - 116 DV SQD
   - 116 PCT
   - 120 DET
+  - 120 DV SQD
   - 120 PCT
   - 120 VIPER
   - 121 DET
+  - 121 DV SQD
   - 121 PCT
   - 122 DET
+  - 122 DV SQD
   - 122 PCT
   - 123 DET
   - 123 DET SQD
+  - 123 DV SQD
   - 123 PCT
   - 125 ST BID
   - 125 ST TF
@@ -292,6 +378,7 @@ Current command:
   - CCCS
   - CCCS DLU
   - CCCS JUV CR
+  - CCCS JUV STRAT
   - CCRB LU
   - CD EPES
   - CD IRS
@@ -317,7 +404,6 @@ Current command:
   - CMU 2
   - CO RESPONSE
   - CO TR
-  - COD DVIU
   - COD DVU
   - COD QLD
   - COD RRU
@@ -343,7 +429,6 @@ Current command:
   - CRM CTL
   - CRS/AU
   - CS BODY CAM
-  - CS FORCE AU
   - CSO
   - CSO INV
   - CT BUR
@@ -385,6 +470,7 @@ Current command:
   - DB CEIS
   - DB CID
   - DB CRD
+  - DB DVU
   - DB FCTF
   - DB FED
   - DB FEU
@@ -758,8 +844,10 @@ Current command:
   - MS VICE
   - MSS TF
   - MTN DET
+  - MTN DV SQD
   - MTN PCT
   - MTS DET
+  - MTS DV SQD
   - MTS PCT
   - NAR DIV
   - NARC SI
@@ -815,6 +903,7 @@ Current command:
   - OFF/TRP
   - OFFICE CCCS
   - OFFICE COP
+  - OFFICE DB DVU
   - OFFICE HOUSING
   - OFFICE PB
   - OFFICE RMB
@@ -1051,7 +1140,6 @@ Current command:
   - SPECAT
   - SPL TRN
   - SPORTS UNIT
-  - SPRING 3100
   - SRG
   - SRG 04
   - SRG 05
@@ -1224,164 +1312,250 @@ Current command:
   - YTH SS
   index:
   - 1
+  - 577
   - 2
   - 3
+  - 868
   - 4
   - 5
+  - 1014
   - 6
   - 7
+  - 1184
   - 8
   - 9
+  - 1214
   - 10
   - 11
+  - 1215
   - 12
   - 13
+  - 1216
   - 14
   - 15
+  - 1217
   - 16
   - 17
+  - 1218
   - 18
   - 19
+  - 1219
   - 20
   - 21
+  - 1220
   - 22
   - 23
+  - 1221
   - 24
   - 25
+  - 1222
   - 26
   - 27
+  - 1223
   - 28
   - 29
+  - 1224
   - 30
+  - 1225
   - 31
+  - 1226
   - 32
   - 33
+  - 1227
   - 34
   - 642
   - 35
+  - 1228
   - 36
   - 37
+  - 1229
   - 38
   - 39
+  - 1230
   - 40
+  - 1231
   - 41
+  - 1232
   - 42
+  - 1233
   - 43
+  - 1234
   - 44
   - 603
   - 45
+  - 1235
   - 46
   - 758
   - 47
+  - 1236
   - 48
+  - 1237
   - 49
+  - 1238
   - 50
   - 51
+  - 1239
   - 52
+  - 1240
   - 53
+  - 1241
   - 54
   - 55
+  - 1242
   - 56
   - 57
+  - 1243
   - 58
   - 59
+  - 1244
   - 60
   - 61
+  - 1245
   - 62
   - 63
   - 64
+  - 1246
   - 65
   - 66
+  - 1247
   - 67
   - 68
+  - 1248
   - 69
   - 70
+  - 1249
   - 71
   - 72
+  - 1250
   - 73
   - 74
+  - 1251
   - 75
+  - 1252
   - 76
+  - 1253
   - 77
   - 78
+  - 1254
   - 79
   - 80
+  - 1255
   - 81
   - 82
+  - 1256
   - 83
   - 84
+  - 1257
   - 85
   - 86
+  - 1258
   - 87
+  - 1259
   - 88
+  - 1260
   - 89
+  - 1261
   - 90
+  - 1262
   - 91
   - 92
+  - 1263
   - 93
   - 94
+  - 1264
   - 95
   - 96
   - 97
+  - 1265
   - 98
+  - 1266
   - 99
+  - 1267
   - 100
   - 101
+  - 1268
   - 102
   - 757
   - 104
+  - 1269
   - 105
   - 106
+  - 1270
   - 107
   - 108
+  - 1271
   - 109
   - 110
+  - 1272
   - 111
   - 112
+  - 1273
   - 113
   - 114
   - 115
+  - 1274
   - 116
+  - 1275
   - 118
+  - 1276
   - 119
   - 120
+  - 1277
   - 121
+  - 1278
   - 122
+  - 1279
   - 123
   - 124
+  - 1280
   - 125
   - 126
+  - 1281
   - 127
   - 128
+  - 1282
   - 129
   - 130
+  - 1283
   - 131
   - 132
+  - 1284
   - 133
   - 134
+  - 1285
   - 135
   - 136
+  - 1286
   - 137
   - 138
+  - 1287
   - 139
   - 140
+  - 1288
   - 141
   - 142
+  - 1289
   - 143
   - 144
+  - 1290
   - 145
   - 146
   - 198
+  - 1291
   - 103
   - 147
+  - 1292
   - 148
   - 149
   - 150
+  - 1293
   - 151
   - 152
+  - 1294
   - 153
   - 154
   - 155
+  - 1295
   - 156
   - 157
   - 158
@@ -1502,6 +1676,7 @@ Current command:
   - 266
   - 267
   - 1171
+  - 1296
   - 268
   - 269
   - 270
@@ -1527,7 +1702,6 @@ Current command:
   - 291
   - 292
   - 293
-  - 294
   - 295
   - 1156
   - 296
@@ -1553,7 +1727,6 @@ Current command:
   - 315
   - 316
   - 317
-  - 318
   - 319
   - 320
   - 321
@@ -1595,6 +1768,7 @@ Current command:
   - 357
   - 358
   - 359
+  - 1297
   - 360
   - 361
   - 362
@@ -1968,8 +2142,10 @@ Current command:
   - 1162
   - 1163
   - 703
+  - 1298
   - 704
   - 705
+  - 1299
   - 706
   - 707
   - 708
@@ -2025,6 +2201,7 @@ Current command:
   - 755
   - 756
   - 1207
+  - 1300
   - 1182
   - 759
   - 761
@@ -2261,7 +2438,6 @@ Current command:
   - 578
   - 985
   - 986
-  - 987
   - 988
   - 989
   - 990
@@ -2864,6 +3040,7 @@ NYPD allegation disposition:
   - APU Not guilty
   - APU Not guilty after trial-PC Approved
   - APU Previously adjudicated, with discipline
+  - APU Resolved by plea
   - APU Retained, with discipline
   - APU Retained, without discipline
   - Charge Dismissed - DCT
@@ -2922,6 +3099,7 @@ NYPD allegation disposition:
   - 25
   - 65
   - 27
+  - 4
   - 29
   - 30
   - 32
@@ -3063,6 +3241,7 @@ NYPD Penalty:
   - Forfeit vacation 1 days / Command Discipline A / Formalized Training
   - Forfeit vacation 10 days
   - Forfeit vacation 10 days / Command Discipline B
+  - Forfeit vacation 10 days / Command Discipline B / Formalized Training
   - Forfeit vacation 10 days / Formalized Training
   - Forfeit vacation 11 days
   - Forfeit vacation 12 days
@@ -3264,6 +3443,7 @@ NYPD Penalty:
   - 192
   - 61
   - 62
+  - 201
   - 63
   - 64
   - 65
@@ -3477,6 +3657,7 @@ APU Plea agreed penalty:
   - Command Discipline B 5 days
   - Command Discipline B 6 days
   - Command Discipline B 7 days
+  - Command Discipline B 8 days
   - Command Discipline B 9 days
   - Dismissal Probation
   - Dismissal Probation 365 days
@@ -3522,6 +3703,7 @@ APU Plea agreed penalty:
   - 8
   - 9
   - 10
+  - 45
   - 11
   - 12
   - 13
@@ -3808,6 +3990,7 @@ Command at incident:
   - 026 PCT
   - 028 DET
   - 028 PCT
+  - 028 PCT FTU
   - 028PCT
   - 030 DET
   - 030 Pct
@@ -3828,6 +4011,7 @@ Command at incident:
   - 040 Det. Squad
   - 040 Pct
   - 040 PCT
+  - 040 PCT FTU
   - 040 Pct.
   - 040 PCT.
   - 040 Precinct
@@ -3836,6 +4020,7 @@ Command at incident:
   - '041'
   - 041 DET
   - 041 PCT
+  - 041 PCT FTU
   - 041PCT
   - '042'
   - 042 DET
@@ -3850,6 +4035,7 @@ Command at incident:
   - '044'
   - 044 DET
   - 044 PCT
+  - 044 PCT FTU
   - 044 Precinct
   - 045            45 PCT
   - 045 DET
@@ -3858,6 +4044,7 @@ Command at incident:
   - 046 DET
   - 046 Pct
   - 046 PCT
+  - 046 PCT FTU
   - 046 precinct
   - 046 Precinct
   - 046PCT
@@ -3904,6 +4091,7 @@ Command at incident:
   - 067 DET
   - 067 DET SQUAD
   - 067 PCT
+  - 067 PCT FTU
   - 067 Precinct
   - 067PCT
   - 068
@@ -3933,6 +4121,7 @@ Command at incident:
   - 073 DET
   - 073 Pct
   - 073 PCT
+  - 073 PCT FTU
   - 073 pct.
   - 073 Precinct
   - 073PCT
@@ -3940,6 +4129,7 @@ Command at incident:
   - 075 Command
   - 075 DET
   - 075 PCT
+  - 075 PCT FTU
   - 075 Precinct
   - 075PCT
   - 076 DET
@@ -3992,6 +4182,7 @@ Command at incident:
   - '101'
   - 101 DET
   - 101 PCT
+  - 101 PCT FTU
   - 101 precinct
   - 101 Precinct
   - 101PCT
@@ -4008,6 +4199,7 @@ Command at incident:
   - '103'
   - 103 DET
   - 103 PCT
+  - 103 PCT FTU
   - 103PCT
   - 103rd Precinct
   - 104 DET
@@ -4606,6 +4798,7 @@ Command at incident:
   - H SP OP
   - H VANDL
   - HARBOR
+  - HARBOR SUM DTL
   - HB
   - HBK IRT
   - HBK RT
@@ -4704,6 +4897,7 @@ Command at incident:
   - Midtown South Pct.
   - Midtown South Precinct
   - MN CAS
+  - MN CRT
   - MN IRT
   - MN SU CRT
   - MN SU ECT
@@ -4716,6 +4910,8 @@ Command at incident:
   - MS BID
   - MS CAS
   - MS CRIME ANL
+  - MS CRT
+  - MS GL PPT
   - MS SU CRT
   - MS SU ECT
   - MS TD UNIT
@@ -4950,6 +5146,7 @@ Command at incident:
   - PSA 8
   - PSA 9
   - PSA1
+  - PSA1 VIPER13
   - PSA2
   - PSA2 VIPER2
   - PSA3
@@ -4961,6 +5158,7 @@ Command at incident:
   - PSA7
   - PSA8
   - PSA9
+  - PSA9 VIPER3
   - PSB CRT
   - PSB IES
   - PSB RMS
@@ -4981,6 +5179,7 @@ Command at incident:
   - QB SSZN
   - QM SEC
   - QN CRIME ANL
+  - QN CRT
   - QN GRAND LARC
   - QN SU ALU
   - QN SU CRT
@@ -4990,6 +5189,7 @@ Command at incident:
   - QNS CT
   - QNS SAU
   - QNS WARRANT
+  - QS CRT
   - QS GANG
   - QS IRT
   - QS NARC
@@ -5214,6 +5414,7 @@ Command at incident:
   - VED ZN1
   - VED ZN2
   - VED ZNI
+  - VGANG TF
   - VICE
   - VICE ED
   - VICE MAJOR
@@ -5288,6 +5489,7 @@ Command at incident:
   - 57
   - 58
   - 59
+  - 1480
   - 60
   - 61
   - 62
@@ -5308,6 +5510,7 @@ Command at incident:
   - 77
   - 78
   - 79
+  - 1481
   - 80
   - 81
   - 82
@@ -5316,6 +5519,7 @@ Command at incident:
   - 85
   - 86
   - 87
+  - 1482
   - 88
   - 89
   - 90
@@ -5330,6 +5534,7 @@ Command at incident:
   - 99
   - 100
   - 101
+  - 1483
   - 102
   - 103
   - 104
@@ -5338,6 +5543,7 @@ Command at incident:
   - 107
   - 108
   - 109
+  - 1484
   - 110
   - 111
   - 112
@@ -5384,6 +5590,7 @@ Command at incident:
   - 153
   - 154
   - 155
+  - 1485
   - 156
   - 157
   - 158
@@ -5413,6 +5620,7 @@ Command at incident:
   - 182
   - 183
   - 184
+  - 1486
   - 185
   - 186
   - 187
@@ -5420,6 +5628,7 @@ Command at incident:
   - 189
   - 190
   - 191
+  - 1487
   - 192
   - 193
   - 194
@@ -5472,6 +5681,7 @@ Command at incident:
   - 239
   - 240
   - 241
+  - 1488
   - 242
   - 243
   - 244
@@ -5488,6 +5698,7 @@ Command at incident:
   - 255
   - 256
   - 257
+  - 1489
   - 258
   - 259
   - 260
@@ -6086,6 +6297,7 @@ Command at incident:
   - 827
   - 828
   - 829
+  - 1490
   - 830
   - 831
   - 832
@@ -6184,6 +6396,7 @@ Command at incident:
   - 916
   - 917
   - 918
+  - 1491
   - 919
   - 920
   - 1464
@@ -6196,6 +6409,8 @@ Command at incident:
   - 927
   - 928
   - 929
+  - 1492
+  - 1493
   - 930
   - 1445
   - 1473
@@ -6430,6 +6645,7 @@ Command at incident:
   - 1156
   - 1157
   - 1158
+  - 1494
   - 1159
   - 1160
   - 1161
@@ -6441,6 +6657,7 @@ Command at incident:
   - 1165
   - 1166
   - 1167
+  - 1495
   - 1168
   - 1169
   - 1170
@@ -6461,6 +6678,7 @@ Command at incident:
   - 1182
   - 1183
   - 1184
+  - 1496
   - 1428
   - 1185
   - 1186
@@ -6470,6 +6688,7 @@ Command at incident:
   - 1189
   - 1446
   - 1190
+  - 1497
   - 1191
   - 1192
   - 1193
@@ -6694,6 +6913,7 @@ Command at incident:
   - 1396
   - 1397
   - 1398
+  - 1498
   - 1399
   - 1400
   - 1431
@@ -6809,6 +7029,8 @@ Victim race/ethnicity at incident:
   - 'Black and/or African American (R); Other (R): "Human Race" and "Moorish"'
   - 'Black and/or African American (R); Other (R): "Human"'
   - 'Black and/or African American (R); Other (R): "Native American"'
+  - 'Black and/or African American (R); Other (R): 12 years old'
+  - 'Black and/or African American (R); Other (R): 15 years old'
   - 'Black and/or African American (R); Other (R): African-American Jewish'
   - 'Black and/or African American (R); Other (R): America'
   - 'Black and/or African American (R); Other (R): American'
@@ -6822,6 +7044,7 @@ Victim race/ethnicity at incident:
   - 'Black and/or African American (R); Other (R): Hispanic'
   - 'Black and/or African American (R); Other (R): Indian'
   - 'Black and/or African American (R); Other (R): Jamaican'
+  - 'Black and/or African American (R); Other (R): Jewish'
   - 'Black and/or African American (R); Other (R): Mixed'
   - 'Black and/or African American (R); Other (R): Mixed Race'
   - 'Black and/or African American (R); Other (R): Moor'
@@ -6868,6 +7091,7 @@ Victim race/ethnicity at incident:
   - Dominican (E); Puerto Rican (E)
   - Dominican (E); White/Caucasian (R)
   - Filipino (R)
+  - Filipino (R); Japanese (R)
   - Filipino (R); Non-Hispanic/Latino (E)
   - Filipino (R); Other (R)
   - Filipino (R); Puerto Rican (E)
@@ -6883,6 +7107,7 @@ Victim race/ethnicity at incident:
   - 'Middle Eastern/North African (R); Other (R): Arab'
   - 'Middle Eastern/North African (R); Other (R): Mediterranean'
   - Middle Eastern/North African (R); Other Asian (R)
+  - Middle Eastern/North African (R); Other Hispanic/Latino (E)
   - Middle Eastern/North African (R); South Asian (R)
   - Middle Eastern/North African (R); White/Caucasian (R)
   - Multi Racial/Multi Ethnic
@@ -6890,6 +7115,8 @@ Victim race/ethnicity at incident:
   - Non-Hispanic/Latino (E)
   - Non-Hispanic/Latino (E); Other (R)
   - 'Non-Hispanic/Latino (E); Other (R): Guyanese'
+  - Non-Hispanic/Latino (E); Other Asian (R)
+  - Non-Hispanic/Latino (E); Other Hispanic/Latino (E)
   - Non-Hispanic/Latino (E); Puerto Rican (E)
   - Non-Hispanic/Latino (E); White/Caucasian (R)
   - Other (R)
@@ -6966,6 +7193,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Peruvian'
   - 'Other (R): Russian; White/Caucasian (R)'
   - 'Other (R): Senegalese'
+  - 'Other (R): Somali'
   - 'Other (R): Spanish'
   - 'Other (R): Turkish'
   - 'Other (R): Venezuela; Other Hispanic/Latino (E)'
@@ -7020,6 +7248,8 @@ Victim race/ethnicity at incident:
   - 202
   - 155
   - 200
+  - 211
+  - 212
   - 15
   - 156
   - 184
@@ -7033,6 +7263,7 @@ Victim race/ethnicity at incident:
   - 173
   - 147
   - 20
+  - 213
   - 179
   - 21
   - 198
@@ -7079,6 +7310,7 @@ Victim race/ethnicity at incident:
   - 49
   - 50
   - 51
+  - 214
   - 136
   - 52
   - 203
@@ -7094,6 +7326,7 @@ Victim race/ethnicity at incident:
   - 59
   - 133
   - 60
+  - 215
   - 192
   - 61
   - 62
@@ -7101,6 +7334,8 @@ Victim race/ethnicity at incident:
   - 64
   - 65
   - 199
+  - 216
+  - 217
   - 66
   - 67
   - 68
@@ -7177,6 +7412,7 @@ Victim race/ethnicity at incident:
   - 103
   - 182
   - 141
+  - 218
   - 104
   - 128
   - 174
