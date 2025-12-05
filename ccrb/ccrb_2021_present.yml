@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 0420d4e85ae49e121e2d534fc446b012f384f544
-  data_hash: 42f20252e860f4a2a989049449dd259a626754dd
+  hash: c9f8a970c0b9473982bfbb9b90901467e6c6a3c3
+  data_hash: c09f2e08f19a97ecf0c42927f66f9200c2f3313b
 'Tax #':
   class: character
 Officer last name:
@@ -261,7 +261,6 @@ Current command:
   - 123 PCT
   - 125 ST BID
   - 125 ST TF
-  - 1ST AMEND
   - 1ST D C
   - 28 PCT HUB
   - 6th Pre
@@ -507,7 +506,6 @@ Current command:
   - DBBKZ22
   - DBBKZ32
   - DBBKZ34
-  - DBBKZ35
   - DBBKZ44
   - DBBN
   - DBBN ECT
@@ -527,8 +525,8 @@ Current command:
   - DBCR Z1
   - DBM Z14
   - DBM ZN1
+  - DBM ZN11
   - DBM ZN13
-  - DBM ZN4
   - DBM ZN5
   - DBM ZN6
   - DBMN
@@ -585,6 +583,10 @@ Current command:
   - DR.ED&T
   - DRIVE ED & TRN
   - DRUG ENF TF
+  - DVU ZONE 1
+  - DVU ZONE 2
+  - DVU ZONE 3
+  - DVU ZONE 4
   - E S U
   - EEO DIV
   - EEO INV UNIT
@@ -595,6 +597,7 @@ Current command:
   - EQUIPMENT
   - ERMD CCSU
   - ERMD PAS
+  - ERMS
   - ERMS CCSU
   - ERMS EIU
   - ERMS PAS
@@ -677,7 +680,6 @@ Current command:
   - HBX/QIM
   - HBXQ RT
   - HBXQIRT
-  - HCF TF
   - HLTH & WELL
   - HOMLESS
   - HOST NEG
@@ -704,16 +706,27 @@ Current command:
   - I T S D
   - I.A.B.
   - IAB
+  - IAB ADMIN
+  - IAB CMD CTR
   - IAB CRIM INV
   - IAB GRP 1
   - IAB GRP 10
+  - IAB GRP 12
   - IAB GRP 21
+  - IAB GRP 22
+  - IAB GRP 25
   - IAB GRP 26
+  - IAB GRP 27
+  - IAB GRP 31
   - IAB GRP 32
+  - IAB GRP 33
+  - IAB GRP 34
+  - IAB GRP 41
   - IAB GRP 42
   - IAB GRP 52
   - IAB GRP 53
   - IAB GRP 54
+  - IAB GRP 56
   - IAB GRP 9
   - IAB INV
   - IAB IU 10
@@ -729,6 +742,7 @@ Current command:
   - IAB IU 41
   - IAB IU 53
   - IAB IU 56
+  - IAB RESOURCE
   - IAB Z1
   - IAB Z2
   - IAB Z3
@@ -990,6 +1004,7 @@ Current command:
   - PBQN AC
   - PBQN CITI FLD
   - PBQN INV UNIT
+  - PBQN RES BURG TF
   - PBQN SC
   - PBQN SU
   - PBQN SU PST
@@ -1063,7 +1078,6 @@ Current command:
   - QA DCSI
   - QAD
   - QAS
-  - QAS DIU
   - QB SSZN
   - QM SEC
   - QN CAS
@@ -1178,7 +1192,6 @@ Current command:
   - SVU COMPSTAT
   - SVU CW HU TR SQ
   - SVU HS ST TF
-  - SVU HU TR SEC
   - SVU HU TR SQ
   - SVU IRT LER
   - SVU MC DNA COLD
@@ -1277,6 +1290,7 @@ Current command:
   - TRANSIT STDS & ASMTS
   - TRANSIT SVS
   - TRB TED
+  - TRB TOW
   - TRDMRK INFRGMT
   - TRF CD
   - TRF OPS
@@ -1559,7 +1573,6 @@ Current command:
   - 156
   - 157
   - 158
-  - 117
   - 159
   - 160
   - 161
@@ -1805,7 +1818,6 @@ Current command:
   - 389
   - 435
   - 278
-  - 581
   - 671
   - 391
   - 1172
@@ -1825,8 +1837,8 @@ Current command:
   - 401
   - 402
   - 403
+  - 294
   - 1204
-  - 405
   - 406
   - 407
   - 408
@@ -1883,6 +1895,10 @@ Current command:
   - 455
   - 456
   - 457
+  - 318
+  - 987
+  - 1301
+  - 1302
   - 458
   - 459
   - 460
@@ -1893,6 +1909,7 @@ Current command:
   - 465
   - 466
   - 467
+  - 1303
   - 468
   - 469
   - 470
@@ -1975,7 +1992,6 @@ Current command:
   - 543
   - 544
   - 545
-  - 1158
   - 546
   - 547
   - 548
@@ -2002,16 +2018,27 @@ Current command:
   - 569
   - 570
   - 571
+  - 1304
+  - 1305
   - 573
   - 574
   - 575
+  - 1306
   - 1154
+  - 1307
+  - 1308
   - 576
+  - 1309
+  - 1310
   - 579
+  - 1311
+  - 1312
+  - 1313
   - 582
   - 1180
   - 583
   - 584
+  - 1314
   - 586
   - 587
   - 588
@@ -2027,6 +2054,7 @@ Current command:
   - 598
   - 599
   - 600
+  - 1315
   - 404
   - 1144
   - 604
@@ -2288,6 +2316,7 @@ Current command:
   - 839
   - 840
   - 842
+  - 1316
   - 843
   - 844
   - 845
@@ -2361,7 +2390,6 @@ Current command:
   - 912
   - 913
   - 914
-  - 915
   - 916
   - 917
   - 918
@@ -2476,7 +2504,6 @@ Current command:
   - 975
   - 1169
   - 1023
-  - 1212
   - 1024
   - 1192
   - 1193
@@ -2575,6 +2602,7 @@ Current command:
   - 1191
   - 1107
   - 1108
+  - 1317
   - 1109
   - 1110
   - 1111
