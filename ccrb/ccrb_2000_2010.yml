@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 79454a4b9f620f2a52a8bbe30d89b330e262b86e
-  data_hash: 950b635bc7d7940fb51748897c48b0ebd69202e9
+  hash: be0354cba6241671fecdef2c9cb976efa92e10e2
+  data_hash: b4992f88d62a03f304ea68372e8974c5518c6ff2
 'Tax #':
   class: character
 Officer last name:
@@ -444,6 +444,7 @@ Current command:
   - CTD INV UNIT
   - CTERRDV
   - CTR DIV
+  - CW CRT
   - CW INV
   - CW T TF
   - CW TRAF TF
@@ -479,8 +480,10 @@ Current command:
   - DB FED
   - DB FEU
   - DB FID
+  - DB FIU
   - DB GLD
   - DB GVSD
+  - DB GVSU
   - DB HATE
   - DB INV UNIT
   - DB LPS
@@ -664,6 +667,10 @@ Current command:
   - GVSD Z1 VRTF
   - GVSD Z2
   - GVSD Z2 VRTF
+  - GVSU Z1
+  - GVSU Z1 VR
+  - GVSU Z2
+  - GVSU Z2 VR
   - H BKLYN
   - H BX/Q
   - H INV U
@@ -685,6 +692,7 @@ Current command:
   - HBX/QIM
   - HBXQ RT
   - HBXQIRT
+  - HCF TF
   - HLTH & WELL
   - HOMLESS
   - HOST NEG
@@ -923,7 +931,6 @@ Current command:
   - OFFICE CCCS
   - OFFICE COP
   - OFFICE DB DVU
-  - OFFICE HOUSING
   - OFFICE PB
   - OFFICE RMB
   - OFFICE SS
@@ -967,6 +974,7 @@ Current command:
   - PBBN SC
   - PBBN SECURITY
   - PBBN SU
+  - PBBN SU NST
   - PBBN SU PST
   - PBBN TF
   - PBBS
@@ -983,6 +991,7 @@ Current command:
   - PBBX ORCHARD
   - PBBX SC
   - PBBX SU
+  - PBBX SU NST
   - PBBX SU PST
   - PBBX TF
   - PBBX YANKEE
@@ -993,6 +1002,7 @@ Current command:
   - PBMN SC
   - PBMN SCOOT
   - PBMN SU
+  - PBMN SU NST
   - PBMN SU PST
   - PBMN TF
   - PBMS
@@ -1001,6 +1011,7 @@ Current command:
   - PBMS SC
   - PBMS SCOOTER
   - PBMS SU
+  - PBMS SU NST
   - PBMS SU PST
   - PBMS TF
   - PBQ/N
@@ -1012,6 +1023,7 @@ Current command:
   - PBQN RES BURG TF
   - PBQN SC
   - PBQN SU
+  - PBQN SU NST
   - PBQN SU PST
   - PBQN TENNIS
   - PBQNT/F
@@ -1020,6 +1032,7 @@ Current command:
   - PBQS INV UNIT
   - PBQS SC
   - PBQS SU
+  - PBQS SU NST
   - PBQS SU PST
   - PBQST/F
   - PBSI
@@ -1149,6 +1162,7 @@ Current command:
   - SIB CMO
   - SIB CMO ICU
   - SIB ORE
+  - SIB OSI
   - SIB PMO
   - SIHU
   - SIU CRIME STOP
@@ -1157,6 +1171,7 @@ Current command:
   - SOD T/U
   - SP FRDS
   - SP INV
+  - SPARTA
   - SPEC NARC
   - SPECAT
   - SPL TRN
@@ -1763,6 +1778,7 @@ Current command:
   - 327
   - 328
   - 329
+  - 1319
   - 330
   - 331
   - 332
@@ -1798,8 +1814,10 @@ Current command:
   - 361
   - 362
   - 363
+  - 1320
   - 364
   - 365
+  - 1321
   - 366
   - 367
   - 368
@@ -1983,6 +2001,10 @@ Current command:
   - 522
   - 523
   - 524
+  - 1322
+  - 1323
+  - 1324
+  - 1325
   - 525
   - 526
   - 527
@@ -2004,6 +2026,7 @@ Current command:
   - 543
   - 544
   - 545
+  - 1326
   - 546
   - 547
   - 548
@@ -2242,7 +2265,6 @@ Current command:
   - 756
   - 1207
   - 1300
-  - 1182
   - 759
   - 761
   - 1208
@@ -2286,6 +2308,7 @@ Current command:
   - 798
   - 799
   - 800
+  - 1327
   - 801
   - 802
   - 803
@@ -2302,6 +2325,7 @@ Current command:
   - 813
   - 814
   - 815
+  - 1328
   - 816
   - 817
   - 818
@@ -2312,6 +2336,7 @@ Current command:
   - 823
   - 824
   - 825
+  - 1329
   - 826
   - 827
   - 828
@@ -2320,6 +2345,7 @@ Current command:
   - 831
   - 832
   - 833
+  - 1330
   - 834
   - 835
   - 836
@@ -2331,6 +2357,7 @@ Current command:
   - 1316
   - 843
   - 844
+  - 1331
   - 845
   - 846
   - 847
@@ -2339,6 +2366,7 @@ Current command:
   - 850
   - 851
   - 852
+  - 1332
   - 853
   - 854
   - 855
@@ -2468,6 +2496,7 @@ Current command:
   - 973
   - 1199
   - 974
+  - 1333
   - 1187
   - 976
   - 978
@@ -2476,6 +2505,7 @@ Current command:
   - 981
   - 982
   - 983
+  - 1334
   - 984
   - 578
   - 985
