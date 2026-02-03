@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 623a67fc3f0e5bc52ca94a79812a1eaf98139309
-  data_hash: 4e6f96e99023252a6c6fac251d4e3a2321a3230b
+  hash: b82229ac8765c1415ea7f6d02f6429d88c5c033f
+  data_hash: e3d81f416de4d0900fbe2a657ae8e09589dd8637
 Officer Defendant:
   class: character
 'Tax #':
@@ -77,6 +77,7 @@ Court:
   - U.S. District Court
   - U.S. District Court - Central District CA
   - U.S. District Court - District CT
+  - U.S. District Court - District DC
   - U.S. District Court - District NJ
   - U.S. District Court - Eastern District CA
   - U.S. District Court - Eastern District MI
@@ -136,6 +137,7 @@ Court:
   - 24
   - 55
   - 25
+  - 59
   - 26
   - 27
   - 28

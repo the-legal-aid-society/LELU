@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: 16a215a99d31ffd70b5b9a5ae13b792e4d2796d9
-  data_hash: df58d5f00ebb0685bb6566e17825d23bf5ac499e
+  hash: 58f77237aa1b6e63adadc31d7b6bd74e605a0d14
+  data_hash: 1fa30ceab2f31a92293ebfee590a3ae22f39695d
 Officer Name:
   class: character
 Document:
@@ -185,6 +185,7 @@ Precinct/Command:
   - Counterterrorism
   - Counterterrorism Bureau Critical Response Command
   - crime control strategies
+  - Crime Prevention Division
   - Crime Stoppers unit
   - Criminal Intel Section
   - Criminal Justice Bureau
@@ -570,6 +571,7 @@ Precinct/Command:
   - 94
   - 95
   - 96
+  - 385
   - 97
   - 292
   - 365

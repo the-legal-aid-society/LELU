@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: be0354cba6241671fecdef2c9cb976efa92e10e2
-  data_hash: 127f3d361181a9fde5d21e81e41e597b05776f09
+  hash: a60627bcbed855894fa53c08681f830be06ee338
+  data_hash: 0ac3600cb6073b0b32bf3dc631104d7b5887a14f
 'Tax #':
   class: character
 Officer last name:
@@ -399,6 +399,7 @@ Current command:
   - CID TACTICAL TRN
   - CIO
   - CIV HIRING
+  - CIVTRN SEC
   - CJB
   - CJB CMS
   - CMD LVL TRN
@@ -512,7 +513,6 @@ Current command:
   - DBBKZ14
   - DBBKZ21
   - DBBKZ22
-  - DBBKZ32
   - DBBKZ34
   - DBBKZ44
   - DBBN
@@ -530,6 +530,7 @@ Current command:
   - DBBX Z8
   - DBBX Z9
   - DBBXZ24
+  - DBBXZ25
   - DBCR Z1
   - DBM Z14
   - DBM ZN1
@@ -547,7 +548,6 @@ Current command:
   - DBMS OP
   - DBMS VIDEO
   - DBQ Z17
-  - DBQ Z61
   - DBQN
   - DBQN ECT
   - DBQN OP
@@ -586,7 +586,6 @@ Current command:
   - DET BUR
   - DIS CTL
   - DOC FRAUD SQD
-  - DOPR IL
   - DPT INV
   - DR.ED&T
   - DRIVE ED & TRN
@@ -595,6 +594,7 @@ Current command:
   - DVU ZONE 2
   - DVU ZONE 3
   - DVU ZONE 4
+  - DVU ZONE 5
   - E S U
   - EEO DIV
   - EEO INV UNIT
@@ -606,7 +606,6 @@ Current command:
   - ERMD CCSU
   - ERMD PAS
   - ERMS
-  - ERMS CCSU
   - ERMS EIU
   - ERMS PAS
   - ESS 01
@@ -889,7 +888,6 @@ Current command:
   - NARCO CANINE
   - NBBN MAJOR
   - NBBN NITRO
-  - NBBN ZN 15
   - NBBS MAJOR
   - NBBX MAJOR
   - NBBX ZN 8
@@ -933,9 +931,9 @@ Current command:
   - OFFICE DB DVU
   - OFFICE PB
   - OFFICE RMB
-  - OFFICE SS
   - OFFICE TRP
   - OFSCSRG
+  - OLR
   - OMAP
   - OPD
   - OPER RSRCH
@@ -955,6 +953,7 @@ Current command:
   - P.A.T.U
   - PA SITE&SECUR
   - PA UPTU
+  - PAID DTL
   - PAY&BEN
   - PB
   - PB CAD
@@ -1086,6 +1085,10 @@ Current command:
   - PSB NPASU
   - PSB RMS
   - PSB WHEEL
+  - PSS DAPU BX
+  - PSS DAPU NY
+  - PSS DAPU QNS
+  - PSS DAPU SI
   - PUBLIC SECUR
   - Q ASCS
   - Q CHILD
@@ -1208,7 +1211,6 @@ Current command:
   - SVD Z1
   - SVD Z2
   - SVD Z3
-  - SVU ADULT
   - SVU CAS
   - SVU CEHT TF
   - SVU COMPSTAT
@@ -1223,14 +1225,12 @@ Current command:
   - SVU Z1
   - T.A.R.U
   - TARU
-  - TARU DRONE
   - TAXI SQ
   - TAXI UT
   - TB
   - TB ATU
   - TB ATU 1
   - TB ATU 3
-  - TB ATU BK
   - TB BK
   - TB BK TF
   - TB BKTF
@@ -1312,7 +1312,6 @@ Current command:
   - TRANSIT STDS & ASMTS
   - TRANSIT SVS
   - TRB TED
-  - TRB TOW
   - TRDMRK INFRGMT
   - TRF CD
   - TRF OPS
@@ -1733,6 +1732,7 @@ Current command:
   - 282
   - 284
   - 285
+  - 1182
   - 286
   - 265
   - 287
@@ -1846,7 +1846,6 @@ Current command:
   - 387
   - 388
   - 389
-  - 435
   - 278
   - 671
   - 391
@@ -1864,6 +1863,7 @@ Current command:
   - 399
   - 400
   - 1203
+  - 1335
   - 401
   - 402
   - 403
@@ -1881,7 +1881,6 @@ Current command:
   - 412
   - 390
   - 413
-  - 415
   - 416
   - 1177
   - 417
@@ -1920,7 +1919,6 @@ Current command:
   - 449
   - 451
   - 452
-  - 1152
   - 454
   - 455
   - 456
@@ -1929,6 +1927,7 @@ Current command:
   - 987
   - 1301
   - 1302
+  - 1336
   - 458
   - 459
   - 460
@@ -1940,7 +1939,6 @@ Current command:
   - 466
   - 467
   - 1303
-  - 468
   - 469
   - 470
   - 471
@@ -2223,7 +2221,6 @@ Current command:
   - 717
   - 718
   - 719
-  - 720
   - 721
   - 722
   - 572
@@ -2267,9 +2264,9 @@ Current command:
   - 1300
   - 759
   - 761
-  - 1208
   - 762
   - 763
+  - 1337
   - 764
   - 765
   - 766
@@ -2289,6 +2286,7 @@ Current command:
   - 780
   - 781
   - 782
+  - 1338
   - 783
   - 784
   - 785
@@ -2420,6 +2418,10 @@ Current command:
   - 901
   - 902
   - 903
+  - 1339
+  - 1340
+  - 1341
+  - 1342
   - 904
   - 928
   - 905
@@ -2542,7 +2544,6 @@ Current command:
   - 1018
   - 1019
   - 1020
-  - 1213
   - 953
   - 1022
   - 975
@@ -2557,14 +2558,12 @@ Current command:
   - 1197
   - 1025
   - 1026
-  - 1189
   - 1027
   - 1028
   - 1029
   - 1030
   - 1198
   - 1031
-  - 1157
   - 1032
   - 1033
   - 1034
@@ -2646,7 +2645,6 @@ Current command:
   - 1191
   - 1107
   - 1108
-  - 1317
   - 1109
   - 1110
   - 1111
@@ -3274,7 +3272,6 @@ NYPD Penalty:
   - 'Command Discipline - A / Vacation: 3 days'
   - Command Discipline - A 7 days
   - Command Discipline - B
-  - Command Discipline - B (Formalized Training)
   - 'Command Discipline - B (Vacation: 1 day)'
   - 'Command Discipline - B (Vacation: 1 day) / Formalized Training'
   - 'Command Discipline - B (Vacation: 10 days)'
@@ -3336,6 +3333,7 @@ NYPD Penalty:
   - Forfeit vacation 21 days
   - Forfeit vacation 23 days
   - Forfeit vacation 25 days
+  - Forfeit vacation 26 days
   - Forfeit vacation 28 days
   - Forfeit vacation 3 days
   - Forfeit vacation 3 days / Command Discipline A
@@ -3479,7 +3477,6 @@ NYPD Penalty:
   - 25
   - 26
   - 27
-  - 198
   - 28
   - 196
   - 29
@@ -3541,6 +3538,7 @@ NYPD Penalty:
   - 76
   - 182
   - 77
+  - 205
   - 78
   - 79
   - 80
@@ -7185,6 +7183,7 @@ Victim race/ethnicity at incident:
   - Decline to Answer (NA)
   - Decline to Answer (NA); Dominican (E)
   - Decline to Answer (NA); Korean (R)
+  - Decline to Answer (NA); Mexican, Chicano/a (E)
   - Decline to Answer (NA); Middle Eastern/North African (R)
   - Decline to Answer (NA); Native Hawaiian (R)
   - Decline to Answer (NA); Other (R)
@@ -7407,6 +7406,7 @@ Victim race/ethnicity at incident:
   - 31
   - 146
   - 32
+  - 222
   - 33
   - 34
   - 35
