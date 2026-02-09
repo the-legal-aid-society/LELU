@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: a60627bcbed855894fa53c08681f830be06ee338
-  data_hash: 0ac3600cb6073b0b32bf3dc631104d7b5887a14f
+  hash: 496bfb634c9ba4335ce6e07ebbe37f9ab5911c26
+  data_hash: a6f774eb90c6b78603d11419c1756e364b300ed5
 'Tax #':
   class: character
 Officer last name:
@@ -1060,6 +1060,7 @@ Current command:
   - PROP CLK
   - PROPCLK
   - PSA 1
+  - PSA 1 FTU
   - PSA 2
   - PSA 3
   - PSA 4
@@ -2393,6 +2394,7 @@ Current command:
   - 879
   - 880
   - 881
+  - 415
   - 882
   - 883
   - 884
@@ -3272,6 +3274,7 @@ NYPD Penalty:
   - 'Command Discipline - A / Vacation: 3 days'
   - Command Discipline - A 7 days
   - Command Discipline - B
+  - Command Discipline - B (Formalized Training)
   - 'Command Discipline - B (Vacation: 1 day)'
   - 'Command Discipline - B (Vacation: 1 day) / Formalized Training'
   - 'Command Discipline - B (Vacation: 10 days)'
@@ -3477,6 +3480,7 @@ NYPD Penalty:
   - 25
   - 26
   - 27
+  - 198
   - 28
   - 196
   - 29
@@ -4107,6 +4111,7 @@ Command at incident:
   - '042'
   - 042 DET
   - 042 PCT
+  - 042 PCT FTU
   - '043'
   - 043 DET
   - 043 pct
@@ -4596,6 +4601,7 @@ Command at incident:
   - A P DIV
   - A&E
   - A&E SQD
+  - AC ZONE II
   - ADM SUP
   - Amtrak PD
   - An unknown command
@@ -5229,6 +5235,7 @@ Command at incident:
   - PSA 03
   - PSA 05
   - PSA 1
+  - PSA 1 FTU
   - PSA 2
   - PSA 2 and 073 PCT
   - PSA 3
@@ -5623,6 +5630,7 @@ Command at incident:
   - 89
   - 90
   - 91
+  - 1516
   - 92
   - 93
   - 94
@@ -6112,6 +6120,7 @@ Command at incident:
   - 559
   - 560
   - 561
+  - 1517
   - 562
   - 563
   - 564
@@ -6745,6 +6754,7 @@ Command at incident:
   - 1146
   - 1147
   - 1148
+  - 1518
   - 1149
   - 1150
   - 1151
@@ -7127,6 +7137,7 @@ Victim race/ethnicity at incident:
   - American Indian/Alaska Native (R); Other (R)
   - 'American Indian/Alaska Native (R); Other (R): Garifuna'
   - 'American Indian/Alaska Native (R); Other (R): Jamaican'
+  - 'American Indian/Alaska Native (R); Other (R): Somali'
   - 'American Indian/Alaska Native (R); Other (R): West Indian'
   - American Indian/Alaska Native (R); Other Hispanic/Latino (E)
   - American Indian/Alaska Native (R); Puerto Rican (E)
@@ -7260,6 +7271,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Black; Other Hispanic/Latino (E)'
   - 'Other (R): Brazilian'
   - 'Other (R): brown skin'
+  - 'Other (R): Carribbean'
   - 'Other (R): Colombian ; Other Hispanic/Latino (E)'
   - 'Other (R): East Indian'
   - 'Other (R): Egypt'
@@ -7297,6 +7309,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Mixed'
   - 'Other (R): Mixed Race'
   - 'Other (R): Mixed Race; Other Pacific Island (R)'
+  - 'Other (R): Mixed; Other Asian (R)'
   - 'Other (R): Moor'
   - 'Other (R): Moorish'
   - 'Other (R): Moorish- American'
@@ -7350,6 +7363,7 @@ Victim race/ethnicity at incident:
   - 4
   - 169
   - 5
+  - 223
   - 150
   - 6
   - 175
@@ -7483,6 +7497,7 @@ Victim race/ethnicity at incident:
   - 186
   - 80
   - 81
+  - 224
   - 82
   - 83
   - 84
@@ -7520,6 +7535,7 @@ Victim race/ethnicity at incident:
   - 138
   - 97
   - 98
+  - 225
   - 178
   - 165
   - 148
