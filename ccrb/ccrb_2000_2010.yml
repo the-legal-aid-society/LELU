@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 6b568968e85cdc51c5d6d4d9b2698170039245c3
+  hash: db92102cec273c8e9cd13ce1b02e1a9cfcbfbd65
   data_hash: 1b3f870931b3c841f53656f764c2fd19d5d143e3
 'Tax #':
   class: character
@@ -3103,7 +3103,6 @@ NYPD allegation disposition:
   - APU Command Discipline A
   - APU Command Discipline B
   - APU Dismissed
-  - APU Dismissed by Police Commissioner
   - APU Formalized Training
   - APU Guilty
   - APU Instructions
@@ -3163,7 +3162,6 @@ NYPD allegation disposition:
   - 18
   - 19
   - 20
-  - 55
   - 21
   - 22
   - 23
@@ -3244,10 +3242,13 @@ NYPD Penalty:
   - Closed Administratively (Command Discipline - A) / Instructions
   - 'Closed Administratively (Command Discipline - A) / Vacation: 0.25 days'
   - 'Closed Administratively (Command Discipline - A) / Vacation: 0.50 days'
+  - 'Closed Administratively (Command Discipline - A) / Vacation: 1 day'
+  - 'Closed Administratively (Command Discipline - A) / Vacation: 1 day / Instructions'
   - 'Closed Administratively (Command Discipline - A) / Vacation: 2 days'
   - Closed Administratively (Command Discipline - B)
   - 'Closed Administratively (Command Discipline - B) / Vacation: 0.13 days'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 1 day'
+  - 'Closed Administratively (Command Discipline - B) / Vacation: 1 day / Instructions'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 2 days'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 5 days'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 8 days'
@@ -3257,17 +3258,22 @@ NYPD Penalty:
     4 days)'
   - Command Discipline - A
   - Command Discipline - A (Formalized Training)
+  - Command Discipline - A (Instructions) / Warned and Admonished
   - 'Command Discipline - A (Vacation: 0.13 days)'
   - 'Command Discipline - A (Vacation: 0.25 days)'
+  - 'Command Discipline - A (Vacation: 0.25 days) / Instructions'
   - 'Command Discipline - A (Vacation: 0.37 days)'
   - 'Command Discipline - A (Vacation: 0.38 days)'
   - 'Command Discipline - A (Vacation: 0.50 days)'
   - 'Command Discipline - A (Vacation: 0.75 days)'
   - 'Command Discipline - A (Vacation: 1 day)'
   - 'Command Discipline - A (Vacation: 1 day) / Formalized Training'
+  - 'Command Discipline - A (Vacation: 1 day) / Instructions'
   - 'Command Discipline - A (Vacation: 2 days)'
   - 'Command Discipline - A (Vacation: 3 days)'
   - 'Command Discipline - A (Vacation: 5 days)'
+  - Command Discipline - A (Warned and Admonished)
+  - Command Discipline - A (Warned and Admonished) / Instructions
   - Command Discipline - A / Command Level Instructions
   - Command Discipline - A / Formalized Training
   - Command Discipline - A / Instructions
@@ -3280,6 +3286,7 @@ NYPD Penalty:
   - 'Command Discipline - B (Vacation: 10 days)'
   - 'Command Discipline - B (Vacation: 2 days)'
   - 'Command Discipline - B (Vacation: 3 days)'
+  - 'Command Discipline - B (Vacation: 3 days) / Formalized Training'
   - 'Command Discipline - B (Vacation: 4 days)'
   - 'Command Discipline - B (Vacation: 5 days)'
   - 'Command Discipline - B (Vacation: 6 days)'
@@ -3451,10 +3458,13 @@ NYPD Penalty:
   - 202
   - 189
   - 185
+  - 206
+  - 207
   - 4
   - 5
   - 6
   - 194
+  - 208
   - 7
   - 199
   - 8
@@ -3463,17 +3473,22 @@ NYPD Penalty:
   - 11
   - 12
   - 193
+  - 209
   - 13
   - 14
+  - 210
   - 197
   - 15
   - 16
   - 17
   - 18
   - 200
+  - 211
   - 19
   - 20
   - 21
+  - 212
+  - 213
   - 22
   - 23
   - 24
@@ -3486,6 +3501,7 @@ NYPD Penalty:
   - 29
   - 30
   - 31
+  - 214
   - 32
   - 33
   - 34
@@ -4147,6 +4163,7 @@ Command at incident:
   - 048PCT
   - 049
   - 049 DET
+  - 049 DV SQD
   - 049 PCT
   - 049PCT
   - 050 DET
@@ -4715,6 +4732,7 @@ Command at incident:
   - Central Park Precinct
   - CHI
   - CI&RDIV
+  - CJB
   - CMD LVL TRN
   - CO RESPONSE
   - CO TR
@@ -4728,6 +4746,7 @@ Command at incident:
   - CPK PCT
   - CR PREV
   - CRC
+  - CRC CANINE
   - CRD SPARTA
   - CRIME PREV
   - Crime Unit
@@ -5157,6 +5176,7 @@ Command at incident:
   - PBMN
   - PBMN AC
   - PBMN SC
+  - PBMN SCOOT
   - PBMN SU
   - PBMN SU PST
   - PBMN TF
@@ -5667,6 +5687,7 @@ Command at incident:
   - 120
   - 121
   - 122
+  - 1520
   - 123
   - 124
   - 125
@@ -6235,6 +6256,7 @@ Command at incident:
   - 660
   - 661
   - 662
+  - 1521
   - 663
   - 1432
   - 664
@@ -6248,6 +6270,7 @@ Command at incident:
   - 670
   - 671
   - 672
+  - 1522
   - 673
   - 1441
   - 674
@@ -6677,6 +6700,7 @@ Command at incident:
   - 1068
   - 1069
   - 1070
+  - 1523
   - 1071
   - 1072
   - 1073
@@ -7151,6 +7175,7 @@ Victim race/ethnicity at incident:
   - Black and/or African American (R); Dominican (E)
   - Black and/or African American (R); Filipino (R)
   - Black and/or African American (R); Japanese (R)
+  - Black and/or African American (R); Mexican, Chicano/a (E)
   - Black and/or African American (R); Non-Hispanic/Latino (E)
   - Black and/or African American (R); Other (R)
   - 'Black and/or African American (R); Other (R): "Human Race" and "Moorish"'
@@ -7349,6 +7374,7 @@ Victim race/ethnicity at incident:
   - Other Pacific Island (R)
   - Other Pacific Island (R); Puerto Rican (E)
   - Other Pacific Island (R); South Asian (R)
+  - Other Pacific Island (R); White/Caucasian (R)
   - Puerto Rican (E)
   - Puerto Rican (E); White/Caucasian (R)
   - Samoan (R)
@@ -7377,6 +7403,7 @@ Victim race/ethnicity at incident:
   - 11
   - 131
   - 12
+  - 226
   - 13
   - 14
   - 202
@@ -7575,6 +7602,7 @@ Victim race/ethnicity at incident:
   - 118
   - 119
   - 120
+  - 227
   - 121
   - 122
   - 123
