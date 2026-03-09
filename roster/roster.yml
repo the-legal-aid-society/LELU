@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 4ca29008655a6193ea34e92e314170c34f8bb8ed
-  data_hash: 2bfe44b14c0a24faf230f207239467d60154f4e8
+  hash: f6443bdade0290fc548e579ebf069cb3359716d1
+  data_hash: 80901f5f08870eec36113945a3a5a5f01f7693b5
 'Tax #':
   class: character
 Roster Date:
@@ -375,6 +375,7 @@ Current command:
   - BS GRAND LARC
   - BS IRT
   - BS OP NIGHT
+  - BS SU ALU
   - BS SU CRT
   - BS SU ECT
   - BS VICE
@@ -473,6 +474,7 @@ Current command:
   - CMU 2
   - CO RESPONSE
   - CO TR
+  - COD DLU
   - COD DVU
   - COD QLD
   - COD RRU
@@ -549,6 +551,7 @@ Current command:
   - DB CEIS
   - DB CID
   - DB CRD
+  - DB CW TFD
   - DB DVU
   - DB FCTF
   - DB FED
@@ -591,6 +594,7 @@ Current command:
   - DBBKZ33
   - DBBKZ34
   - DBBKZ44
+  - DBBKZ45
   - DBBN
   - DBBN ECT
   - DBBN OP
@@ -872,7 +876,6 @@ Current command:
   - ID SECT
   - ID THEFT SQD
   - ID UNIT
-  - IG COORD UNIT
   - INFOSEC
   - INS TRN
   - INSRVTR
@@ -883,6 +886,7 @@ Current command:
   - INT DIV
   - INT EPU
   - INT FIO PRG
+  - INT GOV COMP UNIT
   - INT MSS
   - INT OAS
   - INT PSS
@@ -1000,6 +1004,7 @@ Current command:
   - NARCBQS
   - NARCBSI
   - NARCO CANINE
+  - NARCO SEC
   - NBBN MAJOR
   - NBBN NITRO
   - NBBS MAJOR
@@ -1044,7 +1049,6 @@ Current command:
   - OFF/TRP
   - OFFICE CCCS
   - OFFICE COP
-  - OFFICE DB DVU
   - OFFICE PB
   - OFFICE RMB
   - OFFICE SS
@@ -1104,6 +1108,7 @@ Current command:
   - PBBS INV
   - PBBS SC
   - PBBS SU
+  - PBBS SU NST
   - PBBS SU PST
   - PBBS TF
   - PBBX
@@ -1164,6 +1169,7 @@ Current command:
   - PBSI INV UNIT
   - PBSI SU
   - PBSI SU FERRY
+  - PBSI SU NST
   - PBSI SU PST
   - PBSI TF
   - PCO
@@ -1239,6 +1245,7 @@ Current command:
   - QAD
   - QAD 1DC
   - QAS
+  - QAS DIU
   - QB SSZN
   - QDA CIU
   - QM SEC
@@ -1850,6 +1857,7 @@ Current command:
   - 218
   - 219
   - 220
+  - 763
   - 221
   - 222
   - 223
@@ -1948,6 +1956,7 @@ Current command:
   - 305
   - 306
   - 307
+  - 1223
   - 309
   - 1279
   - 1210
@@ -2024,6 +2033,7 @@ Current command:
   - 373
   - 374
   - 375
+  - 1234
   - 1446
   - 376
   - 377
@@ -2066,6 +2076,7 @@ Current command:
   - 1264
   - 415
   - 1272
+  - 1258
   - 405
   - 1294
   - 406
@@ -2347,7 +2358,6 @@ Current command:
   - 650
   - 651
   - 652
-  - 653
   - 1232
   - 968
   - 654
@@ -2358,6 +2368,7 @@ Current command:
   - 658
   - 659
   - 660
+  - 1261
   - 661
   - 662
   - 663
@@ -2475,6 +2486,7 @@ Current command:
   - 758
   - 759
   - 760
+  - 1276
   - 761
   - 762
   - 764
@@ -2519,7 +2531,6 @@ Current command:
   - 802
   - 803
   - 1367
-  - 1449
   - 805
   - 807
   - 1368
@@ -2579,6 +2590,7 @@ Current command:
   - 856
   - 857
   - 858
+  - 1309
   - 859
   - 860
   - 861
@@ -2639,6 +2651,7 @@ Current command:
   - 909
   - 910
   - 911
+  - 1482
   - 912
   - 913
   - 914
@@ -2714,6 +2727,7 @@ Current command:
   - 966
   - 967
   - 1269
+  - 1483
   - 969
   - 970
   - 971
