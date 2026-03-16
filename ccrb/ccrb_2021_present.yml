@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 17390f063c8c491c3832bde8039cf25713b6924b
-  data_hash: 78b44bfaee7283e2fce1c93630da18ec1ea08668
+  hash: 2afb1f378608c5b8e4df9d23e46038660adddab9
+  data_hash: 626e95c6c45c3c840856abbe22b1544ee4377c83
 'Tax #':
   class: character
 Officer last name:
@@ -171,6 +171,7 @@ Current command:
   - 079 DET
   - 079 DV SQD
   - 079 PCT
+  - 079 PCT FTU
   - 081 DET
   - 081 DV SQD
   - 081 PCT
@@ -1505,6 +1506,7 @@ Current command:
   - 97
   - 1265
   - 98
+  - 415
   - 99
   - 1267
   - 100
@@ -3250,6 +3252,7 @@ NYPD Penalty:
   - 'Closed Administratively (Command Discipline - B) / Vacation: 1 day'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 1 day / Instructions'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 2 days'
+  - 'Closed Administratively (Command Discipline - B) / Vacation: 3 days / Instructions'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 5 days'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 8 days'
   - Closed Administratively (Instructions)
@@ -3383,6 +3386,7 @@ NYPD Penalty:
   - Reprimand
   - Resigned
   - Retired
+  - SOL Expired (Formalized Training)
   - Suspension 10 days
   - Suspension 10 days / Forfeit vacation 10 days
   - Suspension 10 days / Forfeit vacation 15 days
@@ -3468,6 +3472,7 @@ NYPD Penalty:
   - 194
   - 208
   - 7
+  - 217
   - 199
   - 8
   - 9
@@ -3600,6 +3605,7 @@ NYPD Penalty:
   - 111
   - 112
   - 113
+  - 218
   - 114
   - 115
   - 116
@@ -4271,6 +4277,7 @@ Command at incident:
   - 083 PCT
   - 084 BK BRDG
   - 084 DET
+  - 084 DV SQD
   - 084 PCT
   - 084PCT
   - 088 DET
@@ -4760,6 +4767,7 @@ Command at incident:
   - CT LMSI
   - CT OSS
   - CTERRDV
+  - CW CRT
   - CW T TF
   - CW TRAF TF
   - CW TRAFF TF
@@ -4803,6 +4811,7 @@ Command at incident:
   - DB SI
   - DB SID
   - DB SVD
+  - DB TACTICAL TRN
   - DBBKZ11
   - DBBKZ12
   - DBBKZ13
@@ -5798,6 +5807,7 @@ Command at incident:
   - 215
   - 1424
   - 216
+  - 1527
   - 217
   - 218
   - 219
@@ -6287,6 +6297,7 @@ Command at incident:
   - 677
   - 1461
   - 678
+  - 1528
   - 679
   - 680
   - 681
@@ -6330,6 +6341,7 @@ Command at incident:
   - 718
   - 719
   - 720
+  - 1529
   - 721
   - 722
   - 723
