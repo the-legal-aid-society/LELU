@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 2afb1f378608c5b8e4df9d23e46038660adddab9
-  data_hash: 0edeb3456ecadf5108829497d8dc018a79203440
+  hash: 019f6fa5808154163067588a957bdbef454aa657
+  data_hash: c3ce11c1ee3e52033247166f85c76354ba53f8cb
 'Tax #':
   class: character
 Officer last name:
@@ -3083,6 +3083,7 @@ CCRB allegation disposition:
 NYPD allegation disposition:
   class: factor
   labels:
+  - Abated by Death
   - APU - Decision Pending
   - APU Charges not served
   - 'APU Closed: Charges not served'
@@ -3142,6 +3143,7 @@ NYPD allegation disposition:
   - Resigned
   - Retired
   index:
+  - 12
   - 1
   - 2
   - 3
@@ -3238,6 +3240,7 @@ CCRB discipline recommendation:
 NYPD Penalty:
   class: factor
   labels:
+  - Abated by Death
   - APU - Decision Pending
   - Closed Administratively
   - Closed Administratively (Command Discipline - A)
@@ -3458,6 +3461,7 @@ NYPD Penalty:
   - W&A (Written)
   - Warned and admonished
   index:
+  - 219
   - 1
   - 2
   - 3
@@ -4969,6 +4973,7 @@ Command at incident:
   - IAB
   - IAB CMD CTR
   - IAB GRP 1
+  - IAB GRP 56
   - IAB IU 12
   - IAB IU 33
   - ID SECT
@@ -6499,6 +6504,7 @@ Command at incident:
   - 863
   - 1525
   - 1511
+  - 1530
   - 1412
   - 864
   - 865
@@ -7322,6 +7328,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): brown skin'
   - 'Other (R): Carribbean'
   - 'Other (R): Colombian ; Other Hispanic/Latino (E)'
+  - 'Other (R): Colombian; Other Hispanic/Latino (E)'
   - 'Other (R): East Indian'
   - 'Other (R): Egypt'
   - 'Other (R): Egyptian'
@@ -7338,7 +7345,6 @@ Victim race/ethnicity at incident:
   - 'Other (R): Hebrew-Israelite'
   - 'Other (R): Hindu Indian'
   - 'Other (R): Hispanic Caucasian; Other Hispanic/Latino (E)'
-  - 'Other (R): Honduran; Other Hispanic/Latino (E)'
   - 'Other (R): Hondurian; Other Hispanic/Latino (E)'
   - 'Other (R): Indian'
   - 'Other (R): Indian; South Asian (R)'
@@ -7350,7 +7356,6 @@ Victim race/ethnicity at incident:
   - 'Other (R): Italian; Puerto Rican (E)'
   - 'Other (R): Jamaican'
   - 'Other (R): Jewish'
-  - 'Other (R): Jewish and Roman Gypsy'
   - 'Other (R): Jewish Askenazi'
   - 'Other (R): Jordanian'
   - 'Other (R): Latina; Other Hispanic/Latino (E)'
@@ -7552,6 +7557,7 @@ Victim race/ethnicity at incident:
   - 81
   - 224
   - 82
+  - 230
   - 83
   - 84
   - 85
@@ -7568,7 +7574,6 @@ Victim race/ethnicity at incident:
   - 172
   - 144
   - 145
-  - 221
   - 160
   - 91
   - 92
@@ -7580,7 +7585,6 @@ Victim race/ethnicity at incident:
   - 129
   - 134
   - 93
-  - 208
   - 94
   - 95
   - 187
