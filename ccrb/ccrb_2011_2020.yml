@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 019f6fa5808154163067588a957bdbef454aa657
-  data_hash: 0fc325f3e0a09635c50ca69ed282834945082b2c
+  hash: 585b9b96da7a519bf1ef1fe32005205f447dd972
+  data_hash: 6bdc8e5e8c9cf676bb9cf113c83c83475f5b1afe
 'Tax #':
   class: character
 Officer last name:
@@ -434,6 +434,7 @@ Current command:
   - CRM CTL
   - CRS/AU
   - CS BODY CAM
+  - CS FORCE AU
   - CSO
   - CSO INV
   - CT BUR
@@ -534,7 +535,6 @@ Current command:
   - DBBXZ24
   - DBBXZ25
   - DBCR Z1
-  - DBM Z14
   - DBM ZN1
   - DBM ZN11
   - DBM ZN13
@@ -550,6 +550,7 @@ Current command:
   - DBMS OP
   - DBMS VIDEO
   - DBQ Z17
+  - DBQ Z61
   - DBQN
   - DBQN ECT
   - DBQN OP
@@ -607,7 +608,6 @@ Current command:
   - EQUIPMENT
   - ERMD CCSU
   - ERMD PAS
-  - ERMS EIU
   - ERMS PAS
   - ESS 01
   - ESS 02
@@ -631,6 +631,7 @@ Current command:
   - FAM SEC
   - FAM SUPP TEAM
   - FBI CCTF
+  - FIFA WORLD CUP
   - FIREARMS INV
   - FIS DIV
   - FLT SRV
@@ -932,7 +933,6 @@ Current command:
   - OFFICE COP
   - OFFICE PB
   - OFFICE RMB
-  - OFFICE TRP
   - OFSCSRG
   - OLR
   - OMAP
@@ -1225,6 +1225,7 @@ Current command:
   - SVU SOMU
   - SVU TRAINING
   - SVU Z1
+  - SVU Z3
   - T.A.R.U
   - TARU
   - TAXI SQ
@@ -1769,6 +1770,7 @@ Current command:
   - 315
   - 316
   - 317
+  - 611
   - 319
   - 320
   - 321
@@ -1869,7 +1871,6 @@ Current command:
   - 1203
   - 1335
   - 401
-  - 402
   - 403
   - 294
   - 1204
@@ -1885,6 +1886,7 @@ Current command:
   - 412
   - 390
   - 413
+  - 915
   - 416
   - 1177
   - 417
@@ -1942,7 +1944,6 @@ Current command:
   - 465
   - 466
   - 467
-  - 469
   - 470
   - 471
   - 472
@@ -1966,6 +1967,7 @@ Current command:
   - 490
   - 1143
   - 1010
+  - 1212
   - 491
   - 492
   - 493
@@ -2267,7 +2269,6 @@ Current command:
   - 1207
   - 759
   - 761
-  - 762
   - 763
   - 1337
   - 764
@@ -2560,6 +2561,7 @@ Current command:
   - 1195
   - 1196
   - 1197
+  - 1225
   - 1025
   - 1026
   - 1027
@@ -2801,6 +2803,7 @@ Allegation:
   - Question and/or stop
   - Questioned immigration status
   - Race
+  - Racial Profiling (National Origin)
   - Racial Profiling (Race)
   - Radio as club
   - Refusal to obtain medical treatment
@@ -2904,6 +2907,7 @@ Allegation:
   - 59
   - 60
   - 61
+  - 44
   - 40
   - 62
   - 63
@@ -3258,10 +3262,12 @@ NYPD Penalty:
   - 'Closed Administratively (Command Discipline - B) / Vacation: 3 days / Instructions'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 5 days'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 8 days'
+  - Closed Administratively (Formalized Training)
   - Closed Administratively (Instructions)
   - Closed Administratively (No penalty reported)
   - 'Closed Administratively (Suspension: 4 days) / Closed Administratively (Vacation:Vacation:
     4 days)'
+  - Closed Administratively (Terminated)
   - Command Discipline - A
   - Command Discipline - A (Formalized Training)
   - Command Discipline - A (Instructions) / Warned and Admonished
@@ -3318,6 +3324,7 @@ NYPD Penalty:
   - Dismissal Probation / Forfeit vacation 25 days
   - Dismissal Probation / Forfeit vacation 40 days
   - Dismissal Probation / Forfeit vacation 60 days
+  - Dismissal Probation 1 days / Forfeit vacation 30 days
   - Dismissal Probation 30 days
   - Dismissal Probation 365 days
   - Dismissal Probation 365 days / Forfeit vacation 30 days
@@ -3479,9 +3486,11 @@ NYPD Penalty:
   - 217
   - 199
   - 8
+  - 220
   - 9
   - 10
   - 11
+  - 221
   - 12
   - 193
   - 209
@@ -3538,6 +3547,7 @@ NYPD Penalty:
   - 49
   - 50
   - 186
+  - 222
   - 51
   - 52
   - 53
@@ -3774,6 +3784,7 @@ APU Plea agreed penalty:
   - Command Discipline B 8 days
   - Command Discipline B 9 days
   - Dismissal Probation
+  - Dismissal Probation 1 days
   - Dismissal Probation 365 days
   - Forced Separation
   - Forfeit vacation 1 days
@@ -3820,6 +3831,7 @@ APU Plea agreed penalty:
   - 45
   - 11
   - 12
+  - 46
   - 13
   - 14
   - 15
@@ -7229,6 +7241,7 @@ Victim race/ethnicity at incident:
   - 'Black and/or African American (R); Other (R): Mixed Race'
   - 'Black and/or African American (R); Other (R): Moor'
   - 'Black and/or African American (R); Other (R): Panamanian'
+  - 'Black and/or African American (R); Other (R): Trinidadian'
   - 'Black and/or African American (R); Other (R): Unknown'
   - 'Black and/or African American (R); Other (R): West Indian'
   - Black and/or African American (R); Other Asian (R)
@@ -7458,6 +7471,7 @@ Victim race/ethnicity at incident:
   - 21
   - 198
   - 140
+  - 208
   - 219
   - 157
   - 170
