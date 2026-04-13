@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 585b9b96da7a519bf1ef1fe32005205f447dd972
-  data_hash: 74645e4356bbd3fe215a691d48fca4bba6df242e
+  hash: 9243d5ef495f1d9f656d042a9dce115624babf5a
+  data_hash: bc532694cceb0906ce0277aafd0f16a44400fcbf
 'Tax #':
   class: character
 Officer last name:
@@ -1067,6 +1067,7 @@ Current command:
   - PSA 3
   - PSA 4
   - PSA 5
+  - PSA 5 FTU
   - PSA 6
   - PSA 7
   - PSA 8
@@ -2403,6 +2404,7 @@ Current command:
   - 883
   - 884
   - 885
+  - 402
   - 886
   - 887
   - 888
@@ -5067,6 +5069,7 @@ Command at incident:
   - MS SU ECT
   - MS TD UNIT
   - MS TIMES SQ
+  - MS VICE
   - MTN DET
   - MTN PCT
   - MTS (014) PCT
@@ -5424,6 +5427,7 @@ Command at incident:
   - SVD Z3
   - SVU CW HU TR SQ
   - SVU HU TR SQ
+  - SVU SOMU
   - T.A.R.U
   - T.A.R.U.
   - TARU
@@ -6598,6 +6602,7 @@ Command at incident:
   - 1445
   - 1473
   - 931
+  - 1531
   - 932
   - 933
   - 934
@@ -6955,6 +6960,7 @@ Command at incident:
   - 1256
   - 1477
   - 1450
+  - 1532
   - 1257
   - 1258
   - 1259
@@ -7216,6 +7222,7 @@ Victim race/ethnicity at incident:
   - Black and/or African American (R); Filipino (R)
   - Black and/or African American (R); Japanese (R)
   - Black and/or African American (R); Mexican, Chicano/a (E)
+  - Black and/or African American (R); Middle Eastern/North African (R)
   - Black and/or African American (R); Non-Hispanic/Latino (E)
   - Black and/or African American (R); Other (R)
   - 'Black and/or African American (R); Other (R): "Human Race" and "Moorish"'
@@ -7395,6 +7402,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Senegalese'
   - 'Other (R): Somali'
   - 'Other (R): Spanish'
+  - 'Other (R): Tajik'
   - 'Other (R): Turkish'
   - 'Other (R): Venezuela; Other Hispanic/Latino (E)'
   - 'Other (R): West Indian'
@@ -7446,6 +7454,7 @@ Victim race/ethnicity at incident:
   - 131
   - 12
   - 226
+  - 221
   - 13
   - 14
   - 202
@@ -7625,6 +7634,7 @@ Victim race/ethnicity at incident:
   - 141
   - 218
   - 104
+  - 231
   - 128
   - 174
   - 105
