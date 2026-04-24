@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: abeda9069fa112844c436caa75dccf9185ef69ba
-  data_hash: 88b87afc183ac87fd8a1c7ac4393d774be26ee66
+  hash: 05098e8cb454b9167fb02eda54387d1c411de4e6
+  data_hash: 13c350efc68e8c0749381e039c58c1e6817bbeff
 'Tax #':
   class: character
 Officer last name:
@@ -3276,6 +3276,7 @@ NYPD Penalty:
   - Command Discipline - A (Formalized Training)
   - Command Discipline - A (Instructions) / Warned and Admonished
   - 'Command Discipline - A (Vacation: 0.13 days)'
+  - 'Command Discipline - A (Vacation: 0.13 days) / Instructions'
   - 'Command Discipline - A (Vacation: 0.25 days)'
   - 'Command Discipline - A (Vacation: 0.25 days) / Instructions'
   - 'Command Discipline - A (Vacation: 0.37 days)'
@@ -3501,6 +3502,7 @@ NYPD Penalty:
   - 193
   - 209
   - 13
+  - 225
   - 14
   - 210
   - 197
@@ -5222,6 +5224,7 @@ Command at incident:
   - PBMN SC
   - PBMN SCOOT
   - PBMN SU
+  - PBMN SU NST
   - PBMN SU PST
   - PBMN TF
   - PBMS
@@ -6757,6 +6760,7 @@ Command at incident:
   - 1070
   - 1523
   - 1071
+  - 1535
   - 1072
   - 1073
   - 1074
