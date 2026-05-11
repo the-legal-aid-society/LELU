@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: c772e6325ccbba80c8862108fa65b2c852bbb2a3
+  hash: 833c5a21303505cbef64fd33bd57da166d3d8823
   data_hash: 5bf3d87c1d3a111e7c1ee91365bde8fe81dbf465
 'Tax #':
   class: character
@@ -4229,6 +4229,7 @@ Command at incident:
   - 060 PCT
   - '061'
   - 061 DET
+  - 061 DV SQD
   - 061 PCT
   - '062'
   - 062 DET
@@ -5769,6 +5770,7 @@ Command at incident:
   - 137
   - 138
   - 139
+  - 1540
   - 140
   - 141
   - 142
@@ -7285,6 +7287,7 @@ Victim race/ethnicity at incident:
   - 'Black and/or African American (R); Other (R): West Indian'
   - Black and/or African American (R); Other Asian (R)
   - Black and/or African American (R); Other Hispanic/Latino (E)
+  - Black and/or African American (R); Other Pacific Island (R)
   - Black and/or African American (R); Puerto Rican (E)
   - Black and/or African American (R); White/Caucasian (R)
   - Chinese (R)
@@ -7518,6 +7521,7 @@ Victim race/ethnicity at incident:
   - 157
   - 170
   - 22
+  - 233
   - 23
   - 24
   - 25
