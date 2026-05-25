@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 833c5a21303505cbef64fd33bd57da166d3d8823
+  hash: 4307db11a6a6b2e1133c198324185e36c6793130
   data_hash: 5bf3d87c1d3a111e7c1ee91365bde8fe81dbf465
 'Tax #':
   class: character
@@ -114,6 +114,7 @@ Current command:
   - 052 DET
   - 052 DV SQD
   - 052 PCT
+  - 052 PCT FTU
   - 060 CONEY ISL
   - 060 DET
   - 060 DV SQD
@@ -1074,6 +1075,7 @@ Current command:
   - PSA 5 FTU
   - PSA 6
   - PSA 7
+  - PSA 7 FTU
   - PSA 8
   - PSA 9
   - PSA 9 FTU
@@ -1456,6 +1458,7 @@ Current command:
   - 61
   - 1245
   - 62
+  - 1168
   - 63
   - 64
   - 1246
@@ -2416,6 +2419,7 @@ Current command:
   - 402
   - 886
   - 887
+  - 1343
   - 888
   - 889
   - 1318
@@ -3281,8 +3285,10 @@ NYPD Penalty:
   - 'Closed Administratively (Suspension: 4 days) / Closed Administratively (Vacation:Vacation:
     4 days)'
   - Closed Administratively (Terminated)
+  - 'Closed Administratively (Vacation: 1 day) / Command Discipline - A (InstructionsInstructions)'
   - Command Discipline - A
   - Command Discipline - A (Formalized Training)
+  - Command Discipline - A (Instructions)
   - Command Discipline - A (Instructions) / Warned and Admonished
   - 'Command Discipline - A (Vacation: 0.13 days)'
   - 'Command Discipline - A (Vacation: 0.13 days) / Instructions'
@@ -3291,6 +3297,7 @@ NYPD Penalty:
   - 'Command Discipline - A (Vacation: 0.37 days)'
   - 'Command Discipline - A (Vacation: 0.38 days)'
   - 'Command Discipline - A (Vacation: 0.50 days)'
+  - 'Command Discipline - A (Vacation: 0.50 days) / Instructions'
   - 'Command Discipline - A (Vacation: 0.75 days)'
   - 'Command Discipline - A (Vacation: 1 day)'
   - 'Command Discipline - A (Vacation: 1 day) / Formalized Training'
@@ -3508,8 +3515,10 @@ NYPD Penalty:
   - 10
   - 11
   - 221
+  - 227
   - 12
   - 193
+  - 228
   - 209
   - 13
   - 225
@@ -3518,6 +3527,7 @@ NYPD Penalty:
   - 197
   - 15
   - 16
+  - 229
   - 17
   - 18
   - 200
@@ -4221,6 +4231,7 @@ Command at incident:
   - '052'
   - 052 DET
   - 052 PCT
+  - 052 PCT FTU
   - 052PCT
   - 06 PCT
   - '060'
@@ -4970,6 +4981,7 @@ Command at incident:
   - H VANDL
   - HARBOR
   - HARBOR SUM DTL
+  - HAZ WMD
   - HB
   - HBK IRT
   - HBK RT
@@ -5219,6 +5231,7 @@ Command at incident:
   - PBBS IRT
   - PBBS SC
   - PBBS SU
+  - PBBS SU NST
   - PBBS SU PST
   - PBBS TF
   - PBBX
@@ -5264,6 +5277,7 @@ Command at incident:
   - PBQS AC
   - PBQS SC
   - PBQS SU
+  - PBQS SU NST
   - PBQS SU PST
   - PBQST/F
   - PBSI
@@ -5326,6 +5340,7 @@ Command at incident:
   - PSA 5 FTU
   - PSA 6
   - PSA 7
+  - PSA 7 FTU
   - PSA 8
   - PSA 9
   - PSA 9 FTU
@@ -5762,6 +5777,7 @@ Command at incident:
   - 129
   - 130
   - 131
+  - 1541
   - 132
   - 133
   - 134
@@ -6511,6 +6527,7 @@ Command at incident:
   - 828
   - 829
   - 1490
+  - 1542
   - 830
   - 831
   - 832
@@ -6760,6 +6777,7 @@ Command at incident:
   - 1054
   - 1055
   - 1056
+  - 1543
   - 1057
   - 1058
   - 1059
@@ -6805,6 +6823,7 @@ Command at incident:
   - 1094
   - 1095
   - 1096
+  - 1544
   - 1097
   - 1098
   - 1099
@@ -6867,6 +6886,7 @@ Command at incident:
   - 1512
   - 1154
   - 1155
+  - 1545
   - 1156
   - 1157
   - 1513
@@ -7335,6 +7355,7 @@ Victim race/ethnicity at incident:
   - Filipino (R); Puerto Rican (E)
   - Filipino (R); White/Caucasian (R)
   - Japanese (R)
+  - Japanese (R); Mexican, Chicano/a (E)
   - Japanese (R); Vietnamese (R)
   - Korean (R)
   - Mexican, Chicano/a (E)
@@ -7569,6 +7590,7 @@ Victim race/ethnicity at incident:
   - 203
   - 53
   - 54
+  - 234
   - 180
   - 55
   - 56

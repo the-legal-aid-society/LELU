@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: b8a352e487800681af8924b188d373c361b9409f
-  data_hash: 4c0a5f06a2a7a71fd627ad9f7680a0137dc49612
+  hash: e33394949977d895bf4721f3360ebf6b969ca334
+  data_hash: 2bce40e11f8742c990a1ab31eeb08e1d1d8d366c
 Officer Name:
   class: character
 Document:
@@ -205,6 +205,7 @@ Precinct/Command:
   - EMER SERV UNIT
   - Emergency Service Unit
   - ESU
+  - Evidence Collection Unit
   - Executive Protection Unit
   - ferry security
   - Field Intelligence Unit
@@ -277,6 +278,7 @@ Precinct/Command:
   - Manhattan North
   - Manhattan North narcotics
   - Manhattan North Narcotics
+  - Manhattan North Narcotics Bureau
   - MANHATTAN RESPONSE TEAM
   - Manhattan Robbery Squad
   - Manhattan South Gang Squad
@@ -357,6 +359,7 @@ Precinct/Command:
   - Queens Vice
   - Questioned Documents Unit
   - Recruit Training Section
+  - RTS RECRUIT
   - school safety
   - School Safety
   - School Safety Unit
@@ -597,6 +600,7 @@ Precinct/Command:
   - 251
   - 101
   - 378
+  - 392
   - 102
   - 103
   - 230
@@ -669,6 +673,7 @@ Precinct/Command:
   - 132
   - 133
   - 134
+  - 393
   - 236
   - 286
   - 135
@@ -749,6 +754,7 @@ Precinct/Command:
   - 184
   - 185
   - 269
+  - 394
   - 186
   - 187
   - 330
