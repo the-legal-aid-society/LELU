@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: e33394949977d895bf4721f3360ebf6b969ca334
-  data_hash: 2bce40e11f8742c990a1ab31eeb08e1d1d8d366c
+  hash: 1eb36bf6d416c7ca6600f20e5b1575fbe8c96fed
+  data_hash: 3e3f4e68e150da9773403b159578780e9644cf28
 Officer Name:
   class: character
 Document:
@@ -57,6 +57,7 @@ Precinct/Command:
   - '123'
   - '13'
   - 13 Det Squad
+  - 13 DET SQUAD
   - '14'
   - '17'
   - 17 Det Squad
@@ -329,12 +330,15 @@ Precinct/Command:
   - Patrol Boro Queens South
   - Patrol Boro Queens South; 100
   - Patrol Borough Bronx
+  - Patrol Borough Bronx North
   - Patrol Borough Brooklyn North
+  - Patrol Borough North Bronx
   - Patrol Borough Queens South
   - Patrol Services Bureau
   - PBBX; 48
   - PBQS
   - personnel
+  - PHOTO UNIT
   - Police Service Area 1
   - Police Service Area 2
   - Police Service Area 3
@@ -402,6 +406,7 @@ Precinct/Command:
   - Transit District 3
   - TRB QUEENS TRAFFIC ENF UNIT
   - TRB SOUTH INTERSECTION CTRL
+  - Troop NYC
   - vice
   - Vice Enforcement Div Zone 2
   - vice squad
@@ -452,6 +457,7 @@ Precinct/Command:
   - 18
   - 384
   - 341
+  - 395
   - 320
   - 19
   - 342
@@ -724,12 +730,15 @@ Precinct/Command:
   - 162
   - 163
   - 164
+  - 396
   - 318
+  - 397
   - 165
   - 295
   - 166
   - 226
   - 167
+  - 398
   - 168
   - 169
   - 312
@@ -797,6 +806,7 @@ Precinct/Command:
   - 205
   - 262
   - 331
+  - 399
   - 206
   - 362
   - 207

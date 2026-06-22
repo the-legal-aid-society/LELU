@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: f5232f4285d95b4c403d11fc0516181102d067a7
-  data_hash: 3d33dab16a7b9c6dbd2ca62d025ea4c75bb4c9b6
+  hash: 2d06246372fefcf50b71e49eecf74c55880335a5
+  data_hash: 09575b629eea584f50ccb1593507edea9a35a0bd
 'Tax #':
   class: character
 Roster Date:
@@ -354,6 +354,7 @@ Current command:
   - BK TCS
   - BK TRAN ROB SQD
   - BKLN CT
+  - BKLYN TOW
   - BKROBSQ
   - BLDG MAINT
   - BM SEC
@@ -406,7 +407,17 @@ Current command:
   - BX/Q IM
   - BX/S-ND
   - BXD CID
+  - BXN CAS
+  - BXN CRIME ANL
+  - BXN CRT
+  - BXN OP NIGHT
+  - BXN SU ALU
   - BXROBSQ
+  - BXS CAS
+  - BXS CRIME ANL
+  - BXS CRT
+  - BXS OP NIGHT
+  - BXS SU ALU
   - C A B
   - C A D
   - C C A S
@@ -546,6 +557,8 @@ Current command:
   - DB BSVS
   - DB BX
   - DB BXHM
+  - DB BXNHM
+  - DB BXSHM
   - DB BXSV
   - DB CED
   - DB CEIS
@@ -558,6 +571,7 @@ Current command:
   - DB FEU
   - DB FID
   - DB FIU
+  - DB GB VP & TRN
   - DB GLD
   - DB GVSD
   - DB GVSU
@@ -606,11 +620,8 @@ Current command:
   - DBBX
   - DBBX ECT
   - DBBX OP
-  - DBBX VIDEO
   - DBBX Z8
   - DBBX Z9
-  - DBBXZ24
-  - DBBXZ25
   - DBCR Z1
   - DBM ZN1
   - DBM ZN11
@@ -629,6 +640,7 @@ Current command:
   - DBMS OP
   - DBMS VIDEO
   - DBQ Z17
+  - DBQ Z52
   - DBQ Z61
   - DBQN
   - DBQN ECT
@@ -643,6 +655,16 @@ Current command:
   - DBSV Z1
   - DBSV Z2
   - DBSV Z3
+  - DBXN
+  - DBXN ECT
+  - DBXN VIDEO
+  - DBXNZ24
+  - DBXNZ25
+  - DBXNZ26
+  - DBXS
+  - DBXS ECT
+  - DBXS VIDEO
+  - DBXSZ23
   - DC ADV
   - DC C TR
   - DC DAO
@@ -767,7 +789,7 @@ Current command:
   - GANG QS
   - GANG SI
   - GLD ZN 1
-  - GRANTS UNIT
+  - GRANTS SEC
   - GUARD TF
   - GUN OFFDR MONT
   - GVSD JFTF
@@ -1000,6 +1022,8 @@ Current command:
   - NARCBBN
   - NARCBBS
   - NARCBBX
+  - NARCBBXN
+  - NARCBBXS
   - NARCBMN
   - NARCBMS
   - NARCBQN
@@ -1019,6 +1043,8 @@ Current command:
   - NBQS ZN 17
   - NBQS ZN 24
   - NBSI MAJOR
+  - NBXN MAJOR
+  - NBXS MAJOR
   - ND BKSI
   - ND BXCI
   - ND BXSI
@@ -1115,12 +1141,10 @@ Current command:
   - PBBS TF
   - PBBX
   - PBBX AC
-  - PBBX COURT TM
   - PBBX INV UNIT
   - PBBX ORCHARD
   - PBBX SC
   - PBBX SU
-  - PBBX SU NST
   - PBBX SU PST
   - PBBX TF
   - PBBX YANKEE
@@ -1174,6 +1198,15 @@ Current command:
   - PBSI SU NST
   - PBSI SU PST
   - PBSI TF
+  - PBXN
+  - PBXN SU
+  - PBXN SU NST
+  - PBXN ZOO
+  - PBXS
+  - PBXS COURT TM
+  - PBXS ORCHARD
+  - PBXS SU
+  - PBXS YANKEE
   - PCO
   - PCO C U
   - PCO CPU
@@ -1271,6 +1304,7 @@ Current command:
   - QS HOMICIDE
   - QS IRT
   - QS NARC
+  - QS SU ALU
   - QS SU CRT
   - QS SU ECT
   - QS VICE
@@ -1316,6 +1350,7 @@ Current command:
   - SI SAU
   - SI SCSU
   - SI STDS & ASMTS
+  - SI SU ALU
   - SI SU ECT
   - SI SVS
   - SIB
@@ -1840,6 +1875,7 @@ Current command:
   - 196
   - 198
   - 199
+  - 1486
   - 200
   - 201
   - 203
@@ -1892,7 +1928,17 @@ Current command:
   - 245
   - 246
   - 247
+  - 1487
+  - 1488
+  - 1489
+  - 1490
+  - 1491
   - 248
+  - 1492
+  - 1493
+  - 1494
+  - 1495
+  - 1496
   - 249
   - 250
   - 251
@@ -2032,6 +2078,8 @@ Current command:
   - 368
   - 369
   - 370
+  - 1497
+  - 1498
   - 371
   - 372
   - 373
@@ -2044,6 +2092,7 @@ Current command:
   - 1211
   - 378
   - 1243
+  - 1499
   - 379
   - 380
   - 1259
@@ -2092,11 +2141,8 @@ Current command:
   - 409
   - 1296
   - 410
-  - 619
   - 411
   - 412
-  - 1363
-  - 1474
   - 413
   - 414
   - 308
@@ -2115,6 +2161,7 @@ Current command:
   - 424
   - 642
   - 426
+  - 1500
   - 653
   - 427
   - 1299
@@ -2129,6 +2176,16 @@ Current command:
   - 433
   - 434
   - 435
+  - 1501
+  - 1502
+  - 1503
+  - 1504
+  - 1505
+  - 1506
+  - 1507
+  - 1508
+  - 1509
+  - 1510
   - 436
   - 437
   - 438
@@ -2253,7 +2310,7 @@ Current command:
   - 549
   - 550
   - 551
-  - 552
+  - 1511
   - 1283
   - 553
   - 554
@@ -2486,6 +2543,8 @@ Current command:
   - 752
   - 753
   - 754
+  - 1512
+  - 1513
   - 755
   - 756
   - 757
@@ -2505,6 +2564,8 @@ Current command:
   - 770
   - 771
   - 772
+  - 1514
+  - 1515
   - 773
   - 774
   - 775
@@ -2601,12 +2662,10 @@ Current command:
   - 860
   - 861
   - 862
-  - 1305
   - 863
   - 864
   - 865
   - 866
-  - 1465
   - 867
   - 868
   - 869
@@ -2660,6 +2719,15 @@ Current command:
   - 1482
   - 912
   - 913
+  - 1516
+  - 1517
+  - 1518
+  - 1519
+  - 1520
+  - 1521
+  - 1522
+  - 1523
+  - 1524
   - 914
   - 915
   - 1278
@@ -2757,6 +2825,7 @@ Current command:
   - 985
   - 986
   - 987
+  - 1525
   - 988
   - 989
   - 990
@@ -2802,6 +2871,7 @@ Current command:
   - 1217
   - 1029
   - 1307
+  - 1526
   - 1031
   - 1032
   - 1033
