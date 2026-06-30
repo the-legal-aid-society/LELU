@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: ee9b6c8148b488c406fd61c117cec02104053bf6
+  hash: fc23c6d904924b7b14052c70c6db32ee9f341b69
   data_hash: 0f16f51764013ad48e9f1bf4203e99df2a713398
 'Tax #':
   class: character
@@ -53,12 +53,14 @@ Current command:
   - 025 DET
   - 025 DV SQD
   - 025 PCT
+  - 025 PCT FTU
   - 026 DET
   - 026 DV SQD
   - 026 PCT
   - 028 DET
   - 028 DV SQD
   - 028 PCT
+  - 028 PCT FTU
   - 030 DET
   - 030 DV SQD
   - 030 PCT
@@ -75,6 +77,7 @@ Current command:
   - 040 DET
   - 040 DV SQD
   - 040 PCT
+  - 040 PCT FTU
   - 041 DET
   - 041 DV SQD
   - 041 PCT
@@ -1434,12 +1437,14 @@ Current command:
   - 25
   - 1222
   - 26
+  - 283
   - 27
   - 1223
   - 28
   - 29
   - 1224
   - 30
+  - 518
   - 31
   - 1226
   - 32
@@ -1456,6 +1461,7 @@ Current command:
   - 39
   - 1230
   - 40
+  - 1183
   - 41
   - 1232
   - 42
@@ -3230,7 +3236,6 @@ NYPD allegation disposition:
   - No Finding
   - Not Guilty - DCT
   - Not Guilty - OATH
-  - Past SOL - MOS unable to contest at trial
   - Plead Guilty - DCT
   - Plead Guilty - OATH
   - Previously Adjudicated
@@ -3290,7 +3295,6 @@ NYPD allegation disposition:
   - 47
   - 48
   - 49
-  - 58
   - 50
   - 51
   - 52
@@ -4220,6 +4224,7 @@ Command at incident:
   - '025'
   - 025 DET
   - 025 PCT
+  - 025 PCT FTU
   - 025PCT
   - '026'
   - 026 DET
@@ -5769,6 +5774,7 @@ Command at incident:
   - 50
   - 51
   - 52
+  - 1549
   - 53
   - 54
   - 55
@@ -7367,6 +7373,7 @@ Victim race/ethnicity at incident:
   - Black and/or African American (R); Other (R)
   - 'Black and/or African American (R); Other (R): "Human Race" and "Moorish"'
   - 'Black and/or African American (R); Other (R): "Human"'
+  - 'Black and/or African American (R); Other (R): "Jamaican"'
   - 'Black and/or African American (R); Other (R): "Native American"'
   - 'Black and/or African American (R); Other (R): 12 years old'
   - 'Black and/or African American (R); Other (R): 15 years old'
@@ -7607,6 +7614,7 @@ Victim race/ethnicity at incident:
   - 14
   - 202
   - 155
+  - 230
   - 200
   - 211
   - 212
