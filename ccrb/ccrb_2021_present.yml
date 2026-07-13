@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: fc23c6d904924b7b14052c70c6db32ee9f341b69
-  data_hash: 5914ea5b42b73544087016d88ee8eec3b77599e0
+  hash: d27893acb5ff5599c41480f252d5ae048aa99b15
+  data_hash: d989bc68f38b2ebd3c9e43f1c0883b6af05a14ba
 'Tax #':
   class: character
 Officer last name:
@@ -46,7 +46,6 @@ Current command:
   - 023 DET
   - 023 DV SQD
   - 023 PCT
-  - 023 PCT FTU
   - 024 DET
   - 024 DV SQD
   - 024 PCT
@@ -60,7 +59,6 @@ Current command:
   - 028 DET
   - 028 DV SQD
   - 028 PCT
-  - 028 PCT FTU
   - 030 DET
   - 030 DV SQD
   - 030 PCT
@@ -74,6 +72,7 @@ Current command:
   - 034 DET
   - 034 DV SQD
   - 034 PCT
+  - 034 PCT FTU
   - 040 DET
   - 040 DV SQD
   - 040 PCT
@@ -89,7 +88,6 @@ Current command:
   - 043 DET
   - 043 DV SQD
   - 043 PCT
-  - 043 PCT FTU
   - 044 DET
   - 044 DV SQD
   - 044 PCT
@@ -108,6 +106,7 @@ Current command:
   - 048 DET
   - 048 DV SQD
   - 048 PCT
+  - 048 PCT FTU
   - 049 DET
   - 049 DV SQD
   - 049 PCT
@@ -117,7 +116,6 @@ Current command:
   - 052 DET
   - 052 DV SQD
   - 052 PCT
-  - 052 PCT FTU
   - 060 CONEY ISL
   - 060 DET
   - 060 DV SQD
@@ -156,7 +154,6 @@ Current command:
   - 073 DET
   - 073 DV SQD
   - 073 PCT
-  - 073 PCT FTU
   - 075 DET
   - 075 DV SQD
   - 075 PCT
@@ -255,7 +252,6 @@ Current command:
   - 120 DET
   - 120 DV SQD
   - 120 PCT
-  - 120 PCT FTU
   - 120 VIPER
   - 121 DET
   - 121 DV SQD
@@ -314,6 +310,7 @@ Current command:
   - BN CRT
   - BN GRAND LARC
   - BN OP NIGHT
+  - BN SU ALU
   - BN SU CRT
   - BN SU ECT
   - BN VICE
@@ -368,6 +365,7 @@ Current command:
   - C A B
   - C A D
   - C C A S
+  - C C APP SQD
   - C C SQD
   - C D D
   - C E D
@@ -449,7 +447,6 @@ Current command:
   - CRM CTL
   - CRS/AU
   - CS BODY CAM
-  - CS FORCE AU
   - CSO
   - CSO INV
   - CT BUR
@@ -494,6 +491,7 @@ Current command:
   - DB CEIS
   - DB CID
   - DB CRD
+  - DB CRU
   - DB CW TFD
   - DB DVU
   - DB FCTF
@@ -503,6 +501,7 @@ Current command:
   - DB FIU
   - DB GB VP & TRN
   - DB GLD
+  - DB GLU
   - DB GVSD
   - DB GVSU
   - DB HATE
@@ -533,7 +532,6 @@ Current command:
   - DBBKZ14
   - DBBKZ21
   - DBBKZ22
-  - DBBKZ34
   - DBBKZ44
   - DBBKZ45
   - DBBN
@@ -567,7 +565,6 @@ Current command:
   - DBMS VIDEO
   - DBQ Z17
   - DBQ Z52
-  - DBQ Z61
   - DBQN
   - DBQN ECT
   - DBQN OP
@@ -589,6 +586,7 @@ Current command:
   - DBXS
   - DBXS ECT
   - DBXS VIDEO
+  - DBXSZ21
   - DBXSZ23
   - DC ADV
   - DC C TR
@@ -660,6 +658,8 @@ Current command:
   - FAM SEC
   - FAM SUPP TEAM
   - FBI CCTF
+  - FIFA BKLYN BRG PK
+  - FIFA ROCK PLZ
   - FIFA WORLD CUP
   - FIREARMS INV
   - FIS DIV
@@ -966,8 +966,10 @@ Current command:
   - OFFICE CAB
   - OFFICE CCCS
   - OFFICE COP
+  - OFFICE DCT
   - OFFICE PB
   - OFFICE RMB
+  - OFFICE SSB
   - OFSCSRG
   - OLR
   - OMAP
@@ -1026,6 +1028,7 @@ Current command:
   - PBBX ORCHARD
   - PBBX SC
   - PBBX SU
+  - PBBX SU NST
   - PBBX SU PST
   - PBBX TF
   - PBBX YANKEE
@@ -1110,13 +1113,10 @@ Current command:
   - PSA 3
   - PSA 4
   - PSA 5
-  - PSA 5 FTU
   - PSA 6
   - PSA 7
-  - PSA 7 FTU
   - PSA 8
   - PSA 9
-  - PSA 9 FTU
   - PSA1 VIPER13
   - PSA2 VIPER2
   - PSA4 VIPER6
@@ -1185,6 +1185,7 @@ Current command:
   - RTCC
   - RTCC INV SUPP
   - RTCC SMART
+  - RTCC VIG
   - RTS ADM
   - S O D
   - S S B
@@ -1269,7 +1270,6 @@ Current command:
   - SVU MC DNA COLD
   - SVU NIGHT
   - SVU SOMU
-  - SVU TRAINING
   - SVU Z1
   - SVU Z3
   - T.A.R.U
@@ -1430,7 +1430,6 @@ Current command:
   - 21
   - 1220
   - 22
-  - 117
   - 23
   - 1221
   - 24
@@ -1444,7 +1443,6 @@ Current command:
   - 29
   - 1224
   - 30
-  - 518
   - 31
   - 1226
   - 32
@@ -1458,6 +1456,7 @@ Current command:
   - 37
   - 1229
   - 38
+  - 1203
   - 39
   - 1230
   - 40
@@ -1473,7 +1472,6 @@ Current command:
   - 45
   - 1235
   - 46
-  - 758
   - 47
   - 1236
   - 48
@@ -1492,6 +1490,7 @@ Current command:
   - 55
   - 1242
   - 56
+  - 1328
   - 57
   - 1243
   - 58
@@ -1501,7 +1500,6 @@ Current command:
   - 61
   - 1245
   - 62
-  - 1168
   - 63
   - 64
   - 1246
@@ -1540,7 +1538,6 @@ Current command:
   - 86
   - 1258
   - 87
-  - 1259
   - 88
   - 1260
   - 89
@@ -1639,7 +1636,6 @@ Current command:
   - 147
   - 1292
   - 148
-  - 1158
   - 149
   - 150
   - 1293
@@ -1698,6 +1694,7 @@ Current command:
   - 1021
   - 201
   - 202
+  - 1335
   - 203
   - 204
   - 205
@@ -1752,6 +1749,7 @@ Current command:
   - 239
   - 240
   - 241
+  - 1387
   - 242
   - 243
   - 244
@@ -1833,7 +1831,6 @@ Current command:
   - 315
   - 316
   - 317
-  - 611
   - 319
   - 320
   - 321
@@ -1878,6 +1875,7 @@ Current command:
   - 357
   - 358
   - 359
+  - 1388
   - 1152
   - 1297
   - 360
@@ -1887,6 +1885,7 @@ Current command:
   - 1320
   - 1357
   - 364
+  - 1389
   - 365
   - 1321
   - 366
@@ -1917,7 +1916,6 @@ Current command:
   - 387
   - 388
   - 389
-  - 278
   - 671
   - 1157
   - 391
@@ -1951,7 +1949,6 @@ Current command:
   - 390
   - 413
   - 1358
-  - 915
   - 416
   - 1177
   - 417
@@ -1973,6 +1970,7 @@ Current command:
   - 1365
   - 1366
   - 1367
+  - 1390
   - 1368
   - 426
   - 427
@@ -2044,6 +2042,8 @@ Current command:
   - 490
   - 1143
   - 1010
+  - 1391
+  - 1392
   - 1212
   - 491
   - 492
@@ -2350,8 +2350,10 @@ Current command:
   - 1300
   - 756
   - 1207
+  - 1393
   - 759
   - 761
+  - 1394
   - 763
   - 1337
   - 764
@@ -2410,6 +2412,7 @@ Current command:
   - 813
   - 814
   - 815
+  - 1395
   - 816
   - 817
   - 818
@@ -2494,13 +2497,10 @@ Current command:
   - 883
   - 884
   - 885
-  - 402
   - 886
   - 887
-  - 1343
   - 888
   - 889
-  - 1318
   - 890
   - 891
   - 892
@@ -2569,6 +2569,7 @@ Current command:
   - 946
   - 947
   - 948
+  - 1396
   - 949
   - 950
   - 951
@@ -2653,7 +2654,6 @@ Current command:
   - 1193
   - 1194
   - 1195
-  - 1196
   - 1197
   - 1225
   - 1025
@@ -3236,6 +3236,7 @@ NYPD allegation disposition:
   - No Finding
   - Not Guilty - DCT
   - Not Guilty - OATH
+  - Past SOL - MOS unable to contest at trial
   - Plead Guilty - DCT
   - Plead Guilty - OATH
   - Previously Adjudicated
@@ -3295,6 +3296,7 @@ NYPD allegation disposition:
   - 47
   - 48
   - 49
+  - 15
   - 50
   - 51
   - 52
@@ -3364,6 +3366,7 @@ NYPD Penalty:
   - 'Closed Administratively (Suspension: 4 days) / Closed Administratively (Vacation:Vacation:
     4 days)'
   - Closed Administratively (Terminated)
+  - 'Closed Administratively (Vacation: 0.25 days) / Command Discipline - A / Instructions'
   - 'Closed Administratively (Vacation: 1 day) / Command Discipline - A (InstructionsInstructions)'
   - Command Discipline - A
   - Command Discipline - A (Formalized Training)
@@ -3469,6 +3472,7 @@ NYPD Penalty:
   - Forfeit vacation 3 days / Command Discipline B
   - Forfeit vacation 3 days / Formalized Training
   - Forfeit vacation 30 days
+  - Forfeit vacation 30 days / Formalized Training
   - Forfeit vacation 33 days
   - Forfeit vacation 38 days
   - Forfeit vacation 4 days
@@ -3597,6 +3601,7 @@ NYPD Penalty:
   - 10
   - 11
   - 221
+  - 233
   - 227
   - 12
   - 193
@@ -3702,6 +3707,7 @@ NYPD Penalty:
   - 81
   - 82
   - 83
+  - 234
   - 84
   - 85
   - 86
@@ -4240,6 +4246,7 @@ Command at incident:
   - 030 Precinct
   - '032'
   - 032 DET
+  - 032 DV SQD
   - 032 PCT
   - 032 PCT FTU
   - 032PCT
@@ -5790,6 +5797,7 @@ Command at incident:
   - 64
   - 65
   - 66
+  - 1550
   - 67
   - 1500
   - 68
@@ -7380,6 +7388,7 @@ Victim race/ethnicity at incident:
   - 'Black and/or African American (R); Other (R): African-American Jewish'
   - 'Black and/or African American (R); Other (R): America'
   - 'Black and/or African American (R); Other (R): American'
+  - 'Black and/or African American (R); Other (R): Antiguan'
   - 'Black and/or African American (R); Other (R): Asiatic'
   - 'Black and/or African American (R); Other (R): Biracial'
   - 'Black and/or African American (R); Other (R): Black and Indian'
@@ -7443,6 +7452,7 @@ Victim race/ethnicity at incident:
   - Dominican (E); Other Hispanic/Latino (E)
   - Dominican (E); Other Pacific Island (R)
   - Dominican (E); Puerto Rican (E)
+  - Dominican (E); South Asian (R)
   - Dominican (E); White/Caucasian (R)
   - Filipino (R)
   - Filipino (R); Japanese (R)
@@ -7553,6 +7563,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Other'
   - 'Other (R): Palestinian'
   - 'Other (R): Peruvian'
+  - 'Other (R): Peruvian; Other Hispanic/Latino (E)'
   - 'Other (R): Russian; White/Caucasian (R)'
   - 'Other (R): Senegalese'
   - 'Other (R): Somali'
@@ -7621,6 +7632,7 @@ Victim race/ethnicity at incident:
   - 15
   - 156
   - 184
+  - 241
   - 132
   - 16
   - 197
@@ -7684,6 +7696,7 @@ Victim race/ethnicity at incident:
   - 48
   - 127
   - 49
+  - 242
   - 50
   - 51
   - 214
@@ -7794,6 +7807,7 @@ Victim race/ethnicity at incident:
   - 210
   - 149
   - 103
+  - 243
   - 182
   - 141
   - 218

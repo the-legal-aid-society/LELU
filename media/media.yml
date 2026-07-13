@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: 81a25f7153f1eb999a82536b4de399bcc82f89a2
-  data_hash: e5487d49a4c6cb90c8e8499ddb8d8bf19554e877
+  hash: 02fe080f3d4b5e99bb293ad7cea7ade50cabbd07
+  data_hash: 5908f5849d6add2b592da05761815a51b8b6b99f
 Officer Name:
   class: character
 Document:
@@ -170,6 +170,7 @@ Precinct/Command:
   - Brooklyn South Narcotics Division
   - Brooklyn South Vice
   - Brooklyn transit robbery
+  - Bureau of Prisons
   - CAD
   - Candidate Assessment Division
   - Central Investigations Division
@@ -571,6 +572,7 @@ Precinct/Command:
   - 85
   - 86
   - 87
+  - 401
   - 321
   - 364
   - 88

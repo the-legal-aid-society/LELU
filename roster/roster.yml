@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 2d06246372fefcf50b71e49eecf74c55880335a5
-  data_hash: 21236b8223df21eea7e52add2f33402c79b99ef6
+  hash: 408680cb713f84e3c99192f5a294cb3e2f0945ce
+  data_hash: 738ae5d915568ec3e21af16cd4eca6c29bec29cd
 'Tax #':
   class: character
 Roster Date:
@@ -154,6 +154,7 @@ Current command:
   - 060 DET
   - 060 DV SQD
   - 060 PCT
+  - 060 PCT FTU
   - 061 DET
   - 061 DV SQD
   - 061 PCT
@@ -184,6 +185,7 @@ Current command:
   - 071 DET
   - 071 DV SQD
   - 071 PCT
+  - 071 PCT FTU
   - 072 DET
   - 072 DV SQD
   - 072 PCT
@@ -222,6 +224,7 @@ Current command:
   - 084 DET
   - 084 DV SQD
   - 084 PCT
+  - 084 PCT FTU
   - 088 DET
   - 088 DV SQD
   - 088 PCT
@@ -229,6 +232,7 @@ Current command:
   - 090 DET
   - 090 DV SQD
   - 090 PCT
+  - 090 PCT FTU
   - 094 DET
   - 094 DV SQD
   - 094 PCT
@@ -364,6 +368,7 @@ Current command:
   - BN GRAND LARC
   - BN IRT
   - BN OP NIGHT
+  - BN SU ALU
   - BN SU CRT
   - BN SU ECT
   - BN VICE
@@ -421,6 +426,7 @@ Current command:
   - C A B
   - C A D
   - C C A S
+  - C C APP SQD
   - C C SQD
   - C D D
   - C E D
@@ -564,6 +570,7 @@ Current command:
   - DB CEIS
   - DB CID
   - DB CRD
+  - DB CRU
   - DB CW TFD
   - DB DVU
   - DB FCTF
@@ -573,6 +580,7 @@ Current command:
   - DB FIU
   - DB GB VP & TRN
   - DB GLD
+  - DB GLU
   - DB GVSD
   - DB GVSU
   - DB HATE
@@ -606,7 +614,6 @@ Current command:
   - DBBKZ21
   - DBBKZ22
   - DBBKZ33
-  - DBBKZ34
   - DBBKZ44
   - DBBKZ45
   - DBBN
@@ -641,7 +648,6 @@ Current command:
   - DBMS VIDEO
   - DBQ Z17
   - DBQ Z52
-  - DBQ Z61
   - DBQN
   - DBQN ECT
   - DBQN OP
@@ -664,6 +670,7 @@ Current command:
   - DBXS
   - DBXS ECT
   - DBXS VIDEO
+  - DBXSZ21
   - DBXSZ23
   - DC ADV
   - DC C TR
@@ -745,6 +752,8 @@ Current command:
   - FAM SEC
   - FAM SUPP TEAM
   - FBI CCTF
+  - FIFA BKLYN BRG PK
+  - FIFA ROCK PLZ
   - FIFA WORLD CUP
   - FIREARMS INV
   - FIS DIV
@@ -1078,9 +1087,11 @@ Current command:
   - OFFICE CAB
   - OFFICE CCCS
   - OFFICE COP
+  - OFFICE DCT
   - OFFICE PB
   - OFFICE RMB
   - OFFICE SS
+  - OFFICE SSB
   - OFFICE TRNG
   - OFSCSRG
   - OLR
@@ -1145,6 +1156,7 @@ Current command:
   - PBBX ORCHARD
   - PBBX SC
   - PBBX SU
+  - PBBX SU NST
   - PBBX SU PST
   - PBBX TF
   - PBBX YANKEE
@@ -1280,7 +1292,6 @@ Current command:
   - QAD
   - QAD 1DC
   - QAS
-  - QAS DIU
   - QB SSZN
   - QDA CIU
   - QM SEC
@@ -1323,6 +1334,7 @@ Current command:
   - RTCC
   - RTCC INV SUPP
   - RTCC SMART
+  - RTCC VIG
   - RTS ADM
   - RTS RECRUIT
   - S O D
@@ -1675,6 +1687,7 @@ Current command:
   - 64
   - 1401
   - 65
+  - 552
   - 66
   - 1402
   - 67
@@ -1705,6 +1718,7 @@ Current command:
   - 82
   - 1410
   - 83
+  - 619
   - 84
   - 1411
   - 85
@@ -1743,6 +1757,7 @@ Current command:
   - 104
   - 1420
   - 105
+  - 1305
   - 106
   - 1421
   - 107
@@ -1750,6 +1765,7 @@ Current command:
   - 108
   - 1422
   - 109
+  - 1363
   - 110
   - 1423
   - 111
@@ -1885,6 +1901,7 @@ Current command:
   - 206
   - 207
   - 208
+  - 1465
   - 209
   - 210
   - 211
@@ -1942,6 +1959,7 @@ Current command:
   - 249
   - 250
   - 251
+  - 1474
   - 252
   - 253
   - 254
@@ -2085,6 +2103,7 @@ Current command:
   - 373
   - 374
   - 375
+  - 1527
   - 1234
   - 1446
   - 376
@@ -2094,6 +2113,7 @@ Current command:
   - 1243
   - 1499
   - 379
+  - 1528
   - 380
   - 1259
   - 381
@@ -2127,7 +2147,6 @@ Current command:
   - 403
   - 404
   - 1264
-  - 415
   - 1272
   - 1258
   - 405
@@ -2162,7 +2181,6 @@ Current command:
   - 642
   - 426
   - 1500
-  - 653
   - 427
   - 1299
   - 428
@@ -2185,6 +2203,7 @@ Current command:
   - 1507
   - 1508
   - 1509
+  - 1529
   - 1510
   - 436
   - 437
@@ -2266,6 +2285,8 @@ Current command:
   - 507
   - 508
   - 1282
+  - 1530
+  - 1531
   - 1449
   - 510
   - 511
@@ -2599,9 +2620,11 @@ Current command:
   - 1256
   - 803
   - 1367
+  - 1532
   - 805
   - 807
   - 1368
+  - 1533
   - 1221
   - 809
   - 1476
@@ -2666,6 +2689,7 @@ Current command:
   - 864
   - 865
   - 866
+  - 1534
   - 867
   - 868
   - 869
@@ -2801,7 +2825,6 @@ Current command:
   - 966
   - 967
   - 1269
-  - 1483
   - 969
   - 970
   - 971
@@ -2844,6 +2867,7 @@ Current command:
   - 1003
   - 1004
   - 1005
+  - 1535
   - 1006
   - 1007
   - 1008
