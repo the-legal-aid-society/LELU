@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: d27893acb5ff5599c41480f252d5ae048aa99b15
+  hash: 4de2ba774e087f23814bb071a55a86dbe2439837
   data_hash: 05092587089e784c489b71f89907f18be0c6a395
 'Tax #':
   class: character
@@ -88,6 +88,7 @@ Current command:
   - 043 DET
   - 043 DV SQD
   - 043 PCT
+  - 043 PCT FTU
   - 044 DET
   - 044 DV SQD
   - 044 PCT
@@ -154,6 +155,7 @@ Current command:
   - 073 DET
   - 073 DV SQD
   - 073 PCT
+  - 073 PCT FTU
   - 075 DET
   - 075 DV SQD
   - 075 PCT
@@ -252,6 +254,7 @@ Current command:
   - 120 DET
   - 120 DV SQD
   - 120 PCT
+  - 120 PCT FTU
   - 120 VIPER
   - 121 DET
   - 121 DV SQD
@@ -1472,6 +1475,7 @@ Current command:
   - 45
   - 1235
   - 46
+  - 117
   - 47
   - 1236
   - 48
@@ -1538,6 +1542,7 @@ Current command:
   - 86
   - 1258
   - 87
+  - 278
   - 88
   - 1260
   - 89
@@ -1636,6 +1641,7 @@ Current command:
   - 147
   - 1292
   - 148
+  - 402
   - 149
   - 150
   - 1293
@@ -4191,6 +4197,7 @@ Command at incident:
   - 007 PCT
   - 007PCT
   - 009 DET
+  - 009 DV SQD
   - 009 PCT
   - 009 Precinct
   - 010 DET
@@ -4330,6 +4337,7 @@ Command at incident:
   - '060'
   - 060 CONEY ISL
   - 060 DET
+  - 060 DV SQD
   - 060 PCT
   - '061'
   - 061 DET
@@ -4364,6 +4372,7 @@ Command at incident:
   - '070'
   - 070 DET
   - 070 PCT
+  - 070 PCT FTU
   - '071'
   - 071 Command
   - 071 DET
@@ -4532,11 +4541,13 @@ Command at incident:
   - 114th Precinct
   - 115 DET
   - 115 PCT
+  - 115 PCT FTU
   - 115 RSVLT TF
   - 115PCT
   - 115th PCT
   - 115th Precinct
   - 116 DET
+  - 116 DV SQD
   - 116 PCT
   - '120'
   - 120 DET
@@ -4861,6 +4872,7 @@ Command at incident:
   - BX/Q IM
   - BX/S-ND
   - BX/SND
+  - BXN CRT
   - BXNND
   - BXROBSQ
   - BXSI
@@ -4969,6 +4981,7 @@ Command at incident:
   - DBM ZN2
   - DBM ZN6
   - DBMN
+  - DBMN ECT
   - DBMN OP
   - DBMNHTF
   - DBMS
@@ -5742,6 +5755,7 @@ Command at incident:
   - 12
   - 13
   - 14
+  - 1551
   - 15
   - 16
   - 17
@@ -5881,6 +5895,7 @@ Command at incident:
   - 134
   - 135
   - 136
+  - 1552
   - 137
   - 138
   - 139
@@ -5915,6 +5930,7 @@ Command at incident:
   - 166
   - 167
   - 168
+  - 1553
   - 169
   - 170
   - 171
@@ -6083,11 +6099,13 @@ Command at incident:
   - 322
   - 323
   - 324
+  - 1554
   - 1417
   - 325
   - 326
   - 327
   - 1454
+  - 1555
   - 1455
   - 328
   - 329
@@ -6412,6 +6430,7 @@ Command at incident:
   - 635
   - 636
   - 637
+  - 1556
   - 638
   - 639
   - 640
@@ -6520,6 +6539,7 @@ Command at incident:
   - 729
   - 730
   - 731
+  - 1557
   - 732
   - 733
   - 734
