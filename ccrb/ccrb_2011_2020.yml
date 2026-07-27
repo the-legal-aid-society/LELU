@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 4de2ba774e087f23814bb071a55a86dbe2439837
-  data_hash: 52cf02ce0e4d3cd7026981e28e2c2f398f58c0bb
+  hash: 8f4b29468ccd59dc977a6684cf049be93d446a8b
+  data_hash: c2ed451fdcf7d16a42e1cae133ee90567b5c0fe5
 'Tax #':
   class: character
 Officer last name:
@@ -3467,6 +3467,7 @@ NYPD Penalty:
   - Forfeit vacation 2 days / Command Discipline B
   - Forfeit vacation 2 days / Formalized Training
   - Forfeit vacation 20 days
+  - Forfeit vacation 20 days / Command Discipline B
   - Forfeit vacation 20 days / Formalized Training
   - Forfeit vacation 21 days
   - Forfeit vacation 23 days
@@ -3702,6 +3703,7 @@ NYPD Penalty:
   - 190
   - 74
   - 75
+  - 235
   - 191
   - 76
   - 182
@@ -5236,6 +5238,7 @@ Command at incident:
   - NARCBQN
   - NARCBQS
   - NARCBSI
+  - NARCO CANINE
   - narcotics
   - Narcotics
   - Narcotics Boro Brooklyn North
@@ -5464,6 +5467,7 @@ Command at incident:
   - PSA6
   - PSA6 VIPER1
   - PSA7
+  - PSA7 VIPER11
   - PSA8
   - PSA9
   - PSA9 VIPER3
@@ -5600,6 +5604,7 @@ Command at incident:
   - TB C/AN
   - TB CAN
   - TB CW VTF
+  - TB CWPP
   - TB D33
   - TB DT 1
   - TB DT 11
@@ -6794,6 +6799,7 @@ Command at incident:
   - 954
   - 955
   - 956
+  - 1558
   - 957
   - 958
   - 959
@@ -7022,6 +7028,7 @@ Command at incident:
   - 1164
   - 1476
   - 1165
+  - 1559
   - 1166
   - 1167
   - 1495
@@ -7158,6 +7165,7 @@ Command at incident:
   - 1275
   - 1276
   - 1277
+  - 1560
   - 1278
   - 1279
   - 1280
