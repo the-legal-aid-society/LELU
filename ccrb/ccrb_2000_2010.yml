@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 8f4b29468ccd59dc977a6684cf049be93d446a8b
+  hash: f83be83b1a10145890b53cd2bf9b33ba11b35c9a
   data_hash: 05092587089e784c489b71f89907f18be0c6a395
 'Tax #':
   class: character
@@ -3492,6 +3492,7 @@ NYPD Penalty:
   - Forfeit vacation 5 days / Formalized Training
   - Forfeit vacation 6 days
   - Forfeit vacation 6 days / Command Discipline B
+  - Forfeit vacation 6 days / Command Discipline B / Formalized Training
   - Forfeit vacation 7 days
   - Forfeit vacation 7 days / Command Discipline B
   - Forfeit vacation 8 days
@@ -3728,6 +3729,7 @@ NYPD Penalty:
   - 93
   - 94
   - 95
+  - 236
   - 96
   - 97
   - 98
