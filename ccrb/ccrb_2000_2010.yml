@@ -2,7 +2,7 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 38dd4bbd7d0053e8f7698bff9b06dd8a6797f370
+  hash: 806bd25a9114282b485bb16e75517b08ddc14df4
   data_hash: 188e93df6f4ecbd3f4c3b90ce854e500dbea8cfd
 'Tax #':
   class: character
@@ -120,6 +120,7 @@ Current command:
   - 060 DET
   - 060 DV SQD
   - 060 PCT
+  - 060 PCT FTU
   - 061 DET
   - 061 DV SQD
   - 061 PCT
@@ -180,6 +181,7 @@ Current command:
   - 083 DET
   - 083 DV SQD
   - 083 PCT
+  - 083 PCT FTU
   - 084 BK BRDG
   - 084 DET
   - 084 DV SQD
@@ -1504,6 +1506,7 @@ Current command:
   - 64
   - 1246
   - 65
+  - 762
   - 66
   - 1247
   - 67
@@ -1564,6 +1567,7 @@ Current command:
   - 101
   - 1268
   - 102
+  - 1158
   - 757
   - 104
   - 1269
@@ -3384,6 +3388,7 @@ NYPD Penalty:
   - 'Command Discipline - A (Vacation: 1 day)'
   - 'Command Discipline - A (Vacation: 1 day) / Formalized Training'
   - 'Command Discipline - A (Vacation: 1 day) / Instructions'
+  - 'Command Discipline - A (Vacation: 1 day) / Warned and Admonished / Instructions'
   - 'Command Discipline - A (Vacation: 2 days)'
   - 'Command Discipline - A (Vacation: 2 days) / Instructions'
   - 'Command Discipline - A (Vacation: 3 days)'
@@ -3429,6 +3434,7 @@ NYPD Penalty:
   - Dismissal Probation
   - Dismissal Probation / Forfeit vacation 15 days
   - Dismissal Probation / Forfeit vacation 25 days
+  - Dismissal Probation / Forfeit vacation 30 days
   - Dismissal Probation / Forfeit vacation 40 days
   - Dismissal Probation / Forfeit vacation 60 days
   - Dismissal Probation 1 days / Forfeit vacation 30 days
@@ -3621,6 +3627,7 @@ NYPD Penalty:
   - 18
   - 200
   - 211
+  - 237
   - 19
   - 215
   - 20
@@ -3666,6 +3673,7 @@ NYPD Penalty:
   - 47
   - 48
   - 49
+  - 238
   - 50
   - 186
   - 222
@@ -4337,6 +4345,7 @@ Command at incident:
   - 060 DET
   - 060 DV SQD
   - 060 PCT
+  - 060 PCT FTU
   - '061'
   - 061 DET
   - 061 DV SQD
@@ -4424,6 +4433,7 @@ Command at incident:
   - 083
   - 083 DET
   - 083 PCT
+  - 083 PCT FTU
   - 084 BK BRDG
   - 084 DET
   - 084 DV SQD
@@ -4782,6 +4792,7 @@ Command at incident:
   - A P DIV
   - A&E
   - A&E SQD
+  - AC ZONE I
   - AC ZONE II
   - ADM SUP
   - Amtrak PD
@@ -4873,6 +4884,7 @@ Command at incident:
   - BXN CRT
   - BXNND
   - BXROBSQ
+  - BXS CRT
   - BXSI
   - C A B
   - C C A S
@@ -5304,6 +5316,7 @@ Command at incident:
   - OFFICE PSB
   - OMAP
   - OPER&ANALYSIS
+  - OPS DIV
   - OPS UNIT
   - ORG THEFT SQD
   - Organized Crime Control Bureau
@@ -5898,6 +5911,7 @@ Command at incident:
   - 136
   - 1552
   - 137
+  - 1561
   - 138
   - 139
   - 1540
@@ -5985,6 +5999,7 @@ Command at incident:
   - 213
   - 214
   - 215
+  - 1562
   - 1424
   - 216
   - 1527
@@ -6343,6 +6358,7 @@ Command at incident:
   - 559
   - 560
   - 561
+  - 1563
   - 1517
   - 562
   - 563
@@ -6434,6 +6450,7 @@ Command at incident:
   - 1556
   - 638
   - 639
+  - 1564
   - 640
   - 641
   - 642
@@ -6865,6 +6882,7 @@ Command at incident:
   - 1022
   - 1023
   - 1024
+  - 1565
   - 1025
   - 1475
   - 1026
@@ -7490,6 +7508,7 @@ Victim race/ethnicity at incident:
   - Japanese (R); Vietnamese (R)
   - Korean (R)
   - Mexican, Chicano/a (E)
+  - Mexican, Chicano/a (E); Non-Hispanic/Latino (E)
   - Mexican, Chicano/a (E); Other Hispanic/Latino (E)
   - Mexican, Chicano/a (E); Puerto Rican (E)
   - Mexican, Chicano/a (E); South Asian (R)
@@ -7735,6 +7754,7 @@ Victim race/ethnicity at incident:
   - 180
   - 55
   - 56
+  - 245
   - 57
   - 166
   - 239
