@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 80d053cfeb88349da8889c484cafedffa94945ee
-  data_hash: 4c0aae274e89052e105c7508ad6c5a7feebf525f
+  hash: 64da9fe2bc0277dafff29854718b8585bf919abc
+  data_hash: 4de8beeab1f566a44112289f2550f1ad6b466c5c
 'Tax #':
   class: character
 Roster Date:
@@ -422,7 +422,6 @@ Current command:
   - BXS CRIME ANL
   - BXS CRT
   - BXS OP NIGHT
-  - BXS SU ALU
   - C A B
   - C A D
   - C C A S
@@ -502,7 +501,6 @@ Current command:
   - COMMDIV
   - COMMSEC
   - COMP CRIMES
-  - COMP SC
   - COMPSTAT ANL
   - CON ADM
   - CONTRACT ADM
@@ -584,7 +582,6 @@ Current command:
   - DB GVSD
   - DB GVSU
   - DB HATE
-  - DB INV SUPP
   - DB INV UNIT
   - DB LPS
   - DB MAN
@@ -837,6 +834,7 @@ Current command:
   - HOST NEG
   - HOU
   - HQ SEC
+  - HRD CITYTIME PM
   - HSG BUR
   - HSG CAS
   - HWY 01
@@ -862,6 +860,7 @@ Current command:
   - IAB ADMIN
   - IAB CMD CTR
   - IAB CRIM INV
+  - IAB CW SUPP SERV
   - IAB GRP 1
   - IAB GRP 10
   - IAB GRP 12
@@ -1154,6 +1153,7 @@ Current command:
   - PBBX ORCHARD
   - PBBX SC
   - PBBX SU
+  - PBBX SU NST
   - PBBX SU PST
   - PBBX TF
   - PBBX YANKEE
@@ -1954,7 +1954,6 @@ Current command:
   - 1493
   - 1494
   - 1495
-  - 1496
   - 249
   - 250
   - 251
@@ -2034,7 +2033,6 @@ Current command:
   - 313
   - 314
   - 315
-  - 1252
   - 317
   - 318
   - 319
@@ -2116,7 +2114,6 @@ Current command:
   - 380
   - 1259
   - 381
-  - 382
   - 383
   - 384
   - 385
@@ -2369,6 +2366,7 @@ Current command:
   - 584
   - 585
   - 586
+  - 440
   - 587
   - 1212
   - 588
@@ -2394,6 +2392,7 @@ Current command:
   - 1453
   - 609
   - 610
+  - 1321
   - 611
   - 612
   - 613
@@ -2686,6 +2685,7 @@ Current command:
   - 864
   - 865
   - 866
+  - 1449
   - 867
   - 868
   - 869

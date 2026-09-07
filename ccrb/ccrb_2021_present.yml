@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 806bd25a9114282b485bb16e75517b08ddc14df4
-  data_hash: 54fec428bb57e80f2428cf33e881e273693b8a54
+  hash: 53fd88caddfeacd6bb40353591409763ee563d65
+  data_hash: 6993a7e7b0d760e8d8632a2a7a9c8a1f667b530c
 'Tax #':
   class: character
 Officer last name:
@@ -58,6 +58,7 @@ Current command:
   - 028 DET
   - 028 DV SQD
   - 028 PCT
+  - 028 PCT FTU
   - 030 DET
   - 030 DV SQD
   - 030 PCT
@@ -110,6 +111,7 @@ Current command:
   - 049 DET
   - 049 DV SQD
   - 049 PCT
+  - 049 PCT FTU
   - 050 DET
   - 050 DV SQD
   - 050 PCT
@@ -245,6 +247,7 @@ Current command:
   - 114 DET
   - 114 DV SQD
   - 114 PCT
+  - 114 PCT FTU
   - 115 DET
   - 115 DV SQD
   - 115 PCT
@@ -365,7 +368,6 @@ Current command:
   - BXS CRIME ANL
   - BXS CRT
   - BXS OP NIGHT
-  - BXS SU ALU
   - C A B
   - C A D
   - C C A S
@@ -435,7 +437,6 @@ Current command:
   - COMMDIV
   - COMMSEC
   - COMP CRIMES
-  - COMP SC
   - COMPSTAT ANL
   - CONTRACT ADM
   - CPK DET
@@ -1030,6 +1031,7 @@ Current command:
   - PBBX ORCHARD
   - PBBX SC
   - PBBX SU
+  - PBBX SU NST
   - PBBX SU PST
   - PBBX TF
   - PBBX YANKEE
@@ -1444,6 +1446,7 @@ Current command:
   - 29
   - 1224
   - 30
+  - 1168
   - 31
   - 1226
   - 32
@@ -1496,6 +1499,7 @@ Current command:
   - 57
   - 1243
   - 58
+  - 1196
   - 59
   - 1244
   - 60
@@ -1631,6 +1635,7 @@ Current command:
   - 142
   - 1289
   - 143
+  - 1198
   - 144
   - 1290
   - 145
@@ -1751,7 +1756,6 @@ Current command:
   - 1351
   - 1352
   - 1353
-  - 1354
   - 239
   - 240
   - 241
@@ -1821,7 +1825,6 @@ Current command:
   - 299
   - 300
   - 301
-  - 302
   - 303
   - 304
   - 305
@@ -2416,6 +2419,7 @@ Current command:
   - 813
   - 814
   - 815
+  - 1212
   - 816
   - 817
   - 818
@@ -4544,6 +4548,7 @@ Command at incident:
   - '114'
   - 114 DET
   - 114 PCT
+  - 114 PCT FTU
   - 114 PCT.
   - 114PCT
   - 114th Precinct
@@ -5408,6 +5413,7 @@ Command at incident:
   - PBSI SU PST
   - PBSI Task Force
   - PBSI TF
+  - PBXS ORCHARD
   - PCO C U
   - PCO L U
   - PCO RTC
@@ -6110,6 +6116,7 @@ Command at incident:
   - 317
   - 318
   - 319
+  - 1566
   - 320
   - 321
   - 322
@@ -6974,6 +6981,7 @@ Command at incident:
   - 1104
   - 1105
   - 1106
+  - 1567
   - 1107
   - 1108
   - 1109
