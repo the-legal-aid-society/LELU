@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: 02fe080f3d4b5e99bb293ad7cea7ade50cabbd07
-  data_hash: e008e4c17fd5c4e5bb47b23080da254325910f86
+  hash: 346f4e91599852b1ca24fa4cd96a4eb53228315c
+  data_hash: 66894c5c0d117a9f4c2d8faad6649632e5c14412
 Officer Name:
   class: character
 Document:
@@ -14,7 +14,7 @@ Document:
 'Shield #':
   class: character
 'Tax #':
-  class: numeric
+  class: character
 Precinct/Command:
   class: factor
   labels:

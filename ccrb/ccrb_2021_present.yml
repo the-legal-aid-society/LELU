@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 53fd88caddfeacd6bb40353591409763ee563d65
-  data_hash: 6993a7e7b0d760e8d8632a2a7a9c8a1f667b530c
+  hash: 64e0621a05d244245350b44ad5448c86d53365f0
+  data_hash: 328f9ccad0b181548c1aa67bdf30b8eaabdc6630
 'Tax #':
   class: character
 Officer last name:
@@ -148,6 +148,7 @@ Current command:
   - 070 DET
   - 070 DV SQD
   - 070 PCT
+  - 070 PCT FTU
   - 071 DET
   - 071 DV SQD
   - 071 PCT
@@ -1120,6 +1121,7 @@ Current command:
   - PSA 7
   - PSA 8
   - PSA 9
+  - PSA 9 FTU
   - PSA1 VIPER13
   - PSA2 VIPER2
   - PSA4 VIPER6
@@ -1536,6 +1538,7 @@ Current command:
   - 80
   - 1255
   - 81
+  - 302
   - 82
   - 1256
   - 83
@@ -2508,6 +2511,7 @@ Current command:
   - 887
   - 888
   - 889
+  - 1218
   - 890
   - 891
   - 892
@@ -4331,6 +4335,7 @@ Command at incident:
   - 049 DET
   - 049 DV SQD
   - 049 PCT
+  - 049 PCT FTU
   - 049PCT
   - 050 DET
   - 050 DV SQD
@@ -5899,6 +5904,7 @@ Command at incident:
   - 122
   - 1520
   - 123
+  - 1568
   - 124
   - 125
   - 1503
@@ -7443,6 +7449,7 @@ Victim race/ethnicity at incident:
   - 'Black and/or African American (R); Other (R): Biracial'
   - 'Black and/or African American (R); Other (R): Black and Indian'
   - 'Black and/or African American (R); Other (R): Dominican'
+  - 'Black and/or African American (R); Other (R): French Angolan'
   - 'Black and/or African American (R); Other (R): Guyanese'
   - 'Black and/or African American (R); Other (R): Haitian'
   - 'Black and/or African American (R); Other (R): Hatian'
@@ -7689,6 +7696,7 @@ Victim race/ethnicity at incident:
   - 16
   - 197
   - 17
+  - 246
   - 142
   - 18
   - 19
