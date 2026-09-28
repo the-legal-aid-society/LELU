@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 64e0621a05d244245350b44ad5448c86d53365f0
-  data_hash: ac41fa5f7371a4d48c6a4d4406b9b208aaa7e895
+  hash: df6c91eee90ac178ca766cdbe1bfcb81d7d52aa3
+  data_hash: b20fea360b2eb7bd2295eb13ffb5289ce32c2ce5
 'Tax #':
   class: character
 Officer last name:
@@ -3364,6 +3364,7 @@ NYPD Penalty:
   - 'Closed Administratively (Command Discipline - A) / Vacation: 1 day / Instructions'
   - 'Closed Administratively (Command Discipline - A) / Vacation: 2 days'
   - Closed Administratively (Command Discipline - A) / Warned and Admonished
+  - Closed Administratively (Command Discipline - A) / Warned and Admonished (InstructionsInstructions)
   - Closed Administratively (Command Discipline - B)
   - 'Closed Administratively (Command Discipline - B) / Vacation: 0.13 days'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 1 day'
@@ -3371,6 +3372,7 @@ NYPD Penalty:
   - 'Closed Administratively (Command Discipline - B) / Vacation: 2 days'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 3 days / Instructions'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 5 days'
+  - 'Closed Administratively (Command Discipline - B) / Vacation: 5 days / Instructions'
   - 'Closed Administratively (Command Discipline - B) / Vacation: 8 days'
   - Closed Administratively (Formalized Training)
   - Closed Administratively (Instructions)
@@ -3396,6 +3398,7 @@ NYPD Penalty:
   - 'Command Discipline - A (Vacation: 1 day)'
   - 'Command Discipline - A (Vacation: 1 day) / Formalized Training'
   - 'Command Discipline - A (Vacation: 1 day) / Instructions'
+  - 'Command Discipline - A (Vacation: 1 day) / Warned and Admonished'
   - 'Command Discipline - A (Vacation: 1 day) / Warned and Admonished / Instructions'
   - 'Command Discipline - A (Vacation: 2 days)'
   - 'Command Discipline - A (Vacation: 2 days) / Instructions'
@@ -3604,6 +3607,7 @@ NYPD Penalty:
   - 207
   - 4
   - 230
+  - 239
   - 5
   - 6
   - 194
@@ -3611,6 +3615,7 @@ NYPD Penalty:
   - 7
   - 217
   - 199
+  - 240
   - 8
   - 220
   - 9
@@ -3635,6 +3640,7 @@ NYPD Penalty:
   - 18
   - 200
   - 211
+  - 241
   - 237
   - 19
   - 215
@@ -4258,6 +4264,7 @@ Command at incident:
   - 026 Pct
   - 026 PCT
   - 028 DET
+  - 028 DV SQD
   - 028 PCT
   - 028 PCT FTU
   - 028PCT
@@ -5549,6 +5556,7 @@ Command at incident:
   - Shea Stadium Detail
   - SI CAS
   - SI COURT
+  - SI CRT
   - SI EMER
   - SI Emerg
   - SI HOMICIDE
@@ -5827,6 +5835,7 @@ Command at incident:
   - 56
   - 57
   - 58
+  - 1569
   - 59
   - 1480
   - 60
@@ -7118,6 +7127,7 @@ Command at incident:
   - 1212
   - 1422
   - 1213
+  - 1570
   - 1214
   - 1215
   - 861
@@ -7594,6 +7604,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Indigenous American; Other Hispanic/Latino (E)'
   - 'Other (R): Indigenous/ Mayan/ Guatemalan; Other Hispanic/Latino (E)'
   - 'Other (R): Irish; Other Hispanic/Latino (E)'
+  - 'Other (R): Italian'
   - 'Other (R): Italian/Carribean'
   - 'Other (R): Italian/Irish'
   - 'Other (R): Italian; Puerto Rican (E)'
@@ -7605,6 +7616,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Latino; White/Caucasian (R)'
   - 'Other (R): Man on land'
   - 'Other (R): Mestiza'
+  - 'Other (R): Middle Eastern'
   - 'Other (R): Mixed'
   - 'Other (R): Mixed Race'
   - 'Other (R): Mixed Race; Other Pacific Island (R)'
@@ -7615,6 +7627,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Moroccan'
   - 'Other (R): Morris American'
   - 'Other (R): Muslim'
+  - 'Other (R): N. American (Cherokee); Other Hispanic/Latino (E)'
   - 'Other (R): Nation of Judah(Yahudah)'
   - 'Other (R): Nigerian'
   - 'Other (R): Nigerian and Cameroonian'
@@ -7841,6 +7854,7 @@ Victim race/ethnicity at incident:
   - 164
   - 177
   - 207
+  - 247
   - 228
   - 229
   - 129
@@ -7852,6 +7866,7 @@ Victim race/ethnicity at incident:
   - 96
   - 201
   - 209
+  - 248
   - 138
   - 97
   - 98
@@ -7862,6 +7877,7 @@ Victim race/ethnicity at incident:
   - 99
   - 100
   - 240
+  - 249
   - 151
   - 194
   - 101
