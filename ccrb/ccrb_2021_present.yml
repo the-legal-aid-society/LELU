@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: df6c91eee90ac178ca766cdbe1bfcb81d7d52aa3
-  data_hash: 31f4ae93de40fc385efa7d99c6c50135843dab59
+  hash: 08e3b89b5f7f87d33f40a41ffd9a86ccc785f737
+  data_hash: 626d757c1bc6618e126446e3ce7098ba9606f757
 'Tax #':
   class: character
 Officer last name:
@@ -4298,6 +4298,7 @@ Command at incident:
   - 040PCT
   - '041'
   - 041 DET
+  - 041 DV SQD
   - 041 PCT
   - 041 PCT FTU
   - 041PCT
@@ -4616,6 +4617,7 @@ Command at incident:
   - 18PCT
   - 18th Precinct
   - 19 PCT
+  - 1ST D C
   - 1ST D.C
   - 20 PCT
   - 20th Precinct
@@ -5592,6 +5594,7 @@ Command at incident:
   - SS MBZ
   - SS QBSZ
   - SSD INV
+  - SSD JUV CR
   - SSD YRT
   - STAFFSV
   - Starrett City Security
@@ -5869,6 +5872,7 @@ Command at incident:
   - 84
   - 85
   - 86
+  - 1571
   - 87
   - 1482
   - 88
@@ -6187,6 +6191,7 @@ Command at incident:
   - 366
   - 367
   - 368
+  - 1572
   - 369
   - 370
   - 371
@@ -7163,6 +7168,7 @@ Command at incident:
   - 1242
   - 1243
   - 1244
+  - 1573
   - 1245
   - 1246
   - 1247
@@ -7514,6 +7520,7 @@ Victim race/ethnicity at incident:
   - Dominican (E)
   - Dominican (E); Guamanian or Chamorro (R)
   - Dominican (E); Other (R)
+  - 'Dominican (E); Other (R): Italian'
   - 'Dominican (E); Other (R): Persian/Iranian'
   - 'Dominican (E); Other (R): Puerto Rican'
   - Dominican (E); Other Hispanic/Latino (E)
@@ -7610,6 +7617,7 @@ Victim race/ethnicity at incident:
   - 'Other (R): Italian; Puerto Rican (E)'
   - 'Other (R): Jamaican'
   - 'Other (R): Jewish'
+  - 'Other (R): Jewish and Roman Gypsy'
   - 'Other (R): Jewish Askenazi'
   - 'Other (R): Jordanian'
   - 'Other (R): Latina; Other Hispanic/Latino (E)'
@@ -7764,6 +7772,7 @@ Victim race/ethnicity at incident:
   - 43
   - 44
   - 45
+  - 250
   - 46
   - 47
   - 48
@@ -7860,6 +7869,7 @@ Victim race/ethnicity at incident:
   - 129
   - 134
   - 93
+  - 251
   - 94
   - 95
   - 187
