@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 64da9fe2bc0277dafff29854718b8585bf919abc
-  data_hash: 85ac771a7a5c3edd7d09a41880fabb1173156f3f
+  hash: 08c3d44dc0ac57aee539b685b309b3257b3530ed
+  data_hash: 4e6d39652ddfc94b9818e9a3164dc5a9a189478d
 'Tax #':
   class: character
 Roster Date:
@@ -92,6 +92,7 @@ Current command:
   - 030 DET
   - 030 DV SQD
   - 030 PCT
+  - 030 PCT FTU
   - 032 DET
   - 032 DV SQD
   - 032 PCT
@@ -500,7 +501,9 @@ Current command:
   - COMM SECT
   - COMMDIV
   - COMMSEC
+  - COMP BEN & LV
   - COMP CRIMES
+  - COMP SC
   - COMPSTAT ANL
   - CON ADM
   - CONTRACT ADM
@@ -739,6 +742,7 @@ Current command:
   - ESU
   - ESU CAN
   - ESU K9
+  - EXT LV
   - F S D
   - F S S
   - F.T.S.
@@ -834,7 +838,6 @@ Current command:
   - HOST NEG
   - HOU
   - HQ SEC
-  - HRD CITYTIME PM
   - HSG BUR
   - HSG CAS
   - HWY 01
@@ -1213,7 +1216,6 @@ Current command:
   - PBXN ZOO
   - PBXS
   - PBXS COURT TM
-  - PBXS ORCHARD
   - PBXS SU
   - PBXS YANKEE
   - PCO
@@ -1430,7 +1432,6 @@ Current command:
   - SVU SOMU
   - SVU TRAINING
   - SVU Z1
-  - SVU Z2
   - T.A.R.U
   - TARU
   - TAXI SQ
@@ -1470,6 +1471,7 @@ Current command:
   - TB H/O
   - TB INV
   - TB K9
+  - TB LARC
   - TB LIAISON
   - TB LIAS
   - TB M
@@ -1519,6 +1521,7 @@ Current command:
   - TD DT33
   - TD INV
   - TEL ANALYSIS
+  - TIME MGMT
   - TIMES SQUARE FTU
   - TNG UNT
   - TNT TF
@@ -1567,6 +1570,7 @@ Current command:
   - VICE MAJOR
   - WAREHOUSE
   - WARRSEC
+  - WF MGMT & REC
   - WTC CMD
   - YOUTH STRAT
   - YTH DIV
@@ -1624,6 +1628,7 @@ Current command:
   - 31
   - 1385
   - 32
+  - 382
   - 33
   - 1386
   - 34
@@ -2032,7 +2037,9 @@ Current command:
   - 520
   - 313
   - 314
+  - 1252
   - 315
+  - 1484
   - 317
   - 318
   - 319
@@ -2271,6 +2278,7 @@ Current command:
   - 498
   - 499
   - 500
+  - 1496
   - 501
   - 502
   - 503
@@ -2366,7 +2374,6 @@ Current command:
   - 584
   - 585
   - 586
-  - 440
   - 587
   - 1212
   - 588
@@ -2745,7 +2752,6 @@ Current command:
   - 1519
   - 1520
   - 1521
-  - 1522
   - 1523
   - 1524
   - 914
@@ -2962,7 +2968,6 @@ Current command:
   - 1318
   - 1319
   - 1320
-  - 1537
   - 1084
   - 1085
   - 1086
@@ -3002,6 +3007,7 @@ Current command:
   - 1116
   - 1117
   - 1118
+  - 1505
   - 1119
   - 1120
   - 1121
@@ -3051,6 +3057,7 @@ Current command:
   - 1161
   - 1162
   - 1163
+  - 1534
   - 1355
   - 1164
   - 1215
@@ -3099,6 +3106,7 @@ Current command:
   - 1201
   - 1202
   - 1203
+  - 1538
   - 1204
   - 1205
   - 1206

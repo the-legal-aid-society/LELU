@@ -2,8 +2,8 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  hash: 08e3b89b5f7f87d33f40a41ffd9a86ccc785f737
-  data_hash: 626d757c1bc6618e126446e3ce7098ba9606f757
+  hash: 23a6520998b616f843f1c8bb4367dfa95db84051
+  data_hash: b2e7ba9e9db64b11fbc440fbe2a71961f0c4df57
 'Tax #':
   class: character
 Officer last name:
@@ -51,14 +51,12 @@ Current command:
   - 025 DET
   - 025 DV SQD
   - 025 PCT
-  - 025 PCT FTU
   - 026 DET
   - 026 DV SQD
   - 026 PCT
   - 028 DET
   - 028 DV SQD
   - 028 PCT
-  - 028 PCT FTU
   - 030 DET
   - 030 DV SQD
   - 030 PCT
@@ -80,11 +78,9 @@ Current command:
   - 041 DET
   - 041 DV SQD
   - 041 PCT
-  - 041 PCT FTU
   - 042 DET
   - 042 DV SQD
   - 042 PCT
-  - 042 PCT FTU
   - 043 DET
   - 043 DV SQD
   - 043 PCT
@@ -92,18 +88,15 @@ Current command:
   - 044 DET
   - 044 DV SQD
   - 044 PCT
-  - 044 PCT FTU
   - 045 DET
   - 045 DV SQD
   - 045 PCT
   - 046 DET
   - 046 DV SQD
   - 046 PCT
-  - 046 PCT FTU
   - 047 DET
   - 047 DV SQD
   - 047 PCT
-  - 047 PCT FTU
   - 048 DET
   - 048 DV SQD
   - 048 PCT
@@ -111,7 +104,6 @@ Current command:
   - 049 DET
   - 049 DV SQD
   - 049 PCT
-  - 049 PCT FTU
   - 050 DET
   - 050 DV SQD
   - 050 PCT
@@ -122,7 +114,6 @@ Current command:
   - 060 DET
   - 060 DV SQD
   - 060 PCT
-  - 060 PCT FTU
   - 061 DET
   - 061 DV SQD
   - 061 PCT
@@ -148,7 +139,6 @@ Current command:
   - 070 DET
   - 070 DV SQD
   - 070 PCT
-  - 070 PCT FTU
   - 071 DET
   - 071 DV SQD
   - 071 PCT
@@ -169,7 +159,6 @@ Current command:
   - 077 DET
   - 077 DV SQD
   - 077 PCT
-  - 077 PCT FTU
   - 078 DET
   - 078 DV SQD
   - 078 PCT
@@ -184,7 +173,6 @@ Current command:
   - 083 DET
   - 083 DV SQD
   - 083 PCT
-  - 083 PCT FTU
   - 084 BK BRDG
   - 084 DET
   - 084 DV SQD
@@ -213,7 +201,6 @@ Current command:
   - 103 DET
   - 103 DV SQD
   - 103 PCT
-  - 103 PCT FTU
   - 104 DET
   - 104 DV SQD
   - 104 PCT
@@ -232,10 +219,10 @@ Current command:
   - 109 DET
   - 109 DV SQD
   - 109 PCT
-  - 109 PCT FTU
   - 110 DET
   - 110 DV SQD
   - 110 PCT
+  - 110 PCT FTU
   - 111 DET
   - 111 DV SQD
   - 111 PCT
@@ -248,10 +235,10 @@ Current command:
   - 114 DET
   - 114 DV SQD
   - 114 PCT
-  - 114 PCT FTU
   - 115 DET
   - 115 DV SQD
   - 115 PCT
+  - 115 PCT FTU
   - 115 RSVLT TF
   - 116 DET
   - 116 DV SQD
@@ -259,7 +246,6 @@ Current command:
   - 120 DET
   - 120 DV SQD
   - 120 PCT
-  - 120 PCT FTU
   - 120 VIPER
   - 121 DET
   - 121 DV SQD
@@ -435,9 +421,12 @@ Current command:
   - COD SAS
   - COL POL
   - COMM DIV
+  - COMM SECT
   - COMMDIV
   - COMMSEC
+  - COMP BEN & LV
   - COMP CRIMES
+  - COMP SC
   - COMPSTAT ANL
   - CONTRACT ADM
   - CPK DET
@@ -654,6 +643,7 @@ Current command:
   - ESU
   - ESU CAN
   - ESU K9
+  - EXT LV
   - F S D
   - F S S
   - F.T.S.
@@ -1092,7 +1082,6 @@ Current command:
   - PBXN ZOO
   - PBXS
   - PBXS COURT TM
-  - PBXS ORCHARD
   - PBXS SU
   - PBXS YANKEE
   - PCO
@@ -1278,7 +1267,6 @@ Current command:
   - SVU NIGHT
   - SVU SOMU
   - SVU Z1
-  - SVU Z2
   - T.A.R.U
   - TARU
   - TAXI SQ
@@ -1316,6 +1304,7 @@ Current command:
   - TB H/O
   - TB INV
   - TB K9
+  - TB LARC
   - TB LIAISON
   - TB LIAS
   - TB M
@@ -1397,6 +1386,7 @@ Current command:
   - VICE MAJOR
   - WAREHOUSE
   - WARRSEC
+  - WF MGMT & REC
   - WTC CMD
   - YOUTH STRAT
   - YTH DIV
@@ -1441,14 +1431,12 @@ Current command:
   - 25
   - 1222
   - 26
-  - 283
   - 27
   - 1223
   - 28
   - 29
   - 1224
   - 30
-  - 1168
   - 31
   - 1226
   - 32
@@ -1470,11 +1458,9 @@ Current command:
   - 41
   - 1232
   - 42
-  - 1233
   - 43
   - 1234
   - 44
-  - 603
   - 45
   - 1235
   - 46
@@ -1482,18 +1468,15 @@ Current command:
   - 47
   - 1236
   - 48
-  - 1237
   - 49
   - 1238
   - 50
   - 51
   - 1239
   - 52
-  - 1240
   - 53
   - 1241
   - 54
-  - 405
   - 55
   - 1242
   - 56
@@ -1501,7 +1484,6 @@ Current command:
   - 57
   - 1243
   - 58
-  - 1196
   - 59
   - 1244
   - 60
@@ -1512,7 +1494,6 @@ Current command:
   - 64
   - 1246
   - 65
-  - 762
   - 66
   - 1247
   - 67
@@ -1538,7 +1519,6 @@ Current command:
   - 80
   - 1255
   - 81
-  - 302
   - 82
   - 1256
   - 83
@@ -1559,7 +1539,6 @@ Current command:
   - 92
   - 1263
   - 93
-  - 581
   - 94
   - 1264
   - 95
@@ -1574,7 +1553,6 @@ Current command:
   - 101
   - 1268
   - 102
-  - 1158
   - 757
   - 104
   - 1269
@@ -1603,7 +1581,6 @@ Current command:
   - 120
   - 1277
   - 121
-  - 1278
   - 122
   - 1279
   - 123
@@ -1622,10 +1599,10 @@ Current command:
   - 132
   - 1284
   - 133
-  - 1344
   - 134
   - 1285
   - 135
+  - 1225
   - 136
   - 1286
   - 137
@@ -1638,10 +1615,10 @@ Current command:
   - 142
   - 1289
   - 143
-  - 1198
   - 144
   - 1290
   - 145
+  - 1259
   - 146
   - 198
   - 1291
@@ -1649,7 +1626,6 @@ Current command:
   - 147
   - 1292
   - 148
-  - 402
   - 149
   - 150
   - 1293
@@ -1825,9 +1801,12 @@ Current command:
   - 418
   - 297
   - 298
+  - 1318
   - 299
   - 300
+  - 1343
   - 301
+  - 1354
   - 303
   - 304
   - 305
@@ -2044,6 +2023,7 @@ Current command:
   - 481
   - 482
   - 483
+  - 1363
   - 484
   - 485
   - 486
@@ -2482,7 +2462,6 @@ Current command:
   - 1379
   - 1380
   - 1381
-  - 1382
   - 1383
   - 1384
   - 863
@@ -2668,7 +2647,6 @@ Current command:
   - 1194
   - 1195
   - 1197
-  - 915
   - 1025
   - 1026
   - 1027
@@ -2706,6 +2684,7 @@ Current command:
   - 1059
   - 1060
   - 1061
+  - 1395
   - 1062
   - 1063
   - 1064
@@ -2787,6 +2766,7 @@ Current command:
   - 1132
   - 1133
   - 1134
+  - 1397
   - 1135
   - 1136
   - 1137
@@ -3426,6 +3406,7 @@ NYPD Penalty:
   - 'Command Discipline - B (Vacation: 5 days)'
   - 'Command Discipline - B (Vacation: 5 days) / Formalized Training'
   - 'Command Discipline - B (Vacation: 6 days)'
+  - 'Command Discipline - B (Vacation: 6 days) / Formalized Training'
   - 'Command Discipline - B (Vacation: 7 days)'
   - 'Command Discipline - B (Vacation: 8 days)'
   - 'Command Discipline - B (Vacation: 9 days) / Formalized Training'
@@ -3668,6 +3649,7 @@ NYPD Penalty:
   - 33
   - 224
   - 34
+  - 242
   - 35
   - 36
   - 232

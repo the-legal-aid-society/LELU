@@ -5,8 +5,8 @@
   sorting:
   - Officer Name
   - Document
-  hash: 346f4e91599852b1ca24fa4cd96a4eb53228315c
-  data_hash: 66894c5c0d117a9f4c2d8faad6649632e5c14412
+  hash: ecf7609b6302c18edb6eb8c2fd265cb20846c077
+  data_hash: dd092d473aaff880c9cdb6b140c766a1de18949c
 Officer Name:
   class: character
 Document:
@@ -14,7 +14,7 @@ Document:
 'Shield #':
   class: character
 'Tax #':
-  class: character
+  class: numeric
 Precinct/Command:
   class: factor
   labels:
@@ -155,6 +155,7 @@ Precinct/Command:
   - Bronx narcotics
   - Bronx Narcotics
   - Bronx Public Safety Unit
+  - Bronx South CRT
   - Bronx Traffic Enforcement Unit
   - Brooklyn Court Section
   - Brooklyn Criminal Court
@@ -278,6 +279,7 @@ Precinct/Command:
   - Manhattan Housing
   - Manhattan Housing Bureau
   - Manhattan North
+  - Manhattan North CRT
   - Manhattan North narcotics
   - Manhattan North Narcotics
   - Manhattan North Narcotics Bureau
@@ -341,6 +343,7 @@ Precinct/Command:
   - PBQS
   - personnel
   - PHOTO UNIT
+  - Police Commissioner's Office
   - Police Service Area 1
   - Police Service Area 2
   - Police Service Area 3
@@ -557,6 +560,7 @@ Precinct/Command:
   - 277
   - 79
   - 301
+  - 402
   - 335
   - 315
   - 363
@@ -680,6 +684,7 @@ Precinct/Command:
   - 130
   - 131
   - 132
+  - 403
   - 133
   - 134
   - 393
@@ -743,6 +748,7 @@ Precinct/Command:
   - 226
   - 167
   - 398
+  - 404
   - 168
   - 169
   - 312
